@@ -7,11 +7,11 @@
       "vehicle": "Starship V3",
       "status": "推進中",
       "statusTone": "positive",
-      "headline": "Flight 12 已於五月完成 V3 首飛",
-      "detail": "SpaceX 公開文件稱第 12 次飛行測試在 2026 年 5 月完成，下一階段聚焦於下半年開始執行軌道酬載交付。",
-      "progress": 76,
-      "next": "H2 2026｜酬載交付",
-      "source": "https://content.spacex.com/cms-assets/FINAL_Documents%20and%20Updates/SpaceX%20-%20EU%20Prospectus%20%28Approved%20by%20Bafin%29%20-%20June%205%2C%202026.pdf"
+      "headline": "Flight 13 已於 7 月 24 日自 Pad 2 執行",
+      "detail": "SpaceX 發射清單已列入第 13 次 Starship 飛行測試；本站只採官網可確認的日期、發射臺與不回收配置，不推測未公開的測試細節。",
+      "progress": 82,
+      "next": "H2 2026｜後續飛行測試／酬載交付",
+      "source": "https://www.spacex.com/launches"
     },
     {
       "id": "neutron",

@@ -4,7 +4,7 @@ import "./globals.css";
 
 const title = "軌道脈動｜火箭與低軌衛星追蹤";
 const description =
-  "追蹤 SpaceX、Rocket Lab、Blue Origin、Amazon Leo 與 AST SpaceMobile 的發射、部署、異常與里程碑。";
+  "追蹤 SpaceX、Rocket Lab、Blue Origin、Amazon Leo、AST SpaceMobile、VSAT、FLY、VOYG 與 IRDM 的發射、部署、異常與里程碑。";
 
 export async function generateMetadata(): Promise<Metadata> {
   const requestHeaders = await headers();

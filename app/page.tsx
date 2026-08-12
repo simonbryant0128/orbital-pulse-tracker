@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import companiesData from "@/content/companies.json";
 import constellationsData from "@/content/constellations.json";
 import eventsData from "@/content/events.json";
 import metaData from "@/content/meta.json";
@@ -22,15 +23,13 @@ type TrackerEvent = {
   sources: Array<{ label: string; url: string; type: string }>;
 };
 
-const events = eventsData.events as TrackerEvent[];
+const events = [...(eventsData.events as TrackerEvent[])].sort(
+  (a, b) => b.date.localeCompare(a.date) || a.id.localeCompare(b.id),
+);
 const companyOrder = [
   "全部",
-  "SpaceX",
-  "Rocket Lab",
-  "Blue Origin",
-  "Amazon Leo",
-  "AST SpaceMobile",
-] as const;
+  ...companiesData.items.map((item) => item.name),
+];
 
 const groupOrder: FilterGroup[] = ["全部", "發射部署", "計畫進度", "異常"];
 
@@ -50,11 +49,11 @@ function matchesGroup(event: TrackerEvent, group: FilterGroup) {
   if (group === "發射部署") {
     return ["發射", "部署"].includes(event.category);
   }
-  return ["合約", "測試", "里程碑", "時程"].includes(event.category);
+  return ["合約", "合作", "測試", "里程碑", "時程"].includes(event.category);
 }
 
 export default function Home() {
-  const [company, setCompany] = useState<(typeof companyOrder)[number]>("全部");
+  const [company, setCompany] = useState("全部");
   const [group, setGroup] = useState<FilterGroup>("全部");
   const [visibleCount, setVisibleCount] = useState(7);
 
@@ -68,7 +67,7 @@ export default function Home() {
     [company, group],
   );
 
-  const setCompanyFilter = (next: (typeof companyOrder)[number]) => {
+  const setCompanyFilter = (next: string) => {
     setCompany(next);
     setVisibleCount(7);
   };
@@ -93,6 +92,7 @@ export default function Home() {
         <nav aria-label="主要導覽">
           <a href="#constellations">星系</a>
           <a href="#programs">計畫</a>
+          <a href="#companies">公司</a>
           <a href="#events">事件</a>
           <a href="#data">資料</a>
         </nav>
@@ -111,8 +111,8 @@ export default function Home() {
             <span>一次看懂太空競賽。</span>
           </h1>
           <p className="hero-intro">
-            追蹤 SpaceX、Rocket Lab、Blue Origin、Amazon Leo 與 AST
-            SpaceMobile 的發射、部署、異常與關鍵里程碑。
+            追蹤 9 家美國太空與衛星公司，從發射、部署、異常到通訊、深空與
+            LEO 任務里程碑，都以可追溯來源呈現。
           </p>
           <div className="hero-actions">
             <a className="primary-action" href="#events">
@@ -127,20 +127,20 @@ export default function Home() {
         <aside className="signal-card" aria-label="本期警戒">
           <div className="signal-topline">
             <span className="signal-label">SIGNAL / 本期警戒</span>
-            <span className="signal-code">NG · 36</span>
+            <span className="signal-code">SS · 13</span>
           </div>
           <div className="signal-orbit" aria-hidden="true">
             <span className="signal-core" />
             <span className="signal-dot" />
           </div>
-          <p className="signal-kicker">BLUE ORIGIN · NEW GLENN</p>
-          <h2>LC-36 重建中</h2>
-          <p>熱火測試異常後改採新整合流程，目標仍為 2026 年底前復飛。</p>
+          <p className="signal-kicker">SPACEX · STARSHIP</p>
+          <h2>Flight 13 已入列</h2>
+          <p>SpaceX 發射清單記錄 7 月 24 日自 Starbase Pad 2 執行，本站已同步雲端主表與網站。</p>
           <div className="signal-footer">
-            <span className="tone-dot alert" />
-            <strong>復飛路徑：Phase 3 / 5</strong>
+            <span className="tone-dot positive" />
+            <strong>狀態：已執行</strong>
             <a
-              href="https://www.blueorigin.com/news/new-glenn-return-to-flight"
+              href="https://www.spacex.com/launches"
               target="_blank"
               rel="noreferrer"
             >
@@ -159,8 +159,8 @@ export default function Home() {
             <span>追蹤星系</span>
           </div>
           <div>
-            <strong>5</strong>
-            <span>核心公司</span>
+            <strong>{companiesData.items.length}</strong>
+            <span>追蹤公司</span>
           </div>
           <p>Asia / Taipei · GitHub versioned data</p>
         </div>
@@ -290,6 +290,36 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="section company-section" id="companies">
+        <div className="section-heading split-heading">
+          <div>
+            <p className="eyebrow">COMPANY RADAR</p>
+            <h2>美國太空公司追蹤雷達</h2>
+          </div>
+          <p>股票代號用於快速辨識公司；私人公司與母公司架構另行標示，不代表投資建議。</p>
+        </div>
+
+        <div className="company-grid">
+          {companiesData.items.map((item, index) => (
+            <article className="company-card" key={item.id}>
+              <div className="company-card-top">
+                <span className="company-index">{String(index + 1).padStart(2, "0")}</span>
+                <strong className="company-ticker">{item.ticker}</strong>
+              </div>
+              <h3>{item.name}</h3>
+              <p className="company-focus">{item.focus}</p>
+              <div className={`company-status ${item.statusTone}`}>
+                <span />
+                {item.status}
+              </div>
+              <a href={item.source} target="_blank" rel="noreferrer">
+                官方來源 ↗
+              </a>
+            </article>
+          ))}
+        </div>
+      </section>
+
       <section className="section event-section" id="events">
         <div className="section-heading event-heading">
           <div>
@@ -390,7 +420,7 @@ export default function Home() {
           <p className="eyebrow">GITHUB-NATIVE DATA</p>
           <h2>每一次更新，都留得下來。</h2>
           <p>
-            GitHub 的正式分支保存網站內容與歷史版本。公開資訊與原表單只負責送出候選更新，通過檢查後才會發布。
+            Google Sheets 保存候選事件與人工審核狀態；通過後同步到 GitHub 正式分支，再由 CI 檢查並發布網站。
           </p>
           <div className="data-policies">
             <span>穩定事件 ID</span>
@@ -406,22 +436,30 @@ export default function Home() {
           >
             查看 GitHub 資料庫 <span aria-hidden="true">↗</span>
           </a>
+          <a
+            className="sheet-action"
+            href={metaData.spreadsheetUrl}
+            target="_blank"
+            rel="noreferrer"
+          >
+            開啟雲端主表 <span aria-hidden="true">↗</span>
+          </a>
         </div>
 
         <div className="pipeline" aria-label="資料更新流程">
           <div className="pipeline-step">
             <span>01</span>
             <div>
-              <strong>公開來源／表單</strong>
-              <p>公司、監管機構與既有表單提供候選內容。</p>
+              <strong>官方來源 → 雲端主表</strong>
+              <p>每日 10:00 掃描；明確資料自動查證，衝突資料標成待人工確認。</p>
             </div>
           </div>
           <div className="pipeline-arrow" aria-hidden="true">↓</div>
           <div className="pipeline-step">
             <span>02</span>
             <div>
-              <strong>GitHub 待審變更</strong>
-              <p>檢查重複 ID、日期、欄位與來源網址。</p>
+              <strong>審核後同步 GitHub</strong>
+              <p>只同步「已確認」且「網站發布」允許的事件，並檢查 ID、日期與來源。</p>
             </div>
           </div>
           <div className="pipeline-arrow" aria-hidden="true">↓</div>
