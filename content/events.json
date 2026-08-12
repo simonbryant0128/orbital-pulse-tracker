@@ -2,6 +2,20 @@
   "lastVerified": "2026-08-12",
   "events": [
     {
+      "id": "irdm-skywave-iot-20260728",
+      "date": "2026-07-28",
+      "company": "Iridium",
+      "program": "Industrial IoT",
+      "category": "合作",
+      "status": "已確認",
+      "tone": "positive",
+      "title": "與 ORBCOMM 旗下 SKYWAVE 推進重型設備全球工業 IoT",
+      "summary": "合作把 SKYWAVE 的網路協調能力與 Iridium 極地覆蓋的 LEO 衛星網路結合，服務重型設備 OEM。",
+      "sources": [
+        { "label": "Iridium", "url": "https://investor.iridium.com/press-releases?l=25", "type": "官方" }
+      ]
+    },
+    {
       "id": "rklb-ussf-rslp-20260727",
       "date": "2026-07-27",
       "company": "Rocket Lab",
@@ -13,6 +27,62 @@
       "summary": "合約涵蓋 12 次次軌道發射，並可再增加最多 6 次；首發不早於 2026 年底。",
       "sources": [
         { "label": "Rocket Lab", "url": "https://rocketlabcorp.com/updates/record-contract-rslp-kodiak/", "type": "官方" }
+      ]
+    },
+    {
+      "id": "spacex-starship-f13-20260724",
+      "date": "2026-07-24",
+      "company": "SpaceX",
+      "program": "Starship",
+      "category": "里程碑",
+      "status": "已執行",
+      "tone": "neutral",
+      "title": "Starship 第 13 次飛行測試自 Pad 2 執行",
+      "summary": "SpaceX 發射清單記錄第 13 次 Starship 飛行測試於 7 月 24 日自 Starbase Pad 2 執行，載具採不回收配置。",
+      "sources": [
+        { "label": "SpaceX Launches", "url": "https://www.spacex.com/launches", "type": "官方" }
+      ]
+    },
+    {
+      "id": "voyg-sandia-leo-20260720",
+      "date": "2026-07-20",
+      "company": "Voyager Technologies",
+      "program": "ISS mission management",
+      "category": "合約",
+      "status": "已確認",
+      "tone": "positive",
+      "title": "取得 Sandia 國家實驗室 2027 年 LEO 任務管理合約",
+      "summary": "Voyager 將為 Big Boy 展示任務提供實驗設計、酬載整合、安全審查、任務規劃與在軌操作。",
+      "sources": [
+        { "label": "Voyager Technologies", "url": "https://investors.voyagertechnologies.com/news/news-details/2026/Voyager-Wins-Contract-with-Sandia-National-Laboratories/default.aspx", "type": "官方" }
+      ]
+    },
+    {
+      "id": "vsat-bmw-ntn-demo-20260716",
+      "date": "2026-07-16",
+      "company": "Viasat",
+      "program": "L-band NTN",
+      "category": "測試",
+      "status": "已確認",
+      "tone": "positive",
+      "title": "完成首度整合 BMW 車載介面的衛星語音通話展示",
+      "summary": "Viasat 以 L-band 衛星網路和 NB-IoT 協定，完成整合 BMW iX3 車載介面的衛星語音通話展示。",
+      "sources": [
+        { "label": "Viasat", "url": "https://investors.viasat.com/news-releases/news-release-details/viasat-demonstrates-first-integrated-automotive-satellite-voice", "type": "官方" }
+      ]
+    },
+    {
+      "id": "fly-skyfall-20260707",
+      "date": "2026-07-07",
+      "company": "Firefly Aerospace",
+      "program": "SkyFall",
+      "category": "合約",
+      "status": "已確認",
+      "tone": "positive",
+      "title": "取得 NASA JPL 1,300 萬美元 SkyFall 火星任務分包",
+      "summary": "Firefly 將製造、測試並交付 SkyFall 火星任務的氣動外殼；該任務目前以 2028 年底發射為目標。",
+      "sources": [
+        { "label": "Firefly Aerospace", "url": "https://investors.fireflyspace.com/news-releases/news-release-details/firefly-aerospace-receives-13-million-nasa-jpl-subcontract-build", "type": "官方" }
       ]
     },
     {
@@ -30,6 +100,20 @@
       ]
     },
     {
+      "id": "irdm-rklb-merger-20260629",
+      "date": "2026-06-29",
+      "company": "Iridium",
+      "program": "Rocket Lab acquisition",
+      "category": "里程碑",
+      "status": "待股東／監管核准",
+      "tone": "watch",
+      "title": "Rocket Lab 宣布以約 80 億美元企業價值收購 Iridium",
+      "summary": "雙方簽署最終協議，預計於 2027 年中完成；交易仍須取得 Iridium 股東與監管核准。",
+      "sources": [
+        { "label": "Rocket Lab / Iridium", "url": "https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-acquire-iridium-historic-deal-creating-fully", "type": "官方" }
+      ]
+    },
+    {
       "id": "amazon-leo-375-20260702",
       "date": "2026-07-02",
       "company": "Amazon Leo",
@@ -41,6 +125,20 @@
       "summary": "Amazon 表示將持續提高部署速度；目前已鎖定超過 100 次發射運力。",
       "sources": [
         { "label": "Amazon", "url": "https://www.aboutamazon.com/news/innovation-at-amazon/project-kuiper-satellite-rocket-launch-progress-updates", "type": "官方" }
+      ]
+    },
+    {
+      "id": "vsat-viasat3-f3-20260429",
+      "date": "2026-04-29",
+      "company": "Viasat",
+      "program": "ViaSat-3 F3",
+      "category": "發射",
+      "status": "初始訊號取得",
+      "tone": "positive",
+      "title": "ViaSat-3 F3 成功發射並取得初始訊號",
+      "summary": "ViaSat-3 F3 搭乘 Falcon Heavy 升空並完成分離；Viasat 表示衛星健康，已進入後續在軌作業階段。",
+      "sources": [
+        { "label": "Viasat", "url": "https://investors.viasat.com/node/27561", "type": "官方" }
       ]
     },
     {

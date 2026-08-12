@@ -23,15 +23,33 @@ function fail(message) {
   throw new Error(`Content validation failed: ${message}`);
 }
 
-const [eventsData, constellationsData, programsData, metaData] = await Promise.all([
+const [eventsData, constellationsData, programsData, companiesData, metaData] = await Promise.all([
   readJson("content/events.json"),
   readJson("content/constellations.json"),
   readJson("content/programs.json"),
+  readJson("content/companies.json"),
   readJson("content/meta.json"),
 ]);
 
 if (!/^\d{4}-\d{2}-\d{2}$/.test(metaData.lastVerified)) {
   fail("meta.lastVerified must use YYYY-MM-DD");
+}
+
+if (!/^https:\/\/docs\.google\.com\/spreadsheets\//.test(metaData.spreadsheetUrl ?? "")) {
+  fail("meta.spreadsheetUrl must be a Google Sheets HTTPS URL");
+}
+
+const companyNames = new Set();
+const companyIds = new Set();
+for (const company of companiesData.items ?? []) {
+  for (const field of ["id", "name", "ticker", "focus", "status", "statusTone", "source"]) {
+    if (!company[field]) fail(`company ${company.id ?? "(missing id)"} is missing ${field}`);
+  }
+  if (companyIds.has(company.id)) fail(`duplicate company id ${company.id}`);
+  if (companyNames.has(company.name)) fail(`duplicate company name ${company.name}`);
+  if (!/^https:\/\//.test(company.source)) fail(`company ${company.id} has a non-HTTPS source`);
+  companyIds.add(company.id);
+  companyNames.add(company.name);
 }
 
 const seenIds = new Set();
@@ -43,6 +61,9 @@ for (const event of eventsData.events ?? []) {
   }
   if (seenIds.has(event.id)) fail(`duplicate event id ${event.id}`);
   seenIds.add(event.id);
+  if (!companyNames.has(event.company)) {
+    fail(`event ${event.id} references unknown company ${event.company}`);
+  }
   if (!/^\d{4}-\d{2}-\d{2}$/.test(event.date)) {
     fail(`event ${event.id} has an invalid date`);
   }
@@ -75,5 +96,5 @@ for (const program of programsData.items ?? []) {
 }
 
 console.log(
-  `Validated ${seenIds.size} events, ${constellationsData.items.length} constellations, and ${programsData.items.length} programs.`,
+  `Validated ${seenIds.size} events, ${companiesData.items.length} companies, ${constellationsData.items.length} constellations, and ${programsData.items.length} programs.`,
 );

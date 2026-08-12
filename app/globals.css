@@ -397,6 +397,11 @@ button {
   box-shadow: 0 0 9px rgba(255, 113, 109, 0.7);
 }
 
+.tone-dot.positive {
+  background: var(--lime);
+  box-shadow: 0 0 9px rgba(189, 255, 106, 0.55);
+}
+
 .hero-meta {
   display: flex;
   grid-column: 1 / -1;
@@ -1001,6 +1006,91 @@ button {
   color: var(--cyan);
 }
 
+.company-section {
+  background:
+    radial-gradient(circle at 12% 25%, rgba(189, 255, 106, 0.055), transparent 28%),
+    #0b1115;
+}
+
+.company-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.company-card {
+  display: flex;
+  min-height: 270px;
+  flex-direction: column;
+  padding: 1.45rem;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.015);
+}
+
+.company-card-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.company-index,
+.company-ticker {
+  color: var(--muted);
+  font-family: var(--mono);
+  font-size: 0.62rem;
+  letter-spacing: 0.08em;
+}
+
+.company-card h3 {
+  margin: 2.4rem 0 0.35rem;
+  font-size: 1.42rem;
+  font-weight: 500;
+  letter-spacing: -0.035em;
+}
+
+.company-focus,
+.company-status {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.72rem;
+  line-height: 1.65;
+}
+
+.company-status {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  margin-top: 1.5rem;
+}
+
+.company-status span {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: currentColor;
+  box-shadow: 0 0 8px currentColor;
+}
+
+.company-status.positive { color: var(--lime); }
+.company-status.watch { color: var(--amber); }
+.company-status.alert { color: var(--red); }
+.company-status.neutral { color: var(--cyan); }
+
+.company-card a {
+  margin-top: auto;
+  padding-top: 1.5rem;
+  color: #aab6b4;
+  font-family: var(--mono);
+  font-size: 0.64rem;
+  letter-spacing: 0.07em;
+  text-decoration: none;
+}
+
+.company-card a:hover {
+  color: var(--cyan);
+}
+
 .load-more {
   display: flex;
   align-items: center;
@@ -1063,7 +1153,8 @@ button {
   font-size: 0.66rem;
 }
 
-.github-action {
+.github-action,
+.sheet-action {
   display: inline-flex;
   align-items: center;
   gap: 0.7rem;
@@ -1079,7 +1170,12 @@ button {
   transition: background 160ms ease, border-color 160ms ease;
 }
 
-.github-action:hover {
+.sheet-action {
+  margin-left: 0.65rem;
+}
+
+.github-action:hover,
+.sheet-action:hover {
   border-color: var(--cyan);
   background: rgba(87, 227, 210, 0.08);
 }
@@ -1174,6 +1270,10 @@ footer {
     grid-template-columns: 1fr;
   }
 
+  .company-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .program-card {
     min-height: 470px;
   }
@@ -1240,6 +1340,10 @@ footer {
     grid-template-columns: 1fr;
   }
 
+  .company-grid {
+    grid-template-columns: 1fr;
+  }
+
   .metric-card {
     min-height: 380px;
   }
@@ -1273,6 +1377,10 @@ footer {
   .filter-row {
     grid-template-columns: 1fr;
     gap: 0.3rem;
+  }
+
+  .sheet-action {
+    margin-left: 0;
   }
 
   footer {

@@ -1,0 +1,86 @@
+{
+  "lastVerified": "2026-08-12",
+  "items": [
+    {
+      "id": "spacex",
+      "name": "SpaceX",
+      "ticker": "私人",
+      "focus": "發射服務 · Starlink · Starship",
+      "status": "Flight 13 已執行",
+      "statusTone": "positive",
+      "source": "https://www.spacex.com/launches"
+    },
+    {
+      "id": "rocket-lab",
+      "name": "Rocket Lab",
+      "ticker": "RKLB",
+      "focus": "Electron · HASTE · Neutron · 太空系統",
+      "status": "高頻發射／整併中",
+      "statusTone": "watch",
+      "source": "https://rocketlabcorp.com/updates/"
+    },
+    {
+      "id": "blue-origin",
+      "name": "Blue Origin",
+      "ticker": "私人",
+      "focus": "New Glenn · 月球系統",
+      "status": "LC-36 復原中",
+      "statusTone": "alert",
+      "source": "https://www.blueorigin.com/news"
+    },
+    {
+      "id": "amazon-leo",
+      "name": "Amazon Leo",
+      "ticker": "AMZN",
+      "focus": "低軌寬頻星系",
+      "status": "部署加速",
+      "statusTone": "positive",
+      "source": "https://www.aboutamazon.com/news/innovation-at-amazon/project-kuiper-satellite-rocket-launch-progress-updates"
+    },
+    {
+      "id": "ast-spacemobile",
+      "name": "AST SpaceMobile",
+      "ticker": "ASTS",
+      "focus": "直連手機低軌星系",
+      "status": "BlueBird 擴張",
+      "statusTone": "positive",
+      "source": "https://ast-science.com/"
+    },
+    {
+      "id": "viasat",
+      "name": "Viasat",
+      "ticker": "VSAT",
+      "focus": "GEO／多軌衛星通訊 · NTN",
+      "status": "車載 NTN 驗證",
+      "statusTone": "positive",
+      "source": "https://investors.viasat.com/"
+    },
+    {
+      "id": "firefly-aerospace",
+      "name": "Firefly Aerospace",
+      "ticker": "FLY",
+      "focus": "Alpha · Elytra · Blue Ghost",
+      "status": "深空任務擴張",
+      "statusTone": "positive",
+      "source": "https://investors.fireflyspace.com/"
+    },
+    {
+      "id": "voyager-technologies",
+      "name": "Voyager Technologies",
+      "ticker": "VOYG",
+      "focus": "LEO 任務 · Starlab · 月球系統",
+      "status": "任務版圖擴張",
+      "statusTone": "positive",
+      "source": "https://investors.voyagertechnologies.com/"
+    },
+    {
+      "id": "iridium",
+      "name": "Iridium",
+      "ticker": "IRDM",
+      "focus": "全球 LEO 通訊 · IoT · PNT",
+      "status": "待併購核准",
+      "statusTone": "watch",
+      "source": "https://investor.iridium.com/"
+    }
+  ]
+}
