@@ -1,0 +1,189 @@
+{
+  "lastVerified": "2026-08-12",
+  "events": [
+    {
+      "id": "rklb-ussf-rslp-20260727",
+      "date": "2026-07-27",
+      "company": "Rocket Lab",
+      "program": "HASTE",
+      "category": "合約",
+      "status": "已確認",
+      "tone": "positive",
+      "title": "取得美國太空軍 2.66 億美元多次發射合約",
+      "summary": "合約涵蓋 12 次次軌道發射，並可再增加最多 6 次；首發不早於 2026 年底。",
+      "sources": [
+        { "label": "Rocket Lab", "url": "https://rocketlabcorp.com/updates/record-contract-rslp-kodiak/", "type": "官方" }
+      ]
+    },
+    {
+      "id": "bo-stennis-20260724",
+      "date": "2026-07-24",
+      "company": "Blue Origin",
+      "program": "New Glenn",
+      "category": "測試",
+      "status": "已確認",
+      "tone": "neutral",
+      "title": "與 NASA 合作，在 Stennis 增設第二節熱火測試能力",
+      "summary": "新測試場可在不占用 LC-36 的情況下驗證 New Glenn 第二節，支援後續復飛與提高發射頻率。",
+      "sources": [
+        { "label": "Blue Origin", "url": "https://www.blueorigin.com/news/blue-origin-nasa-partner-to-test-new-glenn-at-stennis-space-center", "type": "官方" }
+      ]
+    },
+    {
+      "id": "amazon-leo-375-20260702",
+      "date": "2026-07-02",
+      "company": "Amazon Leo",
+      "program": "Amazon Leo",
+      "category": "部署",
+      "status": "已確認",
+      "tone": "positive",
+      "title": "累計完成 14 次任務、部署超過 375 顆衛星",
+      "summary": "Amazon 表示將持續提高部署速度；目前已鎖定超過 100 次發射運力。",
+      "sources": [
+        { "label": "Amazon", "url": "https://www.aboutamazon.com/news/innovation-at-amazon/project-kuiper-satellite-rocket-launch-progress-updates", "type": "官方" }
+      ]
+    },
+    {
+      "id": "bo-return-flight-plan-20260630",
+      "date": "2026-06-30",
+      "company": "Blue Origin",
+      "program": "New Glenn",
+      "category": "里程碑",
+      "status": "復原中",
+      "tone": "watch",
+      "title": "公布 New Glenn 復飛與 LC-36 重建路徑",
+      "summary": "地面清理完成，主要修復與新整合流程設計進行中；公司目標仍是 2026 年底前復飛。",
+      "sources": [
+        { "label": "Blue Origin", "url": "https://www.blueorigin.com/news/new-glenn-return-to-flight", "type": "官方" }
+      ]
+    },
+    {
+      "id": "asts-bb8-10-20260617",
+      "date": "2026-06-17",
+      "company": "AST SpaceMobile",
+      "program": "BlueBird",
+      "category": "部署",
+      "status": "成功",
+      "tone": "positive",
+      "title": "BlueBird 8、9、10 搭乘 Falcon 9 完成部署",
+      "summary": "三顆次世代大型直連手機衛星自佛州升空並依序部署，補上 BlueBird 7 損失後的部署缺口。",
+      "sources": [
+        { "label": "SpaceX", "url": "https://www.spacex.com/launches/bluebird8-10", "type": "官方" },
+        { "label": "AST SpaceMobile", "url": "https://ast-science.com/next-gen-bluebird/", "type": "官方" }
+      ]
+    },
+    {
+      "id": "spacex-starlink-20260608",
+      "date": "2026-06-08",
+      "company": "SpaceX",
+      "program": "Starlink",
+      "category": "部署",
+      "status": "成功",
+      "tone": "positive",
+      "title": "Falcon 9 部署 29 顆 Starlink，助推器完成第 35 次飛行",
+      "summary": "任務自 SLC-40 發射，第一節成功降落於大西洋無人船。",
+      "sources": [
+        { "label": "SpaceX", "url": "https://www.spacex.com/launches/sl-10-35", "type": "官方" }
+      ]
+    },
+    {
+      "id": "bo-hotfire-anomaly-20260528",
+      "date": "2026-05-28",
+      "company": "Blue Origin",
+      "program": "New Glenn",
+      "category": "異常",
+      "status": "調查／修復",
+      "tone": "alert",
+      "title": "New Glenn 整合熱火測試發生重大異常",
+      "summary": "LC-36 的避雷塔、運輸豎立設備與液壓系統受損；推進劑設施、整合廠與部分關鍵設施保持良好。",
+      "sources": [
+        { "label": "Blue Origin", "url": "https://www.blueorigin.com/news/ng-4-hotfire-updates", "type": "官方" }
+      ]
+    },
+    {
+      "id": "spacex-starship-f12-20260522",
+      "date": "2026-05-22",
+      "company": "SpaceX",
+      "program": "Starship",
+      "category": "里程碑",
+      "status": "完成",
+      "tone": "positive",
+      "title": "Starship Flight 12 完成次世代 V3 首飛",
+      "summary": "第 12 次飛行測試完成新版 Starship 與 Super Heavy 的首次飛行，並使用 Starbase 新發射臺。",
+      "sources": [
+        { "label": "SpaceX", "url": "https://www.spacex.com/company", "type": "官方" }
+      ]
+    },
+    {
+      "id": "amazon-la06-20260427",
+      "date": "2026-04-27",
+      "company": "Amazon Leo",
+      "program": "LA-06",
+      "category": "部署",
+      "status": "成功",
+      "tone": "positive",
+      "title": "LA-06 使用 Atlas V 551 部署 29 顆衛星",
+      "summary": "任務自卡納維爾角 SLC-41 發射，延續 Amazon Leo 2026 年的量產部署節奏。",
+      "sources": [
+        { "label": "Amazon", "url": "https://www.aboutamazon.com/news/innovation-at-amazon/project-kuiper-satellite-rocket-launch-progress-updates", "type": "官方" }
+      ]
+    },
+    {
+      "id": "spacex-gps-iii8-20260421",
+      "date": "2026-04-21",
+      "company": "SpaceX",
+      "program": "Falcon 9",
+      "category": "發射",
+      "status": "成功",
+      "tone": "positive",
+      "title": "Falcon 9 發射 GPS III-8／SV-10",
+      "summary": "SpaceX 完成最後一顆 GPS III 系列衛星的發射任務。",
+      "sources": [
+        { "label": "SpaceX launches", "url": "https://www.spacex.com/launches", "type": "官方" }
+      ]
+    },
+    {
+      "id": "bo-ng3-bluebird7-20260419",
+      "date": "2026-04-19",
+      "company": "Blue Origin",
+      "program": "New Glenn",
+      "category": "異常",
+      "status": "酬載損失",
+      "tone": "alert",
+      "title": "NG-3 完成首節重複使用，但 BlueBird 7 進入錯誤軌道",
+      "summary": "助推器成功回收；第二節未將衛星送入預定軌道，BlueBird 7 隨後失去任務能力。",
+      "sources": [
+        { "label": "Blue Origin", "url": "https://www.blueorigin.com/missions/ng-3", "type": "官方" },
+        { "label": "FAA", "url": "https://www.faa.gov/newsroom/statements/general-statements", "type": "監管" }
+      ]
+    },
+    {
+      "id": "amazon-la05-20260404",
+      "date": "2026-04-04",
+      "company": "Amazon Leo",
+      "program": "LA-05",
+      "category": "部署",
+      "status": "成功",
+      "tone": "positive",
+      "title": "LA-05 使用 Atlas V 部署 29 顆衛星",
+      "summary": "任務把 Amazon Leo 量產部署進度推進至下一個檢查點。",
+      "sources": [
+        { "label": "Amazon", "url": "https://www.aboutamazon.com/news/innovation-at-amazon/project-kuiper-satellite-rocket-launch-progress-updates", "type": "官方" }
+      ]
+    },
+    {
+      "id": "rklb-neutron-q4-20260226",
+      "date": "2026-02-26",
+      "company": "Rocket Lab",
+      "program": "Neutron",
+      "category": "時程",
+      "status": "Q4 2026",
+      "tone": "watch",
+      "title": "Neutron 首飛時程調整至 2026 年第四季",
+      "summary": "Rocket Lab 在年度申報文件中更新首飛目標，以完成剩餘系統與飛行硬體驗證。",
+      "sources": [
+        { "label": "Rocket Lab 10-K", "url": "https://investors.rocketlabcorp.com/static-files/57a8d0da-27ff-499c-8d85-18907743b7a8", "type": "申報" }
+      ]
+    }
+  ]
+}

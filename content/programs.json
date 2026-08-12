@@ -1,0 +1,43 @@
+{
+  "items": [
+    {
+      "id": "starship",
+      "name": "Starship",
+      "company": "SpaceX",
+      "vehicle": "Starship V3",
+      "status": "推進中",
+      "statusTone": "positive",
+      "headline": "Flight 12 已於五月完成 V3 首飛",
+      "detail": "SpaceX 公開文件稱第 12 次飛行測試在 2026 年 5 月完成，下一階段聚焦於下半年開始執行軌道酬載交付。",
+      "progress": 76,
+      "next": "H2 2026｜酬載交付",
+      "source": "https://content.spacex.com/cms-assets/FINAL_Documents%20and%20Updates/SpaceX%20-%20EU%20Prospectus%20%28Approved%20by%20Bafin%29%20-%20June%205%2C%202026.pdf"
+    },
+    {
+      "id": "neutron",
+      "name": "Neutron",
+      "company": "Rocket Lab",
+      "vehicle": "Neutron",
+      "status": "時程觀察",
+      "statusTone": "watch",
+      "headline": "首飛目標維持 Q4 2026",
+      "detail": "Rocket Lab 將可靠度與剩餘系統驗證列為首要工作；同時持續擴大 Electron、HASTE 與 Neutron 的任務訂單。",
+      "progress": 61,
+      "next": "Q4 2026｜首次發射",
+      "source": "https://investors.rocketlabcorp.com/static-files/57a8d0da-27ff-499c-8d85-18907743b7a8"
+    },
+    {
+      "id": "new-glenn",
+      "name": "New Glenn",
+      "company": "Blue Origin",
+      "vehicle": "New Glenn 7×2",
+      "status": "復飛計畫",
+      "statusTone": "alert",
+      "headline": "LC-36 重建中，目標年底前復飛",
+      "detail": "5 月 28 日整合熱火測試異常造成地面設施受損；Blue Origin 已改採水平／垂直混合整合流程並啟動重建。",
+      "progress": 44,
+      "next": "2026 年底前｜Return to flight",
+      "source": "https://www.blueorigin.com/news/new-glenn-return-to-flight"
+    }
+  ]
+}

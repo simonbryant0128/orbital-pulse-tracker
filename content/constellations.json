@@ -1,0 +1,73 @@
+{
+  "lastVerified": "2026-08-12",
+  "methodology": "數字採各來源最近可確認的公開檢查點。不同星系的來源日期與統計口徑可能不同，不應視為即時遙測。",
+  "items": [
+    {
+      "id": "starlink",
+      "name": "Starlink",
+      "company": "SpaceX",
+      "current": 10900,
+      "displayValue": "10,900+",
+      "metric": "活躍衛星公開估值",
+      "currentAsOf": "2026-08-08",
+      "baseline": 10272,
+      "baselineAsOf": "2026-04-22",
+      "accent": "cyan",
+      "source": "https://www.planet4589.org/space/con/star/stats.html",
+      "breakdownLabel": "2026-04-22 版本快照",
+      "breakdown": [
+        { "label": "V1.0", "value": 745 },
+        { "label": "V1.5", "value": 2614 },
+        { "label": "TSP 測試", "value": 2 },
+        { "label": "V2 Mini", "value": 2582 },
+        { "label": "V2 Mini DTC", "value": 644 },
+        { "label": "V2 Mini / Opt", "value": 3685 }
+      ]
+    },
+    {
+      "id": "amazon-leo",
+      "name": "Amazon Leo",
+      "company": "Amazon",
+      "current": 375,
+      "displayValue": "375+",
+      "metric": "已部署衛星",
+      "currentAsOf": "2026-07-02",
+      "baseline": 239,
+      "baselineAsOf": "2026-04-22",
+      "accent": "violet",
+      "source": "https://www.aboutamazon.com/news/innovation-at-amazon/project-kuiper-satellite-rocket-launch-progress-updates",
+      "breakdownLabel": "2026-04-22 任務批次快照",
+      "breakdown": [
+        { "label": "KA-01", "value": 27 },
+        { "label": "KA-02", "value": 26 },
+        { "label": "KF-01", "value": 24 },
+        { "label": "KF-02", "value": 24 },
+        { "label": "KA-03", "value": 26 },
+        { "label": "KF-03", "value": 24 },
+        { "label": "LA-04", "value": 27 },
+        { "label": "LE-01", "value": 32 },
+        { "label": "LA-05", "value": 29 }
+      ]
+    },
+    {
+      "id": "ast-spacemobile",
+      "name": "AST SpaceMobile",
+      "company": "AST SpaceMobile",
+      "current": 10,
+      "displayValue": "10",
+      "metric": "在軌追蹤衛星",
+      "currentAsOf": "2026-06-17",
+      "baseline": 7,
+      "baselineAsOf": "2026-04-22",
+      "accent": "lime",
+      "source": "https://ast-science.com/next-gen-bluebird/",
+      "breakdownLabel": "現行在軌組成（排除 BlueBird 7）",
+      "breakdown": [
+        { "label": "BlueWalker 3", "value": 1 },
+        { "label": "BlueBird Gen 1", "value": 5 },
+        { "label": "BlueBird 6", "value": 1 },
+        { "label": "BlueBird 8–10", "value": 3 }
+      ]
+    }
+  ]
+}
