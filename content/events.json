@@ -16,6 +16,35 @@
       ]
     },
     {
+      "id": "spacex-starlink-cadence-20260812",
+      "date": "2026-08-12",
+      "company": "SpaceX",
+      "program": "Starlink",
+      "category": "部署",
+      "status": "持續部署",
+      "tone": "positive",
+      "title": "3 月 20 日至 8 月 12 日可核實 44 次 Starlink 任務",
+      "summary": "依 SpaceX 官方完成任務清單逐列計數；最新 8 月 12 日 Starlink 17-49 部署 24 顆。",
+      "sources": [
+        { "label": "SpaceX Launches", "url": "https://www.spacex.com/launches", "type": "官方" },
+        { "label": "Starlink 17-49", "url": "https://www.spacex.com/launches/sl-17-49", "type": "官方" }
+      ]
+    },
+    {
+      "id": "asts-bb11-13-20260805",
+      "date": "2026-08-05",
+      "company": "AST SpaceMobile",
+      "program": "BlueBird",
+      "category": "部署",
+      "status": "成功",
+      "tone": "positive",
+      "title": "BlueBird 11、12、13 搭乘 Falcon 9 完成部署",
+      "summary": "三顆次世代直連手機衛星自 SLC-40 發射並依序部署，使在軌追蹤組成增至 13 顆（含 BlueWalker 3）。",
+      "sources": [
+        { "label": "SpaceX", "url": "https://www.spacex.com/launches/bluebird11-13", "type": "官方" }
+      ]
+    },
+    {
       "id": "irdm-skywave-iot-20260728",
       "date": "2026-07-28",
       "company": "Iridium",
@@ -54,7 +83,7 @@
       "title": "Starship 第 13 次飛行測試自 Pad 2 執行",
       "summary": "SpaceX 發射清單記錄第 13 次 Starship 飛行測試於 7 月 24 日自 Starbase Pad 2 執行，載具採不回收配置。",
       "sources": [
-        { "label": "SpaceX Launches", "url": "https://www.spacex.com/launches", "type": "官方" }
+        { "label": "SpaceX Launches", "url": "https://www.spacex.com/launches/starship-flight-13", "type": "官方" }
       ]
     },
     {
@@ -135,8 +164,8 @@
       "category": "部署",
       "status": "已確認",
       "tone": "positive",
-      "title": "累計完成 14 次任務、部署超過 375 顆衛星",
-      "summary": "Amazon 表示將持續提高部署速度；目前已鎖定超過 100 次發射運力。",
+      "title": "累計完成 14 次任務、精確部署 396 顆衛星",
+      "summary": "LA-08 於 7 月 2 日部署 29 顆，使 Amazon Leo 官方精確累計達 396 顆；已鎖定超過 100 次發射運力。",
       "sources": [
         { "label": "Amazon", "url": "https://www.aboutamazon.com/news/innovation-at-amazon/project-kuiper-satellite-rocket-launch-progress-updates", "type": "官方" }
       ]
@@ -217,13 +246,14 @@
       "date": "2026-05-22",
       "company": "SpaceX",
       "program": "Starship",
-      "category": "里程碑",
-      "status": "完成",
-      "tone": "positive",
-      "title": "Starship Flight 12 完成次世代 V3 首飛",
-      "summary": "第 12 次飛行測試完成新版 Starship 與 Super Heavy 的首次飛行，並使用 Starbase 新發射臺。",
+      "category": "異常",
+      "status": "助推器返航異常",
+      "tone": "alert",
+      "title": "Flight 12 完成 V3 主要測試，但 Super Heavy 返航發生 mishap",
+      "summary": "Starship 達成既定軌跡、部署測試酬載並完成再入濺落；Super Heavy 僅完成部分 boostback 後硬濺落，FAA 將事件列為 mishap。",
       "sources": [
-        { "label": "SpaceX", "url": "https://www.spacex.com/company", "type": "官方" }
+        { "label": "SpaceX", "url": "https://www.spacex.com/launches/starship-flight-12", "type": "官方" },
+        { "label": "FAA", "url": "https://www.faa.gov/newsroom/statements/general-statements", "type": "監管" }
       ]
     },
     {
@@ -281,6 +311,90 @@
       "summary": "任務把 Amazon Leo 量產部署進度推進至下一個檢查點。",
       "sources": [
         { "label": "Amazon", "url": "https://www.aboutamazon.com/news/innovation-at-amazon/project-kuiper-satellite-rocket-launch-progress-updates", "type": "官方" }
+      ]
+    },
+    {
+      "id": "rklb-ten-owl-20260627",
+      "date": "2026-06-27",
+      "company": "Rocket Lab",
+      "program": "Electron／StriX",
+      "category": "部署",
+      "status": "成功",
+      "tone": "positive",
+      "title": "Ten Owl Of Ten 完成 Synspective 第 10 次專屬任務",
+      "summary": "Electron 將單顆 StriX SAR 衛星部署至 552 km LEO，維持雙方專屬任務 100% 成功紀錄。",
+      "sources": [
+        { "label": "Rocket Lab", "url": "https://rocketlabcorp.com/missions/launches/tenowloften/", "type": "官方" }
+      ]
+    },
+    {
+      "id": "rklb-victus-haze-20260619",
+      "date": "2026-06-19",
+      "company": "Rocket Lab",
+      "program": "VICTUS HAZE",
+      "category": "里程碑",
+      "status": "成功",
+      "tone": "positive",
+      "title": "VICTUS HAZE 以 16 小時 42 分 Notice-to-Launch 創紀錄",
+      "summary": "Rocket Lab 完成 Electron 發射、Pioneer 太空船部署與後續在軌 RPO 任務整合。",
+      "sources": [
+        { "label": "Rocket Lab", "url": "https://rocketlabcorp.com/missions/launches/victus-haze/", "type": "官方" }
+      ]
+    },
+    {
+      "id": "rklb-viva-strix-20260522",
+      "date": "2026-05-22",
+      "company": "Rocket Lab",
+      "program": "Electron／StriX",
+      "category": "部署",
+      "status": "成功",
+      "tone": "positive",
+      "title": "Viva La StriX 部署第 9 顆由 Rocket Lab 發射的 StriX",
+      "summary": "單顆 Synspective SAR 衛星成功部署至 572 km LEO。",
+      "sources": [
+        { "label": "Rocket Lab", "url": "https://rocketlabcorp.com/missions/launches/viva-la-strix-2/", "type": "官方" }
+      ]
+    },
+    {
+      "id": "rklb-kakushin-20260423",
+      "date": "2026-04-23",
+      "company": "Rocket Lab",
+      "program": "Electron／JAXA",
+      "category": "部署",
+      "status": "成功",
+      "tone": "positive",
+      "title": "Kakushin Rising 為 JAXA 部署 8 顆衛星",
+      "summary": "任務涵蓋教育、海洋監測、多光譜相機與可展開天線等技術示範酬載。",
+      "sources": [
+        { "label": "Rocket Lab", "url": "https://rocketlabcorp.com/missions/launches/kakushin-rising/", "type": "官方" }
+      ]
+    },
+    {
+      "id": "rklb-celeste-20260328",
+      "date": "2026-03-28",
+      "company": "Rocket Lab",
+      "program": "Electron／Celeste",
+      "category": "部署",
+      "status": "成功",
+      "tone": "positive",
+      "title": "Daughter Of The Stars 部署 ESA 首批兩顆 Celeste 衛星",
+      "summary": "Rocket Lab 首次執行 ESA 專屬任務，將兩顆 LEO-PNT 示範衛星送至 510 km LEO。",
+      "sources": [
+        { "label": "Rocket Lab", "url": "https://rocketlabcorp.com/missions/launches/daughter-of-the-stars/", "type": "官方" }
+      ]
+    },
+    {
+      "id": "fly-alpha-flight7-20260311",
+      "date": "2026-03-11",
+      "company": "Firefly Aerospace",
+      "program": "Alpha Flight 7",
+      "category": "部署",
+      "status": "成功",
+      "tone": "positive",
+      "title": "Alpha Flight 7 完成返航任務並部署示範酬載",
+      "summary": "Stairway to Seven 完成入軌、Lockheed Martin 示範酬載部署與第二節再點火。",
+      "sources": [
+        { "label": "Firefly Aerospace", "url": "https://fireflyspace.com/news/firefly-aerospace-successfully-launches-alpha-flight-7/", "type": "官方" }
       ]
     },
     {
