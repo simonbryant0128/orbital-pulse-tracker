@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { headers } from "next/headers";
 import "./globals.css";
 
-const title = "軌道脈動｜火箭與低軌衛星追蹤";
+const title = "火箭衛星追蹤網";
 const description =
   "追蹤 SpaceX、Rocket Lab、Blue Origin、Amazon Leo、AST SpaceMobile、VSAT、FLY、VOYG 與 IRDM 的發射、部署、異常與里程碑。";
 
@@ -13,13 +13,13 @@ export async function generateMetadata(): Promise<Metadata> {
   const origin = `${protocol}://${host}`;
 
   return {
-  title: "軌道脈動｜火箭與低軌衛星追蹤",
+    title,
     description,
     openGraph: {
       title,
       description,
       url: origin,
-      siteName: "軌道脈動",
+      siteName: "火箭衛星追蹤網",
       locale: "zh_TW",
       type: "website",
       images: [
@@ -27,7 +27,7 @@ export async function generateMetadata(): Promise<Metadata> {
           url: `${origin}/og.png`,
           width: 1732,
           height: 908,
-          alt: "ORBITAL PULSE 火箭與低軌衛星追蹤",
+          alt: "火箭衛星追蹤網",
         },
       ],
     },
