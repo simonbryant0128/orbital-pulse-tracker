@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import companiesData from "@/content/companies.json";
 import constellationsData from "@/content/constellations.json";
 import eventsData from "@/content/events.json";
@@ -20,6 +20,7 @@ type TrackerEvent = {
   tone: EventTone;
   title: string;
   summary: string;
+  detail: string;
   sources: Array<{ label: string; url: string; type: string }>;
 };
 
@@ -56,6 +57,26 @@ export default function Home() {
   const [company, setCompany] = useState("全部");
   const [group, setGroup] = useState<FilterGroup>("全部");
   const [visibleCount, setVisibleCount] = useState(7);
+  const [selectedEvent, setSelectedEvent] = useState<TrackerEvent | null>(null);
+  const modalRef = useRef<HTMLElement>(null);
+
+  useEffect(() => {
+    if (!selectedEvent) return;
+
+    const previousOverflow = document.body.style.overflow;
+    const closeOnEscape = (event: KeyboardEvent) => {
+      if (event.key === "Escape") setSelectedEvent(null);
+    };
+
+    document.body.style.overflow = "hidden";
+    window.addEventListener("keydown", closeOnEscape);
+    modalRef.current?.focus();
+
+    return () => {
+      document.body.style.overflow = previousOverflow;
+      window.removeEventListener("keydown", closeOnEscape);
+    };
+  }, [selectedEvent]);
 
   const filteredEvents = useMemo(
     () =>
@@ -91,6 +112,7 @@ export default function Home() {
         </a>
         <nav aria-label="主要導覽">
           <a href="#constellations">星系</a>
+          <a href="#deployment">部署</a>
           <a href="#programs">計畫</a>
           <a href="#companies">公司</a>
           <a href="#events">事件</a>
@@ -244,6 +266,81 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="section deployment-section" id="deployment">
+        <div className="section-heading split-heading">
+          <div>
+            <p className="eyebrow">SATELLITE DEPLOYMENT PULSE</p>
+            <h2>衛星部署進度與下一班任務</h2>
+          </div>
+          <p>
+            總量採各星系目前可驗證的公開口徑；下一次日期只採官方排程，未公布時不以第三方預測補值。
+          </p>
+        </div>
+
+        <div className="deployment-grid">
+          {constellationsData.items.map((item, index) => {
+            const growth = item.current - item.baseline;
+            return (
+              <article className={`deployment-card accent-${item.accent}`} key={`${item.id}-deployment`}>
+                <div className="deployment-card-head">
+                  <span>D{String(index + 1).padStart(2, "0")}</span>
+                  <span>{item.currentAsOf.replaceAll("-", ".")} 截止</span>
+                </div>
+                <p className="deployment-company">{item.company}</p>
+                <h3>{item.name}</h3>
+
+                <div className="deployment-total">
+                  <span>{item.deployment.totalLabel}</span>
+                  <strong>{item.displayValue}</strong>
+                </div>
+
+                <div className="deployment-delta" aria-label={`相較基準新增 ${growth.toLocaleString("zh-TW")} 顆`}>
+                  <div>
+                    <span>{item.baselineAsOf.replaceAll("-", ".")}</span>
+                    <strong>{item.baseline.toLocaleString("en-US")}</strong>
+                  </div>
+                  <div className="deployment-route" aria-hidden="true"><span /></div>
+                  <div>
+                    <span>本期增量</span>
+                    <strong>+{growth.toLocaleString("en-US")}</strong>
+                  </div>
+                </div>
+
+                <div className="next-launch-panel">
+                  <div className="next-launch-label">
+                    <span>NEXT LAUNCH</span>
+                    <span className="schedule-chip">官方排程</span>
+                  </div>
+                  <h4>{item.deployment.nextMission}</h4>
+                  {item.deployment.nextLaunchDate ? (
+                    <time dateTime={item.deployment.nextLaunchDate}>
+                      {item.deployment.nextLaunchDisplay}
+                    </time>
+                  ) : (
+                    <p className="next-launch-date">{item.deployment.nextLaunchDisplay}</p>
+                  )}
+                  <dl>
+                    <div>
+                      <dt>載具</dt>
+                      <dd>{item.deployment.nextVehicle}</dd>
+                    </div>
+                    <div>
+                      <dt>狀態</dt>
+                      <dd>{item.deployment.nextStatus}</dd>
+                    </div>
+                  </dl>
+                  <a href={item.deployment.nextSource} target="_blank" rel="noreferrer">
+                    {item.deployment.nextSourceLabel} ↗
+                  </a>
+                </div>
+              </article>
+            );
+          })}
+        </div>
+
+        <p className="deployment-methodology">口徑說明：{constellationsData.methodology}</p>
+      </section>
+
       <section className="section program-section" id="programs">
         <div className="section-heading split-heading">
           <div>
@@ -367,7 +464,14 @@ export default function Home() {
 
         <div className="event-list" aria-live="polite">
           {filteredEvents.slice(0, visibleCount).map((event) => (
-            <article className={`event-card tone-${event.tone}`} key={event.id}>
+            <button
+              type="button"
+              className={`event-card tone-${event.tone}`}
+              key={event.id}
+              onClick={() => setSelectedEvent(event)}
+              aria-haspopup="dialog"
+              aria-label={`查看事件詳情：${event.title}`}
+            >
               <time dateTime={event.date}>
                 <strong>{displayDate(event.date)}</strong>
                 <span>{event.date.slice(0, 4)}</span>
@@ -386,15 +490,15 @@ export default function Home() {
                 </div>
                 <h3>{event.title}</h3>
                 <p>{event.summary}</p>
-                <div className="source-links">
-                  {event.sources.map((source) => (
-                    <a key={source.url} href={source.url} target="_blank" rel="noreferrer">
-                      {source.label} · {source.type} ↗
-                    </a>
-                  ))}
-                </div>
+                <span className="event-open-hint">滑入預覽 · 點擊閱讀完整內容 ↗</span>
               </div>
-            </article>
+              <span className="event-hover-preview" aria-hidden="true">
+                <span>DETAIL PREVIEW</span>
+                <strong>{event.title}</strong>
+                <span>{event.detail}</span>
+                <em>點擊閱讀完整內容 ↗</em>
+              </span>
+            </button>
           ))}
           {filteredEvents.length === 0 && (
             <div className="empty-state">
@@ -489,6 +593,70 @@ export default function Home() {
           <a href="#top">回到頁首 ↑</a>
         </div>
       </footer>
+
+      {selectedEvent && (
+        <div
+          className="event-modal-backdrop"
+          role="presentation"
+          onMouseDown={(event) => {
+            if (event.target === event.currentTarget) setSelectedEvent(null);
+          }}
+        >
+          <section
+            ref={modalRef}
+            className={`event-modal tone-${selectedEvent.tone}`}
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="event-modal-title"
+            tabIndex={-1}
+          >
+            <div className="event-modal-topline">
+              <span>VERIFIED EVENT DETAIL</span>
+              <button
+                type="button"
+                onClick={() => setSelectedEvent(null)}
+                aria-label="關閉事件詳情"
+              >
+                關閉 ×
+              </button>
+            </div>
+
+            <div className="event-modal-meta">
+              <time dateTime={selectedEvent.date}>{fullDate(selectedEvent.date)}</time>
+              <span>{selectedEvent.company}</span>
+              <span>{selectedEvent.program}</span>
+              <span>{selectedEvent.category}</span>
+              <span className={`event-status ${selectedEvent.tone}`}>{selectedEvent.status}</span>
+            </div>
+
+            <h2 id="event-modal-title">{selectedEvent.title}</h2>
+
+            <div className="event-modal-copy">
+              <div>
+                <span>摘要</span>
+                <p>{selectedEvent.summary}</p>
+              </div>
+              <div>
+                <span>詳細內容</span>
+                <p>{selectedEvent.detail}</p>
+              </div>
+            </div>
+
+            <div className="event-modal-sources">
+              <span>原始來源</span>
+              <div>
+                {selectedEvent.sources.map((source) => (
+                  <a key={source.url} href={source.url} target="_blank" rel="noreferrer">
+                    <span>{source.type}</span>
+                    <strong>{source.label}</strong>
+                    <em>開啟 ↗</em>
+                  </a>
+                ))}
+              </div>
+            </div>
+          </section>
+        </div>
+      )}
     </main>
   );
 }

@@ -12,6 +12,7 @@ const requiredEventFields = [
   "tone",
   "title",
   "summary",
+  "detail",
   "sources",
 ];
 
@@ -83,6 +84,28 @@ for (const constellation of constellationsData.items ?? []) {
   }
   if (typeof constellation.current !== "number" || constellation.current < 0) {
     fail(`constellation ${constellation.id} has an invalid current value`);
+  }
+  for (const field of [
+    "totalLabel",
+    "nextMission",
+    "nextLaunchDisplay",
+    "nextStatus",
+    "nextVehicle",
+    "nextSourceLabel",
+    "nextSource",
+  ]) {
+    if (!constellation.deployment?.[field]) {
+      fail(`constellation ${constellation.id} deployment is missing ${field}`);
+    }
+  }
+  if (
+    constellation.deployment.nextLaunchDate !== null &&
+    !/^\d{4}-\d{2}-\d{2}$/.test(constellation.deployment.nextLaunchDate)
+  ) {
+    fail(`constellation ${constellation.id} has an invalid next launch date`);
+  }
+  if (!/^https:\/\//.test(constellation.deployment.nextSource)) {
+    fail(`constellation ${constellation.id} has a non-HTTPS next launch source`);
   }
 }
 
