@@ -32,6 +32,12 @@ test("renders the orbital tracker product page", async () => {
   assert.match(html, /<title>軌道脈動｜火箭與低軌衛星追蹤<\/title>/i);
   assert.match(html, /ORBITAL PULSE/);
   assert.match(html, /低軌星系公開檢查點/);
+  assert.match(html, /衛星部署進度與下一班任務/);
+  assert.match(html, /待官方公告/);
+  assert.match(html, /DETAIL PREVIEW/);
+  assert.match(html, /點擊閱讀完整內容/);
+  assert.match(html, /aria-haspopup="dialog"/);
+  assert.match(html, /部署任務數與目前仍在軌工作的衛星數屬不同口徑/);
   assert.match(html, /Flight 13 已入列/);
   assert.match(html, /Viasat/);
   assert.match(html, /Firefly Aerospace/);

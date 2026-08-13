@@ -1,6 +1,6 @@
 {
   "lastVerified": "2026-08-13",
-  "methodology": "Amazon Leo 與 AST SpaceMobile 採官方任務／部署資料；Starlink 採 Jonathan McDowell 的第三方軌道統計 Total Working 口徑。不同星系的來源日期與統計口徑不同，不應視為即時遙測。",
+  "methodology": "Amazon Leo 與 AST SpaceMobile 採官方任務／部署資料；Starlink 採 Jonathan McDowell 的第三方軌道統計 Total Working 口徑。下一次任務日期只採公司官方頁面；官方未公布確切日期時標示為待官方公告。不同星系的來源日期與統計口徑不同，不應視為即時遙測。",
   "items": [
     {
       "id": "starlink",
@@ -14,6 +14,16 @@
       "baselineAsOf": "2026-04-22",
       "accent": "cyan",
       "source": "https://planet4589.org/space/con/star/stats.html",
+      "deployment": {
+        "totalLabel": "目前在軌工作中",
+        "nextMission": "Starlink Mission",
+        "nextLaunchDate": null,
+        "nextLaunchDisplay": "待官方公告",
+        "nextStatus": "官方發射清單尚無可核實的確切日期",
+        "nextVehicle": "Falcon 9",
+        "nextSourceLabel": "SpaceX Launches",
+        "nextSource": "https://www.spacex.com/launches"
+      },
       "breakdownLabel": "2026-08-12 Total Working 版本快照",
       "breakdown": [
         { "label": "V1.0", "value": 642 },
@@ -37,6 +47,16 @@
       "baselineAsOf": "2025-12-16",
       "accent": "violet",
       "source": "https://www.aboutamazon.com/news/innovation-at-amazon/project-kuiper-satellite-rocket-launch-progress-updates",
+      "deployment": {
+        "totalLabel": "官方累計已部署",
+        "nextMission": "Amazon Leo 首次 Vulcan 任務",
+        "nextLaunchDate": null,
+        "nextLaunchDisplay": "待官方公告",
+        "nextStatus": "官方已確認下一班改用 Vulcan，尚未公布確切日期",
+        "nextVehicle": "ULA Vulcan",
+        "nextSourceLabel": "Amazon Leo mission updates",
+        "nextSource": "https://www.aboutamazon.com/news/innovation-at-amazon/project-kuiper-satellite-rocket-launch-progress-updates"
+      },
       "breakdownLabel": "截至 2026-07-02 官方部署組成",
       "breakdown": [
         { "label": "2025 已部署", "value": 180 },
@@ -61,6 +81,16 @@
       "baselineAsOf": "2026-04-22",
       "accent": "lime",
       "source": "https://ast-science.com/next-gen-bluebird/",
+      "deployment": {
+        "totalLabel": "在軌追蹤（排除 BlueBird 7）",
+        "nextMission": "Next-Generation BlueBird",
+        "nextLaunchDate": null,
+        "nextLaunchDisplay": "待官方公告",
+        "nextStatus": "官方活動頁列為 Coming soon，未公布確切日期",
+        "nextVehicle": "待官方公告",
+        "nextSourceLabel": "AST SpaceMobile Events",
+        "nextSource": "https://investors.ast-science.com/events"
+      },
       "breakdownLabel": "現行在軌組成（排除 BlueBird 7）",
       "breakdown": [
         { "label": "BlueWalker 3", "value": 1 },
