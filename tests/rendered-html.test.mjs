@@ -29,7 +29,8 @@ test("renders the orbital tracker product page", async () => {
 
   const html = await response.text();
   assert.match(html, /<html[^>]*lang="zh-Hant"/i);
-  assert.match(html, /<title>軌道脈動｜火箭與低軌衛星追蹤<\/title>/i);
+  assert.match(html, /<title>火箭衛星追蹤網<\/title>/i);
+  assert.match(html, /火箭衛星[^<]*<span>追蹤網<\/span>/i);
   assert.match(html, /ORBITAL PULSE/);
   assert.match(html, /低軌星系公開檢查點/);
   assert.match(html, /衛星部署進度與下一班任務/);

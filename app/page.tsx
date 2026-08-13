@@ -107,7 +107,7 @@ export default function Home() {
           </span>
           <span>
             <strong>ORBITAL PULSE</strong>
-            <small>軌道脈動</small>
+            <small>火箭衛星追蹤網</small>
           </span>
         </a>
         <nav aria-label="主要導覽">
@@ -129,8 +129,8 @@ export default function Home() {
         <div className="hero-copy">
           <p className="eyebrow">2026 · LAUNCH &amp; LEO INTELLIGENCE</p>
           <h1>
-            從發射臺到低軌，
-            <span>一次看懂太空競賽。</span>
+            火箭衛星
+            <span>追蹤網</span>
           </h1>
           <p className="hero-intro">
             追蹤 9 家美國太空與衛星公司，從發射、部署、異常到通訊、深空與
