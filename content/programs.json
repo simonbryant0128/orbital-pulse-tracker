@@ -30,14 +30,14 @@
       "id": "new-glenn",
       "name": "New Glenn",
       "company": "Blue Origin",
-      "vehicle": "New Glenn 7×2",
-      "status": "復飛計畫",
-      "statusTone": "alert",
-      "headline": "LC-36 重建中，目標年底前復飛",
-      "detail": "5 月 28 日整合熱火測試異常造成地面設施受損；Blue Origin 已改採水平／垂直混合整合流程並啟動重建。",
-      "progress": 44,
-      "next": "2026 年底前｜Return to flight",
-      "source": "https://www.blueorigin.com/news/new-glenn-return-to-flight"
+      "vehicle": "New Glenn 7×2 / 9×4",
+      "status": "設施擴建",
+      "statusTone": "watch",
+      "headline": "LC-36B 開工，雙發射臺架構成形",
+      "detail": "LC-36B 將成為 New Glenn 9×4 的營運基地，LC-36A 繼續支援 7×2；新建 VIF 與 PPF 將支援高頻發射與基礎設施韌性。",
+      "progress": 47,
+      "next": "LC-36A｜7×2；LC-36B｜9×4",
+      "source": "https://www.blueorigin.com/news/returning-launch-complex-36-to-two-pads"
     }
   ]
 }

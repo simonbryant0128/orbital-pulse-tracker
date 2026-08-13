@@ -1,5 +1,5 @@
 {
-  "lastVerified": "2026-08-12",
+  "lastVerified": "2026-08-13",
   "items": [
     {
       "id": "spacex",
@@ -24,9 +24,9 @@
       "name": "Blue Origin",
       "ticker": "私人",
       "focus": "New Glenn · 月球系統",
-      "status": "LC-36 復原中",
-      "statusTone": "alert",
-      "source": "https://www.blueorigin.com/news"
+      "status": "LC-36A 復原／36B 開工",
+      "statusTone": "watch",
+      "source": "https://www.blueorigin.com/news/returning-launch-complex-36-to-two-pads"
     },
     {
       "id": "amazon-leo",

@@ -1,6 +1,20 @@
 {
-  "lastVerified": "2026-08-12",
+  "lastVerified": "2026-08-13",
   "events": [
+    {
+      "id": "bo-lc36b-construction-20260812",
+      "date": "2026-08-12",
+      "company": "Blue Origin",
+      "program": "New Glenn",
+      "category": "里程碑",
+      "status": "施工中",
+      "tone": "positive",
+      "title": "啟動 New Glenn 第二發射臺 LC-36B 建設",
+      "summary": "LC-36B 將支援 New Glenn 9x4，既有 LC-36A 繼續支援 7x2；另建垂直整合與酬載處理設施，以提高發射頻率與基礎設施韌性。",
+      "sources": [
+        { "label": "Blue Origin", "url": "https://www.blueorigin.com/news/returning-launch-complex-36-to-two-pads", "type": "官方" }
+      ]
+    },
     {
       "id": "irdm-skywave-iot-20260728",
       "date": "2026-07-28",

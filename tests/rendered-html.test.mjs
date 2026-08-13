@@ -37,6 +37,7 @@ test("renders the orbital tracker product page", async () => {
   assert.match(html, /Firefly Aerospace/);
   assert.match(html, /Voyager Technologies/);
   assert.match(html, /Iridium/);
+  assert.match(html, /LC-36B/);
   assert.match(html, /近期事件流/);
   assert.match(html, /開啟雲端主表/);
   assert.match(html, /GitHub/);
