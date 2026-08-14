@@ -1,5 +1,5 @@
 {
-  "lastVerified": "2026-08-13",
+  "lastVerified": "2026-08-14",
   "items": [
     {
       "id": "spacex",
@@ -23,10 +23,10 @@
       "id": "blue-origin",
       "name": "Blue Origin",
       "ticker": "私人",
-      "focus": "New Glenn · 月球系統",
-      "status": "LC-36A 復原／36B 開工",
+      "focus": "New Glenn · 月球系統 · Quartz 地面網路",
+      "status": "Quartz 首三站啟用／LC-36 擴建",
       "statusTone": "watch",
-      "source": "https://www.blueorigin.com/news/returning-launch-complex-36-to-two-pads"
+      "source": "https://www.blueorigin.com/news/blue-origin-begins-global-rollout-quartz-ground-station-network"
     },
     {
       "id": "amazon-leo",
@@ -60,9 +60,9 @@
       "name": "Firefly Aerospace",
       "ticker": "FLY",
       "focus": "Alpha · Elytra · Blue Ghost",
-      "status": "深空任務擴張",
+      "status": "Elytra 除役設計合約",
       "statusTone": "positive",
-      "source": "https://investors.fireflyspace.com/"
+      "source": "https://fireflyspace.com/news/firefly-aerospace-awarded-contract-to-design-elytra-deorbit-system-for-defense-innovation-unit/"
     },
     {
       "id": "voyager-technologies",
