@@ -1,6 +1,36 @@
 {
-  "lastVerified": "2026-08-13",
+  "lastVerified": "2026-08-14",
   "events": [
+    {
+      "id": "bo-quartz-rollout-20260813",
+      "date": "2026-08-13",
+      "company": "Blue Origin",
+      "program": "Quartz",
+      "category": "里程碑",
+      "status": "首三站已測試",
+      "tone": "positive",
+      "title": "Quartz 地面站網路啟動全球部署",
+      "summary": "首三座地面站已在百慕達、紐西蘭與澳洲完成安裝與測試；Blue Origin 規劃年底前擴至九個站點。",
+      "detail": "Blue Origin 已在百慕達、紐西蘭與澳洲完成 Quartz 首三座地面站的安裝與測試。第一階段採 3.7 公尺天線，支援低軌任務所需的 S 與 X 頻段追蹤、訊號情報與太空態勢感知；RBC Signals 協助場址調查、天線採購、部署與站點營運。公司規劃在年底前把網路擴至九個站點，後續 9 公尺天線與 L／S／X／Ka 頻段能力仍屬部署規劃，將把服務延伸至地球同步轉移軌道、地球同步軌道、月地空間與更遠任務。",
+      "sources": [
+        { "label": "Blue Origin", "url": "https://www.blueorigin.com/news/blue-origin-begins-global-rollout-quartz-ground-station-network", "type": "官方" }
+      ]
+    },
+    {
+      "id": "fly-elytra-deorbit-pdr-20260813",
+      "date": "2026-08-13",
+      "company": "Firefly Aerospace",
+      "program": "Elytra",
+      "category": "合約",
+      "status": "PDR 合約",
+      "tone": "positive",
+      "title": "取得 DIU／SDA Elytra 衛星除役系統設計合約",
+      "summary": "Firefly 將完成 Elytra 除役任務的初步設計審查；完成 PDR 後才有資格競逐發射與任務執行階段。",
+      "detail": "Firefly Aerospace 取得國防創新單位（DIU）與太空發展局（SDA）的新合約，工作範圍是完成 Elytra 衛星除役任務的初步設計審查。任務概念包括把 Elytra 送入低軌、接近客戶物體、執行會合與鄰近操作及狀態調查，再協助物體離軌；系統設計可延伸評估低軌、中軌與地球同步軌道需求。本階段僅限 PDR，完成後 Firefly 才有資格競逐下一階段的發射、太空器操作與任務執行，尚不能視為已取得後續任務。",
+      "sources": [
+        { "label": "Firefly Aerospace", "url": "https://fireflyspace.com/news/firefly-aerospace-awarded-contract-to-design-elytra-deorbit-system-for-defense-innovation-unit/", "type": "官方" }
+      ]
+    },
     {
       "id": "bo-lc36b-construction-20260812",
       "date": "2026-08-12",
