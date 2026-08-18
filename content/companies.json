@@ -1,5 +1,5 @@
 {
-  "lastVerified": "2026-08-14",
+  "lastVerified": "2026-08-18",
   "items": [
     {
       "id": "spacex",
@@ -15,9 +15,9 @@
       "name": "Rocket Lab",
       "ticker": "RKLB",
       "focus": "Electron · HASTE · Neutron · 太空系統",
-      "status": "高頻發射／整併中",
-      "statusTone": "watch",
-      "source": "https://rocketlabcorp.com/updates/"
+      "status": "PTS-G 生產／Globalstar 平台入軌",
+      "statusTone": "positive",
+      "source": "https://rocketlabcorp.com/updates/viasat-selects-rocket-lab-to-build-geo-satellite-for-u-s-space-forces-protected-tactical-satcom-global-program-2/"
     },
     {
       "id": "blue-origin",
@@ -51,18 +51,18 @@
       "name": "Viasat",
       "ticker": "VSAT",
       "focus": "GEO／多軌衛星通訊 · NTN",
-      "status": "車載 NTN 驗證",
+      "status": "PTS-G 衛星進入生產",
       "statusTone": "positive",
-      "source": "https://investors.viasat.com/"
+      "source": "https://rocketlabcorp.com/updates/viasat-selects-rocket-lab-to-build-geo-satellite-for-u-s-space-forces-protected-tactical-satcom-global-program-2/"
     },
     {
       "id": "firefly-aerospace",
       "name": "Firefly Aerospace",
       "ticker": "FLY",
       "focus": "Alpha · Elytra · Blue Ghost",
-      "status": "Elytra 除役設計合約",
+      "status": "NASA 太空器處理合約資格",
       "statusTone": "positive",
-      "source": "https://fireflyspace.com/news/firefly-aerospace-awarded-contract-to-design-elytra-deorbit-system-for-defense-innovation-unit/"
+      "source": "https://fireflyspace.com/news/firefly-aerospace-onboarded-to-nasa-spacecraft-processing-operations-contract/"
     },
     {
       "id": "voyager-technologies",
