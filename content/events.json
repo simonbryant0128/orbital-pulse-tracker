@@ -1,6 +1,52 @@
 {
-  "lastVerified": "2026-08-14",
+  "lastVerified": "2026-08-18",
   "events": [
+    {
+      "id": "vsat-rklb-pts-g-20260817",
+      "date": "2026-08-17",
+      "company": "Viasat",
+      "program": "PTS-G／Lightning-GEO",
+      "category": "合約",
+      "status": "進入生產",
+      "tone": "positive",
+      "title": "Viasat 選定 Rocket Lab 打造 PTS-G mini-GEO 衛星平台",
+      "summary": "Viasat 選定 Rocket Lab 提供 GEO 衛星平台，承載其 X／Ka 雙頻有效載荷，支援美國太空軍 PTS-G Swarm 1。",
+      "detail": "Viasat 依美國太空軍 Protected Tactical SATCOM-Global（PTS-G）Swarm 1 合約，選定 Rocket Lab 建造 mini-GEO 衛星平台。Rocket Lab 將交付 Lightning GEO 平台，搭載 Viasat 的 X／Ka 雙頻通訊有效載荷；Viasat 負責整體任務，初始生產範圍涵蓋製造、整合測試、發射、在軌檢查，以及五年操作與維護。官方尚未公布發射日期。",
+      "sources": [
+        { "label": "Rocket Lab／Viasat", "url": "https://rocketlabcorp.com/updates/viasat-selects-rocket-lab-to-build-geo-satellite-for-u-s-space-forces-protected-tactical-satcom-global-program-2/", "type": "官方" }
+      ]
+    },
+    {
+      "id": "rklb-globalstar-platforms-20260816",
+      "date": "2026-08-16",
+      "company": "Rocket Lab",
+      "program": "Globalstar 2-R／Lightning",
+      "category": "部署",
+      "status": "8 顆入軌／正常",
+      "tone": "positive",
+      "title": "首批 8 顆 Globalstar 2-R 平台入軌並運作正常",
+      "summary": "SpaceX Falcon 9 已將 Rocket Lab 為 MDA Space 製造的首批 8 顆平台送入低軌，全部取得聯絡並開始在軌 commissioning。",
+      "detail": "任務於美東時間 8 月 15 日 21:12 從 Cape Canaveral SLC-40 發射。這 8 顆衛星平台是 Rocket Lab 與 MDA Space 17 顆、價值 1.43 億美元合作案的首批交付，用於補充 Globalstar 星座並支援直接連線裝置與物聯網服務。Rocket Lab 表示已與全部 8 顆衛星建立聯絡，系統運作正常、可發電，並已進入在軌 commissioning。",
+      "sources": [
+        { "label": "Rocket Lab", "url": "https://rocketlabcorp.com/updates/rocket-lab-satellite-platforms-built-for-mda-space-successfully-reach-orbit-supporting-globalstar-direct-to-device-communications-services/", "type": "官方" },
+        { "label": "SpaceX", "url": "https://www.spacex.com/launches/globalstar2-rlaunch1", "type": "官方" }
+      ]
+    },
+    {
+      "id": "fly-nasa-spacecraft-processing-20260817",
+      "date": "2026-08-17",
+      "company": "Firefly Aerospace",
+      "program": "NASA Spacecraft Processing Operations",
+      "category": "合約",
+      "status": "可競逐任務訂單",
+      "tone": "positive",
+      "title": "Firefly 獲 NASA 太空器處理營運合約資格",
+      "summary": "Firefly 可競逐 NASA 在 Vandenberg 的任務載荷處理訂單，服務涵蓋整備、加注、整合與整流罩封裝。",
+      "detail": "Firefly Aerospace 已納入 NASA Spacecraft Processing Operations Contract，可競逐在 Vandenberg Space Force Base 執行的任務訂單。可提供的服務包括載荷處理、推進劑加注、整合與整流罩封裝。其設施距 SLC-2 約半英里，配置儲存、管制作業空間、氣閘與 ISO 8 潔淨室，可支援中小型太空器及高能燃料作業；NASA Quicksounder 與 INCUS 任務也規劃使用 Alpha 發射。",
+      "sources": [
+        { "label": "Firefly Aerospace", "url": "https://fireflyspace.com/news/firefly-aerospace-onboarded-to-nasa-spacecraft-processing-operations-contract/", "type": "官方" }
+      ]
+    },
     {
       "id": "bo-quartz-rollout-20260813",
       "date": "2026-08-13",
