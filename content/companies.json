@@ -1,5 +1,5 @@
 {
-  "lastVerified": "2026-08-18",
+  "lastVerified": "2026-08-19",
   "items": [
     {
       "id": "spacex",
@@ -15,9 +15,9 @@
       "name": "Rocket Lab",
       "ticker": "RKLB",
       "focus": "Electron · HASTE · Neutron · 太空系統",
-      "status": "PTS-G 生產／Globalstar 平台入軌",
+      "status": "SDN-B 訂單／NITE-STAR 資格",
       "statusTone": "positive",
-      "source": "https://rocketlabcorp.com/updates/viasat-selects-rocket-lab-to-build-geo-satellite-for-u-s-space-forces-protected-tactical-satcom-global-program-2/"
+      "source": "https://rocketlabcorp.com/updates/u-s-space-force-selects-rocket-lab-for-space-data-network-consortium-awarded-12m-in-contracts-to-support-global-military-communications-network/"
     },
     {
       "id": "blue-origin",
