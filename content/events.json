@@ -1,6 +1,36 @@
 {
-  "lastVerified": "2026-08-18",
+  "lastVerified": "2026-08-19",
   "events": [
+    {
+      "id": "rklb-sdn-consortium-20260818",
+      "date": "2026-08-18",
+      "company": "Rocket Lab",
+      "program": "Space Data Network／SDN-B",
+      "category": "合約",
+      "status": "兩筆交付訂單／$12M",
+      "tone": "positive",
+      "title": "加入美國太空軍 SDN 聯盟並獲 1,200 萬美元訂單",
+      "summary": "Rocket Lab 加入美國太空軍 Space Data Network 聯盟，並取得兩筆合計 1,200 萬美元的 SDN-B 交付訂單，預計 2027 年以 Photon 執行在軌互通展示。",
+      "detail": "Rocket Lab 已納入美國太空軍 Space Data Network（SDN）聯盟，並取得兩筆合計 1,200 萬美元的 SDN-B 交付訂單。工作內容涵蓋衛星與地面系統間的光學通訊及網路互通技術設計、測試與展示；公司預計以自製 Photon 衛星平台執行在軌示範，官方規劃於 2027 年進行操作展示。這是已授予的兩筆交付訂單，不是整體計畫上限。",
+      "sources": [
+        { "label": "Rocket Lab", "url": "https://rocketlabcorp.com/updates/u-s-space-force-selects-rocket-lab-for-space-data-network-consortium-awarded-12m-in-contracts-to-support-global-military-communications-network/", "type": "官方" }
+      ]
+    },
+    {
+      "id": "rklb-nite-star-20260817",
+      "date": "2026-08-17",
+      "company": "Rocket Lab",
+      "program": "NITE-STAR",
+      "category": "合約",
+      "status": "取得投標資格",
+      "tone": "positive",
+      "title": "納入美國太空軍 9.81 億美元 NITE-STAR 計畫",
+      "summary": "Rocket Lab 成為 NITE-STAR IDIQ 合約供應商，可競逐太空測試與訓練基礎設施任務訂單；9.81 億美元為計畫總額上限，非已取得訂單。",
+      "detail": "Rocket Lab 已成為美國太空軍 National Space Test and Training Range Integrated Test and Training Environment、Space Test and Training Range（NITE-STAR）IDIQ 計畫的合約供應商，可競逐後續任務訂單。涵蓋範圍包括分散式測試與訓練基礎設施、太空與地面系統、數位環境及維持服務。9.81 億美元是整體合約上限；官方公告並未表示 Rocket Lab 已取得特定任務訂單。",
+      "sources": [
+        { "label": "Rocket Lab", "url": "https://rocketlabcorp.com/updates/new-blog-posrocket-lab-onboarded-to-u-s-space-forces-981m-nite-star-program-to-advance-space-test-and-training-infrastructure-program/", "type": "官方" }
+      ]
+    },
     {
       "id": "vsat-rklb-pts-g-20260817",
       "date": "2026-08-17",

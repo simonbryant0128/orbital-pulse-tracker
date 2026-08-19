@@ -38,13 +38,14 @@ test("renders the orbital tracker product page", async () => {
   assert.match(html, /DETAIL PREVIEW/);
   assert.match(html, /點擊閱讀完整內容/);
   assert.match(html, /aria-haspopup="dialog"/);
-  assert.match(html, /部署任務數與目前仍在軌工作的衛星數屬不同口徑/);
+  assert.match(html, /加入美國太空軍 SDN 聯盟/);
+  assert.match(html, /9\.81 億美元是整體合約上限/);
   assert.match(html, /Flight 13 已入列/);
   assert.match(html, /Viasat/);
   assert.match(html, /Firefly Aerospace/);
   assert.match(html, /Voyager Technologies/);
   assert.match(html, /Iridium/);
-  assert.match(html, /LC-36B/);
+  assert.match(html, /NITE-STAR/);
   assert.match(html, /近期事件流/);
   assert.match(html, /開啟雲端主表/);
   assert.match(html, /GitHub/);

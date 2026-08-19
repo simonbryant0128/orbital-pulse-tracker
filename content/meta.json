@@ -1,7 +1,7 @@
 {
   "siteName": "火箭衛星追蹤網",
   "description": "火箭、發射服務商與低軌衛星星系的可驗證事件追蹤站。",
-  "lastVerified": "2026-08-18",
+  "lastVerified": "2026-08-19",
   "timezone": "Asia/Taipei",
   "dataPolicy": "Google Sheets 是雲端審核主表；只有已確認且標記發布的事件會同步到 GitHub main，再發布到網站。",
   "repositoryUrl": "https://github.com/simonbryant0128/orbital-pulse-tracker",
