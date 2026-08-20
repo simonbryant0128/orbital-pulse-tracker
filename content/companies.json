@@ -1,5 +1,5 @@
 {
-  "lastVerified": "2026-08-19",
+  "lastVerified": "2026-08-20",
   "items": [
     {
       "id": "spacex",
@@ -15,9 +15,9 @@
       "name": "Rocket Lab",
       "ticker": "RKLB",
       "focus": "Electron · HASTE · Neutron · 太空系統",
-      "status": "SDN-B 訂單／NITE-STAR 資格",
+      "status": "EMILIA-3D 月球機器人／SDN-B 訂單",
       "statusTone": "positive",
-      "source": "https://rocketlabcorp.com/updates/u-s-space-force-selects-rocket-lab-for-space-data-network-consortium-awarded-12m-in-contracts-to-support-global-military-communications-network/"
+      "source": "https://rocketlabcorp.com/updates/powering-the-emilia-3d-lunar-mission-with-proven-space-robotics/"
     },
     {
       "id": "blue-origin",
@@ -60,9 +60,9 @@
       "name": "Firefly Aerospace",
       "ticker": "FLY",
       "focus": "Alpha · Elytra · Blue Ghost",
-      "status": "NASA 太空器處理合約資格",
+      "status": "Blue Ghost／Zeno 月夜技術",
       "statusTone": "positive",
-      "source": "https://fireflyspace.com/news/firefly-aerospace-onboarded-to-nasa-spacecraft-processing-operations-contract/"
+      "source": "https://fireflyspace.com/news/firefly-aerospace-onboards-zeno-power-on-blue-ghost-mission-to-demonstrate-radioisotope-technologies-to-survive-the-lunar-night/"
     },
     {
       "id": "voyager-technologies",
