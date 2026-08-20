@@ -1,6 +1,36 @@
 {
-  "lastVerified": "2026-08-19",
+  "lastVerified": "2026-08-20",
   "events": [
+    {
+      "id": "rklb-emilia-3d-gimbal-20260819",
+      "date": "2026-08-19",
+      "company": "Rocket Lab",
+      "program": "EMILIA-3D／Rocket Lab Robotics",
+      "category": "里程碑",
+      "status": "儀器雲台已開發",
+      "tone": "positive",
+      "title": "Rocket Lab Robotics 為 NASA EMILIA-3D 提供月面熱成像雲台",
+      "summary": "Rocket Lab Robotics（原 Motiv）開發單軸儀器雲台，讓 EMILIA-3D 相機掃描月表並建立三維熱模型；官方未公布任務發射日期。",
+      "detail": "Rocket Lab 於 8 月 19 日揭露，Rocket Lab Robotics（原 Motiv Space Systems）已為 NASA EMILIA-3D 月球科學酬載開發單軸儀器雲台。這套整合航電與掃描系統能驅動相機精準掃描月表，建立三維熱模型，並針對月面輻射與約 250°C 溫差環境設計。NASA 於 2026 年 1 月公布該科學酬載；Rocket Lab 於 5 月收購 Motiv。官方尚未公布 EMILIA-3D 的發射日期。",
+      "sources": [
+        { "label": "Rocket Lab", "url": "https://rocketlabcorp.com/updates/powering-the-emilia-3d-lunar-mission-with-proven-space-robotics/", "type": "官方" }
+      ]
+    },
+    {
+      "id": "fly-zeno-blue-ghost-20260819",
+      "date": "2026-08-19",
+      "company": "Firefly Aerospace",
+      "program": "Blue Ghost／Zeno Survive-the-Night",
+      "category": "合作",
+      "status": "NET 2028／酬載協議",
+      "tone": "positive",
+      "title": "Blue Ghost 將搭載 Zeno 月夜存活放射性同位素技術",
+      "summary": "Firefly 與 Zeno Power 簽署商業酬載協議，將在一項 NET 2028 的 Blue Ghost 月球近側任務展示 5W 鋂-241 放射性同位素加熱單元。",
+      "detail": "Firefly Aerospace 與 Zeno Power Systems 簽署商業酬載協議，將 Zeno 的 Survive-the-Night Package 搭載於一項重返月球近側的既有 Blue Ghost／NASA CLPS 任務，發射時間不早於 2028 年。Blue Ghost 先以太陽能操作 NASA 酬載約一個月球日（約 14 個地球日），之後 Zeno 的 5W 鋂-241 放射性同位素加熱單元將在月夜運作並回傳資料，用來驗證不依賴太陽能的持續保溫能力。",
+      "sources": [
+        { "label": "Firefly Aerospace", "url": "https://fireflyspace.com/news/firefly-aerospace-onboards-zeno-power-on-blue-ghost-mission-to-demonstrate-radioisotope-technologies-to-survive-the-lunar-night/", "type": "官方" }
+      ]
+    },
     {
       "id": "rklb-sdn-consortium-20260818",
       "date": "2026-08-18",
