@@ -1,5 +1,5 @@
 {
-  "lastVerified": "2026-08-20",
+  "lastVerified": "2026-08-21",
   "items": [
     {
       "id": "spacex",
@@ -15,9 +15,9 @@
       "name": "Rocket Lab",
       "ticker": "RKLB",
       "focus": "Electron · HASTE · Neutron · 太空系統",
-      "status": "EMILIA-3D 月球機器人／SDN-B 訂單",
+      "status": "Electron 第 93 次任務成功",
       "statusTone": "positive",
-      "source": "https://rocketlabcorp.com/updates/powering-the-emilia-3d-lunar-mission-with-proven-space-robotics/"
+      "source": "https://rocketlabcorp.com/updates/mission-success-rocket-lab-launches-93rd-electron-mission/"
     },
     {
       "id": "blue-origin",
