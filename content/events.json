@@ -1,6 +1,21 @@
 {
-  "lastVerified": "2026-08-20",
+  "lastVerified": "2026-08-21",
   "events": [
+    {
+      "id": "rklb-electron-93-iqps-20260821",
+      "date": "2026-08-21",
+      "company": "Rocket Lab",
+      "program": "Electron／iQPS QPS-SAR",
+      "category": "發射／部署",
+      "status": "成功部署／第 93 次 Electron",
+      "tone": "positive",
+      "title": "Electron 第 93 次任務成功部署 iQPS QPS-SAR 衛星",
+      "summary": "Rocket Lab 以 Electron 執行「The Lightning God Defends」任務，將最新 QPS-SAR 衛星部署至 575 公里低軌；這是 2026 年第 14 次 Electron 發射。",
+      "detail": "Rocket Lab 的「The Lightning God Defends」任務於 2026 年 8 月 21 日凌晨 1:04（NZST）從紐西蘭 Mahia 的 Launch Complex 1 發射，並把最新一顆 iQPS QPS-SAR 合成孔徑雷達成像衛星部署至 575 公里低地球軌道。這是 Electron 第 93 次總任務及 2026 年第 14 次發射，也是 Rocket Lab 第 9 次為 iQPS 部署 QPS-SAR 衛星，官方表示九次皆成功；iQPS 另有 9 次 Electron 專屬任務已預訂，規劃於 2030 年前持續部署星座。",
+      "sources": [
+        { "label": "Rocket Lab", "url": "https://rocketlabcorp.com/updates/mission-success-rocket-lab-launches-93rd-electron-mission/", "type": "官方" }
+      ]
+    },
     {
       "id": "rklb-emilia-3d-gimbal-20260819",
       "date": "2026-08-19",
