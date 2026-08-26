@@ -1,6 +1,21 @@
 {
-  "lastVerified": "2026-08-21",
+  "lastVerified": "2026-08-26",
   "events": [
+    {
+      "id": "vsat-addvalue-idrs-20260825",
+      "date": "2026-08-25",
+      "company": "Viasat",
+      "program": "HaloNet／IDRS",
+      "category": "合作",
+      "status": "已簽署／政府市場整合",
+      "tone": "positive",
+      "title": "Viasat 與 Addvalue 整合即時星間中繼服務供美國政府使用",
+      "summary": "Viasat 將 Addvalue IDRS 納入 HaloNet，提供最長 99% 軌道聯絡與低於 2 秒延遲的低軌衛星即時中繼能力。",
+      "detail": "Addvalue Solutions 與 Viasat 於 SmallSat 2026 宣布合作協議，Viasat 將 Addvalue 的 Inter-satellite Data Relay Service（IDRS）整合進 HaloNet，並在美國政府及其供應商市場擔任主要窗口。IDRS 終端透過 Viasat 的 GEO L-band 網路，可讓低軌衛星在最長 99% 的軌道期間保持聯絡，官方標示延遲低於 2 秒，可支援即時任務下達、關鍵資料回傳與異常處置。Viasat 將整合終端、airtime、系統整合與任務支援；Addvalue 繼續開發及供應 IDRS 終端與服務，並保留技術所有權。",
+      "sources": [
+        { "label": "Viasat／Addvalue", "url": "https://www.viasat.com/news/latest-news/government/2026/addvalue-viasat-idrs-government/", "type": "官方" }
+      ]
+    },
     {
       "id": "rklb-electron-93-iqps-20260821",
       "date": "2026-08-21",

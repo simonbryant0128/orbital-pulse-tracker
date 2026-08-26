@@ -1,5 +1,5 @@
 {
-  "lastVerified": "2026-08-21",
+  "lastVerified": "2026-08-26",
   "items": [
     {
       "id": "spacex",
@@ -51,9 +51,9 @@
       "name": "Viasat",
       "ticker": "VSAT",
       "focus": "GEO／多軌衛星通訊 · NTN",
-      "status": "PTS-G 衛星進入生產",
+      "status": "HaloNet 整合 IDRS 即時星間中繼",
       "statusTone": "positive",
-      "source": "https://rocketlabcorp.com/updates/viasat-selects-rocket-lab-to-build-geo-satellite-for-u-s-space-forces-protected-tactical-satcom-global-program-2/"
+      "source": "https://www.viasat.com/news/latest-news/government/2026/addvalue-viasat-idrs-government/"
     },
     {
       "id": "firefly-aerospace",

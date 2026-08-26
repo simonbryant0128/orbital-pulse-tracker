@@ -40,6 +40,9 @@ test("renders the orbital tracker product page", async () => {
   assert.match(html, /aria-haspopup="dialog"/);
   assert.match(html, /Electron 第 93 次任務成功部署 iQPS/);
   assert.match(html, /575 公里低地球軌道/);
+  assert.match(html, /Viasat 與 Addvalue 整合即時星間中繼服務/);
+  assert.match(html, /最長 99% 的軌道期間保持聯絡/);
+  assert.match(html, /延遲低於 2 秒/);
   assert.match(html, /Rocket Lab Robotics 為 NASA EMILIA-3D/);
   assert.match(html, /Blue Ghost 將搭載 Zeno/);
   assert.match(html, /5W 鋂-241/);
