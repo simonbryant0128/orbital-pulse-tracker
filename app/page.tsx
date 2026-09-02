@@ -48,9 +48,11 @@ function matchesGroup(event: TrackerEvent, group: FilterGroup) {
   if (group === "全部") return true;
   if (group === "異常") return event.tone === "alert";
   if (group === "發射部署") {
-    return ["發射", "部署"].includes(event.category);
+    return ["發射", "部署"].some((category) => event.category.includes(category));
   }
-  return ["合約", "合作", "測試", "里程碑", "時程"].includes(event.category);
+  return ["合約", "合作", "產品", "測試", "里程碑", "時程"].some(
+    (category) => event.category.includes(category),
+  );
 }
 
 export default function Home() {

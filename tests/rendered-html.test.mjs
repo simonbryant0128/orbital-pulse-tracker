@@ -43,6 +43,10 @@ test("renders the orbital tracker product page", async () => {
   assert.match(html, /Viasat 與 Addvalue 整合即時星間中繼服務/);
   assert.match(html, /最長 99% 的軌道期間保持聯絡/);
   assert.match(html, /延遲低於 2 秒/);
+  assert.match(html, /NASA 授予 Blue Origin 火星通訊網路合約/);
+  assert.match(html, /最高潛在價值約 7 億美元/);
+  assert.match(html, /Furuno 推出整合 Iridium GMDSS/);
+  assert.match(html, /新造船專案則於 2027 年推出/);
   assert.match(html, /Rocket Lab Robotics 為 NASA EMILIA-3D/);
   assert.match(html, /Blue Ghost 將搭載 Zeno/);
   assert.match(html, /5W 鋂-241/);

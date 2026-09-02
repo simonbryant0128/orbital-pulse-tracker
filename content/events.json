@@ -1,6 +1,36 @@
 {
-  "lastVerified": "2026-08-26",
+  "lastVerified": "2026-09-02",
   "events": [
+    {
+      "id": "bo-nasa-mars-telecom-20260901",
+      "date": "2026-09-01",
+      "company": "Blue Origin",
+      "program": "Mars Telecommunications Network",
+      "category": "合約",
+      "status": "合約已授予／2028 交付",
+      "tone": "positive",
+      "title": "NASA 授予 Blue Origin 火星通訊網路合約",
+      "summary": "合約上限約 7 億美元；Blue Origin 須於 2028 年底前交付高性能火星通訊軌道器，並負責設計、發射與營運。",
+      "detail": "NASA 於 2026 年 9 月 1 日授予 Blue Origin 一項固定價格合約，最高潛在價值約 7 億美元。Blue Origin 將設計、開發、整合、發射並營運一艘高性能火星通訊軌道器，須在 2028 年 12 月 31 日前交付；系統預計於 2030 年在火星投入運作，提供科學資料、影像、導航資訊與關鍵任務通訊。",
+      "sources": [
+        { "label": "NASA", "url": "https://www.nasa.gov/news-release/nasa-selects-blue-origin-as-mars-telecommunications-network-provider/", "type": "政府官方" }
+      ]
+    },
+    {
+      "id": "irdm-furuno-solion-100-20260901",
+      "date": "2026-09-01",
+      "company": "Iridium",
+      "program": "Iridium GMDSS／SOLION-100",
+      "category": "產品／合作",
+      "status": "預計 2026 年底商用",
+      "tone": "positive",
+      "title": "Furuno 推出整合 Iridium GMDSS 的 SOLION-100 終端",
+      "summary": "SOLION-100 以 Iridium Certus 100 為基礎，整合 GMDSS、SSAS 與 LRIT；改裝市場預計 2026 年底商用，新造船版本預計 2027 年推出。",
+      "detail": "Iridium 與 Furuno 於 2026 年 9 月 1 日宣布 SOLION-100 海事安全終端。產品採用 Iridium Certus 100 技術，將全球海上遇險與安全系統（GMDSS）、船舶保安警報系統（SSAS）與遠程識別和跟蹤（LRIT）整合在單一平台，並利用 Iridium 低軌衛星網路提供包含極區的全球覆蓋。官方預計改裝應用於 2026 年底商用，新造船專案則於 2027 年推出。",
+      "sources": [
+        { "label": "Iridium", "url": "https://investor.iridium.com/2026-09-01-Furuno-Unveils-New-SOLION-100-Terminal-for-Iridium-GMDSS", "type": "官方" }
+      ]
+    },
     {
       "id": "vsat-addvalue-idrs-20260825",
       "date": "2026-08-25",
