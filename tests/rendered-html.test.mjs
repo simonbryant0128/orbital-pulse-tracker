@@ -47,6 +47,9 @@ test("renders the orbital tracker product page", async () => {
   assert.match(html, /最高潛在價值約 7 億美元/);
   assert.match(html, /Furuno 推出整合 Iridium GMDSS/);
   assert.match(html, /新造船專案則於 2027 年推出/);
+  assert.match(html, /Electron 第 94 次任務成功部署 Synspective StriX/);
+  assert.match(html, /2026 年第 15 次發射/);
+  assert.match(html, /另有 16 次 Electron 任務已預訂/);
   assert.match(html, /Rocket Lab Robotics 為 NASA EMILIA-3D/);
   assert.match(html, /Blue Ghost 將搭載 Zeno/);
   assert.match(html, /5W 鋂-241/);
