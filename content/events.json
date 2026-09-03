@@ -1,6 +1,21 @@
 {
-  "lastVerified": "2026-09-02",
+  "lastVerified": "2026-09-03",
   "events": [
+    {
+      "id": "rklb-owl-around-world-success-20260902",
+      "date": "2026-09-02",
+      "company": "Rocket Lab",
+      "program": "Electron／Synspective StriX",
+      "category": "發射／部署",
+      "status": "成功部署／第 94 次 Electron",
+      "tone": "positive",
+      "title": "Electron 第 94 次任務成功部署 Synspective StriX 衛星",
+      "summary": "「Owl Around The World」於紐西蘭時間 9 月 3 日 00:01 發射，將 1 顆 StriX 部署至 575 公里低軌；這是 2026 年第 15 次 Electron 發射。",
+      "detail": "Rocket Lab 的「Owl Around The World」任務於 2026 年 9 月 3 日 00:01（NZST；9 月 2 日 12:01 UTC、台北時間 20:01）自紐西蘭 Mahia Launch Complex 1 發射。Electron 成功將 Synspective 最新 1 顆 StriX 合成孔徑雷達地球觀測衛星部署至 575 公里低地球軌道。這是 Electron 第 94 次任務、2026 年第 15 次發射，也是 Rocket Lab 為 Synspective 執行的第 11 次專屬任務；官方表示歷次 Synspective 任務皆成功，另有 16 次 Electron 任務已預訂、規劃於 2030 年前完成。",
+      "sources": [
+        { "label": "Rocket Lab", "url": "https://investors.rocketlabcorp.com/news-releases/news-release-details/mission-success-rocket-lab-launches-94th-electron-mission", "type": "官方" }
+      ]
+    },
     {
       "id": "bo-nasa-mars-telecom-20260901",
       "date": "2026-09-01",
