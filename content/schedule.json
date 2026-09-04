@@ -1,0 +1,12 @@
+{
+  "lastVerified": "2026-09-04",
+  "items": [
+    { "id": "blacksky-gen3-q3", "company": "BlackSky", "mission": "兩顆 Gen-3 衛星", "window": "Q3 2026", "bucket": "30d", "confidence": "官方季度窗口", "vehicle": "待官方公告", "source": "https://ir.blacksky.com/news-events/press-releases/news-details/2026/BlackSky-Reports-Second-Quarter-2026-Results/default.aspx" },
+    { "id": "neutron-first-flight-q4", "company": "Rocket Lab", "mission": "Neutron 首次發射", "window": "Q4 2026", "bucket": "90d", "confidence": "官方季度窗口", "vehicle": "Neutron", "source": "https://investors.rocketlabcorp.com/static-files/57a8d0da-27ff-499c-8d85-18907743b7a8" },
+    { "id": "globalstar-second-batch", "company": "Globalstar", "mission": "第二批 9 顆 HIBLEO-4 替換衛星", "window": "2026 年稍後", "bucket": "90d", "confidence": "官方年度窗口", "vehicle": "SpaceX Falcon 9", "source": "https://investors.globalstar.com/static-files/d9651b64-921b-428d-9701-f7fbacec73e9" },
+    { "id": "planet-next-pelicans", "company": "Planet Labs", "mission": "追加 Pelican 太空器", "window": "未來一年內", "bucket": "90plus", "confidence": "官方年度窗口", "vehicle": "待官方公告", "source": "https://investors.planet.com/news/news-details/2026/Planet-Launches-Pelican-11-Satellite/default.aspx" },
+    { "id": "amazon-leo-vulcan", "company": "Amazon Leo", "mission": "首次 Vulcan 部署任務", "window": "待官方公告", "bucket": "tbd", "confidence": "官方已確認任務／日期未定", "vehicle": "ULA Vulcan", "source": "https://www.aboutamazon.com/news/innovation-at-amazon/project-kuiper-satellite-rocket-launch-progress-updates" },
+    { "id": "ast-next-bluebird", "company": "AST SpaceMobile", "mission": "Next-Generation BlueBird", "window": "Coming soon／未定日", "bucket": "tbd", "confidence": "官方任務頁／日期未定", "vehicle": "待官方公告", "source": "https://investors.ast-science.com/events" },
+    { "id": "spire-next-deployment", "company": "Spire Global", "mission": "下一批 Spire／Space Services 任務", "window": "待官方公告", "bucket": "tbd", "confidence": "已取得發射容量／日期未定", "vehicle": "待官方公告", "source": "https://ir.spire.com/news-events/press-releases/detail/303/spire-global-delivers-10-satellites-to-vandenberg-space" }
+  ]
+}

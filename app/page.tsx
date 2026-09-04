@@ -6,6 +6,7 @@ import constellationsData from "@/content/constellations.json";
 import eventsData from "@/content/events.json";
 import metaData from "@/content/meta.json";
 import programsData from "@/content/programs.json";
+import scheduleData from "@/content/schedule.json";
 
 type EventTone = "positive" | "neutral" | "watch" | "alert";
 type FilterGroup = "全部" | "發射部署" | "計畫進度" | "異常";
@@ -33,6 +34,13 @@ const companyOrder = [
 ];
 
 const groupOrder: FilterGroup[] = ["全部", "發射部署", "計畫進度", "異常"];
+
+const scheduleGroups = [
+  { id: "30d", label: "30 天內窗口", note: "官方季度窗口落在本月" },
+  { id: "90d", label: "31–90 天", note: "季度或年度公開窗口" },
+  { id: "90plus", label: "90 天以上", note: "年度窗口，仍待確切日期" },
+  { id: "tbd", label: "日期待定", note: "任務已公開，日期尚未公布" },
+];
 
 function displayDate(date: string) {
   const [, month, day] = date.split("-");
@@ -115,6 +123,7 @@ export default function Home() {
         <nav aria-label="主要導覽">
           <a href="#constellations">星系</a>
           <a href="#deployment">部署</a>
+          <a href="#schedule">任務</a>
           <a href="#programs">計畫</a>
           <a href="#companies">公司</a>
           <a href="#events">事件</a>
@@ -135,7 +144,7 @@ export default function Home() {
             <span>追蹤網</span>
           </h1>
           <p className="hero-intro">
-            追蹤 9 家美國太空與衛星公司，從發射、部署、異常到通訊、深空與
+            追蹤 13 家美國太空與衛星公司，從發射、部署、異常到通訊、深空與
             LEO 任務里程碑，都以可追溯來源呈現。
           </p>
           <div className="hero-actions">
@@ -214,6 +223,10 @@ export default function Home() {
                 <h3>{item.name}</h3>
                 <div className="metric-number">{item.displayValue}</div>
                 <p className="metric-label">{item.metric}</p>
+                <div className="freshness-row">
+                  <span>{item.sourceClass}</span>
+                  <span>查核 {item.lastChecked.replaceAll("-", ".")}</span>
+                </div>
                 <div className="growth-row">
                   <div className="growth-track" aria-hidden="true">
                     <span style={{ width: `${Math.max(14, Math.min(100, 45 + growth / 18))}%` }} />
@@ -311,7 +324,7 @@ export default function Home() {
                 <div className="next-launch-panel">
                   <div className="next-launch-label">
                     <span>NEXT LAUNCH</span>
-                    <span className="schedule-chip">官方排程</span>
+                    <span className="schedule-chip">{item.deployment.scheduleConfidence}</span>
                   </div>
                   <h4>{item.deployment.nextMission}</h4>
                   {item.deployment.nextLaunchDate ? (
@@ -343,6 +356,49 @@ export default function Home() {
         <p className="deployment-methodology">口徑說明：{constellationsData.methodology}</p>
       </section>
 
+      <section className="section schedule-section" id="schedule">
+        <div className="section-heading split-heading">
+          <div>
+            <p className="eyebrow">UPCOMING MISSION BOARD</p>
+            <h2>未來任務時間窗</h2>
+          </div>
+          <p>依 30／90 天與待定窗口分組；季度與年度窗口不等於確切發射日，所有日期仍以官方最新公告為準。</p>
+        </div>
+
+        <div className="schedule-board">
+          {scheduleGroups.map((group) => {
+            const items = scheduleData.items.filter((item) => item.bucket === group.id);
+            return (
+              <article className="schedule-lane" key={group.id}>
+                <div className="schedule-lane-head">
+                  <div>
+                    <span>{group.label}</span>
+                    <p>{group.note}</p>
+                  </div>
+                  <strong>{items.length}</strong>
+                </div>
+                <div className="schedule-lane-items">
+                  {items.length ? items.map((item) => (
+                    <a href={item.source} target="_blank" rel="noreferrer" key={item.id}>
+                      <span>{item.company}</span>
+                      <h3>{item.mission}</h3>
+                      <time>{item.window}</time>
+                      <dl>
+                        <div><dt>載具</dt><dd>{item.vehicle}</dd></div>
+                        <div><dt>依據</dt><dd>{item.confidence}</dd></div>
+                      </dl>
+                      <em>官方來源 ↗</em>
+                    </a>
+                  )) : (
+                    <div className="schedule-empty">目前沒有符合此窗口的官方任務。</div>
+                  )}
+                </div>
+              </article>
+            );
+          })}
+        </div>
+      </section>
+
       <section className="section program-section" id="programs">
         <div className="section-heading split-heading">
           <div>
@@ -368,14 +424,17 @@ export default function Home() {
               <p className="program-vehicle">{program.vehicle}</p>
               <h4>{program.headline}</h4>
               <p className="program-detail">{program.detail}</p>
-              <div className="program-progress">
-                <div>
-                  <span>公開計畫進度</span>
-                  <strong>{program.progress}%</strong>
-                </div>
-                <div className="progress-track" aria-hidden="true">
-                  <span style={{ width: `${program.progress}%` }} />
-                </div>
+              <div className="program-stages" aria-label={`${program.name} 公開里程碑`}>
+                <span>公開里程碑</span>
+                <ol>
+                  {program.stages.map((stage) => (
+                    <li className={stage.state} key={stage.label}>
+                      <i aria-hidden="true" />
+                      <strong>{stage.label}</strong>
+                      <em>{stage.state === "complete" ? "完成" : stage.state === "active" ? "進行中" : "待執行"}</em>
+                    </li>
+                  ))}
+                </ol>
               </div>
               <div className="program-next">
                 <span>NEXT</span>
@@ -557,7 +616,7 @@ export default function Home() {
             <span>01</span>
             <div>
               <strong>官方來源 → 雲端主表</strong>
-              <p>每日 10:00 掃描；明確資料自動查證，衝突資料標成待人工確認。</p>
+              <p>每日 10:15 掃描；明確資料自動查證，衝突資料標成待人工確認。</p>
             </div>
           </div>
           <div className="pipeline-arrow" aria-hidden="true">↓</div>

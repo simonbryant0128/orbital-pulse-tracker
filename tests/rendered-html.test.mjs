@@ -34,6 +34,9 @@ test("renders the orbital tracker product page", async () => {
   assert.match(html, /ORBITAL PULSE/);
   assert.match(html, /低軌星系公開檢查點/);
   assert.match(html, /衛星部署進度與下一班任務/);
+  assert.match(html, /未來任務時間窗/);
+  assert.match(html, /30 天內窗口/);
+  assert.match(html, /公開里程碑/);
   assert.match(html, /待官方公告/);
   assert.match(html, /DETAIL PREVIEW/);
   assert.match(html, /點擊閱讀完整內容/);
@@ -58,6 +61,13 @@ test("renders the orbital tracker product page", async () => {
   assert.match(html, /Firefly Aerospace/);
   assert.match(html, /Voyager Technologies/);
   assert.match(html, /Iridium/);
+  assert.match(html, /Planet Labs/);
+  assert.match(html, /BlackSky/);
+  assert.match(html, /Spire Global/);
+  assert.match(html, /Globalstar/);
+  assert.match(html, /Pelican 已入軌（含 TD2）/);
+  assert.match(html, /Spire 2026 deployments/);
+  assert.match(html, /每日 10:15 掃描/);
   assert.match(html, /近期事件流/);
   assert.match(html, /開啟雲端主表/);
   assert.match(html, /GitHub/);

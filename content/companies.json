@@ -1,5 +1,5 @@
 {
-  "lastVerified": "2026-09-03",
+  "lastVerified": "2026-09-04",
   "items": [
     {
       "id": "spacex",
@@ -81,6 +81,42 @@
       "status": "SOLION-100 預計年底商用",
       "statusTone": "positive",
       "source": "https://investor.iridium.com/2026-09-01-Furuno-Unveils-New-SOLION-100-Terminal-for-Iridium-GMDSS"
+    },
+    {
+      "id": "planet-labs",
+      "name": "Planet Labs",
+      "ticker": "PL",
+      "focus": "Pelican · PlanetScope · Tanager · 地球觀測",
+      "status": "Pelican-11 進入 commissioning",
+      "statusTone": "positive",
+      "source": "https://investors.planet.com/news/news-details/2026/Planet-Launches-Pelican-11-Satellite/default.aspx"
+    },
+    {
+      "id": "blacksky",
+      "name": "BlackSky",
+      "ticker": "BKSY",
+      "focus": "Gen-3 · Spectra · 即時地球情報",
+      "status": "兩顆 Gen-3 目標 Q3 發射",
+      "statusTone": "watch",
+      "source": "https://ir.blacksky.com/news-events/press-releases/news-details/2026/BlackSky-Reports-Second-Quarter-2026-Results/default.aspx"
+    },
+    {
+      "id": "spire-global",
+      "name": "Spire Global",
+      "ticker": "SPIR",
+      "focus": "多用途 LEO · 氣象 · 航空海事 · Space Services",
+      "status": "2026 年已發射 29 顆",
+      "statusTone": "positive",
+      "source": "https://ir.spire.com/news-events/press-releases/detail/309/spire-global-announces-second-quarter-2026-results"
+    },
+    {
+      "id": "globalstar",
+      "name": "Globalstar",
+      "ticker": "GSAT",
+      "focus": "全球 LEO 通訊 · IoT · HIBLEO-4／C-3",
+      "status": "首批 8 顆替換衛星完成部署",
+      "statusTone": "positive",
+      "source": "https://investors.globalstar.com/news-releases/news-release-details/globalstar-confirms-successful-launch-all-8-hibleo-4-replacement"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "lastVerified": "2026-09-03",
+  "lastVerified": "2026-09-04",
   "events": [
     {
       "id": "rklb-owl-around-world-success-20260902",
@@ -154,15 +154,16 @@
     {
       "id": "rklb-globalstar-platforms-20260816",
       "date": "2026-08-16",
-      "company": "Rocket Lab",
-      "program": "Globalstar 2-R／Lightning",
-      "category": "部署",
-      "status": "8 顆入軌／正常",
+      "company": "Globalstar",
+      "program": "HIBLEO-4 替換計畫",
+      "category": "發射／部署",
+      "status": "8 顆部署／早期運作",
       "tone": "positive",
-      "title": "首批 8 顆 Globalstar 2-R 平台入軌並運作正常",
-      "summary": "SpaceX Falcon 9 已將 Rocket Lab 為 MDA Space 製造的首批 8 顆平台送入低軌，全部取得聯絡並開始在軌 commissioning。",
-      "detail": "任務於美東時間 8 月 15 日 21:12 從 Cape Canaveral SLC-40 發射。這 8 顆衛星平台是 Rocket Lab 與 MDA Space 17 顆、價值 1.43 億美元合作案的首批交付，用於補充 Globalstar 星座並支援直接連線裝置與物聯網服務。Rocket Lab 表示已與全部 8 顆衛星建立聯絡，系統運作正常、可發電，並已進入在軌 commissioning。",
+      "title": "Globalstar 首批 8 顆 HIBLEO-4 替換衛星完成部署",
+      "summary": "八顆衛星均已抵達預定軌道平面、建立通訊並由 Globalstar 控制；初步健康檢查顯示運作符合預期。",
+      "detail": "任務於美東時間 8 月 15 日 21:12 從 Cape Canaveral SLC-40 由 SpaceX Falcon 9 發射。八顆 HIBLEO-4 替換衛星均已與運載火箭分離並抵達預定軌道平面，Globalstar 的衛星營運中心已與每顆衛星建立通訊並取得控制。初步健康檢查顯示運作符合預期，後續將完成系統測試與校準，再逐步納入商用星座。",
       "sources": [
+        { "label": "Globalstar", "url": "https://investors.globalstar.com/news-releases/news-release-details/globalstar-confirms-successful-launch-all-8-hibleo-4-replacement", "type": "官方" },
         { "label": "Rocket Lab", "url": "https://rocketlabcorp.com/updates/rocket-lab-satellite-platforms-built-for-mda-space-successfully-reach-orbit-supporting-globalstar-direct-to-device-communications-services/", "type": "官方" },
         { "label": "SpaceX", "url": "https://www.spacex.com/launches/globalstar2-rlaunch1", "type": "官方" }
       ]
@@ -649,6 +650,52 @@
       "detail": "Rocket Lab 在年度申報文件中把 Neutron 首次發射目標更新為 2026 年第四季。調整後的窗口反映公司仍需完成剩餘系統整合、地面測試與飛行硬體驗證；Q4 是公開目標區間，並非已確定的發射日，網站會持續追蹤後續測試與排程變化。",
       "sources": [
         { "label": "Rocket Lab 10-K", "url": "https://investors.rocketlabcorp.com/static-files/57a8d0da-27ff-499c-8d85-18907743b7a8", "type": "申報" }
+      ]
+    },
+    {
+      "id": "pl-pelican-11-launch-20260707",
+      "date": "2026-07-07",
+      "company": "Planet Labs",
+      "program": "Pelican Gen 2",
+      "category": "發射／部署",
+      "status": "入軌／commissioning",
+      "tone": "positive",
+      "title": "Planet Pelican-11 Gen 2 技術驗證衛星成功入軌",
+      "summary": "Pelican-11 隨 Transporter-17 自 Vandenberg 入軌，Planet 已建立初始聯絡並開始 commissioning。",
+      "detail": "Pelican-11 是 Planet 第二代高解析 Pelican 的技術驗證衛星 TD2，搭乘 SpaceX Transporter-17 共乘任務自 Vandenberg 發射。Planet 已與衛星建立初始聯絡並開始 commissioning。這顆工程 pathfinder 用於在太空環境驗證 Gen 2 技術；Gen 1 可提供最高 50 公分級影像，Gen 2 設計目標則達 30 公分級。Pelican-11 預期不提供商用資料。",
+      "sources": [
+        { "label": "Planet Labs", "url": "https://investors.planet.com/news/news-details/2026/Planet-Launches-Pelican-11-Satellite/default.aspx", "type": "官方" }
+      ]
+    },
+    {
+      "id": "bksy-gen3-fourth-commissioned-20260312",
+      "date": "2026-03-12",
+      "company": "BlackSky",
+      "program": "Gen-3",
+      "category": "部署／商轉",
+      "status": "第 4 顆完成 commissioning",
+      "tone": "positive",
+      "title": "BlackSky 第 4 顆 Gen-3 一週內完成 commissioning",
+      "summary": "衛星在發射後數小時取得 first light，並於不到一週內開放 35 公分級影像的商業服務。",
+      "detail": "BlackSky 第四顆 Gen-3 衛星在發射後數小時即完成在軌 first light，隨後不到一週便完成 commissioning 並向全球客戶開放一般商業服務。Gen-3 可透過 BlackSky Spectra 提供 35 公分級影像與 AI 分析；這筆紀錄以完成商轉為部署里程碑，而不是只計算離開火箭的時間。",
+      "sources": [
+        { "label": "BlackSky", "url": "https://ir.blacksky.com/news-events/press-releases/news-details/2026/BlackSky-Successfully-Commissions-Gen-3-in-Less-Than-One-Week-Opening-Gen-3-General-Availability-for-Global-Customer-Base/default.aspx", "type": "官方" }
+      ]
+    },
+    {
+      "id": "spir-transporter17-ten-satellites-20260708",
+      "date": "2026-07-08",
+      "company": "Spire Global",
+      "program": "Transporter-17／Space Services",
+      "category": "發射／部署",
+      "status": "10 顆成功入軌",
+      "tone": "positive",
+      "title": "Spire 在 Transporter-17 成功發射 10 顆衛星",
+      "summary": "批次包含兩顆 GHGSat、七顆 Space Services 客戶衛星，以及一顆 Spire 自有星座補充衛星。",
+      "detail": "Spire 在 SpaceX Transporter-17 共乘任務中成功發射十顆由公司設計、製造與測試的衛星。其中兩顆服務 GHGSat 溫室氣體監測、七顆屬於 Spire Space Services 客戶任務，另有一顆補充 Spire 自有多用途星座。公司後續在第二季結果中表示，這批任務使 2026 年累計發射數達 29 顆。",
+      "sources": [
+        { "label": "Spire Global", "url": "https://ir.spire.com/news-events/press-releases/detail/304/spire-global-successfully-launches-ten-satellites-on", "type": "官方" },
+        { "label": "Spire Q2 2026", "url": "https://ir.spire.com/news-events/press-releases/detail/309/spire-global-announces-second-quarter-2026-results", "type": "官方" }
       ]
     }
   ]

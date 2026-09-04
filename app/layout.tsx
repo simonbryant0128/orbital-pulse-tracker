@@ -4,7 +4,7 @@ import "./globals.css";
 
 const title = "火箭衛星追蹤網";
 const description =
-  "追蹤 SpaceX、Rocket Lab、Blue Origin、Amazon Leo、AST SpaceMobile、VSAT、FLY、VOYG 與 IRDM 的發射、部署、異常與里程碑。";
+  "追蹤 13 家美國太空與衛星公司，包括 SpaceX、Rocket Lab、Planet、BlackSky、Spire 與 Globalstar 的發射、部署、異常與里程碑。";
 
 export async function generateMetadata(): Promise<Metadata> {
   const requestHeaders = await headers();

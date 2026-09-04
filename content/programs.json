@@ -8,8 +8,13 @@
       "status": "推進中",
       "statusTone": "positive",
       "headline": "Flight 13 已於 7 月 24 日自 Pad 2 執行",
-      "detail": "SpaceX 發射清單已列入第 13 次 Starship 飛行測試；Flight 12 的 V3 主要測試完成，但 Super Heavy 返航曾列為 mishap。本站不推測未公開的測試細節。",
-      "progress": 82,
+      "detail": "SpaceX 發射清單已列入第 13 次 Starship 飛行測試；本站不推測未公開的測試細節，後續狀態只依官方飛行與監管紀錄更新。",
+      "stages": [
+        { "label": "V3 地面驗證", "state": "complete" },
+        { "label": "Flight 12", "state": "complete" },
+        { "label": "Flight 13", "state": "complete" },
+        { "label": "後續飛行／酬載", "state": "active" }
+      ],
       "next": "H2 2026｜後續飛行測試／酬載交付",
       "source": "https://www.spacex.com/launches"
     },
@@ -21,8 +26,13 @@
       "status": "時程觀察",
       "statusTone": "watch",
       "headline": "首飛目標維持 Q4 2026",
-      "detail": "Rocket Lab 將可靠度與剩餘系統驗證列為首要工作；同時持續擴大 Electron、HASTE 與 Neutron 的任務訂單。",
-      "progress": 61,
+      "detail": "Rocket Lab 將可靠度與剩餘系統驗證列為首要工作；Q4 是公開目標區間，並非已確定的發射日。",
+      "stages": [
+        { "label": "發射場與基礎設施", "state": "complete" },
+        { "label": "整流罩／分離驗證", "state": "complete" },
+        { "label": "系統與級段測試", "state": "active" },
+        { "label": "首次發射", "state": "upcoming" }
+      ],
       "next": "Q4 2026｜首次發射",
       "source": "https://investors.rocketlabcorp.com/static-files/57a8d0da-27ff-499c-8d85-18907743b7a8"
     },
@@ -34,8 +44,13 @@
       "status": "設施擴建",
       "statusTone": "watch",
       "headline": "LC-36B 開工，雙發射臺架構成形",
-      "detail": "LC-36B 將成為 New Glenn 9×4 的營運基地，LC-36A 繼續支援 7×2；新建 VIF 與 PPF 將支援高頻發射與基礎設施韌性。",
-      "progress": 47,
+      "detail": "LC-36B 將成為 New Glenn 9×4 的營運基地，LC-36A 繼續支援 7×2；進度以已公開的設施與飛行里程碑呈現。",
+      "stages": [
+        { "label": "LC-36A 建置", "state": "complete" },
+        { "label": "7×2 飛行任務", "state": "active" },
+        { "label": "LC-36B／VIF／PPF", "state": "active" },
+        { "label": "9×4 高頻營運", "state": "upcoming" }
+      ],
       "next": "LC-36A｜7×2；LC-36B｜9×4",
       "source": "https://www.blueorigin.com/news/returning-launch-complex-36-to-two-pads"
     }
