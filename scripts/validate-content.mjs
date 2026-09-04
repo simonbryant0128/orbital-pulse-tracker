@@ -24,12 +24,13 @@ function fail(message) {
   throw new Error(`Content validation failed: ${message}`);
 }
 
-const [eventsData, constellationsData, programsData, companiesData, metaData] = await Promise.all([
+const [eventsData, constellationsData, programsData, companiesData, metaData, scheduleData] = await Promise.all([
   readJson("content/events.json"),
   readJson("content/constellations.json"),
   readJson("content/programs.json"),
   readJson("content/companies.json"),
   readJson("content/meta.json"),
+  readJson("content/schedule.json"),
 ]);
 
 if (!/^\d{4}-\d{2}-\d{2}$/.test(metaData.lastVerified)) {
@@ -82,6 +83,9 @@ for (const constellation of constellationsData.items ?? []) {
   if (!constellation.id || !constellation.name || !constellation.source) {
     fail("every constellation needs id, name, and source");
   }
+  for (const field of ["sourceClass", "lastChecked"]) {
+    if (!constellation[field]) fail(`constellation ${constellation.id} is missing ${field}`);
+  }
   if (typeof constellation.current !== "number" || constellation.current < 0) {
     fail(`constellation ${constellation.id} has an invalid current value`);
   }
@@ -93,6 +97,7 @@ for (const constellation of constellationsData.items ?? []) {
     "nextVehicle",
     "nextSourceLabel",
     "nextSource",
+    "scheduleConfidence",
   ]) {
     if (!constellation.deployment?.[field]) {
       fail(`constellation ${constellation.id} deployment is missing ${field}`);
@@ -113,11 +118,28 @@ for (const program of programsData.items ?? []) {
   if (!program.id || !program.name || !program.source) {
     fail("every program needs id, name, and source");
   }
-  if (program.progress < 0 || program.progress > 100) {
-    fail(`program ${program.id} progress must be between 0 and 100`);
+  if (!Array.isArray(program.stages) || program.stages.length < 2) {
+    fail(`program ${program.id} needs at least two public milestone stages`);
+  }
+  for (const stage of program.stages) {
+    if (!stage.label || !["complete", "active", "upcoming"].includes(stage.state)) {
+      fail(`program ${program.id} has an invalid milestone stage`);
+    }
   }
 }
 
+const scheduleIds = new Set();
+for (const item of scheduleData.items ?? []) {
+  for (const field of ["id", "company", "mission", "window", "bucket", "confidence", "vehicle", "source"]) {
+    if (!item[field]) fail(`schedule item ${item.id ?? "(missing id)"} is missing ${field}`);
+  }
+  if (scheduleIds.has(item.id)) fail(`duplicate schedule id ${item.id}`);
+  if (!companyNames.has(item.company)) fail(`schedule item ${item.id} references unknown company ${item.company}`);
+  if (!["30d", "90d", "90plus", "tbd"].includes(item.bucket)) fail(`schedule item ${item.id} has an invalid bucket`);
+  if (!/^https:\/\//.test(item.source)) fail(`schedule item ${item.id} has a non-HTTPS source`);
+  scheduleIds.add(item.id);
+}
+
 console.log(
-  `Validated ${seenIds.size} events, ${companiesData.items.length} companies, ${constellationsData.items.length} constellations, and ${programsData.items.length} programs.`,
+  `Validated ${seenIds.size} events, ${companiesData.items.length} companies, ${constellationsData.items.length} deployment programs, ${programsData.items.length} rocket programs, and ${scheduleIds.size} upcoming missions.`,
 );

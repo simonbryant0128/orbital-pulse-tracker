@@ -1,6 +1,6 @@
 {
-  "lastVerified": "2026-08-14",
-  "methodology": "Amazon Leo 與 AST SpaceMobile 採官方任務／部署資料；Starlink 採 Jonathan McDowell 的第三方軌道統計 Total Working 口徑。下一次任務日期只採公司官方頁面；官方未公布確切日期時標示為待官方公告。不同星系的來源日期與統計口徑不同，不應視為即時遙測。",
+  "lastVerified": "2026-09-04",
+  "methodology": "Amazon Leo、AST SpaceMobile、Planet、BlackSky、Spire 與 Globalstar 採公司官方任務、投資人關係或監管申報資料；Starlink 採 Jonathan McDowell 的第三方 Total Working 軌道統計。下一次任務只採官方窗口，未公布確切日期時不以第三方預測補值。不同計畫的總量、來源日與統計口徑不同，不應直接互相比較。",
   "items": [
     {
       "id": "starlink",
@@ -14,6 +14,8 @@
       "baselineAsOf": "2026-04-22",
       "accent": "cyan",
       "source": "https://planet4589.org/space/con/star/stats.html",
+      "sourceClass": "第三方軌道統計",
+      "lastChecked": "2026-09-04",
       "deployment": {
         "totalLabel": "目前在軌工作中",
         "nextMission": "Starlink Mission",
@@ -22,7 +24,8 @@
         "nextStatus": "官方發射清單尚無可核實的確切日期",
         "nextVehicle": "Falcon 9",
         "nextSourceLabel": "SpaceX Launches",
-        "nextSource": "https://www.spacex.com/launches"
+        "nextSource": "https://www.spacex.com/launches",
+        "scheduleConfidence": "未定日"
       },
       "breakdownLabel": "2026-08-12 Total Working 版本快照",
       "breakdown": [
@@ -41,12 +44,14 @@
       "company": "Amazon",
       "current": 396,
       "displayValue": "396",
-      "metric": "已部署衛星",
+      "metric": "官方累計已部署衛星",
       "currentAsOf": "2026-07-02",
       "baseline": 180,
       "baselineAsOf": "2025-12-16",
       "accent": "violet",
       "source": "https://www.aboutamazon.com/news/innovation-at-amazon/project-kuiper-satellite-rocket-launch-progress-updates",
+      "sourceClass": "公司官方任務頁",
+      "lastChecked": "2026-09-04",
       "deployment": {
         "totalLabel": "官方累計已部署",
         "nextMission": "Amazon Leo 首次 Vulcan 任務",
@@ -55,7 +60,8 @@
         "nextStatus": "官方已確認下一班改用 Vulcan，尚未公布確切日期",
         "nextVehicle": "ULA Vulcan",
         "nextSourceLabel": "Amazon Leo mission updates",
-        "nextSource": "https://www.aboutamazon.com/news/innovation-at-amazon/project-kuiper-satellite-rocket-launch-progress-updates"
+        "nextSource": "https://www.aboutamazon.com/news/innovation-at-amazon/project-kuiper-satellite-rocket-launch-progress-updates",
+        "scheduleConfidence": "未定日"
       },
       "breakdownLabel": "截至 2026-07-02 官方部署組成",
       "breakdown": [
@@ -81,6 +87,8 @@
       "baselineAsOf": "2026-04-22",
       "accent": "lime",
       "source": "https://ast-science.com/next-gen-bluebird/",
+      "sourceClass": "公司官方任務頁",
+      "lastChecked": "2026-09-04",
       "deployment": {
         "totalLabel": "在軌追蹤（排除 BlueBird 7）",
         "nextMission": "Next-Generation BlueBird",
@@ -89,7 +97,8 @@
         "nextStatus": "官方活動頁列為 Coming soon，未公布確切日期",
         "nextVehicle": "待官方公告",
         "nextSourceLabel": "AST SpaceMobile Events",
-        "nextSource": "https://investors.ast-science.com/events"
+        "nextSource": "https://investors.ast-science.com/events",
+        "scheduleConfidence": "未定日"
       },
       "breakdownLabel": "現行在軌組成（排除 BlueBird 7）",
       "breakdown": [
@@ -98,6 +107,132 @@
         { "label": "BlueBird 6", "value": 1 },
         { "label": "BlueBird 8–10", "value": 3 },
         { "label": "BlueBird 11–13", "value": 3 }
+      ]
+    },
+    {
+      "id": "planet-pelican",
+      "name": "Pelican",
+      "company": "Planet Labs",
+      "current": 10,
+      "displayValue": "10",
+      "metric": "官方資料可核對的 Pelican 入軌數",
+      "currentAsOf": "2026-07-07",
+      "baseline": 9,
+      "baselineAsOf": "2026-05-03",
+      "accent": "blue",
+      "source": "https://investors.planet.com/news/news-details/2026/Planet-Launches-Pelican-11-Satellite/default.aspx",
+      "sourceClass": "公司官方公告＋公開數量推導",
+      "lastChecked": "2026-09-04",
+      "deployment": {
+        "totalLabel": "Pelican 已入軌（含 TD2）",
+        "nextMission": "追加 Pelican 太空器",
+        "nextLaunchDate": null,
+        "nextLaunchDisplay": "未來一年內（未定日）",
+        "nextStatus": "官方表示將在未來一年持續發射，尚未公布單次日期",
+        "nextVehicle": "待官方公告",
+        "nextSourceLabel": "Planet Pelican-11 update",
+        "nextSource": "https://investors.planet.com/news/news-details/2026/Planet-Launches-Pelican-11-Satellite/default.aspx",
+        "scheduleConfidence": "官方年度窗口"
+      },
+      "breakdownLabel": "高解析 Pelican 在軌組成",
+      "breakdown": [
+        { "label": "2025 與先前 Gen 1", "value": 6 },
+        { "label": "2026-05 Gen 1", "value": 3 },
+        { "label": "Pelican-11 TD2", "value": 1 }
+      ]
+    },
+    {
+      "id": "blacksky-gen3",
+      "name": "Gen-3",
+      "company": "BlackSky",
+      "current": 4,
+      "displayValue": "4",
+      "metric": "已部署並完成商轉的 Gen-3 衛星",
+      "currentAsOf": "2026-03-12",
+      "baseline": 3,
+      "baselineAsOf": "2026-03-05",
+      "accent": "amber",
+      "source": "https://ir.blacksky.com/news-events/press-releases/news-details/2026/BlackSky-Successfully-Commissions-Gen-3-in-Less-Than-One-Week-Opening-Gen-3-General-Availability-for-Global-Customer-Base/default.aspx",
+      "sourceClass": "公司官方公告",
+      "lastChecked": "2026-09-04",
+      "deployment": {
+        "totalLabel": "完成 commissioning／商轉",
+        "nextMission": "兩顆 Gen-3 衛星",
+        "nextLaunchDate": null,
+        "nextLaunchDisplay": "Q3 2026（未定日）",
+        "nextStatus": "官方 Q2 結果預期兩顆於第三季發射",
+        "nextVehicle": "待官方公告",
+        "nextSourceLabel": "BlackSky Q2 2026 results",
+        "nextSource": "https://ir.blacksky.com/news-events/press-releases/news-details/2026/BlackSky-Reports-Second-Quarter-2026-Results/default.aspx",
+        "scheduleConfidence": "官方季度窗口"
+      },
+      "breakdownLabel": "Gen-3 部署狀態",
+      "breakdown": [
+        { "label": "先前三顆", "value": 3 },
+        { "label": "第四顆／2026-03", "value": 1 }
+      ]
+    },
+    {
+      "id": "spire-2026",
+      "name": "Spire 2026 deployments",
+      "company": "Spire Global",
+      "current": 29,
+      "displayValue": "29",
+      "metric": "2026 年官方累計發射衛星",
+      "currentAsOf": "2026-08-12",
+      "baseline": 19,
+      "baselineAsOf": "2026-06-24",
+      "accent": "rose",
+      "source": "https://ir.spire.com/news-events/press-releases/detail/309/spire-global-announces-second-quarter-2026-results",
+      "sourceClass": "公司官方財報與任務公告",
+      "lastChecked": "2026-09-04",
+      "deployment": {
+        "totalLabel": "2026 年累計已發射",
+        "nextMission": "下一批 Spire／Space Services 任務",
+        "nextLaunchDate": null,
+        "nextLaunchDisplay": "待官方公告",
+        "nextStatus": "已取得至 2028 年的發射容量，未公布下一班日期",
+        "nextVehicle": "待官方公告",
+        "nextSourceLabel": "Spire mission update",
+        "nextSource": "https://ir.spire.com/news-events/press-releases/detail/304/spire-global-successfully-launches-ten-satellites-on",
+        "scheduleConfidence": "未定日"
+      },
+      "breakdownLabel": "2026 年發射組成",
+      "breakdown": [
+        { "label": "上半年與先前批次", "value": 19 },
+        { "label": "Transporter-17", "value": 10 }
+      ]
+    },
+    {
+      "id": "globalstar-hibleo4",
+      "name": "HIBLEO-4 replacement",
+      "company": "Globalstar",
+      "current": 8,
+      "displayValue": "8 / 17",
+      "metric": "17 顆替換計畫中已部署",
+      "currentAsOf": "2026-08-16",
+      "baseline": 0,
+      "baselineAsOf": "2026-08-15",
+      "goal": 17,
+      "accent": "orange",
+      "source": "https://investors.globalstar.com/news-releases/news-release-details/globalstar-confirms-successful-launch-all-8-hibleo-4-replacement",
+      "sourceClass": "公司官方公告與 SEC 申報",
+      "lastChecked": "2026-09-04",
+      "deployment": {
+        "totalLabel": "HIBLEO-4 替換衛星已部署",
+        "nextMission": "第二批 9 顆替換衛星",
+        "nextLaunchDate": null,
+        "nextLaunchDisplay": "2026 年稍後（未定日）",
+        "nextStatus": "8 月 10-Q 表示第二批預計 2026 年稍後發射",
+        "nextVehicle": "SpaceX Falcon 9",
+        "nextSourceLabel": "Globalstar 2026 Q2 10-Q",
+        "nextSource": "https://investors.globalstar.com/static-files/d9651b64-921b-428d-9701-f7fbacec73e9",
+        "scheduleConfidence": "官方年度窗口"
+      },
+      "breakdownLabel": "17 顆替換計畫",
+      "breakdown": [
+        { "label": "首批已部署", "value": 8 },
+        { "label": "第二批待發射", "value": 9 }
       ]
     }
   ]

@@ -12,6 +12,9 @@
   --lime: #c2f26f;
   --amber: #ffb86b;
   --red: #ff716d;
+  --blue: #6ac3ef;
+  --rose: #f087b8;
+  --orange: #ff9c82;
   --mono: "SFMono-Regular", "Roboto Mono", "Noto Sans Mono", monospace;
   --sans: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI",
     "Noto Sans TC", sans-serif;
@@ -503,6 +506,10 @@ button {
 .accent-cyan::after { box-shadow: inset 0 0 80px rgba(87, 227, 210, 0.08); }
 .accent-violet::after { box-shadow: inset 0 0 80px rgba(168, 146, 255, 0.08); }
 .accent-lime::after { box-shadow: inset 0 0 80px rgba(194, 242, 111, 0.07); }
+.accent-blue::after { box-shadow: inset 0 0 80px rgba(106, 195, 239, 0.08); }
+.accent-amber::after { box-shadow: inset 0 0 80px rgba(255, 184, 107, 0.08); }
+.accent-rose::after { box-shadow: inset 0 0 80px rgba(240, 135, 184, 0.08); }
+.accent-orange::after { box-shadow: inset 0 0 80px rgba(255, 156, 130, 0.08); }
 
 .metric-head {
   color: var(--muted);
@@ -535,11 +542,26 @@ button {
 .accent-cyan .metric-number { color: var(--cyan); }
 .accent-violet .metric-number { color: var(--violet); }
 .accent-lime .metric-number { color: var(--lime); }
+.accent-blue .metric-number { color: var(--blue); }
+.accent-amber .metric-number { color: var(--amber); }
+.accent-rose .metric-number { color: var(--rose); }
+.accent-orange .metric-number { color: var(--orange); }
 
 .metric-label {
   margin: 0.35rem 0 1.7rem;
   color: #a4afad;
   font-size: 0.75rem;
+}
+
+.freshness-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin: -0.8rem 0 1.3rem;
+  color: #758481;
+  font-family: var(--mono);
+  font-size: 0.56rem;
 }
 
 .growth-row {
@@ -571,6 +593,10 @@ button {
 .accent-cyan .growth-row { color: var(--cyan); }
 .accent-violet .growth-row { color: var(--violet); }
 .accent-lime .growth-row { color: var(--lime); }
+.accent-blue .growth-row { color: var(--blue); }
+.accent-amber .growth-row { color: var(--amber); }
+.accent-rose .growth-row { color: var(--rose); }
+.accent-orange .growth-row { color: var(--orange); }
 
 .growth-row strong {
   font-family: var(--mono);
@@ -748,6 +774,10 @@ button {
 .deployment-card.accent-cyan .deployment-total strong { color: var(--cyan); }
 .deployment-card.accent-violet .deployment-total strong { color: var(--violet); }
 .deployment-card.accent-lime .deployment-total strong { color: var(--lime); }
+.deployment-card.accent-blue .deployment-total strong { color: var(--blue); }
+.deployment-card.accent-amber .deployment-total strong { color: var(--amber); }
+.deployment-card.accent-rose .deployment-total strong { color: var(--rose); }
+.deployment-card.accent-orange .deployment-total strong { color: var(--orange); }
 
 .deployment-delta {
   display: grid;
@@ -878,6 +908,125 @@ button {
   font-size: 0.68rem;
 }
 
+.schedule-section {
+  background:
+    radial-gradient(circle at 12% 18%, rgba(106, 195, 239, 0.06), transparent 28%),
+    #091015;
+}
+
+.schedule-board {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.schedule-lane {
+  min-width: 0;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.016);
+}
+
+.schedule-lane-head {
+  display: flex;
+  min-height: 92px;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.1rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.schedule-lane-head span {
+  color: var(--cyan);
+  font-family: var(--mono);
+  font-size: 0.69rem;
+  letter-spacing: 0.08em;
+}
+
+.schedule-lane-head p {
+  margin: 0.25rem 0 0;
+  color: var(--muted);
+  font-size: 0.62rem;
+}
+
+.schedule-lane-head strong {
+  color: #dce7e4;
+  font-family: var(--mono);
+  font-size: 1.3rem;
+}
+
+.schedule-lane-items {
+  display: grid;
+  gap: 0.7rem;
+  padding: 0.75rem;
+}
+
+.schedule-lane-items > a {
+  display: block;
+  padding: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: #0d151a;
+  transition: border-color 160ms ease, transform 160ms ease;
+}
+
+.schedule-lane-items > a:hover,
+.schedule-lane-items > a:focus-visible {
+  border-color: rgba(87, 227, 210, 0.52);
+  transform: translateY(-2px);
+}
+
+.schedule-lane-items > a > span,
+.schedule-lane-items > a > em {
+  color: var(--muted);
+  font-family: var(--mono);
+  font-size: 0.57rem;
+  font-style: normal;
+  letter-spacing: 0.07em;
+}
+
+.schedule-lane-items h3 {
+  margin: 0.35rem 0 0.8rem;
+  font-size: 0.88rem;
+  font-weight: 540;
+  line-height: 1.45;
+}
+
+.schedule-lane-items time {
+  display: block;
+  color: var(--cyan);
+  font-family: var(--mono);
+  font-size: 0.73rem;
+}
+
+.schedule-lane-items dl {
+  margin: 0.8rem 0;
+  padding: 0.7rem 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.schedule-lane-items dl div {
+  display: grid;
+  grid-template-columns: 42px 1fr;
+  gap: 0.6rem;
+}
+
+.schedule-lane-items dt,
+.schedule-lane-items dd {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.6rem;
+}
+
+.schedule-lane-items dd { color: #b7c2c0; }
+
+.schedule-empty {
+  min-height: 120px;
+  padding: 1rem;
+  color: var(--muted);
+  font-size: 0.68rem;
+}
+
 .program-section {
   background:
     linear-gradient(115deg, rgba(168, 146, 255, 0.045), transparent 32%),
@@ -958,6 +1107,52 @@ button {
   color: var(--muted);
   font-size: 0.79rem;
 }
+
+.program-stages {
+  margin-top: 1.8rem;
+}
+
+.program-stages > span {
+  color: var(--muted);
+  font-family: var(--mono);
+  font-size: 0.61rem;
+  letter-spacing: 0.08em;
+}
+
+.program-stages ol {
+  display: grid;
+  margin: 0.75rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.program-stages li {
+  display: grid;
+  grid-template-columns: 13px 1fr auto;
+  align-items: center;
+  gap: 0.6rem;
+  min-height: 34px;
+  border-top: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.program-stages li i {
+  width: 7px;
+  height: 7px;
+  border: 1px solid #62706d;
+  border-radius: 50%;
+}
+
+.program-stages li.complete i { background: var(--lime); border-color: var(--lime); }
+.program-stages li.active i { background: var(--cyan); border-color: var(--cyan); box-shadow: 0 0 8px rgba(87, 227, 210, 0.55); }
+
+.program-stages li strong,
+.program-stages li em {
+  font-size: 0.65rem;
+  font-style: normal;
+}
+
+.program-stages li strong { font-weight: 520; }
+.program-stages li em { color: var(--muted); font-family: var(--mono); }
 
 .program-progress {
   margin-top: 2.3rem;
@@ -1700,6 +1895,10 @@ footer {
     grid-template-columns: 1fr;
   }
 
+  .schedule-board {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .company-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1771,6 +1970,10 @@ footer {
   }
 
   .deployment-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .schedule-board {
     grid-template-columns: 1fr;
   }
 
