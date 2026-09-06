@@ -1,6 +1,35 @@
 {
-  "lastVerified": "2026-09-04",
+  "lastVerified": "2026-09-07",
   "events": [
+    {
+      "id": "sx-starlink-15-24-deployed-20260906",
+      "date": "2026-09-06",
+      "company": "SpaceX",
+      "program": "Falcon 9／Starlink 15-24",
+      "category": "發射／部署",
+      "status": "已完成／27 顆部署",
+      "tone": "positive",
+      "title": "Starlink 15-24 發射成功，27 顆衛星完成部署",
+      "summary": "SpaceX 確認自加州發射的 27 顆 Starlink 衛星完成部署；FAA 同日確認 Starlink 15-24 自 Vandenberg 發射成功。",
+      "detail": "SpaceX 於 2026 年 9 月 6 日透過官方 X 帳號確認 Falcon 9 自加州發射 27 顆 Starlink 衛星，並另行公告全部 27 顆部署完成。部署確認貼文顯示台北時間 9 月 6 日 23:30；這是公告時間，不代表精確升空或分離時間。FAA 同日 15:40 UTC 的 ATCSCC Operations Plan（公告 044）確認 Starlink 15-24 自 Vandenberg Space Force Base 發射成功。本次新增 27 顆是單次任務的部署量，不等於工作中衛星淨增加 27 顆；既有 2026-08-12 Total Working 快照保留原值及日期，不直接相加。下一班 Starlink 的確切日期仍待可核實的官方公告。",
+      "sources": [
+        {
+          "label": "SpaceX 官方部署確認",
+          "url": "https://x.com/SpaceX/status/2096621981328130462",
+          "type": "官方"
+        },
+        {
+          "label": "SpaceX 官方發射公告",
+          "url": "https://x.com/SpaceX/status/2096625304009597207",
+          "type": "官方"
+        },
+        {
+          "label": "FAA ATCSCC 09/06/2026 公告 044",
+          "url": "https://www.fly.faa.gov/adv/adv_otherdis?adv_date=09062026&advn=44",
+          "type": "政府官方"
+        }
+      ]
+    },
     {
       "id": "rklb-owl-around-world-success-20260902",
       "date": "2026-09-02",
