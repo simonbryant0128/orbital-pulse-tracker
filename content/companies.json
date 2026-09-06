@@ -1,14 +1,14 @@
 {
-  "lastVerified": "2026-09-04",
+  "lastVerified": "2026-09-07",
   "items": [
     {
       "id": "spacex",
       "name": "SpaceX",
       "ticker": "私人",
       "focus": "發射服務 · Starlink · Starship",
-      "status": "Flight 13 已執行",
+      "status": "Starlink 15-24 已部署 27 顆",
       "statusTone": "positive",
-      "source": "https://www.spacex.com/launches"
+      "source": "https://x.com/SpaceX/status/2096621981328130462"
     },
     {
       "id": "rocket-lab",
