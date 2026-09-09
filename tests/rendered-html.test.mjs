@@ -75,9 +75,24 @@ test("renders the orbital tracker product page", async () => {
   assert.match(html, /單次任務的部署量/);
   assert.match(html, /2096621981328130462/);
   assert.doesNotMatch(html, /sx-starship-flight14-date-review-20260902/);
+  assert.match(html, /IMM Apex 太空太陽能電池量產/);
+  assert.match(html, /NexusWave 取得 Bureau Veritas 資安型式認可/);
+  assert.match(html, /FAA 規劃窗口／非最終升空承諾/);
+  assert.match(html, /台北 9\/14 02:40–05:10/);
   assert.match(html, /開啟雲端主表/);
   assert.match(html, /GitHub/);
   assert.doesNotMatch(html, /codex-preview|Your site is taking shape|react-loading-skeleton/i);
+});
+
+test("keeps September 8 milestones separate from completed satellite deployments", () => {
+  const solar = publishedEvents.find((e) => e.id === "rklb-imm-apex-production-20260908");
+  const approval = publishedEvents.find((e) => e.id === "vsat-nexuswave-bv-approval-20260908");
+  const plan = publishedEvents.find((e) => e.id === "sx-mpower-f-faa-window-20260908");
+  assert.match(solar.detail, /不是整艘衛星的重量降幅/);
+  assert.match(approval.detail, /不是新衛星發射或部署/);
+  assert.match(plan.status, /尚未發射/);
+  assert.match(plan.detail, /不調增部署總數/);
+  assert.match(plan.sources[0].url, /adv_date=09082026&advn=84$/);
 });
 
 test("preserves older verified event details outside the initial page", () => {

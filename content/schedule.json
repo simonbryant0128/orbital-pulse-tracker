@@ -1,6 +1,7 @@
 {
-  "lastVerified": "2026-09-04",
+  "lastVerified": "2026-09-09",
   "items": [
+    { "id": "sx-mpower-f-faa-window-20260908", "company": "SpaceX", "mission": "MPOWER-F", "window": "台北 9/14 02:40–05:10（UTC 9/13）", "bucket": "30d", "confidence": "FAA 規劃窗口／非最終升空承諾", "vehicle": "未於採用公告列出", "source": "https://www.fly.faa.gov/adv/adv_otherdis?adv_date=09082026&advn=84" },
     { "id": "blacksky-gen3-q3", "company": "BlackSky", "mission": "兩顆 Gen-3 衛星", "window": "Q3 2026", "bucket": "30d", "confidence": "官方季度窗口", "vehicle": "待官方公告", "source": "https://ir.blacksky.com/news-events/press-releases/news-details/2026/BlackSky-Reports-Second-Quarter-2026-Results/default.aspx" },
     { "id": "neutron-first-flight-q4", "company": "Rocket Lab", "mission": "Neutron 首次發射", "window": "Q4 2026", "bucket": "90d", "confidence": "官方季度窗口", "vehicle": "Neutron", "source": "https://investors.rocketlabcorp.com/static-files/57a8d0da-27ff-499c-8d85-18907743b7a8" },
     { "id": "globalstar-second-batch", "company": "Globalstar", "mission": "第二批 9 顆 HIBLEO-4 替換衛星", "window": "2026 年稍後", "bucket": "90d", "confidence": "官方年度窗口", "vehicle": "SpaceX Falcon 9", "source": "https://investors.globalstar.com/static-files/d9651b64-921b-428d-9701-f7fbacec73e9" },

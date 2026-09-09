@@ -1,6 +1,63 @@
 {
-  "lastVerified": "2026-09-07",
+  "lastVerified": "2026-09-09",
   "events": [
+    {
+      "id": "rklb-imm-apex-production-20260908",
+      "date": "2026-09-08",
+      "company": "Rocket Lab",
+      "program": "Space Systems／IMM Apex",
+      "category": "技術／量產里程碑",
+      "status": "量產發布／現已供應",
+      "tone": "positive",
+      "title": "IMM Apex 太空太陽能電池量產，降低對鍺材料依賴",
+      "summary": "Rocket Lab 公布 IMM Apex 量產產品，列示初始轉換效率 31.5%、電池質量降低 40%；無鍺基板設計旨在減少關鍵礦物供應限制。",
+      "detail": "Rocket Lab 於 2026 年 9 月 8 日宣布 IMM Apex 太空太陽能電池量產發布，並表示現已供應。公司公布的初始（Beginning of Life）轉換效率為 31.5%，電池質量降低 40%；這是廠商規格，不是整艘衛星的重量降幅。產品不使用傳統多接面電池的鍺基板，並可在機械與電氣介面上替換既有產品，以減少客戶重新配置設備的需求。此事件屬太空電力元件與供應鏈里程碑，公告未指定新發射任務、日期或新增部署數，不計入星座在軌總量。",
+      "sources": [
+        {
+          "label": "Rocket Lab 官方 IMM Apex 公告",
+          "url": "https://rocketlabcorp.com/updates/rocket-lab-introduces-high-efficiency-solar-cell-to-reduce-reliance-on-supply-constrained-critical-minerals/",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "vsat-nexuswave-bv-approval-20260908",
+      "date": "2026-09-08",
+      "company": "Viasat",
+      "program": "Inmarsat Maritime／NexusWave",
+      "category": "認證／里程碑",
+      "status": "取得 BV 資安型式認可",
+      "tone": "positive",
+      "title": "NexusWave 取得 Bureau Veritas 資安型式認可",
+      "summary": "Viasat 旗下 Inmarsat Maritime 宣布 NexusWave 通過 Bureau Veritas 對 IACS UR E27 的資安評估，涵蓋整合式船載通訊系統。",
+      "detail": "Inmarsat Maritime 於 2026 年 9 月 8 日宣布，NexusWave 已取得 Bureau Veritas Marine & Offshore 的 Cyber Security Type Approval。評估依據 IACS UR E27，涵蓋船載 ICT 架構、網路設備、協調流程與相關受管服務邊緣基礎設施，按整合系統檢視資安韌性。NexusWave 將 GEO、LEO、LTE 與 L-band 連線整合成受管服務；本次是服務架構的認證里程碑，不是新衛星發射或部署，也不是對任何網路攻擊都免疫的保證。",
+      "sources": [
+        {
+          "label": "Viasat 官方 NexusWave 認證公告",
+          "url": "https://www.viasat.com/news/latest-news/maritime/2026/nexuswave-earns-bureau-veritas-cyber-security-type-approval/",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "sx-mpower-f-faa-window-20260908",
+      "date": "2026-09-08",
+      "company": "SpaceX",
+      "program": "MPOWER-F",
+      "category": "時程",
+      "status": "FAA 規劃窗口／尚未發射",
+      "tone": "watch",
+      "title": "FAA 列出 MPOWER-F 9 月 13 日發射規劃窗口",
+      "summary": "FAA 公告 084 列出 SpaceX MPOWER-F 自 Cape Canaveral 的規劃窗口：9/13 18:40–21:10 UTC，台北 9/14 02:40–05:10；備援日為 UTC 9/14。",
+      "detail": "FAA ATCSCC 於 2026 年 9 月 8 日 23:26 UTC 發布的 Operations Plan（公告 084）將 SPACEX MPOWER-F 列入預定發射／再入清單，地點為佛羅里達州 Cape Canaveral SFS。主要窗口為 9 月 13 日 18:40–21:10 UTC（台北 9 月 14 日 02:40–05:10）；備援窗口為 9 月 14 日相同 UTC 時段（台北 9 月 15 日 02:40–05:10）。這是空域作業規劃，不是最終升空承諾或已發射證明。採用的原文未列載具型號、衛星編號或顆數，因此不推定，也不調增部署總數。此任務不是 Starship；不能把其備援日期用作 Starship Flight 14 的確認日期。",
+      "sources": [
+        {
+          "label": "FAA ATCSCC 09/08/2026 公告 084",
+          "url": "https://www.fly.faa.gov/adv/adv_otherdis?adv_date=09082026&advn=84",
+          "type": "政府官方"
+        }
+      ]
+    },
     {
       "id": "sx-starlink-15-24-deployed-20260906",
       "date": "2026-09-06",
