@@ -75,9 +75,24 @@ test("renders the orbital tracker product page", async () => {
   assert.match(html, /單次任務的部署量/);
   assert.match(html, /2096621981328130462/);
   assert.doesNotMatch(html, /sx-starship-flight14-date-review-20260902/);
+  assert.match(html, /IMM Apex 太空太陽能電池量產/);
+  assert.match(html, /NexusWave 取得 Bureau Veritas 資安型式認可/);
+  assert.match(html, /FAA 規劃窗口／非最終升空承諾/);
+  assert.match(html, /台北 9\/14 02:40–05:10/);
   assert.match(html, /開啟雲端主表/);
   assert.match(html, /GitHub/);
   assert.doesNotMatch(html, /codex-preview|Your site is taking shape|react-loading-skeleton/i);
+});
+
+test("keeps September 8 milestones separate from completed satellite deployments", () => {
+  const solar = publishedEvents.find((e) => e.id === "rklb-imm-apex-production-20260908");
+  const approval = publishedEvents.find((e) => e.id === "vsat-nexuswave-bv-approval-20260908");
+  const plan = publishedEvents.find((e) => e.id === "sx-mpower-f-faa-window-20260908");
+  assert.match(solar.detail, /不是整艘衛星的重量降幅/);
+  assert.match(approval.detail, /不是新衛星發射或部署/);
+  assert.match(plan.status, /尚未發射/);
+  assert.match(plan.detail, /不調增部署總數/);
+  assert.match(plan.sources[0].url, /adv_date=09082026&advn=84$/);
 });
 
 test("preserves older verified event details outside the initial page", () => {
@@ -94,5 +109,22 @@ test("preserves older verified event details outside the initial page", () => {
     const event = publishedEvents.find((item) => item.id === id);
     assert.ok(event, `Historical event missing: ${id}`);
     assert.match(event.detail, detail);
+  }
+});
+
+test("keeps September 9 plans and consortium scale separate from deployed totals", async () => {
+  const firefly = publishedEvents.find((e) => e.id === "fly-ssc-two-alpha-launches-20260909");
+  const blacksky = publishedEvents.find((e) => e.id === "bksy-ai-constellation-partnership-20260909");
+  const th1 = publishedEvents.find((e) => e.id === "sx-th1-faa-window-20260909");
+  assert.match(firefly.status, /NET 2028/);
+  assert.match(firefly.detail, /不是已完成發射或衛星部署/);
+  assert.match(blacksky.detail, /50 顆不是 BlackSky 的供應顆數/);
+  assert.match(blacksky.detail, /10 億美元也不是已授予 BlackSky 的合約金額/);
+  assert.match(th1.status, /尚未發射/);
+  assert.match(th1.detail, /台北同日 09:00–13:43/);
+  assert.match(th1.sources[0].url, /adv_date=09092026&advn=85$/);
+  const html = await (await render()).text();
+  for (const event of [firefly, blacksky, th1]) {
+    assert.ok(html.includes(escapeHtml(event.title)));
   }
 });
