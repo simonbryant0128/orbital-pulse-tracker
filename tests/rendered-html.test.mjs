@@ -111,3 +111,20 @@ test("preserves older verified event details outside the initial page", () => {
     assert.match(event.detail, detail);
   }
 });
+
+test("keeps September 9 plans and consortium scale separate from deployed totals", async () => {
+  const firefly = publishedEvents.find((e) => e.id === "fly-ssc-two-alpha-launches-20260909");
+  const blacksky = publishedEvents.find((e) => e.id === "bksy-ai-constellation-partnership-20260909");
+  const th1 = publishedEvents.find((e) => e.id === "sx-th1-faa-window-20260909");
+  assert.match(firefly.status, /NET 2028/);
+  assert.match(firefly.detail, /不是已完成發射或衛星部署/);
+  assert.match(blacksky.detail, /50 顆不是 BlackSky 的供應顆數/);
+  assert.match(blacksky.detail, /10 億美元也不是已授予 BlackSky 的合約金額/);
+  assert.match(th1.status, /尚未發射/);
+  assert.match(th1.detail, /台北同日 09:00–13:43/);
+  assert.match(th1.sources[0].url, /adv_date=09092026&advn=85$/);
+  const html = await (await render()).text();
+  for (const event of [firefly, blacksky, th1]) {
+    assert.ok(html.includes(escapeHtml(event.title)));
+  }
+});

@@ -1,6 +1,63 @@
 {
-  "lastVerified": "2026-09-09",
+  "lastVerified": "2026-09-10",
   "events": [
+    {
+      "id": "fly-ssc-two-alpha-launches-20260909",
+      "date": "2026-09-09",
+      "company": "Firefly Aerospace",
+      "program": "Alpha／SSC Space／Esrange",
+      "category": "合約／發射時程",
+      "status": "兩次發射合約／NET 2028",
+      "tone": "positive",
+      "title": "Firefly 與 SSC Space 簽訂兩次瑞典 Alpha 發射合約",
+      "summary": "SSC Space 預訂兩次 Alpha 的完整載荷容量，服務瑞典國安及商業共乘客戶；目標不早於 2028 年自 Esrange 發射。",
+      "detail": "Firefly 於 2026 年 9 月 9 日宣布與 SSC Space 簽訂兩次 Alpha 發射合約，地點為瑞典 Esrange Space Center 的 Launch Complex 3C。SSC Space 取得兩次任務的完整載荷容量，可分配給政府與商業客戶。官方目標為不早於 2028 年，未公布個別日期、衛星名單或顆數。發射控制中心、載荷處理設施與載具整合大樓等已完成，雙方正推進最後的發射台施工；這是合約及地面設施進度，不是已完成發射或衛星部署。",
+      "sources": [
+        {
+          "label": "Firefly 官方 SSC Space 合約公告",
+          "url": "https://fireflyspace.com/news/firefly-aerospace-signs-contract-with-ssc-space-for-two-alpha-launches-from-esrange-space-center/",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "bksy-ai-constellation-partnership-20260909",
+      "date": "2026-09-09",
+      "company": "BlackSky",
+      "program": "Gen-3／國際 AI 星座合作",
+      "category": "合作／星座計畫",
+      "status": "獲選供應商／部署時程未公布",
+      "tone": "positive",
+      "title": "BlackSky 獲選國際 AI 星座超高解析光學衛星獨家供應商",
+      "summary": "BlackSky Gen-3 將參與由 Marlan Space、Loft Orbital、Mistral AI 等推動的 AI 星座；50 顆與 10 億美元是整體計畫規模，不是 BlackSky 已部署量或已獲合約金額。",
+      "detail": "BlackSky 於 2026 年 9 月 9 日宣布獲選為國際 AI 星座計畫的超高解析電光衛星獨家供應商。由 Marlan Space、Loft Orbital、Mistral AI 等參與的整體計畫，以 10 億美元投資開發初期 50 顆、搭載雷達與光學等感測器的星座，服務法國、歐洲及阿聯酋。BlackSky Gen-3 將提供其中的高解析影像能力。50 顆不是 BlackSky 的供應顆數，10 億美元也不是已授予 BlackSky 的合約金額；官方未公布 BlackSky 個別數量、發射日期或新增在軌數，預計今年稍後披露更多內容。既有 Gen-3 商轉數不因此增加。",
+      "sources": [
+        {
+          "label": "BlackSky 官方國際 AI 星座公告",
+          "url": "https://ir.blacksky.com/news-events/press-releases/news-details/2026/BlackSky-Named-Exclusive-Provider-of-Very-High-Resolution-Electro-Optical-Constellation-for-New-International-Initiative-to-Build-the-Worlds-Largest-Artificial-Intelligence-Infrastructure-in-Space/default.aspx",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "sx-th1-faa-window-20260909",
+      "date": "2026-09-09",
+      "company": "SpaceX",
+      "program": "TH-1",
+      "category": "時程",
+      "status": "FAA 規劃窗口／尚未發射",
+      "tone": "watch",
+      "title": "FAA 列出 TH-1 9 月 16 日發射規劃窗口",
+      "summary": "FAA 列出 SpaceX TH-1 自 Vandenberg 的主要窗口：9/16 01:00–05:43 UTC，台北同日 09:00–13:43；備援為次日相同時段。",
+      "detail": "FAA ATCSCC 於 2026 年 9 月 9 日 23:43 UTC 發布 Operations Plan 公告 085，將 SPACEX TH-1 列入預定發射／再入清單。地點為加州 Vandenberg SFB，主要窗口為 9 月 16 日 01:00–05:43 UTC（台北同日 09:00–13:43），備援為 9 月 17 日相同時段。這是政府空域規劃窗口，不是最終升空承諾；原文未列載具型號、載荷名稱或衛星顆數，不推定新增部署。TH-1 不是 Starship 日期證據。同一公告的 R2 與 MPOWER-F 窗口和先前一致，不重複新增事件。",
+      "sources": [
+        {
+          "label": "FAA ATCSCC 09/09/2026 公告 085",
+          "url": "https://www.fly.faa.gov/adv/adv_otherdis?adv_date=09092026&advn=85",
+          "type": "政府官方"
+        }
+      ]
+    },
     {
       "id": "rklb-imm-apex-production-20260908",
       "date": "2026-09-08",
