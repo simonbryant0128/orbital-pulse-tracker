@@ -1,6 +1,68 @@
 {
-  "lastVerified": "2026-09-10",
+  "lastVerified": "2026-09-11",
   "events": [
+  {
+    "id": "sx-ussf153-launch-20260910",
+    "date": "2026-09-10",
+    "company": "SpaceX",
+    "program": "Falcon 9／USSF-153",
+    "category": "發射／回收",
+    "status": "已完成／官方確認入軌",
+    "tone": "positive",
+    "title": "Falcon 9 完成 USSF-153 發射，首節第 27 次飛行後回收",
+    "summary": "SpaceX 確認 USSF-153 自 Vandenberg SLC-4E 發射入軌；首節完成第 27 次飛行並降落太平洋無人船，官方未公布衛星顆數。",
+    "detail": "SpaceX 官方任務頁記載，Falcon 9 於 2026 年 9 月 10 日 08:42 太平洋時間自加州 Vandenberg Space Force Base 的 SLC-4E 發射 USSF-153；換算為 15:42 UTC、台北同日 23:42，原文只精確到分鐘。官方 X 隨後確認任務已入軌。這是該首節助推器第 27 次飛行；分離後成功降落於太平洋的 Of Course I Still Love You 無人船。本次採用的官方原文未公布載荷組成、衛星顆數或可歸屬的星座，因此只計入已完成發射，不增加 Starlink 或其他星座部署總量，也不推定為 Starshield。",
+    "sources": [
+      {
+        "label": "SpaceX 官方 USSF-153 任務頁",
+        "url": "https://www.spacex.com/launches/ussf153",
+        "type": "官方"
+      },
+      {
+        "label": "SpaceX 官方入軌確認",
+        "url": "https://x.com/SpaceX/status/2098154822868320479",
+        "type": "官方"
+      }
+    ]
+  },
+  {
+    "id": "irdm-ntn-direct-toyota-demo-20260910",
+    "date": "2026-09-10",
+    "company": "Iridium",
+    "program": "Iridium NTN Direct／Deutsche Telekom IoT／Toyota",
+    "category": "測試／合作",
+    "status": "展示成功／目標 Q4 2026 商用",
+    "tone": "positive",
+    "title": "Iridium 與德國電信、Toyota 完成衛星語音訊息展示",
+    "summary": "Toyota 車輛透過 Iridium NTN Direct 傳送 NB-IoT 語音訊息；Iridium 與德國電信 IoT 已完成技術整合及全球漫遊協議，服務目標第四季商用。",
+    "detail": "Iridium 於 2026 年 9 月 10 日宣布，與 Deutsche Telekom IoT 在 Telekom Satellite Day 2026 進行 Toyota 車載衛星語音訊息展示。車輛使用 Nordic Semiconductor nRF9151 開發板、德國電信 IoT SIM 與 Fraunhofer NESC 語音編碼，透過既有 Iridium L-band 低軌網路傳送標準式 NB-IoT 語音訊息。雙方已完成技術整合與全球漫遊協議，部分歐洲客戶已展開測試；官方目標為 Q4 2026 商用，未公布確切日期。這是語音訊息展示，不代表一般手機即時通話已全面商用，也不是新衛星部署；既有在軌總量不變。",
+    "sources": [
+      {
+        "label": "Iridium 官方 NTN Direct 展示公告",
+        "url": "https://investor.iridium.com/2026-09-10-Iridium,-Deutsche-Telekom-IoT,-and-Toyota-Demonstrate-Voice-Messaging-over-Satellite-via-Iridium-NTN-Direct",
+        "type": "官方"
+      }
+    ]
+  },
+  {
+    "id": "vsat-pcc6-satcom-demo-20260910",
+    "date": "2026-09-10",
+    "company": "Viasat",
+    "program": "PC-C6／L-TAC／HydraMax",
+    "category": "測試／技術里程碑",
+    "status": "官方公布夏季演習成果",
+    "tone": "positive",
+    "title": "Viasat 公布 PC-C6 衛星通訊與多星座天線展示成果",
+    "summary": "Viasat 回顧夏季 PC-C6 演習，展示 L-TAC 衛星延伸通訊與 HydraMax 多星座天線等能力；9 月 10 日是公告日，非演習日期。",
+    "detail": "Viasat 於 2026 年 9 月 10 日發布 PC-C6 演習回顧，演習在當年夏季於加州 Fort Irwin 與 Nevada Test and Training Range 進行，未列精確日期。公司展示 L-TAC 將既有戰術無線電延伸至衛星通訊，以及電子掃描天線在移動與固定平台上的連線能力；與 All.Space 展示的 HydraMax 可相容包括 ViaSat-3 在內的多個星座，原文指出其 TRL 6 是去年達成，並非本次新達成。這是官方演習成果披露，不是新衛星發射、部署或新合約授予；不調增部署數，也不把廠商展示描述當成獨立驗證的全面服役保證。",
+    "sources": [
+      {
+        "label": "Viasat 官方 PC-C6 演習回顧",
+        "url": "https://www.viasat.com/news/latest-news/government/2026/-inside-project-convergence-capstone-6--advancing-the-future-of-/",
+        "type": "官方"
+      }
+    ]
+  },
     {
       "id": "fly-ssc-two-alpha-launches-20260909",
       "date": "2026-09-09",
