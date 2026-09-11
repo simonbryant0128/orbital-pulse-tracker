@@ -71,12 +71,13 @@ test("renders the orbital tracker product page", async () => {
   assert.match(html, /Spire 2026 deployments/);
   assert.match(html, /每日 10:15 掃描/);
   assert.match(html, /近期事件流/);
-  assert.match(html, /Starlink 15-24 發射成功，27 顆衛星完成部署/);
-  assert.match(html, /單次任務的部署量/);
+  const starlink = publishedEvents.find((event) => event.id === "sx-starlink-15-24-deployed-20260906");
+  assert.match(starlink.title, /Starlink 15-24 發射成功，27 顆衛星完成部署/);
+  assert.match(starlink.detail, /單次任務的部署量/);
   assert.match(html, /2096621981328130462/);
   assert.doesNotMatch(html, /sx-starship-flight14-date-review-20260902/);
   assert.match(html, /IMM Apex 太空太陽能電池量產/);
-  assert.match(html, /NexusWave 取得 Bureau Veritas 資安型式認可/);
+  assert.ok(publishedEvents.some((event) => event.title === "NexusWave 取得 Bureau Veritas 資安型式認可"));
   assert.match(html, /FAA 規劃窗口／非最終升空承諾/);
   assert.match(html, /台北 9\/14 02:40–05:10/);
   assert.match(html, /開啟雲端主表/);
@@ -92,7 +93,25 @@ test("keeps September 8 milestones separate from completed satellite deployments
   assert.match(approval.detail, /不是新衛星發射或部署/);
   assert.match(plan.status, /尚未發射/);
   assert.match(plan.detail, /不調增部署總數/);
+  assert.match(approval.title, /NexusWave 取得 Bureau Veritas 資安型式認可/);
   assert.match(plan.sources[0].url, /adv_date=09082026&advn=84$/);
+});
+
+test("distinguishes September 10 launches, messaging trials and retrospective disclosures", async () => {
+  const launch = publishedEvents.find((e) => e.id === "sx-ussf153-launch-20260910");
+  const iridium = publishedEvents.find((e) => e.id === "irdm-ntn-direct-toyota-demo-20260910");
+  const viasat = publishedEvents.find((e) => e.id === "vsat-pcc6-satcom-demo-20260910");
+  assert.match(launch.detail, /台北同日 23:42/);
+  assert.match(launch.detail, /不增加 Starlink 或其他星座部署總量/);
+  assert.match(iridium.detail, /不代表一般手機即時通話已全面商用/);
+  assert.match(iridium.status, /Q4 2026/);
+  assert.match(viasat.detail, /演習在當年夏季/);
+  assert.match(viasat.detail, /TRL 6 是去年達成/);
+  const html = await (await render()).text();
+  for (const event of [launch, iridium, viasat]) {
+    assert.ok(html.includes(escapeHtml(event.title)), event.id);
+    assert.ok(html.includes(escapeHtml(event.detail)), event.id);
+  }
 });
 
 test("preserves older verified event details outside the initial page", () => {
