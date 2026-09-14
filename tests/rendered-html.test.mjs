@@ -58,7 +58,7 @@ test("renders the orbital tracker product page", async () => {
     assert.ok(html.includes(escapeHtml(event.summary)), `Missing initial summary: ${event.id}`);
     assert.ok(html.includes(escapeHtml(event.detail)), `Missing detail preview: ${event.id}`);
   }
-  assert.match(html, /Flight 13 已入列/);
+  assert.match(html, /Flight 14 規劃窗口/);
   assert.match(html, /Viasat/);
   assert.match(html, /Firefly Aerospace/);
   assert.match(html, /Voyager Technologies/);
@@ -76,13 +76,35 @@ test("renders the orbital tracker product page", async () => {
   assert.match(starlink.detail, /單次任務的部署量/);
   assert.match(html, /2096621981328130462/);
   assert.doesNotMatch(html, /sx-starship-flight14-date-review-20260902/);
-  assert.match(html, /IMM Apex 太空太陽能電池量產/);
+  assert.ok(publishedEvents.some((event) => event.title.includes("IMM Apex 太空太陽能電池量產")));
   assert.ok(publishedEvents.some((event) => event.title === "NexusWave 取得 Bureau Veritas 資安型式認可"));
   assert.match(html, /FAA 規劃窗口／非最終升空承諾/);
-  assert.match(html, /台北 9\/14 02:40–05:10/);
+  assert.match(html, /台北 9\/18 20:15–22:14/);
   assert.match(html, /開啟雲端主表/);
   assert.match(html, /GitHub/);
   assert.doesNotMatch(html, /codex-preview|Your site is taking shape|react-loading-skeleton/i);
+});
+
+test("publishes September 14 verified updates without pending Starlink timing", async () => {
+  const starship = publishedEvents.find((e) => e.id === "sx-starship-flight14-faa-window-20260913");
+  const electron = publishedEvents.find((e) => e.id === "rklb-happily-ever-faster-20260911");
+  const mpower = publishedEvents.find((e) => e.id === "sx-o3b-mpower-deployment-20260914");
+  const ussf = publishedEvents.find((e) => e.id === "sx-ussf259-target-20260914");
+  assert.match(starship.status, /尚未發射/);
+  assert.match(starship.detail, /不是 SpaceX 最終升空承諾/);
+  assert.match(starship.sources[0].url, /adv_date=09132026&advn=158$/);
+  assert.match(electron.detail, /客戶與衛星名稱未公開/);
+  assert.match(electron.detail, /不歸入任何具名星座總數/);
+  assert.match(mpower.detail, /中軌 MEO/);
+  assert.match(mpower.detail, /不增加低軌/);
+  assert.match(ussf.status, /尚未發射/);
+  assert.ok(!publishedEvents.some((e) => e.id === "sx-starlink-15-27-faa-window-20260913"));
+  const schedule = JSON.parse(await readFile(new URL("../content/schedule.json", import.meta.url), "utf8"));
+  assert.ok(!schedule.items.some((item) => item.id === "sx-mpower-f-faa-window-20260908"));
+  assert.ok(publishedEvents.some((e) => e.id === "sx-mpower-f-faa-window-20260908"), "retain historical planning event");
+  const html = await (await render()).text();
+  assert.doesNotMatch(html, /sx-starlink-15-27-faa-window-20260913/);
+  assert.doesNotMatch(html, /Flight 13 已入列/);
 });
 
 test("keeps September 8 milestones separate from completed satellite deployments", () => {
@@ -97,7 +119,7 @@ test("keeps September 8 milestones separate from completed satellite deployments
   assert.match(plan.sources[0].url, /adv_date=09082026&advn=84$/);
 });
 
-test("distinguishes September 10 launches, messaging trials and retrospective disclosures", async () => {
+test("distinguishes September 10 launches, messaging trials and retrospective disclosures", () => {
   const launch = publishedEvents.find((e) => e.id === "sx-ussf153-launch-20260910");
   const iridium = publishedEvents.find((e) => e.id === "irdm-ntn-direct-toyota-demo-20260910");
   const viasat = publishedEvents.find((e) => e.id === "vsat-pcc6-satcom-demo-20260910");
@@ -107,11 +129,8 @@ test("distinguishes September 10 launches, messaging trials and retrospective di
   assert.match(iridium.status, /Q4 2026/);
   assert.match(viasat.detail, /演習在當年夏季/);
   assert.match(viasat.detail, /TRL 6 是去年達成/);
-  const html = await (await render()).text();
-  for (const event of [launch, iridium, viasat]) {
-    assert.ok(html.includes(escapeHtml(event.title)), event.id);
-    assert.ok(html.includes(escapeHtml(event.detail)), event.id);
-  }
+  // These historical records may be beyond the initial seven-card page.
+  // The product-page test checks the actual current first page separately.
 });
 
 test("preserves older verified event details outside the initial page", () => {
@@ -131,7 +150,7 @@ test("preserves older verified event details outside the initial page", () => {
   }
 });
 
-test("keeps September 9 plans and consortium scale separate from deployed totals", async () => {
+test("keeps September 9 plans and consortium scale separate from deployed totals", () => {
   const firefly = publishedEvents.find((e) => e.id === "fly-ssc-two-alpha-launches-20260909");
   const blacksky = publishedEvents.find((e) => e.id === "bksy-ai-constellation-partnership-20260909");
   const th1 = publishedEvents.find((e) => e.id === "sx-th1-faa-window-20260909");
@@ -142,8 +161,5 @@ test("keeps September 9 plans and consortium scale separate from deployed totals
   assert.match(th1.status, /尚未發射/);
   assert.match(th1.detail, /台北同日 09:00–13:43/);
   assert.match(th1.sources[0].url, /adv_date=09092026&advn=85$/);
-  const html = await (await render()).text();
-  for (const event of [firefly, blacksky, th1]) {
-    assert.ok(html.includes(escapeHtml(event.title)));
-  }
+  // Retain the historical content checks without assuming first-page presence.
 });

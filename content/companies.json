@@ -1,23 +1,23 @@
 {
-  "lastVerified": "2026-09-07",
+  "lastVerified": "2026-09-14",
   "items": [
     {
       "id": "spacex",
       "name": "SpaceX",
       "ticker": "私人",
       "focus": "發射服務 · Starlink · Starship",
-      "status": "Starlink 15-24 已部署 27 顆",
+      "status": "O3b mPOWER 三顆部署確認",
       "statusTone": "positive",
-      "source": "https://x.com/SpaceX/status/2096621981328130462"
+      "source": "https://www.spacex.com/launches/mpower-f"
     },
     {
       "id": "rocket-lab",
       "name": "Rocket Lab",
       "ticker": "RKLB",
       "focus": "Electron · HASTE · Neutron · 太空系統",
-      "status": "Electron 第 94 次任務成功",
+      "status": "Electron 第 95 次任務成功",
       "statusTone": "positive",
-      "source": "https://investors.rocketlabcorp.com/news-releases/news-release-details/mission-success-rocket-lab-launches-94th-electron-mission"
+      "source": "https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-successfully-launches-16th-electron-mission-year"
     },
     {
       "id": "blue-origin",
@@ -69,9 +69,9 @@
       "name": "Voyager Technologies",
       "ticker": "VOYG",
       "focus": "LEO 任務 · Starlab · 月球系統",
-      "status": "任務版圖擴張",
+      "status": "Starlab 啟動 ISS 微重力研究徵案",
       "statusTone": "positive",
-      "source": "https://investors.voyagertechnologies.com/"
+      "source": "https://voyagertechnologies.com/press-releases/starlab-space-and-the-center-for-space-and-aviation-switzerland-and-liechtenstein-open-call-for-proposals-to-advance-microgravity-research-and-commercialization-aboard-the-international-space-station/"
     },
     {
       "id": "iridium",
