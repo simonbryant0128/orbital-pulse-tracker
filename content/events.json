@@ -1,6 +1,111 @@
 {
-  "lastVerified": "2026-09-11",
+  "lastVerified": "2026-09-14",
   "events": [
+    {
+      "id": "rklb-happily-ever-faster-20260911",
+      "date": "2026-09-11",
+      "company": "Rocket Lab",
+      "program": "Electron／Happily Ever Faster",
+      "category": "發射／部署",
+      "status": "已完成／1 顆部署",
+      "tone": "positive",
+      "title": "Electron 完成第 95 次任務，部署 1 顆地球觀測衛星",
+      "summary": "Rocket Lab 於紐西蘭 9/11 15:28 發射，將 1 顆保密客戶的地球觀測衛星部署至 500 公里圓形低軌；今年第 16 次 Electron 任務。",
+      "detail": "Happily Ever Faster 於 2026 年 9 月 11 日 15:28 NZST 自紐西蘭 Launch Complex 1 升空，換算台北同日 11:28。官方確認一顆地球觀測衛星成功部署至 500 公里圓形低軌，為 Electron 今年第 16 次、累計第 95 次任務。客戶與衛星名稱未公開，不歸入任何具名星座總數。官方下一次 Electron 目標為 9 月底前，自同一發射場服務另一商業星座業者，尚未公布確切日期。",
+      "sources": [
+        {
+          "label": "Rocket Lab 官方任務成功公告",
+          "url": "https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-successfully-launches-16th-electron-mission-year",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "voyg-starlab-iss-cfp-20260911",
+      "date": "2026-09-11",
+      "company": "Voyager Technologies",
+      "program": "Starlab／ISS 微重力研究",
+      "category": "合作／研究里程碑",
+      "status": "徵案啟動／飛行機會目標 2028",
+      "tone": "positive",
+      "title": "Starlab 與 CSA 啟動 ISS 研究徵案，飛行機會目標 2028 年",
+      "summary": "最多四組研究團隊可獲資助前往 ISS 進行微重力實驗；第一階段提案截止 10/9，預計 12 月通知入選。",
+      "detail": "Starlab 與瑞士及列支敦士登太空航空中心 CSA 於 9 月 11 日啟動國際微重力研究徵案。最多選出四組團隊：一組全球開放，另三組限主要研究者位於瑞士蘇黎世州。資助範圍包含酬載整合、發射、在軌操作、太空人時間與樣本回收。第一階段問題截止 9/25、提案截止 10/9，預計 2026 年 12 月通知入選，飛行機會目標 2028 年。這是 ISS 研究徵案，不是已授予四份合約、衛星部署或 Starlab 太空站發射。",
+      "sources": [
+        {
+          "label": "Voyager／Starlab 官方徵案公告",
+          "url": "https://voyagertechnologies.com/press-releases/starlab-space-and-the-center-for-space-and-aviation-switzerland-and-liechtenstein-open-call-for-proposals-to-advance-microgravity-research-and-commercialization-aboard-the-international-space-station/",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "sx-starship-flight14-faa-window-20260913",
+      "date": "2026-09-13",
+      "company": "SpaceX",
+      "program": "Starship Flight 14",
+      "category": "時程",
+      "status": "FAA 規劃窗口／尚未發射",
+      "tone": "watch",
+      "title": "FAA 列出 Starship Flight 14 的 9 月 18 日規劃窗口",
+      "summary": "台北 9/18 20:15–22:14，備援 9/19 同時段；FAA 空域作業規劃不等於 SpaceX 最終升空承諾。",
+      "detail": "FAA 9 月 13 日 23:45 UTC 公告 158 列出 Starbase 的 Starship Flight 14：主要窗口 9/18 12:15–14:14 UTC（台北 20:15–22:14），備援 9/19 同時段。這是空域作業規劃，不是 SpaceX 最終升空承諾、特定飛行許可或已發射證明。未列部署顆數，不增加衛星總量；既有「9/15」未證實線索保留歷史且不發布。",
+      "sources": [
+        {
+          "label": "FAA ATCSCC 09/13/2026 公告 158",
+          "url": "https://www.fly.faa.gov/adv/adv_otherdis?adv_date=09132026&advn=158",
+          "type": "政府官方"
+        }
+      ]
+    },
+    {
+      "id": "sx-o3b-mpower-deployment-20260914",
+      "date": "2026-09-14",
+      "company": "SpaceX",
+      "program": "Falcon／O3b mPOWER",
+      "category": "發射／部署／里程碑",
+      "status": "3 顆部署確認／Falcon 累計 700 次",
+      "tone": "positive",
+      "title": "O3b mPOWER 三顆衛星部署完成，Falcon 累計達 700 次任務",
+      "summary": "SpaceX 官方確認 SES 三顆 O3b mPOWER 衛星完成部署，並另公布 Falcon 累計完成 700 次任務；中軌衛星不計入低軌總數。",
+      "detail": "SpaceX 任務頁確認，O3b mPOWER 於 2026 年 9 月 13 日 14:49 ET 自佛羅里達 Cape Canaveral SLC-40 發射，換算台北 9/14 02:49。官方隨後確認三顆衛星完成部署，並另公布 Falcon 累計完成 700 次任務。首節第 29 次飛行後降落於 A Shortfall of Gravitas 無人船。三顆衛星服務中軌 MEO 網路，部署確認不等於已完成測試並商轉；700 是 Falcon 累計任務數，不是衛星顆數。本次不增加低軌星座或 Starlink 總量。",
+      "sources": [
+        {
+          "label": "SpaceX 官方 O3b mPOWER 任務頁、部署與里程碑公告",
+          "url": "https://www.spacex.com/launches/mpower-f",
+          "type": "官方"
+        },
+        {
+          "label": "SpaceX 官方 O3b mPOWER 任務頁、部署與里程碑公告 2",
+          "url": "https://x.com/SpaceX/status/2099220930589327483",
+          "type": "官方"
+        },
+        {
+          "label": "SpaceX 官方 O3b mPOWER 任務頁、部署與里程碑公告 3",
+          "url": "https://x.com/SpaceX/status/2099237998294454546",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "sx-ussf259-target-20260914",
+      "date": "2026-09-14",
+      "company": "SpaceX",
+      "program": "Falcon 9／USSF-259",
+      "category": "時程",
+      "status": "官方目標窗口／尚未發射",
+      "tone": "watch",
+      "title": "USSF-259 目標台北 9 月 16 日上午發射",
+      "summary": "SpaceX 官方目標為台北 9/16 09:00–13:00，自 Vandenberg SLC-4E 發射；備援為次日同時段，載荷顆數未公布。",
+      "detail": "本列日期為 9/14 查核日，官方任務頁未標示公告時間。SpaceX 目標於 9/15 18:00 PT 起的四小時窗口發射 USSF-259，換算台北 9/16 09:00–13:00；備援為台北 9/17 同時段。Falcon 9 從 Vandenberg SLC-4E 出發，首節預計執行第 13 次飛行並於太平洋無人船回收。這是目標而非已完成任務，未公布載荷顆數，不計入部署總量；不自行把 FAA 的 TH-1 名稱視為已核實別名。",
+      "sources": [
+        {
+          "label": "SpaceX 官方 USSF-259 任務頁",
+          "url": "https://www.spacex.com/launches/ussf259",
+          "type": "官方"
+        }
+      ]
+    },
   {
     "id": "sx-ussf153-launch-20260910",
     "date": "2026-09-10",

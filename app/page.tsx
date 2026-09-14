@@ -160,20 +160,20 @@ export default function Home() {
         <aside className="signal-card" aria-label="本期警戒">
           <div className="signal-topline">
             <span className="signal-label">SIGNAL / 本期警戒</span>
-            <span className="signal-code">SS · 13</span>
+            <span className="signal-code">SS · 14</span>
           </div>
           <div className="signal-orbit" aria-hidden="true">
             <span className="signal-core" />
             <span className="signal-dot" />
           </div>
           <p className="signal-kicker">SPACEX · STARSHIP</p>
-          <h2>Flight 13 已入列</h2>
-          <p>SpaceX 發射清單記錄 7 月 24 日自 Starbase Pad 2 執行，本站已同步雲端主表與網站。</p>
+          <h2>Flight 14 規劃窗口</h2>
+          <p>FAA 列出台北 9/18 20:15–22:14，備援為 9/19 同時段；這是空域規劃，不是 SpaceX 最終升空承諾。</p>
           <div className="signal-footer">
-            <span className="tone-dot positive" />
-            <strong>狀態：已執行</strong>
+            <span className="tone-dot watch" />
+            <strong>狀態：尚未發射</strong>
             <a
-              href="https://www.spacex.com/launches"
+              href="https://www.fly.faa.gov/adv/adv_otherdis?adv_date=09132026&advn=158"
               target="_blank"
               rel="noreferrer"
             >
