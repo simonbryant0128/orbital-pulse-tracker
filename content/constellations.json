@@ -1,5 +1,5 @@
 {
-  "lastVerified": "2026-09-07",
+  "lastVerified": "2026-09-15",
   "methodology": "Amazon Leo、AST SpaceMobile、Planet、BlackSky、Spire 與 Globalstar 採公司官方任務、投資人關係或監管申報資料；Starlink 採 Jonathan McDowell 的第三方 Total Working 軌道統計。下一次任務只採官方窗口，未公布確切日期時不以第三方預測補值。不同計畫的總量、來源日與統計口徑不同，不應直接互相比較。",
   "items": [
     {
@@ -145,31 +145,31 @@
       "id": "blacksky-gen3",
       "name": "Gen-3",
       "company": "BlackSky",
-      "current": 4,
-      "displayValue": "4",
-      "metric": "已部署並完成商轉的 Gen-3 衛星",
-      "currentAsOf": "2026-03-12",
-      "baseline": 3,
-      "baselineAsOf": "2026-03-05",
+      "current": 5,
+      "displayValue": "5",
+      "metric": "Gen-3 已入軌（含第五顆首光；非均已商轉）",
+      "currentAsOf": "2026-09-14",
+      "baseline": 4,
+      "baselineAsOf": "2026-03-12",
       "accent": "amber",
-      "source": "https://ir.blacksky.com/news-events/press-releases/news-details/2026/BlackSky-Successfully-Commissions-Gen-3-in-Less-Than-One-Week-Opening-Gen-3-General-Availability-for-Global-Customer-Base/default.aspx",
+      "source": "https://ir.blacksky.com/news-events/press-releases/news-details/2026/BlackSkys-Fifth-Gen-3-Attains-First-Light-in-Hours-Expanding-Constellation-Capacity-and-Decision-Making-Speed-for-Customers/default.aspx",
       "sourceClass": "公司官方公告",
-      "lastChecked": "2026-09-04",
+      "lastChecked": "2026-09-15",
       "deployment": {
-        "totalLabel": "完成 commissioning／商轉",
-        "nextMission": "兩顆 Gen-3 衛星",
+        "totalLabel": "已入軌／含第五顆首光",
+        "nextMission": "追加 Gen-3 衛星",
         "nextLaunchDate": null,
-        "nextLaunchDisplay": "Q3 2026（未定日）",
-        "nextStatus": "官方 Q2 結果預期兩顆於第三季發射",
+        "nextLaunchDisplay": "2026 年底前（未定日）",
+        "nextStatus": "官方計畫年底前增加衛星；下一班日期與數量未公布。首光不等於五顆均已商轉。",
         "nextVehicle": "待官方公告",
-        "nextSourceLabel": "BlackSky Q2 2026 results",
-        "nextSource": "https://ir.blacksky.com/news-events/press-releases/news-details/2026/BlackSky-Reports-Second-Quarter-2026-Results/default.aspx",
-        "scheduleConfidence": "官方季度窗口"
+        "nextSourceLabel": "BlackSky 第五顆首光公告",
+        "nextSource": "https://ir.blacksky.com/news-events/press-releases/news-details/2026/BlackSkys-Fifth-Gen-3-Attains-First-Light-in-Hours-Expanding-Constellation-Capacity-and-Decision-Making-Speed-for-Customers/default.aspx",
+        "scheduleConfidence": "官方年底目標／未定日"
       },
       "breakdownLabel": "Gen-3 部署狀態",
       "breakdown": [
-        { "label": "先前三顆", "value": 3 },
-        { "label": "第四顆／2026-03", "value": 1 }
+        { "label": "先前四顆已完成 commissioning", "value": 4 },
+        { "label": "第五顆／首光確認", "value": 1 }
       ]
     },
     {

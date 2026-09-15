@@ -1,6 +1,82 @@
 {
-  "lastVerified": "2026-09-14",
+  "lastVerified": "2026-09-15",
   "events": [
+    {
+      "id": "sx-starship-flight14-faa-window-20260915",
+      "date": "2026-09-15",
+      "company": "SpaceX",
+      "program": "Starship Flight 14",
+      "category": "時程",
+      "status": "FAA 規劃窗口更新／尚未發射",
+      "tone": "watch",
+      "title": "Starship Flight 14 的 FAA 規劃窗口延至台北 9 月 22 日",
+      "summary": "FAA 最新規劃為台北 9/22 20:15–22:14，備援 9/23 同時段；取代先前 9/18 窗口，但不是 SpaceX 最終升空承諾。",
+      "detail": "FAA 於 9/15 01:21 UTC 發布的 ATCSCC 公告 006，把 Starbase 的 Starship Flight 14 主要窗口列為 9/22 12:15–14:14 UTC（台北 20:15–22:14），備援為 9/23 同時段。相較 9/13 公告的 9/18 主窗口，規劃順延四天。本列保存新時程，舊公告另留歷史；空域作業規劃不是 SpaceX 最終升空承諾、特定飛行許可或已發射證明。不增加衛星部署總量。",
+      "sources": [
+        {
+          "label": "FAA ATCSCC 09/15/2026 公告 006",
+          "url": "https://www.fly.faa.gov/adv/adv_otherdis?adv_date=09152026&advn=6",
+          "type": "政府官方"
+        }
+      ]
+    },
+    {
+      "id": "bo-afrl-propulsion-partnership-20260914",
+      "date": "2026-09-14",
+      "company": "Blue Origin",
+      "program": "引擎技術／AFRL",
+      "category": "合作／技術里程碑",
+      "status": "CRADA 已簽署／研發推進",
+      "tone": "positive",
+      "title": "Blue Origin 擴大 AFRL 合作，取得先進推進技術研究材料",
+      "summary": "雙方簽署合作研發協議，移轉 HCB／IPD 歷史計畫的硬體與工程資料，支援商用引擎研發；BE-7 測試合作持續。",
+      "detail": "Blue Origin 9/14 公告與美國空軍研究實驗室 AFRL 的火箭暨太空推進部門擴大合作，簽署 CRADA，移轉 HCB 與 IPD 計畫的推進硬體及工程資料。兩項歷史計畫研究富氧與全流量分級燃燒技術，Blue Origin 將用於商用引擎研究。雙方亦持續在 Edwards 高空試驗設施測試 BE-7。公告沒有提供新引擎首飛日、合約金額或新衛星部署數，不推定 New Glenn 新發射日期。",
+      "sources": [
+        {
+          "label": "Blue Origin 官方 AFRL 合作公告",
+          "url": "https://www.blueorigin.com/news/blue-origin-expands-partnership-with-air-force-research-laboratory",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "voyg-avio-ifd-qd-delivery-20260914",
+      "date": "2026-09-14",
+      "company": "Voyager Technologies",
+      "program": "Avio／ESA IFD",
+      "category": "交付／技術里程碑",
+      "status": "快速分離介面交付與整合完成",
+      "tone": "positive",
+      "title": "Voyager 完成 ESA IFD 火箭快速分離介面交付與整合",
+      "summary": "Voyager 依 Avio 合約完成雙介面 QD 系統，連接火箭燃料系統與地面設施，推進液氧／甲烷示範火箭飛行準備。",
+      "detail": "Voyager 9/14 宣布已為 ESA In-Flight Demonstrator 完成快速分離介面板的交付與整合，工作由 Avio 委託，屬義大利 PNRR-STS 計畫。系統包含飛行端及地面端介面，供燃料系統接地面設施，並設計在發射作業中安全分離。IFD 為單級液氧／甲烷低溫推進示範器。本次是硬體交付與整合里程碑，不是火箭已發射；公告未列首飛日期或衛星部署。",
+      "sources": [
+        {
+          "label": "Voyager 官方 IFD 交付公告",
+          "url": "https://voyagertechnologies.com/press-releases/voyager-delivers-launch-critical-infrastructure-for-next-gen-rocket/",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "bksy-gen3-fifth-firstlight-20260914",
+      "date": "2026-09-14",
+      "company": "BlackSky",
+      "program": "Gen-3",
+      "category": "在軌測試／里程碑",
+      "status": "第五顆首光確認／持續 commissioning",
+      "tone": "positive",
+      "title": "BlackSky 第五顆 Gen-3 取得首光，發射後不到 20 小時回傳影像",
+      "summary": "官方確認第五顆 Gen-3 取得並處理首張影像；計畫在 2026 年底前增加衛星，未公布下一班確切日期。",
+      "detail": "BlackSky 9/14 公告第五顆 Gen-3 在升空後不到 20 小時取得並處理首光影像，支持 35 公分解析度服務。官方影像拍攝於 9/11 23:25 UTC，即台北 9/12 07:25。本次可確認 Gen-3 已入軌達五顆，但首光不等於五顆均已完成商轉，原先四顆 commissioning 快照保留。公司計畫於 2026 年底前增加 Gen-3，未列下一班日期、數量或載具。公告未指認發射任務，不自行與保密客戶的 Electron 任務合併，也不重複加總發射次數。",
+      "sources": [
+        {
+          "label": "BlackSky 官方第五顆 Gen-3 首光公告",
+          "url": "https://ir.blacksky.com/news-events/press-releases/news-details/2026/BlackSkys-Fifth-Gen-3-Attains-First-Light-in-Hours-Expanding-Constellation-Capacity-and-Decision-Making-Speed-for-Customers/default.aspx",
+          "type": "官方"
+        }
+      ]
+    },
     {
       "id": "rklb-happily-ever-faster-20260911",
       "date": "2026-09-11",

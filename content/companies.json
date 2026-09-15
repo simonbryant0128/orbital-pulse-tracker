@@ -1,14 +1,14 @@
 {
-  "lastVerified": "2026-09-14",
+  "lastVerified": "2026-09-15",
   "items": [
     {
       "id": "spacex",
       "name": "SpaceX",
       "ticker": "私人",
       "focus": "發射服務 · Starlink · Starship",
-      "status": "O3b mPOWER 三顆部署確認",
-      "statusTone": "positive",
-      "source": "https://www.spacex.com/launches/mpower-f"
+      "status": "Flight 14 FAA 窗口延至 9/22",
+      "statusTone": "watch",
+      "source": "https://www.fly.faa.gov/adv/adv_otherdis?adv_date=09152026&advn=6"
     },
     {
       "id": "rocket-lab",
@@ -24,9 +24,9 @@
       "name": "Blue Origin",
       "ticker": "私人",
       "focus": "New Glenn · 月球系統 · Quartz 地面網路",
-      "status": "獲 NASA 火星通訊網路合約",
+      "status": "擴大 AFRL 推進技術合作",
       "statusTone": "positive",
-      "source": "https://www.nasa.gov/news-release/nasa-selects-blue-origin-as-mars-telecommunications-network-provider/"
+      "source": "https://www.blueorigin.com/news/blue-origin-expands-partnership-with-air-force-research-laboratory"
     },
     {
       "id": "amazon-leo",
@@ -69,9 +69,9 @@
       "name": "Voyager Technologies",
       "ticker": "VOYG",
       "focus": "LEO 任務 · Starlab · 月球系統",
-      "status": "Starlab 啟動 ISS 微重力研究徵案",
+      "status": "完成 ESA IFD 快速分離介面交付",
       "statusTone": "positive",
-      "source": "https://voyagertechnologies.com/press-releases/starlab-space-and-the-center-for-space-and-aviation-switzerland-and-liechtenstein-open-call-for-proposals-to-advance-microgravity-research-and-commercialization-aboard-the-international-space-station/"
+      "source": "https://voyagertechnologies.com/press-releases/voyager-delivers-launch-critical-infrastructure-for-next-gen-rocket/"
     },
     {
       "id": "iridium",
@@ -96,9 +96,9 @@
       "name": "BlackSky",
       "ticker": "BKSY",
       "focus": "Gen-3 · Spectra · 即時地球情報",
-      "status": "兩顆 Gen-3 目標 Q3 發射",
+      "status": "第五顆 Gen-3 首光確認",
       "statusTone": "watch",
-      "source": "https://ir.blacksky.com/news-events/press-releases/news-details/2026/BlackSky-Reports-Second-Quarter-2026-Results/default.aspx"
+      "source": "https://ir.blacksky.com/news-events/press-releases/news-details/2026/BlackSkys-Fifth-Gen-3-Attains-First-Light-in-Hours-Expanding-Constellation-Capacity-and-Decision-Making-Speed-for-Customers/default.aspx"
     },
     {
       "id": "spire-global",
