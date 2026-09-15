@@ -79,7 +79,7 @@ test("renders the orbital tracker product page", async () => {
   assert.ok(publishedEvents.some((event) => event.title.includes("IMM Apex 太空太陽能電池量產")));
   assert.ok(publishedEvents.some((event) => event.title === "NexusWave 取得 Bureau Veritas 資安型式認可"));
   assert.match(html, /FAA 規劃窗口／非最終升空承諾/);
-  assert.match(html, /台北 9\/18 20:15–22:14/);
+  assert.match(html, /台北 9\/22 20:15–22:14/);
   assert.match(html, /開啟雲端主表/);
   assert.match(html, /GitHub/);
   assert.doesNotMatch(html, /codex-preview|Your site is taking shape|react-loading-skeleton/i);
@@ -105,6 +105,32 @@ test("publishes September 14 verified updates without pending Starlink timing", 
   const html = await (await render()).text();
   assert.doesNotMatch(html, /sx-starlink-15-27-faa-window-20260913/);
   assert.doesNotMatch(html, /Flight 13 已入列/);
+});
+
+test("publishes September 15 updates with history and deployment definitions intact", async () => {
+  const byId = (id) => publishedEvents.find((event) => event.id === id);
+  const current = byId("sx-starship-flight14-faa-window-20260915");
+  const prior = byId("sx-starship-flight14-faa-window-20260913");
+  assert.match(current.detail, /9\/22 12:15–14:14 UTC/);
+  assert.match(current.detail, /不是 SpaceX 最終升空承諾/);
+  assert.match(prior.detail, /9\/18 12:15–14:14 UTC/);
+  assert.match(byId("bo-afrl-propulsion-partnership-20260914").detail, /沒有提供新引擎首飛日/);
+  assert.match(byId("voyg-avio-ifd-qd-delivery-20260914").detail, /不是火箭已發射/);
+  assert.match(byId("bksy-gen3-fifth-firstlight-20260914").detail, /首光不等於五顆均已完成商轉/);
+  assert.ok(!byId("vsat-equatys-binding-agreement-review-20260914"));
+  const { items } = JSON.parse(await readFile(new URL("../content/constellations.json", import.meta.url), "utf8"));
+  const blacksky = items.find((item) => item.id === "blacksky-gen3");
+  assert.equal(blacksky.current, 5);
+  assert.equal(blacksky.breakdown.reduce((total, row) => total + row.value, 0), 5);
+  assert.match(blacksky.metric, /非均已商轉/);
+  assert.equal(blacksky.deployment.nextLaunchDate, null);
+  assert.equal(blacksky.deployment.nextLaunchDisplay, "2026 年底前（未定日）");
+  const schedule = JSON.parse(await readFile(new URL("../content/schedule.json", import.meta.url), "utf8"));
+  assert.ok(!schedule.items.some((item) => item.id === prior.id || item.id === "blacksky-gen3-q3"));
+  assert.ok(schedule.items.some((item) => item.id === current.id));
+  const html = await (await render()).text();
+  assert.match(html, /台北 9\/22 20:15–22:14/);
+  assert.doesNotMatch(html, /vsat-equatys-binding-agreement-review-20260914/);
 });
 
 test("keeps September 8 milestones separate from completed satellite deployments", () => {

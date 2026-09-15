@@ -168,12 +168,12 @@ export default function Home() {
           </div>
           <p className="signal-kicker">SPACEX · STARSHIP</p>
           <h2>Flight 14 規劃窗口</h2>
-          <p>FAA 列出台北 9/18 20:15–22:14，備援為 9/19 同時段；這是空域規劃，不是 SpaceX 最終升空承諾。</p>
+          <p>FAA 最新規劃延至台北 9/22 20:15–22:14，備援為 9/23 同時段；這是空域規劃，不是 SpaceX 最終升空承諾。</p>
           <div className="signal-footer">
             <span className="tone-dot watch" />
             <strong>狀態：尚未發射</strong>
             <a
-              href="https://www.fly.faa.gov/adv/adv_otherdis?adv_date=09132026&advn=158"
+              href="https://www.fly.faa.gov/adv/adv_otherdis?adv_date=09152026&advn=6"
               target="_blank"
               rel="noreferrer"
             >

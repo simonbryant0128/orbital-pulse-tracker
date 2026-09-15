@@ -7,16 +7,16 @@
       "vehicle": "Starship V3",
       "status": "FAA 規劃窗口",
       "statusTone": "watch",
-      "headline": "Flight 14 規劃窗口：台北 9/18 晚間",
-      "detail": "FAA 9/13 公告 158 列出 9/18 20:15–22:14（台北），備援 9/19 同時段。空域規劃不等於 SpaceX 最終升空承諾或特定任務許可；尚未發射，不新增部署數。",
+      "headline": "Flight 14 規劃窗口：台北 9/22 晚間",
+      "detail": "FAA 9/15 公告 006 將主窗口延至 9/22 20:15–22:14（台北），備援 9/23 同時段。空域規劃不等於 SpaceX 最終升空承諾或特定任務許可；舊 9/18 公告保留歷史，尚未發射。",
       "stages": [
         { "label": "V3 地面驗證", "state": "complete" },
         { "label": "Flight 12", "state": "complete" },
         { "label": "Flight 13", "state": "complete" },
         { "label": "Flight 14 規劃窗口", "state": "upcoming" }
       ],
-      "next": "台北 9/18 20:15–22:14｜FAA 規劃",
-      "source": "https://www.fly.faa.gov/adv/adv_otherdis?adv_date=09132026&advn=158"
+      "next": "台北 9/22 20:15–22:14｜FAA 規劃",
+      "source": "https://www.fly.faa.gov/adv/adv_otherdis?adv_date=09152026&advn=6"
     },
     {
       "id": "neutron",
