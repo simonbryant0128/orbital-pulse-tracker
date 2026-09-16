@@ -133,6 +133,27 @@ test("publishes September 15 updates with history and deployment definitions int
   assert.doesNotMatch(html, /vsat-equatys-binding-agreement-review-20260914/);
 });
 
+test("publishes September 16 schedule changes without guessing mission identities", async () => {
+  const byId = (id) => publishedEvents.find((event) => event.id === id);
+  const ussf = byId("sx-ussf259-target-update-20260916");
+  const r3 = byId("sx-r3-faa-window-20260915");
+  assert.match(ussf.detail, /台北 9\/17 09:00–13:00/);
+  assert.match(ussf.detail, /頁面未標示公告時間，事件日採本次查核日/);
+  assert.match(ussf.detail, /不將 FAA 的 TH-1 代號自行視為同一任務/);
+  assert.ok(byId("sx-ussf259-target-20260914"), "retain prior target history");
+  assert.match(r3.detail, /台北 19:28–23:11/);
+  assert.match(r3.detail, /不計入衛星部署總量/);
+  assert.ok(!byId("sx-starship-flight14-spacex-window-review-20260916"));
+  const { items } = JSON.parse(await readFile(new URL("../content/schedule.json", import.meta.url), "utf8"));
+  assert.ok(!items.some((item) => item.id === "sx-ussf259-target-20260914"));
+  assert.match(items.find((item) => item.id === ussf.id).window, /9\/17 09:00–13:00；備援 9\/18/);
+  assert.equal(items.find((item) => item.id === r3.id).vehicle, "未於採用公告列出");
+  const html = await (await render()).text();
+  assert.ok(html.includes(escapeHtml(ussf.title)));
+  assert.ok(html.includes(escapeHtml(r3.title)));
+  assert.doesNotMatch(html, /Starship Flight 14 出現在 SpaceX 任務清單，窗口差異待確認/);
+});
+
 test("keeps September 8 milestones separate from completed satellite deployments", () => {
   const solar = publishedEvents.find((e) => e.id === "rklb-imm-apex-production-20260908");
   const approval = publishedEvents.find((e) => e.id === "vsat-nexuswave-bv-approval-20260908");

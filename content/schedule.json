@@ -1,8 +1,9 @@
 {
-  "lastVerified": "2026-09-15",
+  "lastVerified": "2026-09-16",
   "items": [
     { "id": "sx-starship-flight14-faa-window-20260915", "company": "SpaceX", "mission": "Starship Flight 14", "window": "台北 9/22 20:15–22:14；備援 9/23", "bucket": "30d", "confidence": "FAA 規劃窗口／非最終升空承諾", "vehicle": "Starship", "source": "https://www.fly.faa.gov/adv/adv_otherdis?adv_date=09152026&advn=6" },
-    { "id": "sx-ussf259-target-20260914", "company": "SpaceX", "mission": "USSF-259", "window": "台北 9/16 09:00–13:00；備援 9/17", "bucket": "30d", "confidence": "SpaceX 官方目標／尚未發射", "vehicle": "Falcon 9", "source": "https://www.spacex.com/launches/ussf259" },
+    { "id": "sx-ussf259-target-update-20260916", "company": "SpaceX", "mission": "USSF-259", "window": "台北 9/17 09:00–13:00；備援 9/18", "bucket": "30d", "confidence": "SpaceX 官方目標順延／尚未發射", "vehicle": "Falcon 9", "source": "https://www.spacex.com/launches/ussf259" },
+    { "id": "sx-r3-faa-window-20260915", "company": "SpaceX", "mission": "R-3（FAA 代號）", "window": "台北 9/27 19:42–23:25；備援 9/28 19:28–23:11", "bucket": "30d", "confidence": "FAA 規劃窗口／非最終升空承諾", "vehicle": "未於採用公告列出", "source": "https://www.fly.faa.gov/adv/adv_otherdis?adv_date=09152026&advn=93" },
     { "id": "rklb-next-electron-september-20260911", "company": "Rocket Lab", "mission": "下一次商業星座 Electron 任務", "window": "2026 年 9 月底前（未定日）", "bucket": "30d", "confidence": "官方月份目標／未定日", "vehicle": "Electron", "source": "https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-successfully-launches-16th-electron-mission-year" },
     { "id": "sx-th1-faa-window-20260909", "company": "SpaceX", "mission": "TH-1", "window": "台北 9/16 09:00–13:43（UTC 同日）", "bucket": "30d", "confidence": "FAA 規劃窗口／非最終升空承諾", "vehicle": "未於採用公告列出", "source": "https://www.fly.faa.gov/adv/adv_otherdis?adv_date=09092026&advn=85" },
     { "id": "fly-ssc-two-alpha-launches-20260909", "company": "Firefly Aerospace", "mission": "SSC Space 兩次 Esrange 發射", "window": "NET 2028（未定日）", "bucket": "90plus", "confidence": "官方最早年份／未定日", "vehicle": "Alpha", "source": "https://fireflyspace.com/news/firefly-aerospace-signs-contract-with-ssc-space-for-two-alpha-launches-from-esrange-space-center/" },

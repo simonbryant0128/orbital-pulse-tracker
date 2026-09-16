@@ -1,6 +1,44 @@
 {
-  "lastVerified": "2026-09-15",
+  "lastVerified": "2026-09-16",
   "events": [
+    {
+      "id": "sx-ussf259-target-update-20260916",
+      "date": "2026-09-16",
+      "company": "SpaceX",
+      "program": "Falcon 9／USSF-259",
+      "category": "時程",
+      "status": "官方目標順延／尚未發射",
+      "tone": "watch",
+      "title": "USSF-259 發射目標順延至台北 9 月 17 日上午",
+      "summary": "SpaceX 將目標改為台北 9/17 09:00–13:00，備援 9/18 同時段；載荷顆數與延後原因未公布，不增加部署總量。",
+      "detail": "9/16 查核時，SpaceX 官方任務頁已把 USSF-259 改列為美西 9/16 18:00 起四小時窗口，換算台北 9/17 09:00–13:00；備援為美西 9/17 同時段，即台北 9/18。相較先前台北 9/16 目標順延一天，原紀錄保留。Falcon 9 將自 Vandenberg SLC-4E 發射，首節預計第 13 次飛行，回收目標為太平洋 Of Course I Still Love You 無人船。官方尚未說明順延原因、載荷顆數或確認部署；這是排程更新，不是已完成發射，也不將 FAA 的 TH-1 代號自行視為同一任務。頁面未標示公告時間，事件日採本次查核日。",
+      "sources": [
+        {
+          "label": "SpaceX 官方 USSF-259 任務頁",
+          "url": "https://www.spacex.com/launches/ussf259",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "sx-r3-faa-window-20260915",
+      "date": "2026-09-15",
+      "company": "SpaceX",
+      "program": "R-3（FAA 任務代號）",
+      "category": "時程",
+      "status": "FAA 規劃窗口／任務細節未公布",
+      "tone": "watch",
+      "title": "FAA 列出 SpaceX R-3 的 9 月 27 日規劃窗口",
+      "summary": "FAA 列出台北 9/27 19:42–23:25，備援 9/28 19:28–23:11，地點 Vandenberg；尚無可核實的完整任務名稱、載具或載荷數。",
+      "detail": "FAA 於 9/15 23:29 UTC 發布 ATCSCC 公告 093，列出 SPACEX R-3 在 Vandenberg 的主要規劃窗口：9/27 11:42–15:25 UTC（台北 19:42–23:25），備援為 9/28 11:28–15:11 UTC（台北 19:28–23:11）。保留 FAA 原始代號 R-3，不自行展開為其他任務名稱。公告沒有列出載具、酬載顆數或目標軌道；這是空域作業規劃，不是 SpaceX 最終升空承諾、飛行許可或已完成發射，不計入衛星部署總量。",
+      "sources": [
+        {
+          "label": "FAA ATCSCC 09/15/2026 公告 093",
+          "url": "https://www.fly.faa.gov/adv/adv_otherdis?adv_date=09152026&advn=93",
+          "type": "政府官方"
+        }
+      ]
+    },
     {
       "id": "sx-starship-flight14-faa-window-20260915",
       "date": "2026-09-15",

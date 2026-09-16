@@ -1,14 +1,14 @@
 {
-  "lastVerified": "2026-09-15",
+  "lastVerified": "2026-09-16",
   "items": [
     {
       "id": "spacex",
       "name": "SpaceX",
       "ticker": "私人",
       "focus": "發射服務 · Starlink · Starship",
-      "status": "Flight 14 FAA 窗口延至 9/22",
+      "status": "USSF-259 目標順延至台北 9/17",
       "statusTone": "watch",
-      "source": "https://www.fly.faa.gov/adv/adv_otherdis?adv_date=09152026&advn=6"
+      "source": "https://www.spacex.com/launches/ussf259"
     },
     {
       "id": "rocket-lab",
