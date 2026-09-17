@@ -1,6 +1,101 @@
 {
-  "lastVerified": "2026-09-16",
+  "lastVerified": "2026-09-17",
   "events": [
+    {
+      "id": "sx-ussf259-launch-20260917",
+      "date": "2026-09-17",
+      "company": "SpaceX",
+      "program": "Falcon 9／USSF-259",
+      "category": "發射／回收",
+      "status": "已發射／首節回收",
+      "tone": "positive",
+      "title": "USSF-259 已於台北 9 月 17 日發射，首節完成回收",
+      "summary": "SpaceX 確認 Falcon 9 於台北 9/17 09:07 自 Vandenberg 升空；首節第 13 次飛行後回收，未公開載荷顆數或部署確認。",
+      "detail": "SpaceX 官方任務頁確認，USSF-259 於美西 2026 年 9 月 16 日 18:07（PDT，UTC−7）自加州 Vandenberg SLC-4E 發射，換算台北 9 月 17 日 09:07。本次為該首節第 13 次飛行，先前執行 Sentinel-6B、Twilight、NROL-172、Transporter-17 與八次 Starlink 任務；分離後降落在太平洋 Of Course I Still Love You 無人船。官方未公布載荷顆數、目標軌道或確認衛星部署，因此只記錄發射與回收，不增加任何星座部署總量。先前目標日期保留為歷史，已完成任務移出未來排程；不自行與 FAA TH-1 代號配對。",
+      "sources": [
+        {
+          "label": "SpaceX 官方 USSF-259 任務頁",
+          "url": "https://www.spacex.com/launches/ussf259",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "sx-r3-faa-window-update-20260917",
+      "date": "2026-09-17",
+      "company": "SpaceX",
+      "program": "R-3（FAA 任務代號）",
+      "category": "時程",
+      "status": "FAA 規劃窗口更新／尚未發射",
+      "tone": "watch",
+      "title": "FAA 將 SpaceX R-3 規劃窗口提前至台北 9 月 26 日",
+      "summary": "FAA 新規劃為台北 9/26 19:56–23:39，備援 9/27 19:49–23:25；保留 R-3 代號，不推定完整任務名稱或部署量。",
+      "detail": "FAA 於 2026 年 9 月 17 日 11:39 UTC 發布 ATCSCC 公告 029，列出 Vandenberg 的 SPACEX R-3 主要規劃窗口為 9/26 11:56–15:39 UTC（台北 19:56–23:39），備援 9/27 11:49–15:25 UTC（台北 19:49–23:25）。相較先前 9/27 主窗口提前一天，舊公告仍保留。公告未列完整任務名稱、載具、載荷顆數或軌道；不僅憑相近時刻將 R-3 與 USSF-385 合併。這是 FAA 空域作業規劃，不是 SpaceX 最終升空承諾或已發射證明，不計入衛星部署總量。",
+      "sources": [
+        {
+          "label": "FAA ATCSCC 09/17/2026 公告 029",
+          "url": "https://www.fly.faa.gov/adv/adv_otherdis?adv_date=09172026&advn=29",
+          "type": "政府官方"
+        }
+      ]
+    },
+    {
+      "id": "sx-ussf385-target-20260917",
+      "date": "2026-09-17",
+      "company": "SpaceX",
+      "program": "Falcon 9／USSF-385",
+      "category": "時程",
+      "status": "官方目標窗口／尚未發射",
+      "tone": "watch",
+      "title": "USSF-385 目標台北 9 月 26 日晚間發射",
+      "summary": "SpaceX 任務頁列出台北 9/26 19:56–22:56 三小時窗口，備援 9/27 20:49；Falcon 9 將自 Vandenberg SLC-4E 升空。",
+      "detail": "9/17 查核 SpaceX 官方 USSF-385 任務頁，目標為美西 9/26 04:56 起三小時，換算台北 9/26 19:56–22:56；備援起點為美西 9/27 05:49，即台北 9/27 20:49，官方未另列備援結束時間。Falcon 9 將自 Vandenberg SLC-4E 發射，首節預計第 10 次飛行，先前曾執行 NROL-95 與八次 Starlink 任務；回收目標為太平洋 Of Course I Still Love You 無人船。載荷數與目標軌道未公開。頁面未標示公告時間，事件日採本次查核日；這是未來計畫，不是已完成部署，亦未與 FAA R-3 代號合併。",
+      "sources": [
+        {
+          "label": "SpaceX 官方 USSF-385 任務頁",
+          "url": "https://www.spacex.com/launches/ussf385",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "vsat-pgz-satcom-loi-20260916",
+      "date": "2026-09-16",
+      "company": "Viasat",
+      "program": "PGZ／國防衛星通訊",
+      "category": "合作",
+      "status": "合作意向書已簽／評估階段",
+      "tone": "positive",
+      "title": "Viasat 與波蘭 PGZ 簽署衛星通訊合作意向書",
+      "summary": "雙方於 9/16 在華沙簽署 LoI，評估地面站天線、SATCOM 終端與軍用通訊衛星合作；尚未公布採購金額、部署數量或發射日期。",
+      "detail": "Viasat 9/16 官方公告確認，與波蘭國營國防集團 Polska Grupa Zbrojeniowa（PGZ）於同日在華沙簽署合作意向書，探索支援波蘭國防需求的衛星通訊與太空能力。評估範圍包括地面站天線、SATCOM 終端、軍用通訊衛星及其他太空應用，結合 Viasat 通訊技術與 PGZ 在地國防產業能力。這是探索合作的 LoI，不等於正式衛星採購、確定訂單或已部署；公告未提供金額、衛星顆數、載具或下一次發射日期，因此部署總量不變。公告只有日期、未列發布時刻，不宣稱精確落在滾動 24 小時內。",
+      "sources": [
+        {
+          "label": "Viasat 官方 PGZ 合作公告",
+          "url": "https://www.viasat.com/news/latest-news/government/2026/viasat-and-pgz-exploring-collaboration-on-advanced-satellite-com/",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "pl-german-federal-constellation-contract-20260915",
+      "date": "2026-09-15",
+      "company": "Planet Labs",
+      "program": "Constellation Services／德國 BMI",
+      "category": "合約",
+      "status": "得標／含選擇權上限",
+      "tone": "positive",
+      "title": "Planet 取得德國政府專用衛星服務合約，五年上限 2,500 萬歐元",
+      "summary": "德國 BMI 授標，由 BKG 協調專用高解析度衛星任務、影像與分析服務；含選擇權最高五年 2,500 萬歐元，不代表已全額確定收入。",
+      "detail": "補收 Planet 9/15 官方公告：Planet Labs Germany 取得德國內政部 BMI 的衛星服務標案，由 BKG 協調供德國民政機關使用的專用高解析度任務拍攝、全國 Planet Mosaics 與地理空間分析，並提供部署於歐洲雲端的 SaaS／平台。合約含選擇權，五年最高潛在價值為 2,500 萬歐元，不是保證已執行金額或當期收入；公司維持 9/3 發布的財務展望。公告未列新增衛星顆數或發射日期，不把服務合約當成已完成部署。本列屬 9/17 查核時補收的 9/15 歷史公告，不列為過去 24 小時新發生事件。",
+      "sources": [
+        {
+          "label": "Planet 官方德國聯邦合約公告",
+          "url": "https://investors.planet.com/news/news-details/2026/Planet-Awarded-Landmark-German-Federal-Contract-for-Exclusive-Access-to-Dedicated-Satellite-Constellation/default.aspx",
+          "type": "官方"
+        }
+      ]
+    },
     {
       "id": "sx-ussf259-target-update-20260916",
       "date": "2026-09-16",
