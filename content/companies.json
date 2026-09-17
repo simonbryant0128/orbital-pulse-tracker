@@ -1,13 +1,13 @@
 {
-  "lastVerified": "2026-09-16",
+  "lastVerified": "2026-09-17",
   "items": [
     {
       "id": "spacex",
       "name": "SpaceX",
       "ticker": "私人",
       "focus": "發射服務 · Starlink · Starship",
-      "status": "USSF-259 目標順延至台北 9/17",
-      "statusTone": "watch",
+      "status": "USSF-259 已發射／首節回收",
+      "statusTone": "positive",
       "source": "https://www.spacex.com/launches/ussf259"
     },
     {
@@ -51,9 +51,9 @@
       "name": "Viasat",
       "ticker": "VSAT",
       "focus": "GEO／多軌衛星通訊 · NTN",
-      "status": "HaloNet 整合 IDRS 即時星間中繼",
+      "status": "與 PGZ 簽署 SATCOM 合作意向書",
       "statusTone": "positive",
-      "source": "https://www.viasat.com/news/latest-news/government/2026/addvalue-viasat-idrs-government/"
+      "source": "https://www.viasat.com/news/latest-news/government/2026/viasat-and-pgz-exploring-collaboration-on-advanced-satellite-com/"
     },
     {
       "id": "firefly-aerospace",
@@ -87,9 +87,9 @@
       "name": "Planet Labs",
       "ticker": "PL",
       "focus": "Pelican · PlanetScope · Tanager · 地球觀測",
-      "status": "Pelican-11 進入 commissioning",
+      "status": "取得德國專用衛星服務合約",
       "statusTone": "positive",
-      "source": "https://investors.planet.com/news/news-details/2026/Planet-Launches-Pelican-11-Satellite/default.aspx"
+      "source": "https://investors.planet.com/news/news-details/2026/Planet-Awarded-Landmark-German-Federal-Contract-for-Exclusive-Access-to-Dedicated-Satellite-Constellation/default.aspx"
     },
     {
       "id": "blacksky",

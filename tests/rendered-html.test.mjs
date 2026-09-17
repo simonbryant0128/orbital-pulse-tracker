@@ -146,12 +146,44 @@ test("publishes September 16 schedule changes without guessing mission identitie
   assert.ok(!byId("sx-starship-flight14-spacex-window-review-20260916"));
   const { items } = JSON.parse(await readFile(new URL("../content/schedule.json", import.meta.url), "utf8"));
   assert.ok(!items.some((item) => item.id === "sx-ussf259-target-20260914"));
-  assert.match(items.find((item) => item.id === ussf.id).window, /9\/17 09:00–13:00；備援 9\/18/);
-  assert.equal(items.find((item) => item.id === r3.id).vehicle, "未於採用公告列出");
+  assert.ok(!items.some((item) => item.id === ussf.id || item.id === r3.id), "superseded targets stay in history, not upcoming missions");
   const html = await (await render()).text();
-  assert.ok(html.includes(escapeHtml(ussf.title)));
-  assert.ok(html.includes(escapeHtml(r3.title)));
   assert.doesNotMatch(html, /Starship Flight 14 出現在 SpaceX 任務清單，窗口差異待確認/);
+});
+
+test("publishes September 17 updates without inventing deployment totals or mission mappings", async () => {
+  const byId = (id) => publishedEvents.find((event) => event.id === id);
+  const launch = byId("sx-ussf259-launch-20260917");
+  const r3 = byId("sx-r3-faa-window-update-20260917");
+  const target = byId("sx-ussf385-target-20260917");
+  const viasat = byId("vsat-pgz-satcom-loi-20260916");
+  const planet = byId("pl-german-federal-constellation-contract-20260915");
+  assert.equal(launch.date, "2026-09-17");
+  assert.match(launch.detail, /台北 9 月 17 日 09:07/);
+  assert.match(launch.detail, /未公布載荷顆數/);
+  assert.match(launch.detail, /不增加任何星座部署總量/);
+  assert.match(r3.detail, /9\/26 11:56–15:39 UTC/);
+  assert.match(r3.detail, /不僅憑相近時刻將 R-3 與 USSF-385 合併/);
+  assert.match(r3.sources[0].url, /adv_date=09172026&advn=29$/);
+  assert.match(target.detail, /台北 9\/27 20:49/);
+  assert.match(target.detail, /未另列備援結束時間/);
+  assert.match(viasat.detail, /不等於正式衛星採購/);
+  assert.match(planet.detail, /五年最高潛在價值為 2,500 萬歐元/);
+  assert.match(planet.detail, /不列為過去 24 小時新發生事件/);
+  const { items } = JSON.parse(await readFile(new URL("../content/schedule.json", import.meta.url), "utf8"));
+  for (const id of ["sx-ussf259-target-update-20260916", "sx-th1-faa-window-20260909", "sx-r3-faa-window-20260915"]) {
+    assert.ok(byId(id), `retain historical event ${id}`);
+    assert.ok(!items.some((item) => item.id === id), `remove expired/superseded upcoming entry ${id}`);
+  }
+  assert.match(items.find((item) => item.id === r3.id).window, /9\/26 19:56–23:39/);
+  assert.match(items.find((item) => item.id === target.id).window, /9\/27 20:49 起/);
+  for (const id of ["sx-starlink-15-27-faa-window-20260913", "vsat-equatys-binding-agreement-review-20260914", "sx-starship-flight14-spacex-window-review-20260916"]) {
+    assert.ok(!byId(id), `pending event must not be published: ${id}`);
+  }
+  const html = await (await render()).text();
+  for (const event of [launch, r3, target, viasat, planet]) {
+    assert.ok(html.includes(escapeHtml(event.title)), `new event visible: ${event.id}`);
+  }
 });
 
 test("keeps September 8 milestones separate from completed satellite deployments", () => {
