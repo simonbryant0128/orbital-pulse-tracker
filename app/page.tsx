@@ -167,13 +167,13 @@ export default function Home() {
             <span className="signal-dot" />
           </div>
           <p className="signal-kicker">SPACEX · STARSHIP</p>
-          <h2>Flight 14 規劃窗口</h2>
-          <p>FAA 最新規劃延至台北 9/22 20:15–22:14，備援為 9/23 同時段；這是空域規劃，不是 SpaceX 最終升空承諾。</p>
+          <h2>Flight 14 最新時程待核對</h2>
+          <p>最新時程尚未通過本網查核，暫不列出下一次發射日期。先前公告保留在歷史事件中，不應當作目前的發射承諾。</p>
           <div className="signal-footer">
             <span className="tone-dot watch" />
-            <strong>狀態：尚未發射</strong>
+            <strong>狀態：待時程查核完成</strong>
             <a
-              href="https://www.fly.faa.gov/adv/adv_otherdis?adv_date=09152026&advn=6"
+              href="https://www.spacex.com/launches"
               target="_blank"
               rel="noreferrer"
             >

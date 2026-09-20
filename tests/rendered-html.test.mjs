@@ -58,7 +58,7 @@ test("renders the orbital tracker product page", async () => {
     assert.ok(html.includes(escapeHtml(event.summary)), `Missing initial summary: ${event.id}`);
     assert.ok(html.includes(escapeHtml(event.detail)), `Missing detail preview: ${event.id}`);
   }
-  assert.match(html, /Flight 14 規劃窗口/);
+  assert.match(html, /Flight 14 最新時程待核對/);
   assert.match(html, /Viasat/);
   assert.match(html, /Firefly Aerospace/);
   assert.match(html, /Voyager Technologies/);
@@ -74,12 +74,13 @@ test("renders the orbital tracker product page", async () => {
   const starlink = publishedEvents.find((event) => event.id === "sx-starlink-15-24-deployed-20260906");
   assert.match(starlink.title, /Starlink 15-24 發射成功，27 顆衛星完成部署/);
   assert.match(starlink.detail, /單次任務的部署量/);
-  assert.match(html, /2096621981328130462/);
+  assert.ok(starlink.sources.some((source) => source.url.includes("2096621981328130462")));
   assert.doesNotMatch(html, /sx-starship-flight14-date-review-20260902/);
   assert.ok(publishedEvents.some((event) => event.title.includes("IMM Apex 太空太陽能電池量產")));
   assert.ok(publishedEvents.some((event) => event.title === "NexusWave 取得 Bureau Veritas 資安型式認可"));
   assert.match(html, /FAA 規劃窗口／非最終升空承諾/);
-  assert.match(html, /台北 9\/22 20:15–22:14/);
+  assert.doesNotMatch(html, /台北 9\/22 20:15–22:14/);
+  assert.match(html, /2026-09-30（官網日期；時間／時區未公布）/);
   assert.match(html, /開啟雲端主表/);
   assert.match(html, /GitHub/);
   assert.doesNotMatch(html, /codex-preview|Your site is taking shape|react-loading-skeleton/i);
@@ -127,9 +128,9 @@ test("publishes September 15 updates with history and deployment definitions int
   assert.equal(blacksky.deployment.nextLaunchDisplay, "2026 年底前（未定日）");
   const schedule = JSON.parse(await readFile(new URL("../content/schedule.json", import.meta.url), "utf8"));
   assert.ok(!schedule.items.some((item) => item.id === prior.id || item.id === "blacksky-gen3-q3"));
-  assert.ok(schedule.items.some((item) => item.id === current.id));
+  assert.ok(!schedule.items.some((item) => item.id === current.id), "superseded Starship target remains historical only");
   const html = await (await render()).text();
-  assert.match(html, /台北 9\/22 20:15–22:14/);
+  assert.doesNotMatch(html, /台北 9\/22 20:15–22:14/);
   assert.doesNotMatch(html, /vsat-equatys-binding-agreement-review-20260914/);
 });
 
@@ -180,10 +181,8 @@ test("publishes September 17 updates without inventing deployment totals or miss
   for (const id of ["sx-starlink-15-27-faa-window-20260913", "vsat-equatys-binding-agreement-review-20260914", "sx-starship-flight14-spacex-window-review-20260916"]) {
     assert.ok(!byId(id), `pending event must not be published: ${id}`);
   }
-  const html = await (await render()).text();
-  for (const event of [launch, r3, target, viasat, planet]) {
-    assert.ok(html.includes(escapeHtml(event.title)), `new event visible: ${event.id}`);
-  }
+  // Historical events are retained above; the product-page test checks the
+  // actual newest seven cards, independent of this batch's age.
 });
 
 test("keeps September 8 milestones separate from completed satellite deployments", () => {
