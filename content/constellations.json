@@ -1,5 +1,5 @@
 {
-  "lastVerified": "2026-09-15",
+  "lastVerified": "2026-09-20",
   "methodology": "Amazon Leo、AST SpaceMobile、Planet、BlackSky、Spire 與 Globalstar 採公司官方任務、投資人關係或監管申報資料；Starlink 採 Jonathan McDowell 的第三方 Total Working 軌道統計。下一次任務只採官方窗口，未公布確切日期時不以第三方預測補值。不同計畫的總量、來源日與統計口徑不同，不應直接互相比較。",
   "items": [
     {
@@ -15,17 +15,17 @@
       "accent": "cyan",
       "source": "https://planet4589.org/space/con/star/stats.html",
       "sourceClass": "第三方軌道統計",
-      "lastChecked": "2026-09-07",
+      "lastChecked": "2026-09-20",
       "deployment": {
         "totalLabel": "目前在軌工作中",
-        "nextMission": "Starlink Mission",
+        "nextMission": "Starlink 15-25",
         "nextLaunchDate": null,
-        "nextLaunchDisplay": "待官方公告",
-        "nextStatus": "9/6 Starlink 15-24 已部署 27 顆；下一班日期待官方公告",
+        "nextLaunchDisplay": "2026-09-30（官網日期；時間／時區未公布）",
+        "nextStatus": "官方日期／時間與時區待公布；規劃部署 27 顆，尚未發射",
         "nextVehicle": "Falcon 9",
-        "nextSourceLabel": "SpaceX 官方部署確認",
-        "nextSource": "https://x.com/SpaceX/status/2096621981328130462",
-        "scheduleConfidence": "未定日"
+        "nextSourceLabel": "SpaceX 官方 Starlink 15-25 任務頁",
+        "nextSource": "https://www.spacex.com/launches/sl-15-25",
+        "scheduleConfidence": "官方日期／時間與時區待公布"
       },
       "breakdownLabel": "2026-08-12 Total Working 版本快照",
       "breakdown": [

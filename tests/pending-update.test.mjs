@@ -5,7 +5,7 @@ import test from "node:test";
 const batch = JSON.parse(await readFile(new URL("../content/pending/2026-09-20-approved.json", import.meta.url), "utf8"));
 
 test("September 20 staging contains only verified pending events with stable unique IDs", () => {
-  assert.equal(batch.state, "staged-not-published");
+  assert.equal(batch.state, "approved-source-snapshot");
   assert.equal(batch.range, "A79:Q82");
   assert.equal(batch.events.length, 4);
   assert.equal(new Set(batch.events.map((e) => e.id)).size, 4);
@@ -45,9 +45,31 @@ test("September 20 staging preserves deployment and time-zone caveats", () => {
   assert.match(byId("vsat-viasat3-f2-service-20260917").detail, /並非過去 24 小時新事件/);
 });
 
-test("September 20 staged data is not silently included in the currently published content", async () => {
+test("September 20 approved snapshot is integrated exactly once without pending review records", async () => {
   const published = JSON.parse(await readFile(new URL("../content/events.json", import.meta.url), "utf8"));
-  const ids = new Set(published.events.map((e) => e.id));
-  for (const event of batch.events) assert.ok(!ids.has(event.id));
+  for (const event of batch.events) {
+    const matches = published.events.filter((e) => e.id === event.id);
+    assert.equal(matches.length, 1);
+    for (const key of ["date", "company", "program", "category", "status", "tone", "title", "summary", "detail"]) assert.equal(matches[0][key], event[key]);
+    assert.deepEqual(matches[0].sources.map((s) => s.url), event.sources.map((s) => s.url));
+  }
+  for (const id of ["sx-starlink-15-27-faa-window-20260913", "vsat-equatys-binding-agreement-review-20260914", "sx-starship-flight14-spacex-window-review-20260916"]) assert.ok(!published.events.some((e) => e.id === id));
   assert.ok(!batch.events.some((e) => e.id.includes("review")));
+});
+
+test("September 20 upcoming data preserves historical totals and uncertain time zones", async () => {
+  const read = async (name) => JSON.parse(await readFile(new URL(`../content/${name}.json`, import.meta.url), "utf8"));
+  const { items } = await read("constellations");
+  const starlink = items.find((e) => e.id === "starlink");
+  assert.equal(starlink.current, 10971);
+  assert.equal(starlink.currentAsOf, "2026-08-12");
+  assert.equal(starlink.deployment.nextMission, "Starlink 15-25");
+  assert.equal(starlink.deployment.nextLaunchDate, null);
+  assert.match(starlink.deployment.nextLaunchDisplay, /2026-09-30.*時區未公布/);
+  const schedule = await read("schedule");
+  assert.ok(schedule.items.some((e) => e.id === "sx-starlink-15-25-target-20260920"));
+  for (const id of ["sx-starship-flight14-faa-window-20260915", "rklb-next-electron-september-20260911"]) assert.ok(!schedule.items.some((e) => e.id === id));
+  const program = (await read("programs")).items.find((e) => e.id === "starship");
+  assert.match(program.headline, /待核對/);
+  assert.doesNotMatch(JSON.stringify(program), /9\/22|9\/28/);
 });

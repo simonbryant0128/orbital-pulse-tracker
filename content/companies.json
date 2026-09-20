@@ -1,23 +1,23 @@
 {
-  "lastVerified": "2026-09-17",
+  "lastVerified": "2026-09-20",
   "items": [
     {
       "id": "spacex",
       "name": "SpaceX",
       "ticker": "私人",
       "focus": "發射服務 · Starlink · Starship",
-      "status": "USSF-259 已發射／首節回收",
+      "status": "Starlink 15-27 完成 27 顆部署",
       "statusTone": "positive",
-      "source": "https://www.spacex.com/launches/ussf259"
+      "source": "https://www.spacex.com/launches/sl-15-27"
     },
     {
       "id": "rocket-lab",
       "name": "Rocket Lab",
       "ticker": "RKLB",
       "focus": "Electron · HASTE · Neutron · 太空系統",
-      "status": "Electron 第 95 次任務成功",
+      "status": "Electron 第 96 次任務成功",
       "statusTone": "positive",
-      "source": "https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-successfully-launches-16th-electron-mission-year"
+      "source": "https://rocketlabcorp.com/updates/mission-success-rocket-lab-launches-96th-electron-mission/"
     },
     {
       "id": "blue-origin",
@@ -51,9 +51,9 @@
       "name": "Viasat",
       "ticker": "VSAT",
       "focus": "GEO／多軌衛星通訊 · NTN",
-      "status": "與 PGZ 簽署 SATCOM 合作意向書",
+      "status": "ViaSat-3 F2 已投入美洲服務",
       "statusTone": "positive",
-      "source": "https://www.viasat.com/news/latest-news/government/2026/viasat-and-pgz-exploring-collaboration-on-advanced-satellite-com/"
+      "source": "https://www.viasat.com/news/latest-news/corporate/2026/viasat-3-f2-enters-service/"
     },
     {
       "id": "firefly-aerospace",

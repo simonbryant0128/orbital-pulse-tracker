@@ -1,6 +1,92 @@
 {
-  "lastVerified": "2026-09-17",
+  "lastVerified": "2026-09-20",
   "events": [
+    {
+      "id": "sx-starlink-15-27-deployed-20260920",
+      "date": "2026-09-20",
+      "company": "SpaceX",
+      "program": "Falcon 9／Starlink 15-27",
+      "category": "發射／部署／回收",
+      "status": "已完成／27 顆部署",
+      "tone": "positive",
+      "title": "Starlink 15-27 完成部署 27 顆衛星，整流罩半片首度達第 40 次飛行",
+      "summary": "Falcon 9 於台北 9/20 09:47 發射，SpaceX 於 10:50 確認 27 顆部署；首節第 17 次飛行後回收，另創整流罩半片第 40 次飛行紀錄。",
+      "detail": "SpaceX 確認 Starlink 15-27 於美西 2026 年 9 月 19 日 18:47 PDT 自 Vandenberg SLC-4E 升空，換算台北 9 月 20 日 09:47。官方 X 於台北 10:50 確認 27 顆衛星完成部署。首節執行第 17 次飛行後降落於 Of Course I Still Love You 無人船；另有一片整流罩首次達到第 40 次飛行，不能把兩種重複使用次數混為一談。27 顆是本次部署量，不是目前在軌工作中淨增數；不直接加到 8/12 的 Total Working 舊快照，衛星版本亦未於採用公告明示。先前發射窗口差異保留歷史，實際發射與部署確認另立本事件。",
+      "sources": [
+        {
+          "label": "SpaceX 任務頁、部署確認與整流罩里程碑",
+          "url": "https://www.spacex.com/launches/sl-15-27",
+          "type": "官方"
+        },
+        {
+          "label": "SpaceX 任務頁、部署確認與整流罩里程碑",
+          "url": "https://x.com/SpaceX/status/2101504221266792661",
+          "type": "官方"
+        },
+        {
+          "label": "SpaceX 任務頁、部署確認與整流罩里程碑",
+          "url": "https://x.com/SpaceX/status/2101489521615385011",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "rklb-owl-by-the-dozen-20260919",
+      "date": "2026-09-19",
+      "company": "Rocket Lab",
+      "program": "Electron／Owl By The Dozen",
+      "category": "發射／部署",
+      "status": "已完成／1 顆部署",
+      "tone": "positive",
+      "title": "Electron 完成第 96 次任務，部署 Synspective 第 12 顆 StriX",
+      "summary": "任務於紐西蘭 9/19 15:22 發射，換算台北 11:22，將 1 顆 SAR 衛星送入 572 公里低軌；今年第 17 次 Electron 發射。",
+      "detail": "Rocket Lab 9/19 公告 Owl By The Dozen 任務於當日 15:22 NZST 自紐西蘭 Launch Complex 1 發射，換算台北 11:22。Kick Stage 將 Synspective 第 12 顆 StriX SAR 衛星部署至 572 公里低地球軌道；本次為 Electron 累計第 96 次、2026 年第 17 次發射。公司另表示至本十年底還有 15 次 Synspective 專用 Electron 任務排入計畫，未列下一次確切日期。第 12 顆是任務／星座序數，不代表已核實 12 顆同時在軌工作或全部商轉。本次只新增 1 顆部署紀錄，不歸入既有七個追蹤星座的總量。",
+      "sources": [
+        {
+          "label": "Rocket Lab 第 96 次 Electron 任務成功公告",
+          "url": "https://rocketlabcorp.com/updates/mission-success-rocket-lab-launches-96th-electron-mission/",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "sx-starlink-15-25-target-20260920",
+      "date": "2026-09-20",
+      "company": "SpaceX",
+      "program": "Falcon 9／Starlink 15-25",
+      "category": "時程／部署規劃",
+      "status": "官方日期／時間與時區待公布",
+      "tone": "watch",
+      "title": "SpaceX 將下一班 Starlink 15-25 列為 9 月 30 日",
+      "summary": "官方任務頁列出 9/30，計畫由 Vandenberg 發射 27 顆；未公布精確時刻與日期時區，不推算台北升空時間。",
+      "detail": "9/20 查核時，SpaceX 官方發射清單和 sl-15-25 任務頁列日期為 2026 年 9 月 30 日，目標由 Falcon 9 自 Vandenberg SLC-4E 發射 27 顆 Starlink 至低軌。頁面沒有提供升空時刻或日期適用時區，因此只保留官網日期，不自行換算台北確切日／時。首節預計第 25 次飛行，回收目標為 Of Course I Still Love You。這是未來規劃，不是已完成部署，27 顆不計入已部署總數。頁面未標示公告時間，事件日採查核日。",
+      "sources": [
+        {
+          "label": "SpaceX 官方 Starlink 15-25 任務頁",
+          "url": "https://www.spacex.com/launches/sl-15-25",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "vsat-viasat3-f2-service-20260917",
+      "date": "2026-09-17",
+      "company": "Viasat",
+      "program": "ViaSat-3 F2",
+      "category": "商轉／里程碑",
+      "status": "已投入美洲服務",
+      "tone": "positive",
+      "title": "ViaSat-3 F2 投入美洲服務，ViaSat-3 星系完成商轉",
+      "summary": "Viasat 9/17 宣布 F2 已提供美洲連線服務；設計容量逾 1 Tbps，官方稱全球機隊可用頻寬較原先增加至三倍。",
+      "detail": "本次補收 9/17 官方公告，並非過去 24 小時新事件。Viasat 宣布 ViaSat-3 F2 已在美洲投入服務，F1 已營運、F3 於 8 月在亞太商轉，使 ViaSat-3 星系完整投入運作。F2 的超過 1 Tbps 是設計吞吐容量，不是本次實測或單一使用者速率；公司稱星系完成後全球機隊可用頻寬達原先三倍。動態波束可依航空、海運與地面需求分配容量。本事件是 GEO 衛星商轉，不是新增發射或低軌衛星部署，不增加 LEO 顆數。",
+      "sources": [
+        {
+          "label": "Viasat 官方 ViaSat-3 F2 商轉公告",
+          "url": "https://www.viasat.com/news/latest-news/corporate/2026/viasat-3-f2-enters-service/",
+          "type": "官方"
+        }
+      ]
+    },
     {
       "id": "sx-ussf259-launch-20260917",
       "date": "2026-09-17",

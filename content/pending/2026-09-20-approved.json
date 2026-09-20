@@ -3,8 +3,8 @@
   "spreadsheetId": "1_STxAMYmggQQClcMueJ5NcGh1XoQpBhpYabRa4PQS3U",
   "sheet": "網站事件_主檔",
   "range": "A79:Q82",
-  "state": "staged-not-published",
-  "blocker": "Sites local skill and packaging helpers are absent; do not merge or deploy until required build and desktop/mobile checks complete.",
+  "state": "approved-source-snapshot",
+  "note": "Historical Sheet snapshot captured while publication was pending; approved records are now integrated into website content. Live publication state remains in Google Sheets.",
   "events": [
     {
       "id": "sx-starlink-15-27-deployed-20260920",
