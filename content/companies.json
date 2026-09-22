@@ -15,9 +15,9 @@
       "name": "Rocket Lab",
       "ticker": "RKLB",
       "focus": "Electron · HASTE · Neutron · 太空系統",
-      "status": "Electron 第 96 次任務成功",
-      "statusTone": "positive",
-      "source": "https://rocketlabcorp.com/updates/mission-success-rocket-lab-launches-96th-electron-mission/"
+      "status": "下一班 StriX 任務 NET 台北 9/26 08:15",
+      "statusTone": "watch",
+      "source": "https://rocketlabcorp.com/missions/launches/owlright-owlright-owlright/"
     },
     {
       "id": "blue-origin",
@@ -69,9 +69,9 @@
       "name": "Voyager Technologies",
       "ticker": "VOYG",
       "focus": "LEO 任務 · Starlab · 月球系統",
-      "status": "完成 ESA IFD 快速分離介面交付",
+      "status": "NREP 退役；首座 NEL 目標 2026 年 12 月發射",
       "statusTone": "positive",
-      "source": "https://voyagertechnologies.com/press-releases/voyager-delivers-launch-critical-infrastructure-for-next-gen-rocket/"
+      "source": "https://voyagertechnologies.com/insights/pioneering-commercial-space-access/"
     },
     {
       "id": "iridium",
@@ -114,9 +114,9 @@
       "name": "Globalstar",
       "ticker": "GSAT",
       "focus": "全球 LEO 通訊 · IoT · HIBLEO-4／C-3",
-      "status": "首批 8 顆替換衛星完成部署",
+      "status": "Nemea 地面站擴建完工並進入 commissioning",
       "statusTone": "positive",
-      "source": "https://investors.globalstar.com/news-releases/news-release-details/globalstar-confirms-successful-launch-all-8-hibleo-4-replacement"
+      "source": "https://investors.globalstar.com/news-releases/news-release-details/globalstar-completes-expansion-greece-ground-station-marking-key"
     }
   ]
 }
