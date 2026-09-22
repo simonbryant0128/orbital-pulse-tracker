@@ -1,0 +1,67 @@
+{
+  "checkDate": "2026-09-22",
+  "spreadsheetId": "1_STxAMYmggQQClcMueJ5NcGh1XoQpBhpYabRa4PQS3U",
+  "sheet": "網站事件_主檔",
+  "range": "A83:Q85",
+  "state": "approved-source-snapshot",
+  "note": "Historical Google Sheets snapshot captured before publication. Live publication status remains in Google Sheets.",
+  "events": [
+    {
+      "id": "rklb-owlright-target-20260922",
+      "date": "2026-09-22",
+      "company": "Rocket Lab",
+      "ticker": "RKLB",
+      "program": "Electron／Owlright, Owlright, Owlright",
+      "category": "時程／部署規劃",
+      "status": "官方 NET／尚未發射",
+      "tone": "watch",
+      "title": "Electron 下一班目標台北 9 月 26 日 08:15 發射 1 顆 StriX",
+      "summary": "Rocket Lab 任務頁列出 NET 9/26 00:15 UTC，自 LC-1 Pad B 將 1 顆 Synspective StriX 送往 559 公里低軌；尚未完成部署。",
+      "reviewStatus": "自動查證",
+      "publicationStatus": "待同步",
+      "checkedDate": "2026-09-22",
+      "detail": "Rocket Lab 官方任務頁列出 Owlright, Owlright, Owlright 任務 NET 2026 年 9 月 26 日 00:15 UTC，換算台北時間為 9 月 26 日 08:15；任務將自紐西蘭 LC-1 Pad B 以 Electron 發射 1 顆 Synspective StriX，目標為 559 公里、傾角 37 度的低地球軌道。這是未來排程，尚未完成發射或部署，因此不計入已部署總量。官方頁面另有一處任務序號敘述與先前已完成的第 96 次任務資訊不一致，本次不採用該序號，也不自行推定為第 97 次；發射時間、載荷與軌道欄位則均有明確官方資訊。",
+      "sources": [
+        { "label": "Rocket Lab 官方 Owlright, Owlright, Owlright 任務頁", "url": "https://rocketlabcorp.com/missions/launches/owlright-owlright-owlright/" }
+      ]
+    },
+    {
+      "id": "voyg-nrep-nel-transition-20260921",
+      "date": "2026-09-21",
+      "company": "Voyager Technologies",
+      "ticker": "VOYG",
+      "program": "NREP／NEL／Bishop Airlock",
+      "category": "在軌基礎設施／時程",
+      "status": "NREP 已退役／NEL 目標 2026-12",
+      "tone": "positive",
+      "title": "Voyager NREP 完成十年任務，首座 NEL 目標 2026 年 12 月發射",
+      "summary": "NREP 已於 9/3 退役；後繼 NEL 經 Bishop Airlock 操作，可提供最高 700W 並容納最多 10 項載荷，首座預定 2026 年 12 月發射。",
+      "reviewStatus": "自動查證",
+      "publicationStatus": "待同步",
+      "checkedDate": "2026-09-22",
+      "detail": "Voyager 於 2026 年 9 月 21 日公布，國際太空站外部研究平台 NREP 已在 9 月 3 日完成退役。NREP 自 2016 年 8 月起運作約十年，其中八年暴露於真空環境，提供 9 個外部載荷槽位與載荷返回能力。後繼平台 NEL 將透過 Voyager 的 Bishop Airlock 操作，可朝任意方向指向，電力最高 700W（NREP 約 50W），最多容納 10 項載荷；首座 NEL 預定 2026 年 12 月發射，第二座預定 2027 年，Big Boy 示範則規劃於 2027 年。官方未公布 12 月的確切日期、發射載具或首批載荷數，因此維持月份級時間窗；這是 ISS 在軌基礎設施更新，不計入衛星星系部署總量。",
+      "sources": [
+        { "label": "Voyager 官方 Pioneering Commercial Space Access", "url": "https://voyagertechnologies.com/insights/pioneering-commercial-space-access/" }
+      ]
+    },
+    {
+      "id": "gsat-nemea-ground-station-expansion-20260921",
+      "date": "2026-09-21",
+      "company": "Globalstar",
+      "ticker": "GSAT",
+      "program": "C-3／Nemea 地面站",
+      "category": "基礎設施／里程碑",
+      "status": "擴建完工／commissioning 中",
+      "tone": "positive",
+      "title": "Globalstar 完成希臘 Nemea 地面站擴建，追蹤天線增至 6 座",
+      "summary": "新增 3 座 6 米追蹤天線，使 Nemea 站由 3 座增至 6 座；新設施已進入 commissioning，支援第三代 C-3 行動衛星系統。",
+      "reviewStatus": "自動查證",
+      "publicationStatus": "待同步",
+      "checkedDate": "2026-09-22",
+      "detail": "Globalstar 於 2026 年 9 月 21 日宣布完成希臘 Nemea 地面站擴建，並進入新設施 commissioning 階段。工程自 2025 年 9 月開始，新增 3 座 6 米追蹤天線，使站內基礎設施由原本 3 座增至 6 座，支援第三代 C-3 行動衛星系統。公司表示，更廣泛的地面網路更新計畫約包含 90 座新追蹤天線，分布於約 35 個地面站、25 個國家與地區。這是地面基礎設施里程碑，不是新的衛星部署事件，因此不調整在軌或已部署衛星數。",
+      "sources": [
+        { "label": "Globalstar 官方 Nemea 擴建公告", "url": "https://investors.globalstar.com/news-releases/news-release-details/globalstar-completes-expansion-greece-ground-station-marking-key" }
+      ]
+    }
+  ]
+}
