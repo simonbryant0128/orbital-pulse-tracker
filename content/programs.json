@@ -5,17 +5,17 @@
       "name": "Starship",
       "company": "SpaceX",
       "vehicle": "Starship V3",
-      "status": "最新時程待核對",
+      "status": "官方目標已列出",
       "statusTone": "watch",
-      "headline": "Flight 14 最新時程待核對",
-      "detail": "最新時程尚未通過本網查核，暫不列出下一次發射日期。先前公告保留在歷史事件中，不應當作目前的發射承諾。",
+      "headline": "Flight 14 目標台北 9 月 28 日 20:15",
+      "detail": "SpaceX 列出 20:15–21:30 任務窗口；FAA 同日起點的空域作業窗口延續至 22:14，備援為 9 月 29 日。這仍是未來目標，尚未完成試飛。",
       "stages": [
         { "label": "V3 地面驗證", "state": "complete" },
         { "label": "Flight 12", "state": "complete" },
         { "label": "Flight 13", "state": "complete" },
-        { "label": "Flight 14 時程核對", "state": "upcoming" }
+        { "label": "Flight 14 目標窗口", "state": "upcoming" }
       ],
-      "next": "待時程查核完成",
+      "next": "台北 2026-09-28 20:15",
       "source": "https://www.spacex.com/launches"
     },
     {

@@ -1,14 +1,14 @@
 {
-  "lastVerified": "2026-09-20",
+  "lastVerified": "2026-09-23",
   "items": [
     {
       "id": "spacex",
       "name": "SpaceX",
       "ticker": "私人",
       "focus": "發射服務 · Starlink · Starship",
-      "status": "Starlink 15-27 完成 27 顆部署",
-      "statusTone": "positive",
-      "source": "https://www.spacex.com/launches/sl-15-27"
+      "status": "Starship Flight 14 目標台北 9/28 20:15",
+      "statusTone": "watch",
+      "source": "https://www.spacex.com/launches"
     },
     {
       "id": "rocket-lab",
@@ -60,9 +60,9 @@
       "name": "Firefly Aerospace",
       "ticker": "FLY",
       "focus": "Alpha · Elytra · Blue Ghost",
-      "status": "Blue Ghost／Zeno 月夜技術",
+      "status": "新潔淨室完工，可同時支援最多 12 艘太空器",
       "statusTone": "positive",
-      "source": "https://fireflyspace.com/news/firefly-aerospace-onboards-zeno-power-on-blue-ghost-mission-to-demonstrate-radioisotope-technologies-to-survive-the-lunar-night/"
+      "source": "https://investors.fireflyspace.com/news-releases/news-release-details/firefly-aerospace-completes-new-cleanroom-accelerate-spacecraft"
     },
     {
       "id": "voyager-technologies",
@@ -105,9 +105,9 @@
       "name": "Spire Global",
       "ticker": "SPIR",
       "focus": "多用途 LEO · 氣象 · 航空海事 · Space Services",
-      "status": "2026 年已發射 29 顆",
+      "status": "取得 NOAA 3,320 萬美元 GNSS-RO 資料合約",
       "statusTone": "positive",
-      "source": "https://ir.spire.com/news-events/press-releases/detail/309/spire-global-announces-second-quarter-2026-results"
+      "source": "https://ir.spire.com/news-events/press-releases/detail/313/spire-global-awarded-33-2-million-noaa-contract-for"
     },
     {
       "id": "globalstar",

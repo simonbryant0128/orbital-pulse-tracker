@@ -53,7 +53,7 @@ test("September 20 approved snapshot is integrated exactly once without pending 
     for (const key of ["date", "company", "program", "category", "status", "tone", "title", "summary", "detail"]) assert.equal(matches[0][key], event[key]);
     assert.deepEqual(matches[0].sources.map((s) => s.url), event.sources.map((s) => s.url));
   }
-  for (const id of ["sx-starlink-15-27-faa-window-20260913", "vsat-equatys-binding-agreement-review-20260914", "sx-starship-flight14-spacex-window-review-20260916"]) assert.ok(!published.events.some((e) => e.id === id));
+  for (const id of ["sx-starlink-15-27-faa-window-20260913", "vsat-equatys-binding-agreement-review-20260914"]) assert.ok(!published.events.some((e) => e.id === id));
   assert.ok(!batch.events.some((e) => e.id.includes("review")));
 });
 
@@ -70,6 +70,6 @@ test("September 20 upcoming data preserves historical totals and uncertain time 
   assert.ok(schedule.items.some((e) => e.id === "sx-starlink-15-25-target-20260920"));
   for (const id of ["sx-starship-flight14-faa-window-20260915", "rklb-next-electron-september-20260911"]) assert.ok(!schedule.items.some((e) => e.id === id));
   const program = (await read("programs")).items.find((e) => e.id === "starship");
-  assert.match(program.headline, /待核對/);
-  assert.doesNotMatch(JSON.stringify(program), /9\/22|9\/28/);
+  assert.match(program.headline, /9 月 28 日 20:15/);
+  assert.match(program.detail, /尚未完成試飛/);
 });
