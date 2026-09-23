@@ -45,9 +45,8 @@ test("September 22 publication keeps manual-review records out of the website", 
   for (const id of [
     "sx-starlink-15-27-faa-window-20260913",
     "vsat-equatys-binding-agreement-review-20260914",
-    "sx-starship-flight14-spacex-window-review-20260916",
   ]) {
     assert.ok(!published.events.some((event) => event.id === id));
   }
-  assert.equal(published.events.length, 79);
+  assert.equal(published.events.length, 82);
 });

@@ -1,6 +1,68 @@
 {
-  "lastVerified": "2026-09-22",
+  "lastVerified": "2026-09-23",
   "events": [
+    {
+      "id": "sx-starship-flight14-spacex-window-review-20260916",
+      "date": "2026-09-23",
+      "company": "SpaceX",
+      "program": "Starship Flight 14",
+      "category": "時程",
+      "status": "官方目標 9/28／FAA 主窗口同日",
+      "tone": "watch",
+      "title": "Starship Flight 14 目標台北 9 月 28 日 20:15 發射",
+      "summary": "SpaceX 官方列出 9/28 20:15–21:30；FAA 同日規劃 20:15–22:14 發射／再入空域窗口，備援 9/29。兩者用途不同，不再視為數字衝突。",
+      "detail": "9/16 首次查核時，SpaceX 與 FAA 均列 9/22 起飛時點，但各自窗口終點不同；9/20 兩方又同步改列 9/28，原列維持待人工確認。9/23 再查核後，SpaceX 官方首頁／發射清單明確把 Starship Flight 14 列為 2026 年 9 月 28 日 12:15–13:30 UTC（台北 20:15–21:30）；FAA ATCSCC 9/23 Operations Plan Advisory 041 則列出同日 12:15–14:14 UTC 的 planned launch/reentry 空域作業窗口，備援為 9/29 同時段。兩個終點不同是因為前者為 SpaceX 任務目標窗口、後者為 FAA 空域作業窗口，並非同一欄位互相矛盾；因此本次改為自動查證並待同步。這仍是未來目標，尚未完成試飛，也不計入衛星部署總量。",
+      "sources": [
+        {
+          "label": "SpaceX 官方發射清單",
+          "url": "https://www.spacex.com/launches",
+          "type": "官方"
+        },
+        {
+          "label": "FAA 09/23 Operations Plan Advisory 041",
+          "url": "https://www.fly.faa.gov/adv/adv_spt?s=09/1000",
+          "type": "政府官方"
+        }
+      ]
+    },
+    {
+      "id": "fly-cleanroom-expansion-20260922",
+      "date": "2026-09-22",
+      "company": "Firefly Aerospace",
+      "program": "Blue Ghost／Elytra／Cedar Park cleanroom",
+      "category": "量產設施／里程碑",
+      "status": "擴建完工／ISO Class 8",
+      "tone": "positive",
+      "title": "Firefly 新潔淨室完工，可同時支援最多 12 艘月球著陸器與軌道載具",
+      "summary": "新潔淨室為既有設施的 4 倍；兩座潔淨室組成專用產線，可同時支援最多 12 艘 Blue Ghost 著陸器與 Elytra 軌道載具。",
+      "detail": "Firefly Aerospace 於 2026 年 9 月 22 日宣布 Cedar Park 新潔淨室完工。新設施位於 144,000 平方英尺園區，面積為既有潔淨室的 4 倍；兩座 ISO Class 8 潔淨室合計形成專用產線，可同時支援最多 12 艘 Blue Ghost 月球著陸器與 Elytra 軌道載具的組裝、整合與測試。公司表示目前另有 5 項月球任務合約，以及 2 項 Defense Innovation Unit 太空器合約。這是製造與產能里程碑，不是已完成的火箭發射或衛星部署，因此不調整任何在軌／已部署總量。",
+      "sources": [
+        {
+          "label": "Firefly Aerospace 官方潔淨室公告",
+          "url": "https://investors.fireflyspace.com/news-releases/news-release-details/firefly-aerospace-completes-new-cleanroom-accelerate-spacecraft",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "spir-noaa-gnssro-contract-20260922",
+      "date": "2026-09-22",
+      "company": "Spire Global",
+      "program": "NOAA／GNSS-RO",
+      "category": "合約／衛星資料服務",
+      "status": "$33.2M 任務訂單／2026-12-01 起",
+      "tone": "positive",
+      "title": "Spire 取得 NOAA 3,320 萬美元衛星氣象資料合約",
+      "summary": "兩年任務訂單自 2026/12/1 起，提供 GNSS-RO 資料；另有未撥款增購選項，若全數執行潛在總值約 6,600 萬美元。",
+      "detail": "Spire Global 於 2026 年 9 月 22 日宣布取得 NOAA 3,320 萬美元任務訂單，履約期間自 2026 年 12 月 1 日至 2028 年 12 月 1 日。Spire 將提供全球導航衛星系統無線電掩星（GNSS-RO）資料，以及擴大時間取樣的 Temporal Resolution Enhancements，供 NOAA 作業預報模型、太空天氣應用與研究使用。合約另含尚未撥款的 surge-buy 增購選項；只有全部執行時，兩年潛在總值才約 6,600 萬美元，不能把選項視為已確定收入。這是既有星座的資料服務合約，不是新的衛星發射或部署，因此部署總量不變。",
+      "sources": [
+        {
+          "label": "Spire Global 官方 NOAA 合約公告",
+          "url": "https://ir.spire.com/news-events/press-releases/detail/313/spire-global-awarded-33-2-million-noaa-contract-for",
+          "type": "官方"
+        }
+      ]
+    },
     {
       "id": "rklb-owlright-target-20260922",
       "date": "2026-09-22",
