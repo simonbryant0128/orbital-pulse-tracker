@@ -1,12 +1,12 @@
 {
-  "lastVerified": "2026-09-23",
+  "lastVerified": "2026-09-24",
   "items": [
     {
       "id": "spacex",
       "name": "SpaceX",
       "ticker": "私人",
       "focus": "發射服務 · Starlink · Starship",
-      "status": "Starship Flight 14 目標台北 9/28 20:15",
+      "status": "Flight 14 目標 9/28；Crew-13 目標 10/1",
       "statusTone": "watch",
       "source": "https://www.spacex.com/launches"
     },
@@ -51,9 +51,9 @@
       "name": "Viasat",
       "ticker": "VSAT",
       "focus": "GEO／多軌衛星通訊 · NTN",
-      "status": "ViaSat-3 F2 已投入美洲服務",
+      "status": "取得 USMC MECS2 首筆 4,200 萬美元訂單",
       "statusTone": "positive",
-      "source": "https://www.viasat.com/news/latest-news/corporate/2026/viasat-3-f2-enters-service/"
+      "source": "https://investors.viasat.com/news-releases/news-release-details/viasat-wins-first-task-order-award-part-307-million-ceiling-us"
     },
     {
       "id": "firefly-aerospace",
