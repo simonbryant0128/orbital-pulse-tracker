@@ -1,0 +1,87 @@
+{
+  "checkDate": "2026-09-24",
+  "spreadsheetId": "1_STxAMYmggQQClcMueJ5NcGh1XoQpBhpYabRa4PQS3U",
+  "sheet": "網站事件_主檔",
+  "range": "A88:Q91",
+  "state": "approved-source-snapshot",
+  "note": "Historical Google Sheets snapshot captured before publication. Live publication status remains in Google Sheets.",
+  "events": [
+    {
+      "id": "sx-r3-faa-backup-revision-20260924",
+      "date": "2026-09-24",
+      "company": "SpaceX",
+      "ticker": "—",
+      "program": "Falcon 9／R-3",
+      "category": "監管時程",
+      "status": "FAA 備援窗口延後 1 小時／非最終升空承諾",
+      "tone": "watch",
+      "title": "FAA 將 SpaceX R-3 備援窗口改為台北 9 月 27 日 20:49 起",
+      "summary": "FAA 9/24 計畫仍列主要窗口台北 9/26 19:56–23:39；備援改為 9/27 20:49–23:25，較先前紀錄延後 1 小時。R-3 仍未與具名任務配對。",
+      "reviewStatus": "自動查證",
+      "publicationStatus": "待同步",
+      "checkedDate": "2026-09-24",
+      "detail": "FAA ATCSCC 9/24 Operations Plan Advisory 018 將 SpaceX R-3 的主要 planned launch/reentry 窗口維持在 9/26 11:56–15:39 UTC（台北 19:56–23:39），但備援改列 9/27 12:49–15:25 UTC（台北 20:49–23:25）；相較 9/17 採用的 FAA 歷史公告，備援起點延後 1 小時。R-3 是 FAA 公告代號，採用來源沒有列出火箭、載荷或可與 SpaceX 具名任務核對的資訊，因此不把它自行合併到 USSF-385 或其他任務。這是空域規劃窗口，不是最終升空承諾，也不是已完成的衛星部署。",
+      "sources": [
+        { "label": "FAA 09/24 Operations Plan Advisory 018", "url": "https://www.fly.faa.gov/adv/adv_spt?s=09/1000" }
+      ]
+    },
+    {
+      "id": "sx-crew13-faa-window-20260924",
+      "date": "2026-09-24",
+      "company": "SpaceX",
+      "ticker": "—",
+      "program": "Falcon 9／Dragon／Crew-13",
+      "category": "時程／載人任務",
+      "status": "NASA 目標 10/1 23:10／FAA 空域窗口同日",
+      "tone": "watch",
+      "title": "NASA Crew-13 目標台北 10 月 1 日 23:10 發射",
+      "summary": "NASA 任務頁列 10/1 11:10 EDT（台北 23:10）；FAA 9/24 公告列同日 15:00–15:50 UTC 空域窗口，備援 10/2。",
+      "reviewStatus": "自動查證",
+      "publicationStatus": "待同步",
+      "checkedDate": "2026-09-24",
+      "detail": "NASA 官方 Crew-13 任務頁列出 2026 年 10 月 1 日 11:10 a.m. EDT 發射，換算台北為同日 23:10。FAA 9/24 Operations Plan Advisory 018 另列 10/1 15:00–15:50 UTC（台北 23:00–23:50）的 planned launch/reentry 空域窗口，備援為 10/2 14:38–15:28 UTC（台北 22:38–23:28）。Crew-13 是 SpaceX 人員運輸系統第 13 次輪替任務、含 Demo-2 在內第 14 次載人 Dragon 飛行；名單為 Jessica Watkins、Luke Delaney、Joshua Kutryk 與 Sergey Teteryatnikov。這仍是未來目標，尚未發射，亦不增加衛星部署總量。",
+      "sources": [
+        { "label": "NASA Crew-13 任務頁", "url": "https://www.nasa.gov/mission/nasas-spacex-crew-13/" },
+        { "label": "FAA 09/24 Operations Plan Advisory 018", "url": "https://www.fly.faa.gov/adv/adv_spt?s=09/1000" }
+      ]
+    },
+    {
+      "id": "sx-transporter18-faa-window-20260924",
+      "date": "2026-09-24",
+      "company": "SpaceX",
+      "ticker": "—",
+      "program": "Falcon 9／Transporter-18",
+      "category": "監管時程／共乘任務",
+      "status": "FAA 台北 10/2 02:08 窗口／SpaceX 頁待確認",
+      "tone": "watch",
+      "title": "FAA 列出 Transporter-18 台北 10 月 2 日 02:08–04:09 空域窗口",
+      "summary": "FAA 9/24 公告列主要窗口 10/1 18:08–20:09 UTC（台北 10/2 02:08–04:09），備援翌日；尚未取得 SpaceX 任務頁或官方載荷清單。",
+      "reviewStatus": "自動查證",
+      "publicationStatus": "待同步",
+      "checkedDate": "2026-09-24",
+      "detail": "FAA ATCSCC 9/24 Operations Plan Advisory 018 把 Transporter-18 列入 planned launch/reentry：主要窗口為 2026 年 10 月 1 日 18:08–20:09 UTC，換算台北為 10 月 2 日 02:08–04:09；備援為 10 月 2 日相同 UTC 時段，換算台北為 10 月 3 日 02:08–04:09。採用來源是 FAA 空域規劃公告，目前未取得 SpaceX 對應任務頁、確切升空承諾或官方載荷清單，因此不推定衛星名稱、顆數或星座歸屬。此事件只記錄監管窗口，尚未完成發射或部署。",
+      "sources": [
+        { "label": "FAA 09/24 Operations Plan Advisory 018", "url": "https://www.fly.faa.gov/adv/adv_spt?s=09/1000" }
+      ]
+    },
+    {
+      "id": "vsat-usmc-mecs2-task-order-20260923",
+      "date": "2026-09-23",
+      "company": "Viasat",
+      "ticker": "VSAT",
+      "program": "MECS2／USMC 多軌 SATCOM",
+      "category": "合約／多軌衛星通訊",
+      "status": "初始 $42M 訂單／七年 IDIQ 上限 $307M",
+      "tone": "positive",
+      "title": "Viasat 取得美國海軍陸戰隊 MECS2 首筆 4,200 萬美元訂單",
+      "summary": "Inmarsat Government 獲美國太空軍 CSCO 的 MECS2 合約；首筆任務訂單 4,200 萬美元，七年 IDIQ 上限 3.07 億美元。",
+      "reviewStatus": "自動查證",
+      "publicationStatus": "待同步",
+      "checkedDate": "2026-09-24",
+      "detail": "Viasat 於 9/23 宣布，旗下 Inmarsat Government 取得美國太空軍 Commercial Satellite Communications Office 的 Marine Enterprise Commercial Satcom Satellite Services（MECS2）合約，為美國海軍陸戰隊提供端到端、全球且受管理的衛星通訊服務。公司已取得首筆 4,200 萬美元任務訂單；3.07 億美元是七年 IDIQ 合約的最高上限，不代表已確定全額收入。服務涵蓋 L、Ku、Ka 頻段，結合 Viasat 與合作夥伴的多軌衛星，包括 ViaSat-3 網路、地面安全資料傳輸，以及全年無休的 NOC／SOC 支援。這是通訊服務合約，不是新的衛星發射或部署，因此部署總量不變。",
+      "sources": [
+        { "label": "Viasat 官方 MECS2 合約公告", "url": "https://investors.viasat.com/news-releases/news-release-details/viasat-wins-first-task-order-award-part-307-million-ceiling-us" }
+      ]
+    }
+  ]
+}

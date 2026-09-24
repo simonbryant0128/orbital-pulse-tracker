@@ -176,7 +176,8 @@ test("publishes September 17 updates without inventing deployment totals or miss
     assert.ok(byId(id), `retain historical event ${id}`);
     assert.ok(!items.some((item) => item.id === id), `remove expired/superseded upcoming entry ${id}`);
   }
-  assert.match(items.find((item) => item.id === r3.id).window, /9\/26 19:56–23:39/);
+  assert.ok(!items.some((item) => item.id === r3.id), "newer FAA R-3 schedule supersedes the September 17 card");
+  assert.match(items.find((item) => item.id === "sx-r3-faa-backup-revision-20260924").window, /9\/26 19:56–23:39/);
   assert.match(items.find((item) => item.id === target.id).window, /9\/27 20:49 起/);
   for (const id of ["sx-starlink-15-27-faa-window-20260913", "vsat-equatys-binding-agreement-review-20260914"]) {
     assert.ok(!byId(id), `pending event must not be published: ${id}`);
