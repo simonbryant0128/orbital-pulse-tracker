@@ -1,5 +1,5 @@
 {
-  "lastVerified": "2026-09-24",
+  "lastVerified": "2026-09-25",
   "items": [
     {
       "id": "spacex",
@@ -69,18 +69,18 @@
       "name": "Voyager Technologies",
       "ticker": "VOYG",
       "focus": "LEO 任務 · Starlab · 月球系統",
-      "status": "NREP 退役；首座 NEL 目標 2026 年 12 月發射",
+      "status": "OHTS 2027 年新增兩項 ISS 藥物篩選任務",
       "statusTone": "positive",
-      "source": "https://voyagertechnologies.com/insights/pioneering-commercial-space-access/"
+      "source": "https://voyagertechnologies.com/press-releases/commercial-demand-for-microgravity-drug-discovery-accelerates-as-exobiosphere-and-voyager-add-two-missions-to-the-iss/"
     },
     {
       "id": "iridium",
       "name": "Iridium",
       "ticker": "IRDM",
       "focus": "全球 LEO 通訊 · IoT · PNT",
-      "status": "SOLION-100 預計年底商用",
+      "status": "股東核准 Rocket Lab 收購案；待監管核准",
       "statusTone": "positive",
-      "source": "https://investor.iridium.com/2026-09-01-Furuno-Unveils-New-SOLION-100-Terminal-for-Iridium-GMDSS"
+      "source": "https://investor.iridium.com/2026-09-24-Iridium-Stockholders-Approve-Acquisition-by-Rocket-Lab"
     },
     {
       "id": "planet-labs",

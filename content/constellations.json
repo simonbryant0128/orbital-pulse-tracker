@@ -1,5 +1,5 @@
 {
-  "lastVerified": "2026-09-20",
+  "lastVerified": "2026-09-25",
   "methodology": "Amazon Leo、AST SpaceMobile、Planet、BlackSky、Spire 與 Globalstar 採公司官方任務、投資人關係或監管申報資料；Starlink 採 Jonathan McDowell 的第三方 Total Working 軌道統計。下一次任務只採官方窗口，未公布確切日期時不以第三方預測補值。不同計畫的總量、來源日與統計口徑不同，不應直接互相比較。",
   "items": [
     {
@@ -15,7 +15,7 @@
       "accent": "cyan",
       "source": "https://planet4589.org/space/con/star/stats.html",
       "sourceClass": "第三方軌道統計",
-      "lastChecked": "2026-09-20",
+      "lastChecked": "2026-09-25",
       "deployment": {
         "totalLabel": "目前在軌工作中",
         "nextMission": "Starlink 15-25",
@@ -51,7 +51,7 @@
       "accent": "violet",
       "source": "https://www.aboutamazon.com/news/innovation-at-amazon/project-kuiper-satellite-rocket-launch-progress-updates",
       "sourceClass": "公司官方任務頁",
-      "lastChecked": "2026-09-04",
+      "lastChecked": "2026-09-25",
       "deployment": {
         "totalLabel": "官方累計已部署",
         "nextMission": "Amazon Leo 首次 Vulcan 任務",
@@ -88,7 +88,7 @@
       "accent": "lime",
       "source": "https://ast-science.com/next-gen-bluebird/",
       "sourceClass": "公司官方任務頁",
-      "lastChecked": "2026-09-04",
+      "lastChecked": "2026-09-25",
       "deployment": {
         "totalLabel": "在軌追蹤（排除 BlueBird 7）",
         "nextMission": "Next-Generation BlueBird",
@@ -122,7 +122,7 @@
       "accent": "blue",
       "source": "https://investors.planet.com/news/news-details/2026/Planet-Launches-Pelican-11-Satellite/default.aspx",
       "sourceClass": "公司官方公告＋公開數量推導",
-      "lastChecked": "2026-09-04",
+      "lastChecked": "2026-09-25",
       "deployment": {
         "totalLabel": "Pelican 已入軌（含 TD2）",
         "nextMission": "追加 Pelican 太空器",
@@ -154,7 +154,7 @@
       "accent": "amber",
       "source": "https://ir.blacksky.com/news-events/press-releases/news-details/2026/BlackSkys-Fifth-Gen-3-Attains-First-Light-in-Hours-Expanding-Constellation-Capacity-and-Decision-Making-Speed-for-Customers/default.aspx",
       "sourceClass": "公司官方公告",
-      "lastChecked": "2026-09-15",
+      "lastChecked": "2026-09-25",
       "deployment": {
         "totalLabel": "已入軌／含第五顆首光",
         "nextMission": "追加 Gen-3 衛星",
@@ -185,7 +185,7 @@
       "accent": "rose",
       "source": "https://ir.spire.com/news-events/press-releases/detail/309/spire-global-announces-second-quarter-2026-results",
       "sourceClass": "公司官方財報與任務公告",
-      "lastChecked": "2026-09-04",
+      "lastChecked": "2026-09-25",
       "deployment": {
         "totalLabel": "2026 年累計已發射",
         "nextMission": "下一批 Spire／Space Services 任務",
@@ -217,7 +217,7 @@
       "accent": "orange",
       "source": "https://investors.globalstar.com/news-releases/news-release-details/globalstar-confirms-successful-launch-all-8-hibleo-4-replacement",
       "sourceClass": "公司官方公告與 SEC 申報",
-      "lastChecked": "2026-09-04",
+      "lastChecked": "2026-09-25",
       "deployment": {
         "totalLabel": "HIBLEO-4 替換衛星已部署",
         "nextMission": "第二批 9 顆替換衛星",

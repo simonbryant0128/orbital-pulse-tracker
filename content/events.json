@@ -1,6 +1,37 @@
 {
-  "lastVerified": "2026-09-24",
+  "lastVerified": "2026-09-25",
   "events": [
+    {
+      "id": "irdm-rklb-shareholder-approval-20260924",
+      "date": "2026-09-24",
+      "company": "Iridium",
+      "program": "Rocket Lab 收購 Iridium",
+      "category": "併購／股東表決里程碑",
+      "status": "99.6% 投票贊成／待監管核准",
+      "tone": "positive",
+      "title": "Iridium 股東核准 Rocket Lab 收購案，目標 2027 年中完成",
+      "summary": "約 99.6% 的出席投票贊成，代表約 81.0% 已發行普通股；交易仍待剩餘監管核准與一般交割條件。",
+      "detail": "Iridium 與 Rocket Lab 於 2026 年 9 月 24 日宣布，Iridium 特別股東會已通過先前公布的合併協議。約 99.6% 的出席投票贊成，代表約 81.0% 的已發行普通股。依交易條款，Iridium 股東在交割時每股將取得 27 美元現金，以及依設有上下限的換股比例計算之 Rocket Lab 普通股；交易的名目價值為每股 54 美元。雙方目前預期交易於 2027 年中完成，但仍須取得剩餘監管核准並滿足一般交割條件，因此不能視為已完成收購。這是企業交易里程碑，不是衛星發射或部署，故不調整部署總量。",
+      "sources": [
+        { "label": "Iridium 官方股東表決公告", "url": "https://investor.iridium.com/2026-09-24-Iridium-Stockholders-Approve-Acquisition-by-Rocket-Lab", "type": "官方" },
+        { "label": "Rocket Lab 官方股東表決公告", "url": "https://investors.rocketlabcorp.com/news-releases/news-release-details/iridium-stockholders-approve-acquisition-rocket-lab", "type": "官方" }
+      ]
+    },
+    {
+      "id": "voyg-exobiosphere-ohts-iss-campaigns-20260924",
+      "date": "2026-09-24",
+      "company": "Voyager Technologies",
+      "program": "ISS／OHTS／Exobiosphere",
+      "category": "合作／在軌研究任務",
+      "status": "OHTS 2027-04 安裝／兩項任務已排程",
+      "tone": "positive",
+      "title": "Voyager 與 Exobiosphere 增訂兩項 ISS 微重力藥物篩選任務",
+      "summary": "OHTS 平台預定 2027 年 4 月安裝；新增研究任務分別規劃於 2027 年 6 月與 8–9 月搭乘 ISS 商業補給任務。",
+      "detail": "Voyager Technologies 與 Exobiosphere 於 2026 年 9 月 24 日宣布，新增兩項使用 Orbital High-Throughput Screening in Microgravity（OHTS）平台的研究任務。OHTS 是可自動執行藥物篩選的中甲板置物櫃級系統，預定於 2027 年 4 月安裝至國際太空站；兩項新增研究任務將分別於 2027 年 6 月，以及 2027 年 8 至 9 月的 ISS Program Commercial Resupply Services 任務運送。Voyager Europe 負責計畫管理、任務整合與物資供應，Nanoracks／Voyager Space Solutions 負責最後載荷處理、NASA 飛前準備與地面控制台作業。官方只提供月份或月份區間，未公布確切日期、補給班次或火箭，因此網站保留月份級時程；這些是 ISS 研究載荷任務，不計入衛星星系部署總量。",
+      "sources": [
+        { "label": "Voyager 官方 OHTS／ISS 任務公告", "url": "https://voyagertechnologies.com/press-releases/commercial-demand-for-microgravity-drug-discovery-accelerates-as-exobiosphere-and-voyager-add-two-missions-to-the-iss/", "type": "官方" }
+      ]
+    },
     {
       "id": "sx-crew13-faa-window-20260924",
       "date": "2026-09-24",
