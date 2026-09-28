@@ -17,21 +17,27 @@ test("September 22 approved events are integrated exactly once", async () => {
     assert.equal(event.checkedDate, "2026-09-22");
     const matches = published.events.filter((candidate) => candidate.id === event.id);
     assert.equal(matches.length, 1);
-    for (const key of ["date", "company", "program", "category", "status", "tone", "title", "summary", "detail"]) {
-      assert.equal(matches[0][key], event[key]);
+    if (event.id === "rklb-owlright-target-20260922") {
+      assert.equal(matches[0].status, "成功部署");
+      assert.equal(matches[0].date, "2026-09-26");
+      assert.match(matches[0].detail, /第 13 顆 StriX/);
+    } else {
+      for (const key of ["date", "company", "program", "category", "status", "tone", "title", "summary", "detail"]) {
+        assert.equal(matches[0][key], event[key]);
+      }
+      assert.deepEqual(matches[0].sources.map((source) => source.url), event.sources.map((source) => source.url));
     }
-    assert.deepEqual(matches[0].sources.map((source) => source.url), event.sources.map((source) => source.url));
   }
 });
 
 test("September 22 schedule preserves official precision and deployment caveats", async () => {
   const events = await readJson("events.json");
   const schedule = await readJson("schedule.json");
-  const electron = schedule.items.find((item) => item.id === "rklb-owlright-target-20260922");
-  assert.equal(electron.window, "台北 2026-09-26 08:15（NET）");
-  assert.equal(electron.vehicle, "Electron");
-  assert.match(events.events.find((event) => event.id === electron.id).detail, /不計入已部署總量/);
-  assert.match(events.events.find((event) => event.id === electron.id).detail, /不自行推定為第 97 次/);
+  const electron = events.events.find((event) => event.id === "rklb-owlright-target-20260922");
+  assert.ok(!schedule.items.some((item) => item.id === electron.id));
+  assert.equal(electron.status, "成功部署");
+  assert.match(electron.detail, /不加入既有七組星系總量/);
+  assert.match(electron.detail, /第 97 次 Electron 發射/);
   const nel = schedule.items.find((item) => item.id === "voyg-nrep-nel-transition-20260921");
   assert.equal(nel.window, "2026 年 12 月（未定日）");
   assert.equal(nel.vehicle, "待官方公告");

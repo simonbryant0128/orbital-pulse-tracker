@@ -1,0 +1,30 @@
+{
+  "checkDate": "2026-09-28",
+  "spreadsheetId": "1_STxAMYmggQQClcMueJ5NcGh1XoQpBhpYabRa4PQS3U",
+  "sheet": "網站事件_主檔",
+  "range": "A76:Q76",
+  "state": "approved-source-snapshot",
+  "note": "Historical Google Sheets snapshot captured before publication. Live publication status remains in Google Sheets.",
+  "events": [
+    {
+      "id": "sx-ussf385-target-20260917",
+      "date": "2026-09-26",
+      "company": "SpaceX",
+      "ticker": "—",
+      "program": "Falcon 9／USSF-385",
+      "category": "發射／國安任務",
+      "status": "已完成發射／載荷細節未公開",
+      "tone": "positive",
+      "title": "USSF-385 已完成 Falcon 9 發射",
+      "summary": "SpaceX 官方發射清單已把 USSF-385 列入 9/26 完成任務；Falcon 9 自 Vandenberg SLC-4E 發射，載荷數與目標軌道仍未公開。",
+      "reviewStatus": "自動查證",
+      "publicationStatus": "待同步",
+      "checkedDate": "2026-09-28",
+      "detail": "9/28 重新查核時，SpaceX 官方發射清單已把 USSF-385 移入 Completed missions，日期列為 2026 年 9 月 26 日，載具為 Falcon 9，發射場為 Vandenberg SLC-4E，著陸場欄位列為 droneship。原任務頁的備援起點為台北 9/27 20:49，未另列備援結束時間；網站沿用原穩定事件 ID，將先前的目標窗口更新為已完成發射，並自未來任務清單移除。SpaceX 公開頁面仍未揭露載荷名稱、載荷數或目標軌道，因此不推定衛星部署數，也不把 FAA 的 R-3 代號自行合併為同一任務；R-3 的歷史監管窗口紀錄繼續獨立保留。",
+      "sources": [
+        { "label": "SpaceX 官方發射清單", "url": "https://www.spacex.com/launches" },
+        { "label": "SpaceX 官方 USSF-385 任務頁", "url": "https://www.spacex.com/launches/ussf385" }
+      ]
+    }
+  ]
+}
