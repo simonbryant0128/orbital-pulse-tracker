@@ -1,0 +1,30 @@
+{
+  "checkDate": "2026-09-27",
+  "spreadsheetId": "1_STxAMYmggQQClcMueJ5NcGh1XoQpBhpYabRa4PQS3U",
+  "sheet": "網站事件_主檔",
+  "range": "A83:Q83",
+  "state": "approved-source-snapshot",
+  "note": "Historical Google Sheets snapshot captured before publication. Live publication status remains in Google Sheets.",
+  "events": [
+    {
+      "id": "rklb-owlright-target-20260922",
+      "date": "2026-09-26",
+      "company": "Rocket Lab",
+      "ticker": "RKLB",
+      "program": "Electron／Owlright, Owlright, Owlright",
+      "category": "發射／部署",
+      "status": "成功部署",
+      "tone": "positive",
+      "title": "Owlright 任務成功部署 Synspective 第 13 顆 StriX",
+      "summary": "Electron 於 9/26 00:39 UTC 自紐西蘭 LC-1 發射，將 1 顆 StriX SAR 衛星部署至 559 公里低軌。",
+      "reviewStatus": "自動查證",
+      "publicationStatus": "待同步",
+      "checkedDate": "2026-09-27",
+      "detail": "Rocket Lab 的「Owlright, Owlright, Owlright」任務於 2026 年 9 月 26 日 00:39 UTC（台北 08:39）自紐西蘭 Launch Complex 1 發射，Electron 將 Synspective 第 13 顆 StriX 合成孔徑雷達地球觀測衛星部署至 559 公里、傾角 37 度的低地球軌道。Rocket Lab 表示，雙方自 2020 年合作以來的 13 次 StriX 專屬部署均成功，另有 14 次任務排入 2030 年前的星座建置計畫。官方投資人關係公告將本次稱為第 97 次 Electron 發射，但任務頁仍寫第 96 次 overall launch；因兩處序號互相衝突，網站不在標題或摘要採用該發射序號，只發布一致的日期、時間、載荷、軌道與部署結果。第 13 顆是累計部署序數，不等同目前仍在軌或已商轉衛星數，因此不加入既有七組星系總量。",
+      "sources": [
+        { "label": "Rocket Lab 官方任務成功公告", "url": "https://investors.rocketlabcorp.com/news-releases/news-release-details/mission-success-rocket-lab-launches-97th-electron-mission" },
+        { "label": "Rocket Lab 官方 Owlright 任務頁", "url": "https://rocketlabcorp.com/missions/launches/owlright-owlright-owlright/" }
+      ]
+    }
+  ]
+}

@@ -1,12 +1,12 @@
 {
-  "lastVerified": "2026-09-25",
+  "lastVerified": "2026-09-28",
   "items": [
     {
       "id": "spacex",
       "name": "SpaceX",
       "ticker": "私人",
       "focus": "發射服務 · Starlink · Starship",
-      "status": "Flight 14 目標 9/28；Crew-13 目標 10/1",
+      "status": "USSF-385 已完成；Flight 14 目標 9/28",
       "statusTone": "watch",
       "source": "https://www.spacex.com/launches"
     },
@@ -15,9 +15,9 @@
       "name": "Rocket Lab",
       "ticker": "RKLB",
       "focus": "Electron · HASTE · Neutron · 太空系統",
-      "status": "下一班 StriX 任務 NET 台北 9/26 08:15",
-      "statusTone": "watch",
-      "source": "https://rocketlabcorp.com/missions/launches/owlright-owlright-owlright/"
+      "status": "Electron 成功部署第 13 顆 StriX",
+      "statusTone": "positive",
+      "source": "https://investors.rocketlabcorp.com/news-releases/news-release-details/mission-success-rocket-lab-launches-97th-electron-mission"
     },
     {
       "id": "blue-origin",

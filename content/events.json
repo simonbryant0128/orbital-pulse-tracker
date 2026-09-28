@@ -1,5 +1,5 @@
 {
-  "lastVerified": "2026-09-25",
+  "lastVerified": "2026-09-28",
   "events": [
     {
       "id": "irdm-rklb-shareholder-approval-20260924",
@@ -157,18 +157,23 @@
     },
     {
       "id": "rklb-owlright-target-20260922",
-      "date": "2026-09-22",
+      "date": "2026-09-26",
       "company": "Rocket Lab",
       "program": "Electron／Owlright, Owlright, Owlright",
-      "category": "時程／部署規劃",
-      "status": "官方 NET／尚未發射",
-      "tone": "watch",
-      "title": "Electron 下一班目標台北 9 月 26 日 08:15 發射 1 顆 StriX",
-      "summary": "Rocket Lab 任務頁列出 NET 9/26 00:15 UTC，自 LC-1 Pad B 將 1 顆 Synspective StriX 送往 559 公里低軌；尚未完成部署。",
-      "detail": "Rocket Lab 官方任務頁列出 Owlright, Owlright, Owlright 任務 NET 2026 年 9 月 26 日 00:15 UTC，換算台北時間為 9 月 26 日 08:15；任務將自紐西蘭 LC-1 Pad B 以 Electron 發射 1 顆 Synspective StriX，目標為 559 公里、傾角 37 度的低地球軌道。這是未來排程，尚未完成發射或部署，因此不計入已部署總量。官方頁面另有一處任務序號敘述與先前已完成的第 96 次任務資訊不一致，本次不採用該序號，也不自行推定為第 97 次；發射時間、載荷與軌道欄位則均有明確官方資訊。",
+      "category": "發射／部署",
+      "status": "成功部署",
+      "tone": "positive",
+      "title": "Owlright 任務成功部署 Synspective 第 13 顆 StriX",
+      "summary": "Electron 於 9/26 00:39 UTC 自紐西蘭 LC-1 發射，將 1 顆 StriX SAR 衛星部署至 559 公里低軌。",
+      "detail": "Rocket Lab 的「Owlright, Owlright, Owlright」任務於 2026 年 9 月 26 日 00:39 UTC（台北 08:39）自紐西蘭 Launch Complex 1 發射，Electron 將 Synspective 第 13 顆 StriX 合成孔徑雷達地球觀測衛星部署至 559 公里、傾角 37 度的低地球軌道。Rocket Lab 表示，雙方自 2020 年合作以來的 13 次 StriX 專屬部署均成功，另有 14 次任務排入 2030 年前的星座建置計畫。官方投資人關係公告將本次稱為第 97 次 Electron 發射，但任務頁仍寫第 96 次 overall launch；因兩處序號互相衝突，網站不在標題或摘要採用該發射序號，只發布一致的日期、時間、載荷、軌道與部署結果。第 13 顆是累計部署序數，不等同目前仍在軌或已商轉衛星數，因此不加入既有七組星系總量。",
       "sources": [
         {
-          "label": "Rocket Lab 官方 Owlright, Owlright, Owlright 任務頁",
+          "label": "Rocket Lab 官方任務成功公告",
+          "url": "https://investors.rocketlabcorp.com/news-releases/news-release-details/mission-success-rocket-lab-launches-97th-electron-mission",
+          "type": "官方"
+        },
+        {
+          "label": "Rocket Lab 官方 Owlright 任務頁",
           "url": "https://rocketlabcorp.com/missions/launches/owlright-owlright-owlright/",
           "type": "官方"
         }
@@ -338,16 +343,21 @@
     },
     {
       "id": "sx-ussf385-target-20260917",
-      "date": "2026-09-17",
+      "date": "2026-09-26",
       "company": "SpaceX",
       "program": "Falcon 9／USSF-385",
-      "category": "時程",
-      "status": "官方目標窗口／尚未發射",
-      "tone": "watch",
-      "title": "USSF-385 目標台北 9 月 26 日晚間發射",
-      "summary": "SpaceX 任務頁列出台北 9/26 19:56–22:56 三小時窗口，備援 9/27 20:49；Falcon 9 將自 Vandenberg SLC-4E 升空。",
-      "detail": "9/17 查核 SpaceX 官方 USSF-385 任務頁，目標為美西 9/26 04:56 起三小時，換算台北 9/26 19:56–22:56；備援起點為美西 9/27 05:49，即台北 9/27 20:49，官方未另列備援結束時間。Falcon 9 將自 Vandenberg SLC-4E 發射，首節預計第 10 次飛行，先前曾執行 NROL-95 與八次 Starlink 任務；回收目標為太平洋 Of Course I Still Love You 無人船。載荷數與目標軌道未公開。頁面未標示公告時間，事件日採本次查核日；這是未來計畫，不是已完成部署，亦未與 FAA R-3 代號合併。",
+      "category": "發射／國安任務",
+      "status": "已完成發射／載荷細節未公開",
+      "tone": "positive",
+      "title": "USSF-385 已完成 Falcon 9 發射",
+      "summary": "SpaceX 官方發射清單已把 USSF-385 列入 9/26 完成任務；Falcon 9 自 Vandenberg SLC-4E 發射，載荷數與目標軌道仍未公開。",
+      "detail": "9/28 重新查核時，SpaceX 官方發射清單已把 USSF-385 移入 Completed missions，日期列為 2026 年 9 月 26 日，載具為 Falcon 9，發射場為 Vandenberg SLC-4E，著陸場欄位列為 droneship。原任務頁的備援起點為台北 9/27 20:49，未另列備援結束時間；網站沿用原穩定事件 ID，將先前的目標窗口更新為已完成發射，並自未來任務清單移除。SpaceX 公開頁面仍未揭露載荷名稱、載荷數或目標軌道，因此不推定衛星部署數，也不把 FAA 的 R-3 代號自行合併為同一任務；R-3 的歷史監管窗口紀錄繼續獨立保留。",
       "sources": [
+        {
+          "label": "SpaceX 官方發射清單",
+          "url": "https://www.spacex.com/launches",
+          "type": "官方"
+        },
         {
           "label": "SpaceX 官方 USSF-385 任務頁",
           "url": "https://www.spacex.com/launches/ussf385",
