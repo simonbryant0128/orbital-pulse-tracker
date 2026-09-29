@@ -167,11 +167,11 @@ export default function Home() {
             <span className="signal-dot" />
           </div>
           <p className="signal-kicker">SPACEX · STARSHIP</p>
-          <h2>Flight 14 目標台北 9 月 28 日 20:15</h2>
-          <p>SpaceX 列出 20:15–21:30 任務窗口；FAA 同日起點的空域作業窗口延續至 22:14，備援為 9 月 29 日。這仍是未來目標，尚未完成試飛。</p>
+          <h2>Flight 14 已列為 9 月 28 日完成任務</h2>
+          <p>SpaceX 已把任務移入 Completed missions；飛後摘要尚未確認首次繞地軌道、26 顆 Starlink V3 部署與其他試飛目標結果。</p>
           <div className="signal-footer">
             <span className="tone-dot watch" />
-            <strong>狀態：官方目標已列出</strong>
+            <strong>狀態：已完成發射／結果待摘要</strong>
             <a
               href="https://www.spacex.com/launches"
               target="_blank"
