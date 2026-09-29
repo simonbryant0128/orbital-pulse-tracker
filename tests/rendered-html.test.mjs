@@ -58,7 +58,7 @@ test("renders the orbital tracker product page", async () => {
     assert.ok(html.includes(escapeHtml(event.summary)), `Missing initial summary: ${event.id}`);
     assert.ok(html.includes(escapeHtml(event.detail)), `Missing detail preview: ${event.id}`);
   }
-  assert.match(html, /Flight 14 目標台北 9 月 28 日 20:15/);
+  assert.match(html, /Flight 14 已列為 9 月 28 日完成任務/);
   assert.match(html, /Viasat/);
   assert.match(html, /Firefly Aerospace/);
   assert.match(html, /Voyager Technologies/);
@@ -144,7 +144,8 @@ test("publishes September 16 schedule changes without guessing mission identitie
   assert.ok(byId("sx-ussf259-target-20260914"), "retain prior target history");
   assert.match(r3.detail, /台北 19:28–23:11/);
   assert.match(r3.detail, /不計入衛星部署總量/);
-  assert.match(byId("sx-starship-flight14-spacex-window-review-20260916").detail, /FAA 空域作業窗口/);
+  assert.match(byId("sx-starship-flight14-spacex-window-review-20260916").detail, /Completed missions/);
+  assert.match(byId("sx-starship-flight14-spacex-window-review-20260916").detail, /不調增 Starlink 部署總量/);
   const { items } = JSON.parse(await readFile(new URL("../content/schedule.json", import.meta.url), "utf8"));
   assert.ok(!items.some((item) => item.id === "sx-ussf259-target-20260914"));
   assert.ok(!items.some((item) => item.id === ussf.id || item.id === r3.id), "superseded targets stay in history, not upcoming missions");
