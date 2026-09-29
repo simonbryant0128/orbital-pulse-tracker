@@ -17,6 +17,10 @@ test("September 23 approved events are integrated exactly once", async () => {
     assert.equal(event.checkedDate, "2026-09-23");
     const matches = published.events.filter((candidate) => candidate.id === event.id);
     assert.equal(matches.length, 1);
+    if (event.id === "sx-starship-flight14-spacex-window-review-20260916") {
+      assert.match(matches[0].status, /官方列入已完成任務/);
+      continue;
+    }
     for (const key of ["date", "company", "program", "category", "status", "tone", "title", "summary", "detail"]) {
       assert.equal(matches[0][key], event[key]);
     }
@@ -24,13 +28,13 @@ test("September 23 approved events are integrated exactly once", async () => {
   }
 });
 
-test("September 23 distinguishes target, airspace and completed deployment", async () => {
+test("September 23 history remains while Flight 14 advances to the completed-mission lifecycle", async () => {
   const published = await readJson("events.json");
   const byId = (id) => published.events.find((event) => event.id === id);
   const starship = byId("sx-starship-flight14-spacex-window-review-20260916");
-  assert.match(starship.detail, /SpaceX 任務目標窗口/);
-  assert.match(starship.detail, /FAA 空域作業窗口/);
-  assert.match(starship.detail, /尚未完成試飛/);
+  assert.match(starship.status, /官方列入已完成任務/);
+  assert.match(starship.detail, /Completed missions/);
+  assert.match(starship.detail, /不調增 Starlink 部署總量/);
   const firefly = byId("fly-cleanroom-expansion-20260922");
   assert.match(firefly.detail, /最多 12 艘/);
   assert.match(firefly.detail, /不調整任何在軌／已部署總量/);
@@ -40,12 +44,10 @@ test("September 23 distinguishes target, airspace and completed deployment", asy
   assert.match(spire.detail, /部署總量不變/);
 });
 
-test("September 23 updates Starship schedule without changing deployment totals", async () => {
+test("September 23 Starship schedule closes without changing deployment totals", async () => {
   const schedule = await readJson("schedule.json");
   const item = schedule.items.find((candidate) => candidate.id === "sx-starship-flight14-spacex-window-review-20260916");
-  assert.equal(item.window, "台北 2026-09-28 20:15–21:30；FAA 空域窗口至 22:14");
-  assert.equal(item.vehicle, "Starship／Super Heavy");
-  assert.match(item.confidence, /尚未發射/);
+  assert.equal(item, undefined);
   const constellations = await readJson("constellations.json");
   assert.equal(constellations.items.length, 7);
   assert.ok(publishedCount(await readJson("events.json")) >= 82);

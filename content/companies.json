@@ -1,12 +1,12 @@
 {
-  "lastVerified": "2026-09-28",
+  "lastVerified": "2026-09-29",
   "items": [
     {
       "id": "spacex",
       "name": "SpaceX",
       "ticker": "私人",
       "focus": "發射服務 · Starlink · Starship",
-      "status": "USSF-385 已完成；Flight 14 目標 9/28",
+      "status": "Flight 14 已列完成；部署結果待官方摘要",
       "statusTone": "watch",
       "source": "https://www.spacex.com/launches"
     },

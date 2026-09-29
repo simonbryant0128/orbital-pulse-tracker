@@ -1,5 +1,5 @@
 {
-  "lastVerified": "2026-09-28",
+  "lastVerified": "2026-09-29",
   "events": [
     {
       "id": "irdm-rklb-shareholder-approval-20260924",
@@ -95,15 +95,15 @@
     },
     {
       "id": "sx-starship-flight14-spacex-window-review-20260916",
-      "date": "2026-09-23",
+      "date": "2026-09-28",
       "company": "SpaceX",
       "program": "Starship Flight 14",
-      "category": "時程",
-      "status": "官方目標 9/28／FAA 主窗口同日",
+      "category": "發射／試飛里程碑",
+      "status": "官方列入已完成任務／部署結果待官方摘要",
       "tone": "watch",
-      "title": "Starship Flight 14 目標台北 9 月 28 日 20:15 發射",
-      "summary": "SpaceX 官方列出 9/28 20:15–21:30；FAA 同日規劃 20:15–22:14 發射／再入空域窗口，備援 9/29。兩者用途不同，不再視為數字衝突。",
-      "detail": "9/16 首次查核時，SpaceX 與 FAA 均列 9/22 起飛時點，但各自窗口終點不同；9/20 兩方又同步改列 9/28，原列維持待人工確認。9/23 再查核後，SpaceX 官方首頁／發射清單明確把 Starship Flight 14 列為 2026 年 9 月 28 日 12:15–13:30 UTC（台北 20:15–21:30）；FAA ATCSCC 9/23 Operations Plan Advisory 041 則列出同日 12:15–14:14 UTC 的 planned launch/reentry 空域作業窗口，備援為 9/29 同時段。兩個終點不同是因為前者為 SpaceX 任務目標窗口、後者為 FAA 空域作業窗口，並非同一欄位互相矛盾；因此本次改為自動查證並待同步。這仍是未來目標，尚未完成試飛，也不計入衛星部署總量。",
+      "title": "SpaceX 將 Starship Flight 14 列入 9 月 28 日已完成任務",
+      "summary": "SpaceX 官方發射清單已把 Flight 14 移入 Completed missions；官方任務頁尚未提供飛後摘要，因此不推定 26 顆 Starlink V3 的部署結果。",
+      "detail": "SpaceX 官方發射清單已將 Starship Flight 14 列入 Completed missions，日期為 2026 年 9 月 28 日，證實任務已完成發射階段並不再屬未來排程。Flight 14 任務頁在發射前說明，本次原定成為 Starship 首次繞地軌道任務，並計畫部署 26 顆 Starlink V3 衛星；但截至 9 月 29 日 10:28（Asia/Taipei），官方頁面尚未發布飛後敘述，未明確確認軌道插入、26 顆衛星部署、離軌點火或濺落各項結果。網站因此只把任務生命週期更新為已完成發射，不宣稱所有目標成功，也不調增 Starlink 部署總量；待 SpaceX 發布正式飛後摘要後再補充。",
       "sources": [
         {
           "label": "SpaceX 官方發射清單",
@@ -111,9 +111,9 @@
           "type": "官方"
         },
         {
-          "label": "FAA 09/23 Operations Plan Advisory 041",
-          "url": "https://www.fly.faa.gov/adv/adv_spt?s=09/1000",
-          "type": "政府官方"
+          "label": "SpaceX Starship Flight 14 任務頁",
+          "url": "https://www.spacex.com/launches/starship-flight-14",
+          "type": "官方"
         }
       ]
     },

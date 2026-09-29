@@ -31,15 +31,15 @@ test("September 28 removes completed USSF-385 from the future schedule without i
   assert.match(event.detail, /不推定衛星部署數/);
 
   const schedule = await readJson("schedule.json");
-  assert.equal(schedule.items.length, 15);
+  assert.equal(schedule.items.length, 14);
   assert.ok(!schedule.items.some((item) => item.id === event.id));
 
   const companies = await readJson("companies.json");
   const spacex = companies.items.find((company) => company.id === "spacex");
-  assert.equal(spacex.status, "USSF-385 已完成；Flight 14 目標 9/28");
+  assert.equal(spacex.status, "Flight 14 已列完成；部署結果待官方摘要");
 
   const constellations = await readJson("constellations.json");
   assert.equal(constellations.items.length, 7);
-  assert.equal(constellations.lastVerified, "2026-09-28");
-  assert.ok(constellations.items.every((item) => item.lastChecked === "2026-09-28"));
+  assert.equal(constellations.lastVerified, "2026-09-29");
+  assert.ok(constellations.items.every((item) => item.lastChecked === "2026-09-29"));
 });

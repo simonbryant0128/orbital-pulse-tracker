@@ -49,7 +49,7 @@ test("September 24 keeps contract ceilings and deployment totals explicit", asyn
   const constellations = await readJson("constellations.json");
   assert.equal(constellations.items.length, 7);
   const schedule = await readJson("schedule.json");
-  assert.ok(schedule.items.length >= 15);
+  assert.ok(schedule.items.length >= 14);
   assert.equal(schedule.items.find((item) => item.id === "sx-r3-faa-backup-revision-20260924").window, "台北 9/26 19:56–23:39；備援 9/27 20:49–23:25");
   assert.ok(schedule.items.some((item) => item.id === "sx-crew13-faa-window-20260924"));
   assert.ok(schedule.items.some((item) => item.id === "sx-transporter18-faa-window-20260924"));

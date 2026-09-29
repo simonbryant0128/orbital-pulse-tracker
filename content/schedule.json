@@ -1,7 +1,6 @@
 {
-  "lastVerified": "2026-09-28",
+  "lastVerified": "2026-09-29",
   "items": [
-    { "id": "sx-starship-flight14-spacex-window-review-20260916", "company": "SpaceX", "mission": "Starship Flight 14", "window": "台北 2026-09-28 20:15–21:30；FAA 空域窗口至 22:14", "bucket": "30d", "confidence": "SpaceX 官方目標／FAA 空域窗口／尚未發射", "vehicle": "Starship／Super Heavy", "source": "https://www.spacex.com/launches" },
     { "id": "sx-starlink-15-25-target-20260920", "company": "SpaceX", "mission": "Starlink 15-25", "window": "2026-09-30（官網日期；時間／時區未公布）", "bucket": "30d", "confidence": "官方日期／時間與時區待公布", "vehicle": "Falcon 9", "source": "https://www.spacex.com/launches/sl-15-25" },
     { "id": "sx-crew13-faa-window-20260924", "company": "SpaceX", "mission": "NASA Crew-13", "window": "台北 2026-10-01 23:10；FAA 空域窗口 23:00–23:50", "bucket": "30d", "confidence": "NASA 官方目標／FAA 空域窗口／尚未發射", "vehicle": "Falcon 9／Dragon", "source": "https://www.nasa.gov/mission/nasas-spacex-crew-13/" },
     { "id": "sx-transporter18-faa-window-20260924", "company": "SpaceX", "mission": "Transporter-18", "window": "台北 2026-10-02 02:08–04:09；備援 10/03 同時段", "bucket": "30d", "confidence": "FAA 規劃窗口／SpaceX 任務頁與載荷清單待確認", "vehicle": "Falcon 9", "source": "https://www.fly.faa.gov/adv/adv_spt?s=09/1000" },
