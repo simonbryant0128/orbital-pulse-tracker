@@ -32,12 +32,12 @@ test("Flight 14 leaves the future schedule and advances the Starship program", a
   assert.match(program.stages.at(-1).state, /complete/);
   assert.match(program.detail, /不推定 26 顆 Starlink V3/);
   const spacex = companies.items.find((item) => item.id === "spacex");
-  assert.match(spacex.status, /Flight 14 已列完成/);
+  assert.match(spacex.status, /Starlink 15-25.*待新官方窗口/);
 });
 
 test("deployment totals remain unchanged after the September 29 recheck", async () => {
   const constellations = await readJson("constellations.json");
-  assert.equal(constellations.lastVerified, "2026-09-29");
+  assert.equal(constellations.lastVerified, "2026-09-30");
   assert.equal(constellations.items.length, 7);
-  assert.ok(constellations.items.every((item) => item.lastChecked === "2026-09-29"));
+  assert.ok(constellations.items.every((item) => item.lastChecked === "2026-09-30"));
 });
