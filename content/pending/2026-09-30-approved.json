@@ -1,0 +1,36 @@
+{
+  "checkDate": "2026-09-30",
+  "spreadsheetId": "1_STxAMYmggQQClcMueJ5NcGh1XoQpBhpYabRa4PQS3U",
+  "sheet": "網站事件_主檔",
+  "range": "A81:Q81",
+  "state": "approved-source-snapshot",
+  "note": "Historical Google Sheets snapshot captured before publication. Live publication status remains in Google Sheets.",
+  "events": [
+    {
+      "id": "sx-starlink-15-25-target-20260920",
+      "date": "2026-09-20",
+      "company": "SpaceX",
+      "ticker": "—",
+      "program": "Falcon 9／Starlink 15-25",
+      "category": "時程／部署規劃",
+      "status": "原定9/30已不在官方近期排程／待新窗口",
+      "tone": "watch",
+      "title": "Starlink 15-25 原定 9/30 已撤出官方近期排程，等待新窗口",
+      "summary": "9/30 查核 SpaceX 官方近期發射清單已不再列 Starlink 15-25，專頁亦未提供新窗口；維持 27 顆未部署，不計入部署總量。",
+      "reviewStatus": "自動查證",
+      "publicationStatus": "待同步",
+      "checkedDate": "2026-09-30",
+      "detail": "9/20 查核時，SpaceX 官方發射清單與 sl-15-25 任務頁曾列出 2026 年 9 月 30 日，計畫由 Falcon 9 自 Vandenberg SLC-4E 發射 27 顆 Starlink。9/30 再查核時，SpaceX 官方 Upcoming launches 已不再列 Starlink 15-25，原任務網址也未提供新的發射窗口。因此先前的 9/30 日期不再視為有效的目前排程，狀態改為等待官方新窗口。SpaceX 尚未在官方頁面公告新的日期或任務完成結果；本次不推定取消、延後或完成，原計畫 27 顆也不計入已部署總量。",
+      "sources": [
+        {
+          "label": "SpaceX 官方發射清單",
+          "url": "https://www.spacex.com/launches"
+        },
+        {
+          "label": "SpaceX 官方 Starlink 15-25 任務頁",
+          "url": "https://www.spacex.com/launches/sl-15-25"
+        }
+      ]
+    }
+  ]
+}

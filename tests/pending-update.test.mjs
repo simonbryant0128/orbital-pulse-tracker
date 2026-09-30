@@ -50,8 +50,16 @@ test("September 20 approved snapshot is integrated exactly once without pending 
   for (const event of batch.events) {
     const matches = published.events.filter((e) => e.id === event.id);
     assert.equal(matches.length, 1);
-    for (const key of ["date", "company", "program", "category", "status", "tone", "title", "summary", "detail"]) assert.equal(matches[0][key], event[key]);
-    assert.deepEqual(matches[0].sources.map((s) => s.url), event.sources.map((s) => s.url));
+    if (event.id === "sx-starlink-15-25-target-20260920") {
+      for (const key of ["date", "company", "program", "category", "tone"]) assert.equal(matches[0][key], event[key]);
+      assert.match(matches[0].status, /待新窗口/);
+      assert.match(matches[0].detail, /9\/20 查核時/);
+      assert.match(matches[0].detail, /9\/30 再查核時/);
+      assert.ok(event.sources.every((source) => matches[0].sources.some((candidate) => candidate.url === source.url)));
+    } else {
+      for (const key of ["date", "company", "program", "category", "status", "tone", "title", "summary", "detail"]) assert.equal(matches[0][key], event[key]);
+      assert.deepEqual(matches[0].sources.map((s) => s.url), event.sources.map((s) => s.url));
+    }
   }
   for (const id of ["sx-starlink-15-27-faa-window-20260913", "vsat-equatys-binding-agreement-review-20260914"]) assert.ok(!published.events.some((e) => e.id === id));
   assert.ok(!batch.events.some((e) => e.id.includes("review")));
@@ -63,11 +71,13 @@ test("September 20 upcoming data preserves historical totals and uncertain time 
   const starlink = items.find((e) => e.id === "starlink");
   assert.equal(starlink.current, 10971);
   assert.equal(starlink.currentAsOf, "2026-08-12");
-  assert.equal(starlink.deployment.nextMission, "Starlink 15-25");
+  assert.match(starlink.deployment.nextMission, /Starlink 15-25 原定窗口已失效/);
   assert.equal(starlink.deployment.nextLaunchDate, null);
-  assert.match(starlink.deployment.nextLaunchDisplay, /2026-09-30.*時區未公布/);
+  assert.equal(starlink.deployment.nextLaunchDisplay, "待官方公告");
   const schedule = await read("schedule");
-  assert.ok(schedule.items.some((e) => e.id === "sx-starlink-15-25-target-20260920"));
+  const starlinkSchedule = schedule.items.find((e) => e.id === "sx-starlink-15-25-target-20260920");
+  assert.equal(starlinkSchedule.bucket, "tbd");
+  assert.match(starlinkSchedule.window, /原定 2026-09-30 窗口已失效/);
   for (const id of ["sx-starship-flight14-faa-window-20260915", "rklb-next-electron-september-20260911"]) assert.ok(!schedule.items.some((e) => e.id === id));
   const program = (await read("programs")).items.find((e) => e.id === "starship");
   assert.match(program.headline, /9 月 28 日完成任務/);

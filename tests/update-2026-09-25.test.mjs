@@ -41,8 +41,8 @@ test("September 25 keeps approvals, windows, and deployment scope explicit", asy
 
   const constellations = await readJson("constellations.json");
   assert.equal(constellations.items.length, 7);
-  assert.equal(constellations.lastVerified, "2026-09-29");
-  assert.ok(constellations.items.every((item) => item.lastChecked === "2026-09-29"));
+  assert.equal(constellations.lastVerified, "2026-09-30");
+  assert.ok(constellations.items.every((item) => item.lastChecked === "2026-09-30"));
 
   const schedule = await readJson("schedule.json");
   assert.equal(schedule.items.length, 14);

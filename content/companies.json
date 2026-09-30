@@ -1,12 +1,12 @@
 {
-  "lastVerified": "2026-09-29",
+  "lastVerified": "2026-09-30",
   "items": [
     {
       "id": "spacex",
       "name": "SpaceX",
       "ticker": "私人",
       "focus": "發射服務 · Starlink · Starship",
-      "status": "Flight 14 已列完成；部署結果待官方摘要",
+      "status": "Starlink 15-25 原定 9/30 窗口失效；待新官方窗口",
       "statusTone": "watch",
       "source": "https://www.spacex.com/launches"
     },
