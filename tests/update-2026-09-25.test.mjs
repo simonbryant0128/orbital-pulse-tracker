@@ -22,7 +22,7 @@ test("September 25 approved events are integrated exactly once", async () => {
     }
     assert.deepEqual(matches[0].sources.map((source) => source.url), event.sources.map((source) => source.url));
   }
-  assert.equal(published.events.length, 88);
+  assert.equal(published.events.length, 89);
 });
 
 test("September 25 keeps approvals, windows, and deployment scope explicit", async () => {
@@ -41,10 +41,10 @@ test("September 25 keeps approvals, windows, and deployment scope explicit", asy
 
   const constellations = await readJson("constellations.json");
   assert.equal(constellations.items.length, 7);
-  assert.equal(constellations.lastVerified, "2026-09-30");
-  assert.ok(constellations.items.every((item) => item.lastChecked === "2026-09-30"));
+  assert.equal(constellations.lastVerified, "2026-10-01");
+  assert.ok(constellations.items.every((item) => item.lastChecked === "2026-10-01"));
 
   const schedule = await readJson("schedule.json");
-  assert.equal(schedule.items.length, 14);
+  assert.equal(schedule.items.length, 15);
   assert.ok(schedule.items.some((item) => item.id === "voyg-exobiosphere-ohts-iss-campaigns-20260924"));
 });

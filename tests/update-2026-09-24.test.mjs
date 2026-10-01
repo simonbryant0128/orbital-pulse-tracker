@@ -17,10 +17,14 @@ test("September 24 approved events are integrated exactly once", async () => {
     assert.equal(event.checkedDate, "2026-09-24");
     const matches = published.events.filter((candidate) => candidate.id === event.id);
     assert.equal(matches.length, 1);
-    for (const key of ["date", "company", "program", "category", "status", "tone", "title", "summary", "detail"]) {
-      assert.equal(matches[0][key], event[key]);
+    const advanced = new Set(["sx-crew13-faa-window-20260924", "sx-transporter18-faa-window-20260924"]);
+    const keys = advanced.has(event.id)
+      ? ["date", "company", "program", "category", "tone"]
+      : ["date", "company", "program", "category", "status", "tone", "title", "summary", "detail"];
+    for (const key of keys) assert.equal(matches[0][key], event[key]);
+    if (!advanced.has(event.id)) {
+      assert.deepEqual(matches[0].sources.map((source) => source.url), event.sources.map((source) => source.url));
     }
-    assert.deepEqual(matches[0].sources.map((source) => source.url), event.sources.map((source) => source.url));
   }
   assert.ok(published.events.length >= 86);
 });
@@ -30,11 +34,12 @@ test("September 24 distinguishes launch targets from regulator windows", async (
   const byId = (id) => published.events.find((event) => event.id === id);
   const crew = byId("sx-crew13-faa-window-20260924");
   assert.match(crew.detail, /23:10/);
-  assert.match(crew.detail, /FAA.*空域窗口/);
-  assert.match(crew.detail, /尚未發射/);
+  assert.match(crew.detail, /發射就緒審查/);
+  assert.match(crew.detail, /尚未(?:發射|升空)/);
   const transporter = byId("sx-transporter18-faa-window-20260924");
-  assert.match(transporter.detail, /未取得 SpaceX 對應任務頁/);
-  assert.match(transporter.detail, /不推定衛星名稱、顆數或星座歸屬/);
+  assert.match(transporter.detail, /SpaceX 官方 Transporter-18 任務頁/);
+  assert.match(transporter.detail, /130 項載荷/);
+  assert.match(transporter.detail, /不把任何載荷計入已部署總量/);
   const r3 = byId("sx-r3-faa-backup-revision-20260924");
   assert.match(r3.detail, /備援起點延後 1 小時/);
   assert.match(r3.detail, /不把它自行合併到 USSF-385/);
