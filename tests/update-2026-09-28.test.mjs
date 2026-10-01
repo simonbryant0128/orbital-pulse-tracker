@@ -20,7 +20,7 @@ test("September 28 updates the existing USSF-385 event exactly once", async () =
     assert.equal(matches[0][key], approved[key]);
   }
   assert.deepEqual(matches[0].sources.map((source) => source.url), approved.sources.map((source) => source.url));
-  assert.equal(published.events.length, 88);
+  assert.equal(published.events.length, 89);
 });
 
 test("September 28 removes completed USSF-385 from the future schedule without inventing deployment totals", async () => {
@@ -31,7 +31,7 @@ test("September 28 removes completed USSF-385 from the future schedule without i
   assert.match(event.detail, /不推定衛星部署數/);
 
   const schedule = await readJson("schedule.json");
-  assert.equal(schedule.items.length, 14);
+  assert.equal(schedule.items.length, 15);
   assert.ok(!schedule.items.some((item) => item.id === event.id));
 
   const companies = await readJson("companies.json");
@@ -40,6 +40,6 @@ test("September 28 removes completed USSF-385 from the future schedule without i
 
   const constellations = await readJson("constellations.json");
   assert.equal(constellations.items.length, 7);
-  assert.equal(constellations.lastVerified, "2026-09-30");
-  assert.ok(constellations.items.every((item) => item.lastChecked === "2026-09-30"));
+  assert.equal(constellations.lastVerified, "2026-10-01");
+  assert.ok(constellations.items.every((item) => item.lastChecked === "2026-10-01"));
 });

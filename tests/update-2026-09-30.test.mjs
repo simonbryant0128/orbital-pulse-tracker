@@ -18,7 +18,7 @@ test("September 30 advances Starlink 15-25 without creating a duplicate event", 
     assert.equal(matches[0][key], approved[key]);
   }
   assert.deepEqual(matches[0].sources.map((source) => source.url), approved.sources.map((source) => source.url));
-  assert.equal(published.events.length, 88);
+  assert.equal(published.events.length, 89);
 });
 
 test("September 30 invalidates only the old launch window and preserves deployment totals", async () => {

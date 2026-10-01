@@ -1,5 +1,5 @@
 {
-  "lastVerified": "2026-09-30",
+  "lastVerified": "2026-10-01",
   "items": [
     {
       "id": "spacex",
@@ -60,9 +60,9 @@
       "name": "Firefly Aerospace",
       "ticker": "FLY",
       "focus": "Alpha · Elytra · Blue Ghost",
-      "status": "新潔淨室完工，可同時支援最多 12 艘太空器",
+      "status": "Starcloud SC-1L 將隨 Elytra 前往月球軌道",
       "statusTone": "positive",
-      "source": "https://investors.fireflyspace.com/news-releases/news-release-details/firefly-aerospace-completes-new-cleanroom-accelerate-spacecraft"
+      "source": "https://fireflyspace.com/news/firefly-aerospace-signs-starcloud-as-commercial-customer-demonstrating-data-center-capabilities-around-the-moon/"
     },
     {
       "id": "voyager-technologies",

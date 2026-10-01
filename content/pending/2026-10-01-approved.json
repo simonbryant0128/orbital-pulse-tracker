@@ -1,0 +1,70 @@
+{
+  "checkDate": "2026-10-01",
+  "spreadsheetId": "1_STxAMYmggQQClcMueJ5NcGh1XoQpBhpYabRa4PQS3U",
+  "sheet": "網站事件_主檔",
+  "range": "A89:Q90,A94:Q94",
+  "state": "approved-source-snapshot",
+  "note": "Historical Google Sheets snapshot captured before publication. Live publication status remains in Google Sheets.",
+  "events": [
+    {
+      "id": "sx-crew13-faa-window-20260924",
+      "date": "2026-09-24",
+      "company": "SpaceX",
+      "ticker": "—",
+      "program": "Falcon 9／Dragon／Crew-13",
+      "category": "時程／載人任務",
+      "status": "通過發射就緒審查／仍目標台北 10/1 23:10",
+      "tone": "watch",
+      "title": "NASA、SpaceX 完成 Crew-13 發射就緒審查，維持台北 10/1 23:10",
+      "summary": "NASA 9/30 宣布發射就緒審查完成，各方確認可進入倒數；發射仍目標 10/1 11:10 EDT（台北 23:10），尚未升空。",
+      "reviewStatus": "自動查證",
+      "publicationStatus": "待同步",
+      "checkedDate": "2026-10-01",
+      "detail": "NASA、SpaceX 與國際合作團隊已完成 Crew-13 發射就緒審查，任務主管一致確認可進入發射倒數。發射時間維持 2026 年 10 月 1 日 11:10 a.m. EDT，換算台北為同日 23:10；SpaceX 任務頁另列備援機會為 10 月 2 日 10:47 a.m. ET。Dragon 將載運 Jessica Watkins、Luke Delaney、Joshua Kutryk 與 Sergey Teteryatnikov 前往國際太空站。這是發射前就緒里程碑，尚未升空，也不改變衛星部署總量。",
+      "sources": [
+        { "label": "NASA Crew-13 任務頁", "url": "https://www.nasa.gov/mission/nasas-spacex-crew-13/" },
+        { "label": "NASA Crew-13 發射就緒審查", "url": "https://www.nasa.gov/blogs/commercialcrew/2026/09/30/nasa-spacex-conclude-review-crew-13-go-for-launch/" },
+        { "label": "SpaceX Crew-13 任務頁", "url": "https://www.spacex.com/launches/crew13/" }
+      ]
+    },
+    {
+      "id": "sx-transporter18-faa-window-20260924",
+      "date": "2026-09-24",
+      "company": "SpaceX",
+      "ticker": "—",
+      "program": "Falcon 9／Transporter-18",
+      "category": "監管時程／共乘任務",
+      "status": "SpaceX 台北 10/2 02:18 開窗／58 分鐘",
+      "tone": "watch",
+      "title": "SpaceX 確認 Transporter-18 台北 10 月 2 日 02:18 開窗",
+      "summary": "SpaceX 任務頁列 10/1 11:18 a.m. PT（台北 10/2 02:18）開啟 58 分鐘窗口；共乘任務包含 130 項載荷，其中 41 項由軌道轉移載具稍後部署。",
+      "reviewStatus": "自動查證",
+      "publicationStatus": "待同步",
+      "checkedDate": "2026-10-01",
+      "detail": "SpaceX 官方 Transporter-18 任務頁列出 2026 年 10 月 1 日 11:18 a.m. PT 開啟 58 分鐘發射窗口，換算台北為 10 月 2 日 02:18；備援為隔日同一時間。Falcon 9 將由 Vandenberg SLC-4E 發射至低地球軌道，首節預定返回 Landing Zone 4。官方列出 130 項載荷，包含立方衛星、微型衛星、託管載荷、2 艘再入載具與 4 艘軌道轉移載具；其中 41 項載荷會由軌道轉移載具稍後部署。這仍是發射前資訊，網站不把任何載荷計入已部署總量；任務完成後再依官方部署結果更新。",
+      "sources": [
+        { "label": "SpaceX Transporter-18 任務頁", "url": "https://www.spacex.com/launches/transporter18/" },
+        { "label": "FAA 09/24 Operations Plan Advisory 018", "url": "https://www.fly.faa.gov/adv/adv_spt?s=09/1000" }
+      ]
+    },
+    {
+      "id": "fly-starcloud-lunar-ai-compute-20260930",
+      "date": "2026-09-30",
+      "company": "Firefly Aerospace",
+      "ticker": "FLY",
+      "program": "Elytra／SC-1L／Blue Ghost Mission 3",
+      "category": "合作／月球軌道 AI 運算",
+      "status": "第三次月球任務 NET 2028／Elytra 留軌五年",
+      "tone": "positive",
+      "title": "Firefly 將 Starcloud SC-1L AI 運算載荷送往月球軌道",
+      "summary": "Starcloud 的 SC-1L 將搭載 Elytra，在月球軌道處理 Solux 影像並回傳；任務隨 Firefly 第三次月球任務 NET 2028，Elytra 預計留軌五年。",
+      "reviewStatus": "自動查證",
+      "publicationStatus": "待同步",
+      "checkedDate": "2026-10-01",
+      "detail": "Firefly Aerospace 於 2026 年 9 月 30 日宣布與 Starcloud 簽署商業載荷協議。Starcloud 的 SC-1L 運算載荷將搭載 Firefly Elytra 軌道載具，讀取 Solux 視覺系統資料，在月球軌道執行高效能 AI 運算後把處理結果回傳地球。任務將加入 Firefly 第三次月球任務，官方時程是不早於 2028 年；Elytra 會先擔任 Blue Ghost 月球著陸器的轉移載具與通訊中繼，任務完成後留在月球軌道五年，支援 Starcloud 示範及其他客戶載荷與成像作業。官方未公布確切發射日期、火箭或載荷重量，因此網站只採用 NET 2028 的年份級時間窗，也不把這筆合作計入已部署衛星總量。",
+      "sources": [
+        { "label": "Firefly Aerospace 官方 Starcloud／Elytra 公告", "url": "https://fireflyspace.com/news/firefly-aerospace-signs-starcloud-as-commercial-customer-demonstrating-data-center-capabilities-around-the-moon/" }
+      ]
+    }
+  ]
+}

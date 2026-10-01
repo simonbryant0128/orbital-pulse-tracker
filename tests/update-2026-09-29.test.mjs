@@ -17,7 +17,7 @@ test("September 29 publishes the Flight 14 lifecycle update", async () => {
   assert.match(event.status, /官方列入已完成任務/);
   assert.match(event.detail, /Completed missions/);
   assert.match(event.detail, /不調增 Starlink 部署總量/);
-  assert.equal(published.events.length, 88);
+  assert.equal(published.events.length, 89);
 });
 
 test("Flight 14 leaves the future schedule and advances the Starship program", async () => {
@@ -26,7 +26,7 @@ test("Flight 14 leaves the future schedule and advances the Starship program", a
     readJson("programs.json"),
     readJson("companies.json"),
   ]);
-  assert.equal(schedule.items.length, 14);
+  assert.equal(schedule.items.length, 15);
   assert.equal(schedule.items.some((item) => item.id === "sx-starship-flight14-spacex-window-review-20260916"), false);
   const program = programs.items.find((item) => item.id === "starship");
   assert.match(program.stages.at(-1).state, /complete/);
@@ -37,7 +37,7 @@ test("Flight 14 leaves the future schedule and advances the Starship program", a
 
 test("deployment totals remain unchanged after the September 29 recheck", async () => {
   const constellations = await readJson("constellations.json");
-  assert.equal(constellations.lastVerified, "2026-09-30");
+  assert.equal(constellations.lastVerified, "2026-10-01");
   assert.equal(constellations.items.length, 7);
-  assert.ok(constellations.items.every((item) => item.lastChecked === "2026-09-30"));
+  assert.ok(constellations.items.every((item) => item.lastChecked === "2026-10-01"));
 });
