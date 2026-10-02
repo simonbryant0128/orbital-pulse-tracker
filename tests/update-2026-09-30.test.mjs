@@ -37,5 +37,5 @@ test("September 30 invalidates only the old launch window and preserves deployme
   assert.equal(starlink.deployment.nextLaunchDate, null);
   assert.equal(starlink.deployment.nextLaunchDisplay, "待官方公告");
   assert.match(starlink.deployment.nextStatus, /不推定取消或延後/);
-  assert.equal(companies.items.find((item) => item.id === "spacex").status, "Starlink 15-25 原定 9/30 窗口失效；待新官方窗口");
+  assert.equal(companies.items.find((item) => item.id === "spacex").status, "Crew-13 完成 ISS 對接；Transporter-18 已發射");
 });

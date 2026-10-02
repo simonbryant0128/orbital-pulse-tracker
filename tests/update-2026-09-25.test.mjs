@@ -41,10 +41,10 @@ test("September 25 keeps approvals, windows, and deployment scope explicit", asy
 
   const constellations = await readJson("constellations.json");
   assert.equal(constellations.items.length, 7);
-  assert.equal(constellations.lastVerified, "2026-10-01");
-  assert.ok(constellations.items.every((item) => item.lastChecked === "2026-10-01"));
+  assert.equal(constellations.lastVerified, "2026-10-02");
+  assert.ok(constellations.items.every((item) => item.lastChecked === "2026-10-02"));
 
   const schedule = await readJson("schedule.json");
-  assert.equal(schedule.items.length, 15);
+  assert.equal(schedule.items.length, 13);
   assert.ok(schedule.items.some((item) => item.id === "voyg-exobiosphere-ohts-iss-campaigns-20260924"));
 });
