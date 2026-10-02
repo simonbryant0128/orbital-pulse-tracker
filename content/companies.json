@@ -1,14 +1,14 @@
 {
-  "lastVerified": "2026-10-01",
+  "lastVerified": "2026-10-02",
   "items": [
     {
       "id": "spacex",
       "name": "SpaceX",
       "ticker": "私人",
       "focus": "發射服務 · Starlink · Starship",
-      "status": "Starlink 15-25 原定 9/30 窗口失效；待新官方窗口",
-      "statusTone": "watch",
-      "source": "https://www.spacex.com/launches"
+      "status": "Crew-13 完成 ISS 對接；Transporter-18 已發射",
+      "statusTone": "positive",
+      "source": "https://www.nasa.gov/blogs/spacestation/2026/10/01/dragon-docks-bringing-spacex-crew-13-to-station/"
     },
     {
       "id": "rocket-lab",

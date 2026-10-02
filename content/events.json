@@ -1,5 +1,5 @@
 {
-  "lastVerified": "2026-10-01",
+  "lastVerified": "2026-10-02",
   "events": [
     {
       "id": "fly-starcloud-lunar-ai-compute-20260930",
@@ -52,15 +52,15 @@
       "date": "2026-09-24",
       "company": "SpaceX",
       "program": "Falcon 9／Dragon／Crew-13",
-      "category": "時程／載人任務",
-      "status": "通過發射就緒審查／仍目標台北 10/1 23:10",
-      "tone": "watch",
-      "title": "NASA、SpaceX 完成 Crew-13 發射就緒審查，維持台北 10/1 23:10",
-      "summary": "NASA 9/30 宣布發射就緒審查完成，各方確認可進入倒數；發射仍目標 10/1 11:10 EDT（台北 23:10），尚未升空。",
-      "detail": "NASA、SpaceX 與國際合作團隊已完成 Crew-13 發射就緒審查，任務主管一致確認可進入發射倒數。發射時間維持 2026 年 10 月 1 日 11:10 a.m. EDT，換算台北為同日 23:10；SpaceX 任務頁另列備援機會為 10 月 2 日 10:47 a.m. ET。Dragon 將載運 Jessica Watkins、Luke Delaney、Joshua Kutryk 與 Sergey Teteryatnikov 前往國際太空站。這是發射前就緒里程碑，尚未升空，也不改變衛星部署總量。",
+      "category": "發射／載人任務",
+      "status": "已發射並完成對接／7 小時 55 分",
+      "tone": "positive",
+      "title": "Crew-13 成功發射並與 ISS 對接",
+      "summary": "Falcon 9 於 10/1 11:10 EDT 發射 Dragon；19:05 EDT 對接 Harmony 前向端口，7 小時 55 分創美國太空船最快發射至對接紀錄。",
+      "detail": "NASA 表示，SpaceX Crew-13 於 2026 年 10 月 1 日美東時間上午 11:10，自佛州卡納維爾角太空軍基地 40 號發射台升空。Dragon 搭載 Jessica Watkins、Luke Delaney、Joshua Kutryk 與 Sergey Teteryatnikov，並於同日晚間 7:05 對接國際太空站 Harmony 模組前向端口。自發射至對接共 7 小時 55 分，NASA 稱為美國太空船前往 ISS 的最快紀錄。本事件不影響衛星部署總量。",
       "sources": [
-        { "label": "NASA Crew-13 任務頁", "url": "https://www.nasa.gov/mission/nasas-spacex-crew-13/", "type": "政府官方" },
-        { "label": "NASA Crew-13 發射就緒審查", "url": "https://www.nasa.gov/blogs/commercialcrew/2026/09/30/nasa-spacex-conclude-review-crew-13-go-for-launch/", "type": "政府官方" },
+        { "label": "NASA Crew-13 發射公告", "url": "https://www.nasa.gov/news-release/nasas-spacex-crew-13-launches-to-international-space-station/", "type": "政府官方" },
+        { "label": "NASA Crew-13 對接更新", "url": "https://www.nasa.gov/blogs/spacestation/2026/10/01/dragon-docks-bringing-spacex-crew-13-to-station/", "type": "政府官方" },
         { "label": "SpaceX Crew-13 任務頁", "url": "https://www.spacex.com/launches/crew13/", "type": "官方" }
       ]
     },
@@ -84,15 +84,15 @@
       "date": "2026-09-24",
       "company": "SpaceX",
       "program": "Falcon 9／Transporter-18",
-      "category": "監管時程／共乘任務",
-      "status": "SpaceX 台北 10/2 02:18 開窗／58 分鐘",
-      "tone": "watch",
-      "title": "SpaceX 確認 Transporter-18 台北 10 月 2 日 02:18 開窗",
-      "summary": "SpaceX 任務頁列 10/1 11:18 a.m. PT（台北 10/2 02:18）開啟 58 分鐘窗口；共乘任務包含 130 項載荷，其中 41 項由軌道轉移載具稍後部署。",
-      "detail": "SpaceX 官方 Transporter-18 任務頁列出 2026 年 10 月 1 日 11:18 a.m. PT 開啟 58 分鐘發射窗口，換算台北為 10 月 2 日 02:18；備援為隔日同一時間。Falcon 9 將由 Vandenberg SLC-4E 發射至低地球軌道，首節預定返回 Landing Zone 4。官方列出 130 項載荷，包含立方衛星、微型衛星、託管載荷、2 艘再入載具與 4 艘軌道轉移載具；其中 41 項載荷會由軌道轉移載具稍後部署。這仍是發射前資訊，網站不把任何載荷計入已部署總量；任務完成後再依官方部署結果更新。",
+      "category": "發射／共乘任務",
+      "status": "已發射／3 項 NASA 支持小型太空器升空",
+      "tone": "positive",
+      "title": "Transporter-18 成功發射，NASA 確認 3 項小型太空器升空",
+      "summary": "Falcon 9 於 10/1 11:32 PDT 自 Vandenberg 發射；NASA 確認 ASCENT、SPRITE、SSPICY 升空，但未確認全部 130 項載荷完成部署。",
+      "detail": "NASA 表示，SpaceX Falcon 9 於 2026 年 10 月 1 日太平洋時間上午 11:32，自加州范登堡太空軍基地 4E 發射台執行 Transporter-18。NASA 確認三項受支持的小型太空器隨任務升空：ASCENT Propulsion Dual Mode CubeSat、SPRITE CubeSat，以及 SSPICY／Otter 24C。官方來源尚未逐項確認先前公布的 130 項載荷皆已完成部署，因此本次不把 130 項載荷整批計入衛星部署總量。",
       "sources": [
-        { "label": "SpaceX Transporter-18 任務頁", "url": "https://www.spacex.com/launches/transporter18/", "type": "官方" },
-        { "label": "FAA 09/24 Operations Plan Advisory 018", "url": "https://www.fly.faa.gov/adv/adv_spt?s=09/1000", "type": "政府官方" }
+        { "label": "NASA Transporter-18 小型太空器公告", "url": "https://www.nasa.gov/blogs/smallsatellites/2026/10/01/nasa-smallsats-launch-to-advance-science-technology-orbital-operations/", "type": "政府官方" },
+        { "label": "SpaceX Transporter-18 任務頁", "url": "https://www.spacex.com/launches/transporter18/", "type": "官方" }
       ]
     },
     {

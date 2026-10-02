@@ -19,7 +19,7 @@ test("September 24 approved events are integrated exactly once", async () => {
     assert.equal(matches.length, 1);
     const advanced = new Set(["sx-crew13-faa-window-20260924", "sx-transporter18-faa-window-20260924"]);
     const keys = advanced.has(event.id)
-      ? ["date", "company", "program", "category", "tone"]
+      ? ["date", "company", "program"]
       : ["date", "company", "program", "category", "status", "tone", "title", "summary", "detail"];
     for (const key of keys) assert.equal(matches[0][key], event[key]);
     if (!advanced.has(event.id)) {
@@ -33,13 +33,13 @@ test("September 24 distinguishes launch targets from regulator windows", async (
   const published = await readJson("events.json");
   const byId = (id) => published.events.find((event) => event.id === id);
   const crew = byId("sx-crew13-faa-window-20260924");
-  assert.match(crew.detail, /23:10/);
-  assert.match(crew.detail, /發射就緒審查/);
-  assert.match(crew.detail, /尚未(?:發射|升空)/);
+  assert.match(crew.detail, /7 小時 55 分/);
+  assert.match(crew.detail, /Harmony/);
+  assert.match(crew.detail, /最快紀錄/);
   const transporter = byId("sx-transporter18-faa-window-20260924");
-  assert.match(transporter.detail, /SpaceX 官方 Transporter-18 任務頁/);
+  assert.match(transporter.detail, /NASA/);
   assert.match(transporter.detail, /130 項載荷/);
-  assert.match(transporter.detail, /不把任何載荷計入已部署總量/);
+  assert.match(transporter.detail, /不把 130 項載荷整批計入衛星部署總量/);
   const r3 = byId("sx-r3-faa-backup-revision-20260924");
   assert.match(r3.detail, /備援起點延後 1 小時/);
   assert.match(r3.detail, /不把它自行合併到 USSF-385/);
@@ -54,9 +54,9 @@ test("September 24 keeps contract ceilings and deployment totals explicit", asyn
   const constellations = await readJson("constellations.json");
   assert.equal(constellations.items.length, 7);
   const schedule = await readJson("schedule.json");
-  assert.ok(schedule.items.length >= 14);
+  assert.ok(schedule.items.length >= 13);
   assert.equal(schedule.items.find((item) => item.id === "sx-r3-faa-backup-revision-20260924").window, "台北 9/26 19:56–23:39；備援 9/27 20:49–23:25");
-  assert.ok(schedule.items.some((item) => item.id === "sx-crew13-faa-window-20260924"));
-  assert.ok(schedule.items.some((item) => item.id === "sx-transporter18-faa-window-20260924"));
+  assert.ok(!schedule.items.some((item) => item.id === "sx-crew13-faa-window-20260924"));
+  assert.ok(!schedule.items.some((item) => item.id === "sx-transporter18-faa-window-20260924"));
   assert.ok(!schedule.items.some((item) => item.id === "sx-r3-faa-window-update-20260917"));
 });
