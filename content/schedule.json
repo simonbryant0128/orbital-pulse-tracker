@@ -1,5 +1,5 @@
 {
-  "lastVerified": "2026-10-02",
+  "lastVerified": "2026-10-04",
   "items": [
     { "id": "sx-starlink-15-25-target-20260920", "company": "SpaceX", "mission": "Starlink 15-25", "window": "待官方公告（原定 2026-09-30 窗口已失效）", "bucket": "tbd", "confidence": "官方近期發射清單未列／不推定取消或延後", "vehicle": "待官方公告", "source": "https://www.spacex.com/launches" },
     { "id": "sx-r3-faa-backup-revision-20260924", "company": "SpaceX", "mission": "R-3（FAA 代號／未與具名任務配對）", "window": "台北 9/26 19:56–23:39；備援 9/27 20:49–23:25", "bucket": "30d", "confidence": "FAA 規劃窗口／非最終升空承諾", "vehicle": "未於採用公告列出", "source": "https://www.fly.faa.gov/adv/adv_spt?s=09/1000" },
