@@ -1,6 +1,22 @@
 {
-  "lastVerified": "2026-10-02",
+  "lastVerified": "2026-10-04",
   "events": [
+    {
+      "id": "sx-nrol97-falcon-heavy-20261002",
+      "date": "2026-10-02",
+      "company": "SpaceX",
+      "program": "Falcon Heavy／NROL-97",
+      "category": "發射／國家安全任務",
+      "status": "已完成／雙側助推器回收",
+      "tone": "positive",
+      "title": "Falcon Heavy 完成 NROL-97 任務，雙側助推器同步回收",
+      "summary": "Falcon Heavy 於台北 10/2 11:53 自 LC-39A 發射 NROL-97；SpaceX 已列為完成任務，兩枚側助推器分別降落 LZ-1、LZ-2，中央核心按計畫耗盡。",
+      "detail": "SpaceX 官方發射清單已將 NROL-97 列入 2026 年 10 月 2 日完成任務。Falcon Heavy 於 03:53 UTC（台北 11:53）自佛州甘迺迪太空中心 LC-39A 升空。任務頁顯示，兩枚側助推器在分離後執行返場，約升空後 7 分 47 秒分別降落於卡納維爾角太空軍基地 LZ-1 與 LZ-2；中央核心採耗盡方式執行。NROL-97 為美國國家偵察局任務，採用的一手公開來源未揭露載荷內容或部署數量，因此本次只記錄發射與回收里程碑，不推算衛星部署總量。",
+      "sources": [
+        { "label": "SpaceX NROL-97 官方任務頁", "url": "https://www.spacex.com/launches/nrol97/", "type": "官方" },
+        { "label": "SpaceX 官方發射清單", "url": "https://www.spacex.com/launches", "type": "官方" }
+      ]
+    },
     {
       "id": "fly-starcloud-lunar-ai-compute-20260930",
       "date": "2026-09-30",

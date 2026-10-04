@@ -1,14 +1,14 @@
 {
-  "lastVerified": "2026-10-02",
+  "lastVerified": "2026-10-04",
   "items": [
     {
       "id": "spacex",
       "name": "SpaceX",
       "ticker": "私人",
       "focus": "發射服務 · Starlink · Starship",
-      "status": "Crew-13 完成 ISS 對接；Transporter-18 已發射",
+      "status": "Falcon Heavy 完成 NROL-97；雙側助推器回收",
       "statusTone": "positive",
-      "source": "https://www.nasa.gov/blogs/spacestation/2026/10/01/dragon-docks-bringing-spacex-crew-13-to-station/"
+      "source": "https://www.spacex.com/launches/nrol97/"
     },
     {
       "id": "rocket-lab",
