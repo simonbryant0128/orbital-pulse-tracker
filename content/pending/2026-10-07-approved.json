@@ -1,0 +1,68 @@
+{
+  "checkDate": "2026-10-07",
+  "spreadsheetId": "1_STxAMYmggQQClcMueJ5NcGh1XoQpBhpYabRa4PQS3U",
+  "sheet": "網站事件_主檔",
+  "range": "A96:Q98",
+  "state": "approved-source-snapshot",
+  "note": "Historical Google Sheets snapshot captured before publication. Live publication status remains in Google Sheets.",
+  "events": [
+    {
+      "id": "sx-crew12-undock-return-20261007",
+      "date": "2026-10-07",
+      "company": "SpaceX",
+      "ticker": "—",
+      "program": "Dragon／Crew-12",
+      "category": "人員運輸／返回",
+      "status": "官方排定脫離／10/8 濺落目標",
+      "tone": "watch",
+      "title": "Crew-12 將脫離 ISS，目標 10 月 8 日濺落加州外海",
+      "summary": "NASA 確認 Dragon 目標於美東 10/7 08:05 脫離 ISS，約 27 小時後於 10/8 11:34 濺落；時程仍受太空器、回收團隊與天候條件影響。",
+      "reviewStatus": "自動查證",
+      "publicationStatus": "待同步",
+      "checkedDate": "2026-10-07",
+      "detail": "NASA 於 2026 年 10 月 7 日更新 Crew-12 返航安排：SpaceX Dragon 預定美東時間 10 月 7 日上午 8:05（台北 10 月 7 日 20:05）自國際太空站自主脫離，展開約 27 小時返程；NASA 與 SpaceX 目前目標美東 10 月 8 日上午 11:34（台北 10 月 8 日 23:34）於加州外海濺落。Crew-12 成員為 NASA 的 Jessica Meir 與 Jack Hathaway、ESA 的 Sophie Adenot，以及 Roscosmos 的 Andrey Fedyaev。官方明確表示，實際脫離與濺落仍取決於太空器狀態、回收團隊準備及太平洋回收區天候，因此網站保留為即將執行的官方目標，不提前標記返航完成。",
+      "sources": [
+        { "label": "NASA Crew-12 官方即時公告", "url": "https://www.nasa.gov/blogs/spacestation/2026/10/07/nasas-spacex-crew-12-saying-farewell-closing-dragon-hatch-soon/" },
+        { "label": "NASA Crew-12 返航直播公告", "url": "https://www.nasa.gov/news-release/nasa-to-stream-spacex-crew-12-return-splashdown-live/" }
+      ]
+    },
+    {
+      "id": "sx-sda-tranche1-4-window-20261007",
+      "date": "2026-10-07",
+      "company": "SpaceX",
+      "ticker": "—",
+      "program": "Falcon 9／SDA Tranche 1 第四次任務",
+      "category": "時程／國家安全發射",
+      "status": "官方改列 10/8 00:54 PT",
+      "tone": "watch",
+      "title": "SpaceX 將 SDA Tranche 1 第四次任務改排至 10 月 8 日",
+      "summary": "SpaceX 即時發射清單列 Falcon 9 於美西 10/8 00:54 自 Vandenberg SLC-4E 發射，首節目標返回陸上 Landing Zone。",
+      "reviewStatus": "自動查證",
+      "publicationStatus": "待同步",
+      "checkedDate": "2026-10-07",
+      "detail": "SpaceX 官方即時發射清單於 2026 年 10 月 7 日查核時，已將「SDA’s Fourth Tranche 1 Mission」列為美西時間 10 月 8 日 00:54，使用 Falcon 9 自加州 Vandenberg 太空軍基地 SLC-4E 發射，第一節回收方式標為 Landing Zone。依 10 月仍採太平洋夏令時間換算，台北目標時間為 10 月 8 日 15:54；網站同時保留官方原始 PT 時間，避免時區歧義。清單沒有公開載荷顆數、部署確認或更細的任務內容，因此這筆只記錄官方最新窗口與回收規劃，不調整任何衛星部署總量。",
+      "sources": [
+        { "label": "SpaceX 官方即時發射清單", "url": "https://www.spacex.com/launches" }
+      ]
+    },
+    {
+      "id": "sx-starlink-next-window-20261007",
+      "date": "2026-10-07",
+      "company": "SpaceX",
+      "ticker": "—",
+      "program": "Falcon 9／Starlink Mission",
+      "category": "時程／部署規劃",
+      "status": "官方列台北 10/11 07:00–11:00",
+      "tone": "watch",
+      "title": "SpaceX 列出下一班 Starlink 的 10 月 11 日台北窗口",
+      "summary": "SpaceX 官方即時清單顯示下一班 Starlink 將由 Vandenberg SLC-4E 發射，台北時間 10/11 07:00–11:00；批次代號與衛星顆數尚未公開。",
+      "reviewStatus": "自動查證",
+      "publicationStatus": "待同步",
+      "checkedDate": "2026-10-07",
+      "detail": "SpaceX 官方即時發射清單於 2026 年 10 月 7 日查核時，列出下一班「Starlink Mission」目標窗口為台北時間 10 月 11 日 07:00–11:00，使用 Falcon 9 自加州 Vandenberg 太空軍基地 SLC-4E 發射，首節預計降落太平洋無人船。官方目前只顯示通用任務名稱，沒有公布 Starlink 批次代號、衛星顆數、衛星版本或精確升空時刻；因此網站將這四小時窗口作為下一次部署日期資訊，但不把任務與先前 Starlink 15-25 自行視為同一任務，也不預先增加部署總量。",
+      "sources": [
+        { "label": "SpaceX 官方即時發射清單", "url": "https://www.spacex.com/launches" }
+      ]
+    }
+  ]
+}

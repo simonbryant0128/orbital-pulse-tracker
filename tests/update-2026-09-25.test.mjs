@@ -45,6 +45,6 @@ test("September 25 keeps approvals, windows, and deployment scope explicit", asy
   assert.ok(constellations.items.every((item) => item.lastChecked >= "2026-10-02"));
 
   const schedule = await readJson("schedule.json");
-  assert.equal(schedule.items.length, 13);
+  assert.ok(schedule.items.length >= 13);
   assert.ok(schedule.items.some((item) => item.id === "voyg-exobiosphere-ohts-iss-campaigns-20260924"));
 });

@@ -82,7 +82,7 @@ test("renders the orbital tracker product page", async () => {
   assert.ok(publishedEvents.some((event) => event.title === "NexusWave 取得 Bureau Veritas 資安型式認可"));
   assert.match(html, /FAA 規劃窗口／非最終升空承諾/);
   assert.doesNotMatch(html, /台北 9\/22 20:15–22:14/);
-  assert.match(html, /待官方公告（原定 2026-09-30 窗口已失效）/);
+  assert.match(html, /台北 10\/11 07:00–11:00/);
   assert.match(html, /開啟雲端主表/);
   assert.match(html, /GitHub/);
   assert.doesNotMatch(html, /codex-preview|Your site is taking shape|react-loading-skeleton/i);

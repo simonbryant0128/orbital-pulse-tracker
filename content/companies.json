@@ -1,14 +1,14 @@
 {
-  "lastVerified": "2026-10-04",
+  "lastVerified": "2026-10-07",
   "items": [
     {
       "id": "spacex",
       "name": "SpaceX",
       "ticker": "私人",
       "focus": "發射服務 · Starlink · Starship",
-      "status": "Falcon Heavy 完成 NROL-97；雙側助推器回收",
-      "statusTone": "positive",
-      "source": "https://www.spacex.com/launches/nrol97/"
+      "status": "Crew-12 返航、SDA 與 Starlink 近期窗口已確認",
+      "statusTone": "watch",
+      "source": "https://www.spacex.com/launches"
     },
     {
       "id": "rocket-lab",
