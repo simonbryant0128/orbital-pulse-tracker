@@ -1,7 +1,9 @@
 {
-  "lastVerified": "2026-10-04",
+  "lastVerified": "2026-10-07",
   "items": [
-    { "id": "sx-starlink-15-25-target-20260920", "company": "SpaceX", "mission": "Starlink 15-25", "window": "待官方公告（原定 2026-09-30 窗口已失效）", "bucket": "tbd", "confidence": "官方近期發射清單未列／不推定取消或延後", "vehicle": "待官方公告", "source": "https://www.spacex.com/launches" },
+    { "id": "sx-crew12-undock-return-20261007", "company": "SpaceX", "mission": "Crew-12 返回", "window": "台北 10/7 20:05 脫離；10/8 23:34 濺落", "bucket": "30d", "confidence": "NASA 官方目標／視太空器、回收與天候條件", "vehicle": "Dragon", "source": "https://www.nasa.gov/blogs/spacestation/2026/10/07/nasas-spacex-crew-12-saying-farewell-closing-dragon-hatch-soon/" },
+    { "id": "sx-sda-tranche1-4-window-20261007", "company": "SpaceX", "mission": "SDA Tranche 1 第四次任務", "window": "美西 10/8 00:54 PT／台北 15:54", "bucket": "30d", "confidence": "SpaceX 官方即時窗口", "vehicle": "Falcon 9", "source": "https://www.spacex.com/launches" },
+    { "id": "sx-starlink-next-window-20261007", "company": "SpaceX", "mission": "Starlink Mission（批次代號未公布）", "window": "台北 10/11 07:00–11:00", "bucket": "30d", "confidence": "SpaceX 官方四小時窗口／精確升空時刻未定", "vehicle": "Falcon 9", "source": "https://www.spacex.com/launches" },
     { "id": "sx-r3-faa-backup-revision-20260924", "company": "SpaceX", "mission": "R-3（FAA 代號／未與具名任務配對）", "window": "台北 9/26 19:56–23:39；備援 9/27 20:49–23:25", "bucket": "30d", "confidence": "FAA 規劃窗口／非最終升空承諾", "vehicle": "未於採用公告列出", "source": "https://www.fly.faa.gov/adv/adv_spt?s=09/1000" },
     { "id": "fly-ssc-two-alpha-launches-20260909", "company": "Firefly Aerospace", "mission": "SSC Space 兩次 Esrange 發射", "window": "NET 2028（未定日）", "bucket": "90plus", "confidence": "官方最早年份／未定日", "vehicle": "Alpha", "source": "https://fireflyspace.com/news/firefly-aerospace-signs-contract-with-ssc-space-for-two-alpha-launches-from-esrange-space-center/" },
     { "id": "fly-starcloud-lunar-ai-compute-20260930", "company": "Firefly Aerospace", "mission": "第三次月球任務／Starcloud SC-1L", "window": "NET 2028（未定日）", "bucket": "90plus", "confidence": "官方最早年份／確切日期與火箭未公布", "vehicle": "待官方公告；Elytra 軌道載具", "source": "https://fireflyspace.com/news/firefly-aerospace-signs-starcloud-as-commercial-customer-demonstrating-data-center-capabilities-around-the-moon/" },

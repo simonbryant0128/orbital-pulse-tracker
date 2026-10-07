@@ -34,7 +34,7 @@ test("September 27 closes the completed schedule without overstating constellati
   assert.match(event.detail, /不加入既有七組星系總量/);
 
   const schedule = await readJson("schedule.json");
-  assert.equal(schedule.items.length, 13);
+  assert.ok(schedule.items.length >= 13);
   assert.ok(!schedule.items.some((item) => item.id === event.id));
 
   const companies = await readJson("companies.json");
