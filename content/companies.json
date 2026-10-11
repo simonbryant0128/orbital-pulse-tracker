@@ -1,14 +1,14 @@
 {
-  "lastVerified": "2026-10-07",
+  "lastVerified": "2026-10-10",
   "items": [
     {
       "id": "spacex",
       "name": "SpaceX",
       "ticker": "私人",
       "focus": "發射服務 · Starlink · Starship",
-      "status": "Crew-12 返航、SDA 與 Starlink 近期窗口已確認",
-      "statusTone": "watch",
-      "source": "https://www.spacex.com/launches"
+      "status": "Crew-12 安全返航；Starlink Mobile 頻譜與 FCC 里程碑",
+      "statusTone": "positive",
+      "source": "https://www.spacex.com/updates/nasa-certification-11-10-2020"
     },
     {
       "id": "rocket-lab",
@@ -24,18 +24,18 @@
       "name": "Blue Origin",
       "ticker": "私人",
       "focus": "New Glenn · 月球系統 · Quartz 地面網路",
-      "status": "擴大 AFRL 推進技術合作",
+      "status": "公布德州 Constellation Park 衛星製造園區",
       "statusTone": "positive",
-      "source": "https://www.blueorigin.com/news/blue-origin-expands-partnership-with-air-force-research-laboratory"
+      "source": "https://www.blueorigin.com/news/blue-origin-announces-new-texas-manufacturing-campus"
     },
     {
       "id": "amazon-leo",
       "name": "Amazon Leo",
       "ticker": "AMZN",
       "focus": "低軌寬頻星系",
-      "status": "部署加速",
+      "status": "衛星產量突破 1,000 顆；Vulcan 任務預計未來數週",
       "statusTone": "positive",
-      "source": "https://www.aboutamazon.com/news/innovation-at-amazon/project-kuiper-satellite-rocket-launch-progress-updates"
+      "source": "https://www.aboutamazon.com/stories/how-amazon-leo-builds-satellites"
     },
     {
       "id": "ast-spacemobile",
@@ -60,9 +60,9 @@
       "name": "Firefly Aerospace",
       "ticker": "FLY",
       "focus": "Alpha · Elytra · Blue Ghost",
-      "status": "Starcloud SC-1L 將隨 Elytra 前往月球軌道",
+      "status": "SciTec CBC2 合約總值增至 3,100 萬美元",
       "statusTone": "positive",
-      "source": "https://fireflyspace.com/news/firefly-aerospace-signs-starcloud-as-commercial-customer-demonstrating-data-center-capabilities-around-the-moon/"
+      "source": "https://fireflyspace.com/news/fireflys-scitec-expands-contract-with-u-s-air-force-to-add-counter-uas-data-in-advanced-battle-management-system/"
     },
     {
       "id": "voyager-technologies",
@@ -96,9 +96,9 @@
       "name": "BlackSky",
       "ticker": "BKSY",
       "focus": "Gen-3 · Spectra · 即時地球情報",
-      "status": "第五顆 Gen-3 首光確認",
-      "statusTone": "watch",
-      "source": "https://ir.blacksky.com/news-events/press-releases/news-details/2026/BlackSkys-Fifth-Gen-3-Attains-First-Light-in-Hours-Expanding-Constellation-Capacity-and-Decision-Making-Speed-for-Customers/default.aspx"
+      "status": "取得新國際情報客戶 Gen-3 六位數試點合約",
+      "statusTone": "positive",
+      "source": "https://blacksky.com/press-releases/blacksky-wins-six-figure-gen-3-on-demand-pilot-contract-with-new-international-intelligence-customer/"
     },
     {
       "id": "spire-global",
