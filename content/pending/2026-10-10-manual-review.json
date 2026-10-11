@@ -1,0 +1,19 @@
+{
+  "checkDate": "2026-10-10",
+  "spreadsheetId": "1_STxAMYmggQQClcMueJ5NcGh1XoQpBhpYabRa4PQS3U",
+  "sheet": "網站事件_主檔",
+  "range": "A105:Q105",
+  "state": "manual-review",
+  "events": [
+    {
+      "id": "amzn-leo-deployment-count-conflict-20261008",
+      "company": "Amazon Leo",
+      "title": "Amazon 官方頁面部署總量口徑衝突",
+      "reviewStatus": "待人工確認",
+      "publicationStatus": "不發布",
+      "checkedDate": "2026-10-10",
+      "reason": "同一篇官方文章的資訊圖寫 500+ satellites deployed，但正文寫 396 satellites launched to date；維持先前官方任務頁可核對的 396，等待 Amazon 修正或發布新任務紀錄。",
+      "source": "https://www.aboutamazon.com/stories/how-amazon-leo-builds-satellites"
+    }
+  ]
+}

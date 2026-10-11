@@ -1,0 +1,19 @@
+{
+  "checkDate": "2026-10-10",
+  "spreadsheetId": "1_STxAMYmggQQClcMueJ5NcGh1XoQpBhpYabRa4PQS3U",
+  "sheet": "網站事件_主檔",
+  "range": "A96:Q104",
+  "state": "approved-source-snapshot",
+  "note": "Three lifecycle updates and six new official-source events approved for publication. Live publication status remains in Google Sheets.",
+  "events": [
+    { "id": "sx-crew12-undock-return-20261007", "reviewStatus": "自動查證", "publicationStatus": "待同步", "checkedDate": "2026-10-10" },
+    { "id": "sx-sda-tranche1-4-window-20261007", "reviewStatus": "自動查證", "publicationStatus": "待同步", "checkedDate": "2026-10-10" },
+    { "id": "sx-starlink-next-window-20261007", "reviewStatus": "自動查證", "publicationStatus": "待同步", "checkedDate": "2026-10-10" },
+    { "id": "sx-starlink-mobile-spectrum-20261008", "reviewStatus": "自動查證", "publicationStatus": "待同步", "checkedDate": "2026-10-10" },
+    { "id": "bo-constellation-park-20261008", "reviewStatus": "自動查證", "publicationStatus": "待同步", "checkedDate": "2026-10-10" },
+    { "id": "amzn-leo-1000-produced-20261008", "reviewStatus": "自動查證", "publicationStatus": "待同步", "checkedDate": "2026-10-10" },
+    { "id": "fly-scitec-cuas-cbc2-20261008", "reviewStatus": "自動查證", "publicationStatus": "待同步", "checkedDate": "2026-10-10" },
+    { "id": "bksy-gen3-pilot-contract-20261008", "reviewStatus": "自動查證", "publicationStatus": "待同步", "checkedDate": "2026-10-10" },
+    { "id": "sx-crs35-target-20261007", "reviewStatus": "自動查證", "publicationStatus": "待同步", "checkedDate": "2026-10-10" }
+  ]
+}

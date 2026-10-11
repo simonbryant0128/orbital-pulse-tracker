@@ -1,50 +1,140 @@
 {
-  "lastVerified": "2026-10-07",
+  "lastVerified": "2026-10-10",
   "events": [
     {
       "id": "sx-crew12-undock-return-20261007",
-      "date": "2026-10-07",
+      "date": "2026-10-08",
       "company": "SpaceX",
       "program": "Dragon／Crew-12",
       "category": "人員運輸／返回",
-      "status": "官方排定脫離／10/8 濺落目標",
-      "tone": "watch",
-      "title": "Crew-12 將脫離 ISS，目標 10 月 8 日濺落加州外海",
-      "summary": "NASA 確認 Dragon 目標於美東 10/7 08:05 脫離 ISS，約 27 小時後於 10/8 11:34 濺落；時程仍受太空器、回收團隊與天候條件影響。",
-      "detail": "NASA 於 2026 年 10 月 7 日更新 Crew-12 返航安排：SpaceX Dragon 預定美東時間 10 月 7 日上午 8:05（台北 10 月 7 日 20:05）自國際太空站自主脫離，展開約 27 小時返程；NASA 與 SpaceX 目前目標美東 10 月 8 日上午 11:34（台北 10 月 8 日 23:34）於加州外海濺落。Crew-12 成員為 NASA 的 Jessica Meir 與 Jack Hathaway、ESA 的 Sophie Adenot，以及 Roscosmos 的 Andrey Fedyaev。官方明確表示，實際脫離與濺落仍取決於太空器狀態、回收團隊準備及太平洋回收區天候，因此網站保留為即將執行的官方目標，不提前標記返航完成。",
+      "status": "已完成／安全濺落",
+      "tone": "positive",
+      "title": "Crew-12 安全濺落洛杉磯外海，237 天任務完成",
+      "summary": "Crew Dragon Freedom 於美西 10/8 08:34 在洛杉磯外海安全濺落；四名成員完成 237 天任務、超過 3,792 圈繞地飛行。",
+      "detail": "NASA 於 2026 年 10 月 8 日確認 SpaceX Crew-12 已安全返回地球。Crew Dragon Freedom 於美西夏令時間上午 8:34（台北 10 月 8 日 23:34）在洛杉磯外海太平洋濺落，Jessica Meir、Jack Hathaway、Sophie Adenot 與 Andrey Fedyaev 隨後由 SpaceX 回收船團隊接回。NASA 表示，四名成員在 237 天任務期間飛行超過 1 億英里並完成超過 3,792 圈繞地飛行；這筆事件因此由返航目標更新為已完成里程碑。",
       "sources": [
-        { "label": "NASA Crew-12 官方即時公告", "url": "https://www.nasa.gov/blogs/spacestation/2026/10/07/nasas-spacex-crew-12-saying-farewell-closing-dragon-hatch-soon/", "type": "政府官方" },
-        { "label": "NASA Crew-12 返航直播公告", "url": "https://www.nasa.gov/news-release/nasa-to-stream-spacex-crew-12-return-splashdown-live/", "type": "政府官方" }
+        { "label": "NASA Crew-12 安全濺落新聞稿", "url": "https://www.nasa.gov/news-release/nasas-spacex-crew-12-splashes-down-sets-briefing-to-discuss-mission/", "type": "政府官方" },
+        { "label": "NASA Crew-12 濺落即時公告", "url": "https://www.nasa.gov/blogs/commercialcrew/2026/10/08/nasas-spacex-crew-12-dragon-splashes-down-at-1134-a-m-edt/", "type": "政府官方" }
       ]
     },
     {
       "id": "sx-sda-tranche1-4-window-20261007",
-      "date": "2026-10-07",
+      "date": "2026-10-10",
       "company": "SpaceX",
       "program": "Falcon 9／SDA Tranche 1 第四次任務",
       "category": "時程／國家安全發射",
-      "status": "官方改列 10/8 00:54 PT",
+      "status": "官方改列 10/10 00:39 PT",
       "tone": "watch",
-      "title": "SpaceX 將 SDA Tranche 1 第四次任務改排至 10 月 8 日",
-      "summary": "SpaceX 即時發射清單列 Falcon 9 於美西 10/8 00:54 自 Vandenberg SLC-4E 發射，首節目標返回陸上 Landing Zone。",
-      "detail": "SpaceX 官方即時發射清單於 2026 年 10 月 7 日查核時，已將「SDA’s Fourth Tranche 1 Mission」列為美西時間 10 月 8 日 00:54，使用 Falcon 9 自加州 Vandenberg 太空軍基地 SLC-4E 發射，第一節回收方式標為 Landing Zone。依 10 月仍採太平洋夏令時間換算，台北目標時間為 10 月 8 日 15:54；網站同時保留官方原始 PT 時間，避免時區歧義。清單沒有公開載荷顆數、部署確認或更細的任務內容，因此這筆只記錄官方最新窗口與回收規劃，不調整任何衛星部署總量。",
+      "title": "SpaceX 再調整 SDA Tranche 1 第四次任務至 10 月 10 日",
+      "summary": "SpaceX 即時發射清單列 Falcon 9 於美西 10/10 00:39 自 Vandenberg SLC-4E 發射，首節目標返回陸上 Landing Zone。",
+      "detail": "SpaceX 官方即時發射清單於 2026 年 10 月 10 日查核時，已將「SDA’s Fourth Tranche 1 Mission」改列為美西夏令時間 10 月 10 日 00:39（台北 10 月 10 日 15:39）。任務使用 Falcon 9 自加州 Vandenberg 太空軍基地 SLC-4E 發射，第一節回收方式標為 Landing Zone。官方清單沒有公布載荷顆數、部署確認或更細的任務內容，因此這筆只更新最新官方窗口與回收規劃，不調整任何衛星部署總量。",
       "sources": [
         { "label": "SpaceX 官方即時發射清單", "url": "https://www.spacex.com/launches", "type": "官方" }
       ]
     },
     {
       "id": "sx-starlink-next-window-20261007",
-      "date": "2026-10-07",
+      "date": "2026-10-10",
       "company": "SpaceX",
       "program": "Falcon 9／Starlink Mission",
       "category": "時程／部署規劃",
-      "status": "官方列台北 10/11 07:00–11:00",
+      "status": "官方列台北 10/13 07:00–11:00",
       "tone": "watch",
-      "title": "SpaceX 列出下一班 Starlink 的 10 月 11 日台北窗口",
-      "summary": "SpaceX 官方即時清單顯示下一班 Starlink 將由 Vandenberg SLC-4E 發射，台北時間 10/11 07:00–11:00；批次代號與衛星顆數尚未公開。",
-      "detail": "SpaceX 官方即時發射清單於 2026 年 10 月 7 日查核時，列出下一班「Starlink Mission」目標窗口為台北時間 10 月 11 日 07:00–11:00，使用 Falcon 9 自加州 Vandenberg 太空軍基地 SLC-4E 發射，首節預計降落太平洋無人船。官方目前只顯示通用任務名稱，沒有公布 Starlink 批次代號、衛星顆數、衛星版本或精確升空時刻；因此網站將這四小時窗口作為下一次部署日期資訊，但不把任務與先前 Starlink 15-25 自行視為同一任務，也不預先增加部署總量。",
+      "title": "下一班 Starlink 改列 10 月 13 日台北窗口",
+      "summary": "SpaceX 官方清單顯示下一班 Starlink 將由 Vandenberg SLC-4E 發射，台北時間 10/13 07:00–11:00；批次代號與衛星顆數尚未公開。",
+      "detail": "SpaceX 官方即時發射清單於 2026 年 10 月 10 日查核時，將下一班「Starlink Mission」窗口更新為 UTC 10 月 12 日 23:00 至 10 月 13 日 03:00，也就是台北時間 10 月 13 日 07:00–11:00。任務使用 Falcon 9 自加州 Vandenberg 太空軍基地 SLC-4E 發射，首節預計降落太平洋無人船。官方目前只顯示通用任務名稱，沒有公布 Starlink 批次代號、衛星顆數、衛星版本或精確升空時刻；因此網站只更新下一次部署窗口，不預先增加部署總量。",
       "sources": [
         { "label": "SpaceX 官方即時發射清單", "url": "https://www.spacex.com/launches", "type": "官方" }
+      ]
+    },
+    {
+      "id": "sx-starlink-mobile-spectrum-20261008",
+      "date": "2026-10-08",
+      "company": "SpaceX",
+      "program": "Starlink Mobile",
+      "category": "合作／頻譜與監管",
+      "status": "800 MHz 收購協議／FCC 核准 15,000 顆 Gen2",
+      "tone": "positive",
+      "title": "Starlink Mobile 公布低頻頻譜協議與 Gen2 監管里程碑",
+      "summary": "SpaceX 簽署最多 14 MHz 成對 800 MHz 全國低頻頻譜收購協議；FCC 另核准可發射 15,000 顆針對全球 2 GHz 頻譜優化的 Gen2 衛星。",
+      "detail": "SpaceX 於 2026 年 10 月 8 日公布 Starlink Mobile 兩項里程碑。第一，公司已簽署協議，擬收購全美最多 14 MHz 成對 800 MHz 低頻頻譜授權組合；該交易仍需最終 FCC 核准。SpaceX 表示，這組低頻頻譜將與全球 2 GHz 中頻能力互補，支援衛星直連手機與地面網路的彈性架構。第二，FCC 已於同週核准 Starlink Mobile 的 Gen2 星系申請，授權 SpaceX 發射 15,000 顆針對全球 2 GHz 頻譜優化的衛星。這是頻譜與監管里程碑，不等於已完成部署，因此不調整目前在軌總量。",
+      "sources": [
+        { "label": "SpaceX Starlink Mobile 官方更新", "url": "https://www.spacex.com/updates/nasa-certification-11-10-2020", "type": "官方" }
+      ]
+    },
+    {
+      "id": "bo-constellation-park-20261008",
+      "date": "2026-10-08",
+      "company": "Blue Origin",
+      "program": "Constellation Park／TeraWave／Quartz",
+      "category": "製造／基礎設施",
+      "status": "130 萬平方英尺／逾 2,000 個工作機會",
+      "tone": "positive",
+      "title": "Blue Origin 公布德州 Constellation Park 衛星製造園區",
+      "summary": "Hutto 新園區將成為 TeraWave、Quartz 與衛星子系統中央生產基地；Blue Origin 計畫十年內創造超過 2,000 個工作機會。",
+      "detail": "Blue Origin 於 2026 年 10 月 8 日宣布在德州 Hutto 建立 Constellation Park。這座多棟建築組成的園區規劃總面積 130 萬平方英尺，將成為 TeraWave 衛星通訊網路、Quartz 地面天線，以及太陽能陣列、航電與通訊等衛星子系統的中央生產基地。公司表示，TeraWave 目標提供最高每秒 6 Tbps 的對稱資料能力；園區預計在十年內創造超過 2,000 個工作機會，並擴大 Blue Origin 目前約 550 名德州員工的規模。這是製造與供應鏈里程碑，不是已完成的發射或衛星部署。",
+      "sources": [
+        { "label": "Blue Origin Constellation Park 官方公告", "url": "https://www.blueorigin.com/news/blue-origin-announces-new-texas-manufacturing-campus", "type": "官方" }
+      ]
+    },
+    {
+      "id": "amzn-leo-1000-produced-20261008",
+      "date": "2026-10-08",
+      "company": "Amazon Leo",
+      "program": "Amazon Leo 衛星量產",
+      "category": "製造／星系里程碑",
+      "status": "已生產逾 1,000 顆／每日 5 顆產能",
+      "tone": "positive",
+      "title": "Amazon Leo 衛星產量突破 1,000 顆",
+      "summary": "Kirkland 工廠已生產超過 1,000 顆衛星，具備每日 5 顆產能；首班 Vulcan 與下一班 Ariane 6 任務預計未來數週執行。",
+      "detail": "Amazon 於 2026 年 10 月 8 日表示，Amazon Leo 位於華盛頓州 Kirkland 的量產設施已生產超過 1,000 顆衛星，工廠具備每日 5 顆衛星的產能，並有數百顆完成品在發射場周邊待命。官方同時表示，首班 Vulcan 任務與下一班 Ariane 6 任務都預期在未來數週執行，但沒有公布確切日期。由於同一篇官方文章對已部署數同時出現「500+」與「396 顆已發射」兩種口徑，網站維持先前可核對的 396 顆部署總量，待 Amazon 釐清後再調整。",
+      "sources": [
+        { "label": "Amazon Leo 衛星量產官方專題", "url": "https://www.aboutamazon.com/stories/how-amazon-leo-builds-satellites", "type": "官方" }
+      ]
+    },
+    {
+      "id": "fly-scitec-cuas-cbc2-20261008",
+      "date": "2026-10-08",
+      "company": "Firefly Aerospace",
+      "program": "SciTec／CBC2／ABMS",
+      "category": "合約／國防資料融合",
+      "status": "追加 150 萬美元／總值 3,100 萬美元",
+      "tone": "positive",
+      "title": "Firefly SciTec 擴大美空軍 CBC2 合約，加入反無人機資料",
+      "summary": "合約追加 150 萬美元、總值增至 3,100 萬美元；SciTec 將把獲核准的反無人機感測器資料源整合進 ABMS 資料融合系統。",
+      "detail": "Firefly Aerospace 旗下 SciTec 於 2026 年 10 月 8 日宣布，美國空軍擴大 Cloud-Based Command and Control（CBC2）合約，新增 150 萬美元，使合約總值達 3,100 萬美元。SciTec 將在 Advanced Battle Management System（ABMS）的資料融合系統中，加入更多經核准的反無人航空系統感測器資料源，以提升任務夥伴的態勢感知與決策能力。這是國防軟體與資料整合合約，不是衛星發射或部署，因此不影響部署總量。",
+      "sources": [
+        { "label": "Firefly SciTec CBC2 合約擴充官方公告", "url": "https://fireflyspace.com/news/fireflys-scitec-expands-contract-with-u-s-air-force-to-add-counter-uas-data-in-advanced-battle-management-system/", "type": "官方" }
+      ]
+    },
+    {
+      "id": "bksy-gen3-pilot-contract-20261008",
+      "date": "2026-10-08",
+      "company": "BlackSky",
+      "program": "Gen-3 On-Demand／Spectra",
+      "category": "合約／地球情報服務",
+      "status": "六位數試點合約",
+      "tone": "positive",
+      "title": "BlackSky 取得新國際情報客戶 Gen-3 試點合約",
+      "summary": "新客戶將透過 Spectra 使用 35 公分解析度 Gen-3 全球任務指派能力；這是一項短期、六位數的 On-Demand 試點合約。",
+      "detail": "BlackSky 於 2026 年 10 月 8 日宣布，取得一個新國際情報客戶的六位數 Gen-3 On-Demand 試點影像服務合約。該客戶可透過 BlackSky Spectra 平台在全球彈性指派任務，取得 35 公分解析度的高解析影像，並將自動化情報輸入跨領域安全工作流程。官方稱此為短履約期試點，未揭露客戶名稱或精確金額；這是影像與分析服務合約，不是新增衛星部署。",
+      "sources": [
+        { "label": "BlackSky Gen-3 試點合約官方公告", "url": "https://blacksky.com/press-releases/blacksky-wins-six-figure-gen-3-on-demand-pilot-contract-with-new-international-intelligence-customer/", "type": "官方" }
+      ]
+    },
+    {
+      "id": "sx-crs35-target-20261007",
+      "date": "2026-10-07",
+      "company": "SpaceX",
+      "program": "Falcon 9／Dragon／CRS-35",
+      "category": "時程／太空站補給",
+      "status": "官方目標 10/13 06:33 EDT",
+      "tone": "watch",
+      "title": "CRS-35 目標 10 月 13 日發射，運送逾 6,300 磅物資",
+      "summary": "NASA 與 SpaceX 目標美東 10/13 06:33 自 SLC-40 發射 Dragon；貨運包含 ISS 最後一組 Roll-Out Solar Arrays。",
+      "detail": "NASA 於 2026 年 10 月 7 日公布 SpaceX 第 35 次商業補給任務時程。Falcon 9 目標美東時間 10 月 13 日 06:33（台北 10 月 13 日 18:33）自佛州卡納維爾角太空軍基地 SLC-40 發射，Dragon 將運送超過 6,300 磅的科學研究、補給與設備，包括國際太空站最後一組 Roll-Out Solar Arrays。NASA 目前預計 Dragon 於美東 10 月 15 日約 11:00（台北 23:00）自主對接 Harmony 模組朝太空端口；所有時程仍可能依即時作業調整。",
+      "sources": [
+        { "label": "NASA CRS-35 發射與抵達公告", "url": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-spacex-35th-station-resupply-launch-arrival/", "type": "政府官方" }
       ]
     },
     {
