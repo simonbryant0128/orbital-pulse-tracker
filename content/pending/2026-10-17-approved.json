@@ -1,0 +1,12 @@
+{
+  "checkDate": "2026-10-17",
+  "spreadsheetId": "1_STxAMYmggQQClcMueJ5NcGh1XoQpBhpYabRa4PQS3U",
+  "sheet": "網站事件_主檔",
+  "range": "A101:Q109",
+  "state": "approved-source-snapshot",
+  "note": "One new official-source event and one verified Amazon Leo schedule correction approved for publication. Live publication status remains in Google Sheets.",
+  "events": [
+    { "id": "bo-florida-high-cadence-infrastructure-20261016", "reviewStatus": "自動查證", "publicationStatus": "待同步", "checkedDate": "2026-10-17" },
+    { "id": "amzn-leo-1000-produced-20261008", "reviewStatus": "自動查證", "publicationStatus": "待同步", "checkedDate": "2026-10-17" }
+  ]
+}
