@@ -1,14 +1,14 @@
 {
-  "lastVerified": "2026-10-10",
+  "lastVerified": "2026-10-18",
   "items": [
     {
       "id": "spacex",
       "name": "SpaceX",
       "ticker": "私人",
       "focus": "發射服務 · Starlink · Starship",
-      "status": "Crew-12 安全返航；Starlink Mobile 頻譜與 FCC 里程碑",
+      "status": "CRS-35 已發射並對接；USSF-481 與 Bandwagon-5 進入近期窗口",
       "statusTone": "positive",
-      "source": "https://www.spacex.com/updates/nasa-certification-11-10-2020"
+      "source": "https://www.spacex.com/launches"
     },
     {
       "id": "rocket-lab",
@@ -24,18 +24,18 @@
       "name": "Blue Origin",
       "ticker": "私人",
       "focus": "New Glenn · 月球系統 · Quartz 地面網路",
-      "status": "公布德州 Constellation Park 衛星製造園區",
+      "status": "擴建佛州 New Glenn 高頻製造、整合、發射與回收體系",
       "statusTone": "positive",
-      "source": "https://www.blueorigin.com/news/blue-origin-announces-new-texas-manufacturing-campus"
+      "source": "https://www.blueorigin.com/news/building-infrastructure-for-more-frequent-launches-in-florida"
     },
     {
       "id": "amazon-leo",
       "name": "Amazon Leo",
       "ticker": "AMZN",
       "focus": "低軌寬頻星系",
-      "status": "衛星產量突破 1,000 顆；Vulcan 任務預計未來數週",
+      "status": "衛星產量突破 1,000 顆；LE-04 36 顆 NET 11/23",
       "statusTone": "positive",
-      "source": "https://www.aboutamazon.com/stories/how-amazon-leo-builds-satellites"
+      "source": "https://www.aboutamazon.com/news/innovation-at-amazon/project-kuiper-satellite-rocket-launch-progress-updates"
     },
     {
       "id": "ast-spacemobile",
@@ -96,9 +96,9 @@
       "name": "BlackSky",
       "ticker": "BKSY",
       "focus": "Gen-3 · Spectra · 即時地球情報",
-      "status": "取得新國際情報客戶 Gen-3 六位數試點合約",
+      "status": "HEO 非地球成像合作擴為七位數年度合約並納入 Gen-3",
       "statusTone": "positive",
-      "source": "https://blacksky.com/press-releases/blacksky-wins-six-figure-gen-3-on-demand-pilot-contract-with-new-international-intelligence-customer/"
+      "source": "https://blacksky.com/press-releases/blacksky-extends-heo-space-domain-awareness-agreement-with-new-seven-figure-non-earth-imaging-contract-featuring-gen-3/"
     },
     {
       "id": "spire-global",

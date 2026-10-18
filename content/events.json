@@ -1,6 +1,66 @@
 {
-  "lastVerified": "2026-10-10",
+  "lastVerified": "2026-10-18",
   "events": [
+    {
+      "id": "bo-florida-high-cadence-infrastructure-20261016",
+      "date": "2026-10-16",
+      "company": "Blue Origin",
+      "program": "New Glenn／Florida launch infrastructure",
+      "category": "製造／發射基礎設施",
+      "status": "9×4 上級產能與 LC-36 擴建",
+      "tone": "positive",
+      "title": "Blue Origin 擴建佛州高頻發射體系，目標十年末每週多次飛行",
+      "summary": "佛州設施投資逾 30 億美元；3.3 億美元 Rocket Park 擴建預計 2027 年夏季完工，年產能最高 150 個 New Glenn 9×4 上級。",
+      "detail": "Blue Origin 於 2026 年 10 月 16 日公布佛州高頻發射基礎設施進度。公司表示已在佛州投入超過 30 億美元、雇用超過 5,000 人並與 500 家州內供應商合作，相關設施覆蓋 20 多個據點。Rocket Park 正進行 3.3 億美元擴建，目標於 2027 年夏季完工，屆時可支援每年最多 150 個 New Glenn 9×4 上級的生產；LC-36B、垂直整合設施與兩座新增海上回收平台也在建置中。公司另表示已提交環境評估，申請把 LC-36 許可發射率由每年 12 次提高至 50 次，整套系統目標在本十年末支援每週多次飛行。這是產能與基礎設施計畫，不是已完成發射。",
+      "sources": [
+        { "label": "Blue Origin 佛州高頻發射基礎設施官方更新", "url": "https://www.blueorigin.com/news/building-infrastructure-for-more-frequent-launches-in-florida", "type": "官方" }
+      ]
+    },
+    {
+      "id": "sx-bandwagon5-window-20261019",
+      "date": "2026-10-16",
+      "company": "SpaceX",
+      "program": "Falcon 9／Bandwagon-5",
+      "category": "時程／共乘發射",
+      "status": "UTC 10/19 10:30–11:30",
+      "tone": "watch",
+      "title": "Bandwagon-5 排定 10 月 19 日一小時發射窗口",
+      "summary": "共乘任務目標自 Cape Canaveral SLC-40 發射；台北窗口 10/19 18:30–19:30，備援為隔日同時段。",
+      "detail": "SpaceX 官方任務頁顯示，Bandwagon-5 共乘任務目標於 2026 年 10 月 19 日 10:30–11:30 UTC（台北 18:30–19:30）自佛州卡納維爾角 SLC-40 發射；備援機會為 10 月 20 日同一時段。第一節將執行第 19 次飛行，預計降落 A Shortfall of Gravitas 無人船。官方尚未公布完整載荷名單與顆數，因此不預增任何衛星部署總量。",
+      "sources": [
+        { "label": "SpaceX Bandwagon-5 任務頁", "url": "https://www.spacex.com/launches/bandwagon5", "type": "官方" }
+      ]
+    },
+    {
+      "id": "bksy-heo-gen3-contract-20261015",
+      "date": "2026-10-15",
+      "company": "BlackSky",
+      "program": "Gen-3／Gen-2／HEO Inspect",
+      "category": "合約／太空域感知",
+      "status": "七位數年度延長合約",
+      "tone": "positive",
+      "title": "BlackSky 與 HEO 擴大非地球成像合作，納入 Gen-3",
+      "summary": "年度合約進入第三年，結合 Gen-2 高頻監測與 Gen-3 高解析影像，自動化追蹤並分析在軌物體。",
+      "detail": "BlackSky 於 2026 年 10 月 15 日宣布，與 HEO 簽署七位數年度延長合約，合作進入第三年。HEO Inspect 將結合 BlackSky Gen-2 的高頻監測能力與 Gen-3 的更高解析影像，透過自動化任務指派、拍攝與分析流程，支援防務、情報及商業客戶觀察、辨識與追蹤在軌太空器。這是太空域感知影像服務合約，不是新增衛星部署，因此 Gen-3 部署總量維持不變。",
+      "sources": [
+        { "label": "BlackSky HEO 合約官方公告", "url": "https://blacksky.com/press-releases/blacksky-extends-heo-space-domain-awareness-agreement-with-new-seven-figure-non-earth-imaging-contract-featuring-gen-3/", "type": "官方" }
+      ]
+    },
+    {
+      "id": "sx-ussf481-window-20261015",
+      "date": "2026-10-15",
+      "company": "SpaceX",
+      "program": "Falcon 9／USSF-481",
+      "category": "時程／國家安全發射",
+      "status": "UTC 10/15 23:44–10/16 03:44 發射窗口",
+      "tone": "watch",
+      "title": "USSF-481 進入四小時發射窗口",
+      "summary": "Falcon 9 目標自 Vandenberg SLC-4E 發射；台北窗口為 10/16 07:44–11:44，首節規劃降落太平洋無人船。",
+      "detail": "SpaceX 官方任務頁列出 USSF-481 的四小時發射窗口自 2026 年 10 月 15 日 23:44 UTC 開始，至 10 月 16 日 03:44 UTC，也就是台北時間 10 月 16 日 07:44–11:44。任務使用 Falcon 9 自 Vandenberg SLC-4E 發射；第一節為第 28 次飛行，預計降落 Of Course I Still Love You 無人船。查核時間仍在窗口內，官方尚未把任務列入 Completed missions，因此狀態保持待發射，不臆測結果。",
+      "sources": [
+        { "label": "SpaceX USSF-481 任務頁", "url": "https://www.spacex.com/launches/ussf481", "type": "官方" }
+      ]
+    },
     {
       "id": "sx-crew12-undock-return-20261007",
       "date": "2026-10-08",
@@ -22,29 +82,30 @@
       "date": "2026-10-10",
       "company": "SpaceX",
       "program": "Falcon 9／SDA Tranche 1 第四次任務",
-      "category": "時程／國家安全發射",
-      "status": "官方改列 10/10 00:39 PT",
-      "tone": "watch",
-      "title": "SpaceX 再調整 SDA Tranche 1 第四次任務至 10 月 10 日",
-      "summary": "SpaceX 即時發射清單列 Falcon 9 於美西 10/10 00:39 自 Vandenberg SLC-4E 發射，首節目標返回陸上 Landing Zone。",
-      "detail": "SpaceX 官方即時發射清單於 2026 年 10 月 10 日查核時，已將「SDA’s Fourth Tranche 1 Mission」改列為美西夏令時間 10 月 10 日 00:39（台北 10 月 10 日 15:39）。任務使用 Falcon 9 自加州 Vandenberg 太空軍基地 SLC-4E 發射，第一節回收方式標為 Landing Zone。官方清單沒有公布載荷顆數、部署確認或更細的任務內容，因此這筆只更新最新官方窗口與回收規劃，不調整任何衛星部署總量。",
+      "category": "發射／國家安全任務",
+      "status": "已完成",
+      "tone": "positive",
+      "title": "SDA Tranche 1 第四次任務列入 SpaceX 已完成發射",
+      "summary": "SpaceX 已將任務移入 Completed missions；Falcon 9 自 Vandenberg SLC-4E 發射，首節回收方式為 Landing Zone。",
+      "detail": "SpaceX 官方發射清單於 2026 年 10 月 16 日查核時，已把 SDA’s Fourth Tranche 1 Mission 列入 10 月 10 日 Completed missions，證實任務完成發射階段。官方公開頁仍未列出載荷顆數或逐顆部署結果，因此只把生命週期由時程更新為已完成，不自行推算衛星部署數。",
       "sources": [
-        { "label": "SpaceX 官方即時發射清單", "url": "https://www.spacex.com/launches", "type": "官方" }
+        { "label": "SpaceX 官方發射清單", "url": "https://www.spacex.com/launches", "type": "官方" }
       ]
     },
     {
       "id": "sx-starlink-next-window-20261007",
-      "date": "2026-10-10",
+      "date": "2026-10-16",
       "company": "SpaceX",
       "program": "Falcon 9／Starlink Mission",
-      "category": "時程／部署規劃",
-      "status": "官方列台北 10/13 07:00–11:00",
-      "tone": "watch",
-      "title": "下一班 Starlink 改列 10 月 13 日台北窗口",
-      "summary": "SpaceX 官方清單顯示下一班 Starlink 將由 Vandenberg SLC-4E 發射，台北時間 10/13 07:00–11:00；批次代號與衛星顆數尚未公開。",
-      "detail": "SpaceX 官方即時發射清單於 2026 年 10 月 10 日查核時，將下一班「Starlink Mission」窗口更新為 UTC 10 月 12 日 23:00 至 10 月 13 日 03:00，也就是台北時間 10 月 13 日 07:00–11:00。任務使用 Falcon 9 自加州 Vandenberg 太空軍基地 SLC-4E 發射，首節預計降落太平洋無人船。官方目前只顯示通用任務名稱，沒有公布 Starlink 批次代號、衛星顆數、衛星版本或精確升空時刻；因此網站只更新下一次部署窗口，不預先增加部署總量。",
+      "category": "發射完成／下一次部署規劃",
+      "status": "10/12 任務已完成；下一班 27 顆目標 10/20 UTC",
+      "tone": "positive",
+      "title": "SpaceX 完成 10 月 12 日 Starlink 任務，下一班 27 顆窗口確定",
+      "summary": "官方清單將 10/12 Starlink 列為完成；下一班 27 顆任務窗口為 UTC 10/20 22:14–10/21 02:14（台北 10/21 06:14–10:14）。",
+      "detail": "SpaceX 官方發射清單已把 2026 年 10 月 12 日的 Starlink Mission 移入 Completed missions。採用的一手頁面未公布該班衛星顆數，因此不把它加到部署總量。下一班官方任務頁則明確列出 27 顆 Starlink，窗口為 UTC 10 月 20 日 22:14 至 10 月 21 日 02:14，也就是台北時間 10 月 21 日 06:14–10:14；首節預計降落 Of Course I Still Love You 無人船。官方另列 10 月 24 日第二個 Starlink 窗口，網站排程一併保留。",
       "sources": [
-        { "label": "SpaceX 官方即時發射清單", "url": "https://www.spacex.com/launches", "type": "官方" }
+        { "label": "SpaceX 官方發射清單", "url": "https://www.spacex.com/launches", "type": "官方" },
+        { "label": "SpaceX 下一班 Starlink 任務頁", "url": "https://www.spacex.com/launches/sl-15-15", "type": "官方" }
       ]
     },
     {
@@ -81,15 +142,16 @@
       "id": "amzn-leo-1000-produced-20261008",
       "date": "2026-10-08",
       "company": "Amazon Leo",
-      "program": "Amazon Leo 衛星量產",
-      "category": "製造／星系里程碑",
-      "status": "已生產逾 1,000 顆／每日 5 顆產能",
+      "program": "Amazon Leo 衛星量產／LE-04",
+      "category": "製造／部署規劃",
+      "status": "已生產逾 1,000 顆；LE-04 NET 11/23",
       "tone": "positive",
-      "title": "Amazon Leo 衛星產量突破 1,000 顆",
-      "summary": "Kirkland 工廠已生產超過 1,000 顆衛星，具備每日 5 顆產能；首班 Vulcan 與下一班 Ariane 6 任務預計未來數週執行。",
-      "detail": "Amazon 於 2026 年 10 月 8 日表示，Amazon Leo 位於華盛頓州 Kirkland 的量產設施已生產超過 1,000 顆衛星，工廠具備每日 5 顆衛星的產能，並有數百顆完成品在發射場周邊待命。官方同時表示，首班 Vulcan 任務與下一班 Ariane 6 任務都預期在未來數週執行，但沒有公布確切日期。由於同一篇官方文章對已部署數同時出現「500+」與「396 顆已發射」兩種口徑，網站維持先前可核對的 396 顆部署總量，待 Amazon 釐清後再調整。",
+      "title": "Amazon Leo 量產突破 1,000 顆，LE-04 排定 11 月 23 日 NET",
+      "summary": "Kirkland 工廠已生產超過 1,000 顆；更新後官方任務頁確認目前 14 次任務、396 顆，下一班 LE-04 將由 Ariane 64 部署 36 顆。",
+      "detail": "Amazon 於 2026 年 10 月 8 日表示，Amazon Leo 位於華盛頓州 Kirkland 的量產設施已生產超過 1,000 顆衛星，工廠具備每日 5 顆衛星的產能。Amazon 於 10 月 14 日更新官方任務頁，逐班列出 14 次已完成任務，合計 396 顆，並將下一班明確列為 LE-04：Ariane 64 目標不早於 11 月 23 日自法屬圭亞那發射 36 顆，確切窗口將於接近任務時公布。較新的任務頁提供可加總的完整清單，因此網站維持 396 顆部署總量，並以 LE-04 取代先前只有「未來數週」的模糊規劃。",
       "sources": [
-        { "label": "Amazon Leo 衛星量產官方專題", "url": "https://www.aboutamazon.com/stories/how-amazon-leo-builds-satellites", "type": "官方" }
+        { "label": "Amazon Leo 衛星量產官方專題", "url": "https://www.aboutamazon.com/stories/how-amazon-leo-builds-satellites", "type": "官方" },
+        { "label": "Amazon Leo 官方任務更新", "url": "https://www.aboutamazon.com/news/innovation-at-amazon/project-kuiper-satellite-rocket-launch-progress-updates", "type": "官方" }
       ]
     },
     {
@@ -124,17 +186,18 @@
     },
     {
       "id": "sx-crs35-target-20261007",
-      "date": "2026-10-07",
+      "date": "2026-10-15",
       "company": "SpaceX",
       "program": "Falcon 9／Dragon／CRS-35",
-      "category": "時程／太空站補給",
-      "status": "官方目標 10/13 06:33 EDT",
-      "tone": "watch",
-      "title": "CRS-35 目標 10 月 13 日發射，運送逾 6,300 磅物資",
-      "summary": "NASA 與 SpaceX 目標美東 10/13 06:33 自 SLC-40 發射 Dragon；貨運包含 ISS 最後一組 Roll-Out Solar Arrays。",
-      "detail": "NASA 於 2026 年 10 月 7 日公布 SpaceX 第 35 次商業補給任務時程。Falcon 9 目標美東時間 10 月 13 日 06:33（台北 10 月 13 日 18:33）自佛州卡納維爾角太空軍基地 SLC-40 發射，Dragon 將運送超過 6,300 磅的科學研究、補給與設備，包括國際太空站最後一組 Roll-Out Solar Arrays。NASA 目前預計 Dragon 於美東 10 月 15 日約 11:00（台北 23:00）自主對接 Harmony 模組朝太空端口；所有時程仍可能依即時作業調整。",
+      "category": "發射／太空站補給",
+      "status": "已發射並完成 ISS 對接",
+      "tone": "positive",
+      "title": "CRS-35 成功發射並與國際太空站完成對接",
+      "summary": "Falcon 9 於 10/13 06:33 EDT 發射逾 6,300 磅物資；NASA 於 10/15 確認 Dragon 已對接 ISS。",
+      "detail": "NASA 確認 CRS-35 於 2026 年 10 月 13 日美東時間 06:33 自卡納維爾角 SLC-40 發射，Dragon 運送超過 6,300 磅科學研究、補給與設備，包括 ISS 最後一組 Roll-Out Solar Arrays。NASA 的太空站訪問載具紀錄顯示，Dragon 已於 10 月 15 日完成對接。貨物也包含腦部類器官、心臟組織、人工視網膜與新型玻璃等研究；太空船預計停留至 11 月中旬。",
       "sources": [
-        { "label": "NASA CRS-35 發射與抵達公告", "url": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-spacex-35th-station-resupply-launch-arrival/", "type": "政府官方" }
+        { "label": "NASA CRS-35 發射新聞稿", "url": "https://www.nasa.gov/news-release/nasa-science-cargo-launch-on-35th-spacex-resupply-mission-to-station/", "type": "政府官方" },
+        { "label": "NASA ISS 訪問載具紀錄", "url": "https://www.nasa.gov/international-space-station/space-station-visiting-vehicles/", "type": "政府官方" }
       ]
     },
     {
