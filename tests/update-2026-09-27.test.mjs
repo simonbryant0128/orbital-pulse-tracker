@@ -1,8 +1,7 @@
 import assert from "node:assert/strict";
-import { readFile } from "node:fs/promises";
+import { readHistoricalJson as readJson } from "./helpers/verified-baseline.mjs";
 import test from "node:test";
 
-const readJson = async (name) => JSON.parse(await readFile(new URL(`../content/${name}`, import.meta.url), "utf8"));
 const batch = await readJson("pending/2026-09-27-approved.json");
 
 test("September 27 approved Rocket Lab lifecycle update is integrated exactly once", async () => {

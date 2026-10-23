@@ -1,0 +1,72 @@
+{
+  "state": "approved-source-snapshot",
+  "scope": "2026-10-23 官方來源查核與未發布補查批次校正",
+  "checkedDate": "2026-10-23",
+  "events": [
+    {
+      "id": "rklb-hawkeye-window-20261023",
+      "date": "2026-10-23",
+      "company": "Rocket Lab",
+      "program": "Electron／HawkEye 360 HAWK",
+      "category": "時程／衛星部署",
+      "status": "NET UTC 07:00／台北 15:00",
+      "tone": "watch",
+      "title": "Rocket Lab 鎖定 10 月 23 日發射三顆 HawkEye 360 衛星",
+      "summary": "We're Not Hawking Around 任務目標台北 15:00 自紐西蘭升空；備援日為紐西蘭 10/24 至 11/3。",
+      "detail": "Rocket Lab 的 launch-safety 官方頁已把 We're Not Hawking Around 任務更新為不早於紐西蘭時間 2026 年 10 月 23 日 20:00（UTC 07:00；台北 15:00）發射，並列出紐西蘭 10 月 24 日至 11 月 3 日為備援日。Electron 將自 Launch Complex 1 執行任務，把三顆 HawkEye 360 HAWK 衛星部署到約 520 公里、97 度傾角的低地球軌道。這是發射目標與部署規劃，並非已完成發射或已部署三顆。",
+      "sources": [
+        {
+          "label": "Rocket Lab 官方 launch-safety 頁",
+          "url": "https://rocketlabcorp.com/launch/launch-safety/",
+          "type": "官方"
+        },
+        {
+          "label": "Rocket Lab HawkEye 360 任務頁",
+          "url": "https://rocketlabcorp.com/missions/launches/hawkeye-360/",
+          "type": "官方"
+        }
+      ],
+      "reviewStatus": "自動查證",
+      "publicationStatus": "待同步",
+      "checkedDate": "2026-10-23"
+    },
+    {
+      "id": "sx-starlink-next-window-20261007",
+      "date": "2026-10-16",
+      "company": "SpaceX",
+      "program": "Falcon 9／Starlink Mission",
+      "category": "發射完成／下一次部署規劃",
+      "status": "10/12 任務已完成；27 顆任務延至台北 10/24",
+      "tone": "positive",
+      "title": "SpaceX 完成 10 月 12 日 Starlink 任務，27 顆下一班改至 10 月 24 日",
+      "summary": "官方清單仍把 10/12 Starlink 列為完成；27 顆 sl-15-15 任務最新窗口為台北 10/24 05:30–09:30。",
+      "detail": "SpaceX 官方發射清單已把 2026 年 10 月 12 日的 Starlink Mission 移入 Completed missions。採用的一手頁面未公布該班衛星顆數，因此不把它加到部署總量。原定台北 10 月 21 日的 27 顆 sl-15-15 任務仍由官方頁標為 targeting，10 月 23 日補查時已延至台北 10 月 24 日 05:30–09:30；首節規劃降落 Of Course I Still Love You 無人船。窗口更新不等於發射完成，本次不調整第三方在軌工作中總數。",
+      "sources": [
+        {
+          "label": "SpaceX 官方發射清單",
+          "url": "https://www.spacex.com/launches",
+          "type": "官方"
+        },
+        {
+          "label": "SpaceX 下一班 Starlink 任務頁",
+          "url": "https://www.spacex.com/launches/sl-15-15",
+          "type": "官方"
+        }
+      ],
+      "reviewStatus": "自動查證",
+      "publicationStatus": "待同步",
+      "checkedDate": "2026-10-23"
+    }
+  ],
+  "previousStates": [
+    {
+      "id": "sx-starlink-next-window-20261007",
+      "status": "10/12 任務已完成；下一班 27 顆目標 10/20 UTC",
+      "title": "SpaceX 完成 10 月 12 日 Starlink 任務，下一班 27 顆窗口確定"
+    }
+  ],
+  "resolvedReviewIds": [
+    "rklb-hawkeye-timezone-review-20261021",
+    "sx-starlink27-outcome-review-20261021"
+  ]
+}

@@ -1,6 +1,7 @@
 import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
 import test from "node:test";
+import { readHistoricalJson } from "./helpers/verified-baseline.mjs";
 
 const batch = JSON.parse(await readFile(new URL("../content/pending/2026-09-20-approved.json", import.meta.url), "utf8"));
 
@@ -66,7 +67,7 @@ test("September 20 approved snapshot is integrated exactly once without pending 
 });
 
 test("September 20 upcoming data preserves historical totals and uncertain time zones", async () => {
-  const read = async (name) => JSON.parse(await readFile(new URL(`../content/${name}.json`, import.meta.url), "utf8"));
+  const read = async (name) => readHistoricalJson(`${name}.json`);
   const { items } = await read("constellations");
   const starlink = items.find((e) => e.id === "starlink");
   assert.equal(starlink.current, 10971);
