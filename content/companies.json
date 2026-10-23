@@ -1,12 +1,12 @@
 {
-  "lastVerified": "2026-10-18",
+  "lastVerified": "2026-10-23",
   "items": [
     {
       "id": "spacex",
       "name": "SpaceX",
       "ticker": "私人",
       "focus": "發射服務 · Starlink · Starship",
-      "status": "CRS-35 已發射並對接；USSF-481 與 Bandwagon-5 進入近期窗口",
+      "status": "Bandwagon-5 與 USSF-481 已發射；27 顆 Starlink 延至台北 10/24 窗口",
       "statusTone": "positive",
       "source": "https://www.spacex.com/launches"
     },
@@ -15,18 +15,18 @@
       "name": "Rocket Lab",
       "ticker": "RKLB",
       "focus": "Electron · HASTE · Neutron · 太空系統",
-      "status": "Electron 成功部署第 13 顆 StriX",
+      "status": "HawkEye 360 三星任務 NET 台北 10/23 15:00；Neutron 首飛預期改為 2027",
       "statusTone": "positive",
-      "source": "https://investors.rocketlabcorp.com/news-releases/news-release-details/mission-success-rocket-lab-launches-97th-electron-mission"
+      "source": "https://rocketlabcorp.com/launch/launch-safety/"
     },
     {
       "id": "blue-origin",
       "name": "Blue Origin",
       "ticker": "私人",
       "focus": "New Glenn · 月球系統 · Quartz 地面網路",
-      "status": "擴建佛州 New Glenn 高頻製造、整合、發射與回收體系",
+      "status": "P-Sampler 隨 JAXA MMX 升空；佛州高頻發射設施持續擴建",
       "statusTone": "positive",
-      "source": "https://www.blueorigin.com/news/building-infrastructure-for-more-frequent-launches-in-florida"
+      "source": "https://www.blueorigin.com/news/blue-origin-p-sampler-launches-aboard-jaxa-martian-moons-exploration-mission"
     },
     {
       "id": "amazon-leo",
@@ -42,27 +42,27 @@
       "name": "AST SpaceMobile",
       "ticker": "ASTS",
       "focus": "直連手機低軌星系",
-      "status": "BlueBird 擴張",
+      "status": "五大市場年底前初期間歇服務目標；歐洲營運商探索頻譜合作",
       "statusTone": "positive",
-      "source": "https://ast-science.com/"
+      "source": "https://feeds.issuerdirect.com/news-release.html?newsid=6945446155364589&symbol=ASTS"
     },
     {
       "id": "viasat",
       "name": "Viasat",
       "ticker": "VSAT",
       "focus": "GEO／多軌衛星通訊 · NTN",
-      "status": "取得 USMC MECS2 首筆 4,200 萬美元訂單",
+      "status": "Maxwell 已隨 Bandwagon-5 發射；NASA CSP 在軌示範待執行",
       "statusTone": "positive",
-      "source": "https://investors.viasat.com/news-releases/news-release-details/viasat-wins-first-task-order-award-part-307-million-ceiling-us"
+      "source": "https://www.viasat.com/news/latest-news/government/2026/viasat-advances-nasa-communications-services-project-demonstrati/"
     },
     {
       "id": "firefly-aerospace",
       "name": "Firefly Aerospace",
       "ticker": "FLY",
       "focus": "Alpha · Elytra · Blue Ghost",
-      "status": "SciTec CBC2 合約總值增至 3,100 萬美元",
+      "status": "MoonFall Elytra 完成 PDR；目標 2028 年底前具備發射準備",
       "statusTone": "positive",
-      "source": "https://fireflyspace.com/news/fireflys-scitec-expands-contract-with-u-s-air-force-to-add-counter-uas-data-in-advanced-battle-management-system/"
+      "source": "https://fireflyspace.com/news/firefly-aerospace-completes-preliminary-design-review-for-nasa-moonfall-mission/"
     },
     {
       "id": "voyager-technologies",
@@ -78,18 +78,18 @@
       "name": "Iridium",
       "ticker": "IRDM",
       "focus": "全球 LEO 通訊 · IoT · PNT",
-      "status": "股東核准 Rocket Lab 收購案；待監管核准",
+      "status": "揭露 EMSS 展延至 2027/3；Rocket Lab 收購案仍待監管",
       "statusTone": "positive",
-      "source": "https://investor.iridium.com/2026-09-24-Iridium-Stockholders-Approve-Acquisition-by-Rocket-Lab"
+      "source": "https://investor.iridium.com/2026-10-20-Iridium-Announces-Third-Quarter-2026-Results"
     },
     {
       "id": "planet-labs",
       "name": "Planet Labs",
       "ticker": "PL",
       "focus": "Pelican · PlanetScope · Tanager · 地球觀測",
-      "status": "取得德國專用衛星服務合約",
+      "status": "Pelican-12 已入軌；取得 NASA Tanager 資料評估訂單",
       "statusTone": "positive",
-      "source": "https://investors.planet.com/news/news-details/2026/Planet-Awarded-Landmark-German-Federal-Contract-for-Exclusive-Access-to-Dedicated-Satellite-Constellation/default.aspx"
+      "source": "https://investors.planet.com/news/news-details/2026/Planet-Awarded-NASA-Commercial-Satellite-Data-Acquisition-CSDA-Evaluation-Task-Order-for-Tanager-Hyperspectral-Data/default.aspx"
     },
     {
       "id": "blacksky",
@@ -105,18 +105,18 @@
       "name": "Spire Global",
       "ticker": "SPIR",
       "focus": "多用途 LEO · 氣象 · 航空海事 · Space Services",
-      "status": "取得 NOAA 3,320 萬美元 GNSS-RO 資料合約",
+      "status": "補收 Boulder 首批 3 顆發射；2026 已確認發射下限至少 32 顆",
       "statusTone": "positive",
-      "source": "https://ir.spire.com/news-events/press-releases/detail/313/spire-global-awarded-33-2-million-noaa-contract-for"
+      "source": "https://ir.spire.com/news-events/press-releases/detail/314/spire-global-launches-first-three-satellites-built-at-u-s"
     },
     {
       "id": "globalstar",
       "name": "Globalstar",
       "ticker": "GSAT",
       "focus": "全球 LEO 通訊 · IoT · HIBLEO-4／C-3",
-      "status": "Nemea 地面站擴建完工並進入 commissioning",
+      "status": "公司公布 C-3 獲 FCC 美國營運授權；自 2027 起發射屬規劃",
       "statusTone": "positive",
-      "source": "https://investors.globalstar.com/news-releases/news-release-details/globalstar-completes-expansion-greece-ground-station-marking-key"
+      "source": "https://investors.globalstar.com/news-releases/news-release-details/fcc-authorizes-globalstars-third-generation-c-3-system"
     }
   ]
 }

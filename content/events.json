@@ -1,6 +1,258 @@
 {
-  "lastVerified": "2026-10-18",
+  "lastVerified": "2026-10-23",
   "events": [
+    {
+      "id": "rklb-hawkeye-window-20261023",
+      "date": "2026-10-23",
+      "company": "Rocket Lab",
+      "program": "Electron／HawkEye 360 HAWK",
+      "category": "時程／衛星部署",
+      "status": "NET UTC 07:00／台北 15:00",
+      "tone": "watch",
+      "title": "Rocket Lab 鎖定 10 月 23 日發射三顆 HawkEye 360 衛星",
+      "summary": "We're Not Hawking Around 任務目標台北 15:00 自紐西蘭升空；備援日為紐西蘭 10/24 至 11/3。",
+      "detail": "Rocket Lab 的 launch-safety 官方頁已把 We're Not Hawking Around 任務更新為不早於紐西蘭時間 2026 年 10 月 23 日 20:00（UTC 07:00；台北 15:00）發射，並列出紐西蘭 10 月 24 日至 11 月 3 日為備援日。Electron 將自 Launch Complex 1 執行任務，把三顆 HawkEye 360 HAWK 衛星部署到約 520 公里、97 度傾角的低地球軌道。這是發射目標與部署規劃，並非已完成發射或已部署三顆。",
+      "sources": [
+        {
+          "label": "Rocket Lab 官方 launch-safety 頁",
+          "url": "https://rocketlabcorp.com/launch/launch-safety/",
+          "type": "官方"
+        },
+        {
+          "label": "Rocket Lab HawkEye 360 任務頁",
+          "url": "https://rocketlabcorp.com/missions/launches/hawkeye-360/",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "rklb-iqps-november-schedule-audit-20261021",
+      "date": "2026-10-22",
+      "company": "Rocket Lab",
+      "program": "Electron／iQPS",
+      "category": "時程／查核快照",
+      "status": "NET 11/4 與 NET 11/10",
+      "tone": "watch",
+      "title": "Rocket Lab 官方任務表列出兩次 11 月 iQPS 發射",
+      "summary": "The Sea God Surveys 為 NET 11/4，The Mountain God Rises 為 NET 11/10；本次未採用任何未公布的精確時刻。",
+      "detail": "Rocket Lab 官方 Launches 任務表在本次補查時列出，Electron 的 The Sea God Surveys 目標不早於 2026 年 11 月 4 日，The Mountain God Rises 目標不早於 11 月 10 日，客戶均為 iQPS，自 Launch Complex 1 執行。本筆是查核時的官方清單快照，並非聲稱該排程首次於 10/21 公布；列表沒有提供可供本次採用的精確時刻，因此不換算台北升空時間，也不預先累加部署數。",
+      "sources": [
+        {
+          "label": "Rocket Lab 官方任務清單",
+          "url": "https://rocketlabcorp.com/missions/launches/",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "sx-upcoming-starlink-audit-20261021",
+      "date": "2026-10-22",
+      "company": "SpaceX",
+      "program": "Falcon 9／Starlink",
+      "category": "時程／查核快照",
+      "status": "另列 10/26、10/29 與 11/5 任務",
+      "tone": "watch",
+      "title": "SpaceX 官方清單更新 10 月下旬與 11 月初 Starlink 排程",
+      "summary": "10/23 台北補查快照：除 27 顆任務外，另列台北 10/26、10/29 與只列日期的 11/5 任務；未公布顆數不預增部署。",
+      "detail": "本次補查 SpaceX 官方發射清單時，27 顆 sl-15-15 任務已更新為台北 10 月 24 日 05:30–09:30；清單另列台北 10 月 26 日 13:00–17:00、10 月 29 日 12:17–16:17，以及只列 11 月 5 日日期的 Starlink 任務。後三班未提供可供本次採用的批次代號或衛星顆數，也未公開 11 月 5 日的精確時刻。本筆以 10/23 補查結果更新未發布快照；排程仍可能變動，不視為已完成發射。",
+      "sources": [
+        {
+          "label": "SpaceX 官方發射清單",
+          "url": "https://www.spacex.com/launches",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "fly-moonfall-pdr-20261021",
+      "date": "2026-10-21",
+      "company": "Firefly Aerospace",
+      "program": "Elytra／NASA JPL MoonFall",
+      "category": "設計審查／月球任務里程碑",
+      "status": "PDR 完成／下一步 CDR",
+      "tone": "positive",
+      "title": "Firefly 完成 MoonFall Elytra 初步設計審查",
+      "summary": "NASA／JPL 參與審查；太空船下一步是 CDR，目標 2028 年底前具備發射準備，尚非確定升空日。",
+      "detail": "Firefly 10/21 宣布完成 MoonFall 任務 Elytra 太空船的 Preliminary Design Review。NASA 與 JPL 參與對結構、熱控、推進、航電、導航、通訊及測試計畫的審查，確認設計符合任務需求；接下來將朝 Critical Design Review 推進，再進入硬體生產組裝。任務目標於 2028 年底前準備好發射，由 NASA 安排載具，Elytra 預計在月球南極上方部署 JPL 無人機。這是設計與整備里程碑，不是任務已發射或確定的發射日期。",
+      "sources": [
+        {
+          "label": "Firefly MoonFall PDR 官方公告",
+          "url": "https://fireflyspace.com/news/firefly-aerospace-completes-preliminary-design-review-for-nasa-moonfall-mission/",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "pl-nasa-csda-tanager-evaluation-20261021",
+      "date": "2026-10-21",
+      "company": "Planet Labs",
+      "program": "Tanager／NASA CSDA",
+      "category": "合約／資料評估",
+      "status": "取得評估 task order",
+      "tone": "positive",
+      "title": "Planet 取得 NASA Tanager 高光譜資料評估任務訂單",
+      "summary": "NASA 將評估逾 25 萬平方公里資料的品質、可靠性與地球科學用途；未公開合約金額。",
+      "detail": "Planet 10/21 宣布，Planet Labs Federal 取得 NASA Commercial Satellite Data Acquisition（CSDA）計畫的 Tanager 高光譜資料評估 task order。NASA 將取得逾 250,000 平方公里的既有與新指派資料，評估 Level 1C 與 Level 2A 產品的品質、可靠性及科研效益。這是評估訂單，後續報告才會支援更廣泛採用決策；公告未公開金額，不能視為全機關大規模採購或新增衛星部署。",
+      "sources": [
+        {
+          "label": "Planet NASA CSDA 官方公告",
+          "url": "https://investors.planet.com/news/news-details/2026/Planet-Awarded-NASA-Commercial-Satellite-Data-Acquisition-CSDA-Evaluation-Task-Order-for-Tanager-Hyperspectral-Data/default.aspx",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "asts-service-readiness-20261020",
+      "date": "2026-10-20",
+      "company": "AST SpaceMobile",
+      "program": "BlueBird／地面網路／初期服務",
+      "category": "服務整備／時程",
+      "status": "2026 年底前初期間歇覆蓋目標",
+      "tone": "watch",
+      "title": "AST 推進五大市場初期間歇服務，公布地面網路整備進度",
+      "summary": "初期覆蓋目標涵蓋美國、加拿大、日本、英國與沙烏地阿拉伯；60 多座閘道包含已部署、安裝中與規劃中。",
+      "detail": "AST SpaceMobile 10/20 公布服務整備更新，目標在 2026 年底前於美國、加拿大、日本、英國及沙烏地阿拉伯提供初期間歇覆蓋。全球 60 多座閘道合計包含已部署、安裝中與規劃中，不能解讀為全部啟用；美國已啟用逾 3,000 個覆蓋 cells，目標年底前涵蓋約 5,600 個。BlueBird 生產推進至 50 號，不代表已有 50 顆在軌。服務仍受衛星容量、地面整合及適用授權影響；本次不調增在軌總量，也不把年底目標視為連續商轉已達成。",
+      "sources": [
+        {
+          "label": "AST 官方投資人頁連結之公司公告",
+          "url": "https://feeds.issuerdirect.com/news-release.html?newsid=6945446155364589&symbol=ASTS",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "irdm-emss-extension-disclosed-20261020",
+      "date": "2026-10-20",
+      "company": "Iridium",
+      "program": "EMSS 美國政府衛星服務",
+      "category": "合約／展延",
+      "status": "延長至 2027 年 3 月",
+      "tone": "positive",
+      "title": "Iridium 在第三季公告揭露 EMSS 合約展延至 2027 年 3 月",
+      "summary": "美國太空軍於 9/11 行使展延選擇權，費率維持原約；本筆以 10/20 的公司揭露日記錄。",
+      "detail": "Iridium 在 10/20 第三季結果的業務重點中確認，美國太空軍已於 2026 年 9 月 11 日行使 Enhanced Mobile Satellite Services（EMSS）合約展延選擇權，使服務延續至 2027 年 3 月，費率維持原合約。本筆依 10/20 公司公開揭露日期建檔，實際選擇權行使日在 9/11。公司預期 2027 年續約仍是前瞻展望，不能視為新的多年合約已簽署；此事件不涉及新增衛星部署。",
+      "sources": [
+        {
+          "label": "Iridium Q3 2026 官方結果／Business Highlights",
+          "url": "https://investor.iridium.com/2026-10-20-Iridium-Announces-Third-Quarter-2026-Results",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "pl-pelican12-launch-20261020",
+      "date": "2026-10-20",
+      "company": "Planet Labs",
+      "program": "Pelican Gen 2／Bandwagon-5",
+      "category": "發射／部署",
+      "status": "已入軌／初始聯絡／commissioning",
+      "tone": "positive",
+      "title": "Planet Pelican-12 成功入軌並建立初始聯絡",
+      "summary": "Gen 2 技術驗證衛星隨 Bandwagon-5 發射，Planet 已開始 commissioning 與降軌；不等於已全面商轉。",
+      "detail": "Planet 10/20 確認 Pelican-12 隨 SpaceX Bandwagon-5 自 Cape Canaveral 入軌，已建立初始聯絡，並開始 commissioning 與降低軌道高度。這是 2026 年第 5 顆 Pelican，也是 Planet 當年第 25 顆送入軌道的衛星；兩個數字口徑不同。衛星將驗證更新的 Gen 2 酬載、通訊與 NVIDIA Jetson 邊緣運算技術，亦搭載透過 SES O3b mPOWER 中繼影像的原型通訊套件。沿用原 10 顆 Pelican 已入軌檢查點，本次僅增加這 1 顆至 11；其中包含工程驗證衛星，不代表均已商轉。後續 Pelican 發射規劃為 2027 年，未公布單班日期。",
+      "sources": [
+        {
+          "label": "Planet Pelican-12 官方公告",
+          "url": "https://investors.planet.com/news/news-details/2026/Planet-Launches-Pelican-12-Satellite/default.aspx",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "sx-bandwagon5-window-20261019",
+      "date": "2026-10-20",
+      "company": "SpaceX",
+      "program": "Falcon 9／Bandwagon-5",
+      "category": "發射／共乘任務",
+      "status": "已發射／首節回收",
+      "tone": "positive",
+      "title": "Bandwagon-5 載 32 項酬載升空，首節完成第 19 次飛行",
+      "summary": "Falcon 9 於 10/20 07:04 ET（台北 19:04）自 SLC-40 發射，首節降落 A Shortfall of Gravitas。",
+      "detail": "SpaceX 官方任務頁已改為完成式，確認 Bandwagon-5 於 2026 年 10 月 20 日 07:04 美東夏令時間（11:04 UTC；台北 19:04）自 Cape Canaveral SLC-40 升空，搭載 32 項 cubesat、microsat 與返回載具等酬載。第一節完成第 19 次飛行並降落 A Shortfall of Gravitas 無人船。本筆沿用原排程事件 ID，保留 10/19 原窗口於審核快照與更正紀錄，避免另建一次發射。32 項是共乘酬載數，不是任何一組追蹤星座的淨新增；僅另依 Planet 與 Viasat 自身確認維護具名衛星事件。",
+      "sources": [
+        {
+          "label": "SpaceX Bandwagon-5 任務頁",
+          "url": "https://www.spacex.com/launches/bandwagon5",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "vsat-maxwell-csp-launch-20261020",
+      "date": "2026-10-20",
+      "company": "Viasat",
+      "program": "Maxwell／NASA CSP／HaloNet",
+      "category": "發射／通訊技術示範",
+      "status": "已發射／在軌測試待執行",
+      "tone": "positive",
+      "title": "Viasat Maxwell 隨 Bandwagon-5 升空，推進 NASA 通訊示範",
+      "summary": "10/21 公司公告確認 10/20 07:04 ET 發射；Ka 與 L 頻段、多軌中繼示範預計持續至 2027 年 3 月。",
+      "detail": "Viasat 10/21 公告確認 Maxwell 已於 10/20 07:04 美東夏令時間（台北 10/20 19:04）隨 SpaceX Bandwagon-5 自 Cape Canaveral 發射。太空船承載 Ka 與 L 頻段中繼能力示範，支援 NASA Communications Services Project；兩項 CSP 合約合計 8,100 萬美元是既有計畫合約總額，不是本次新增訂單。公司接下來將執行在軌測試與示範，預計持續至 2027 年 3 月；成功發射不等於已完成五個月示範或正式提供全時服務。",
+      "sources": [
+        {
+          "label": "Viasat Maxwell／NASA CSP 官方公告",
+          "url": "https://www.viasat.com/news/latest-news/government/2026/viasat-advances-nasa-communications-services-project-demonstrati/",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "asts-europe-mno-spectrum-loi-20261019",
+      "date": "2026-10-19",
+      "company": "AST SpaceMobile",
+      "program": "Satellite Connect Europe／MSS",
+      "category": "合作／頻譜規劃",
+      "status": "營運商意向書／待適用授權",
+      "tone": "positive",
+      "title": "AST 歡迎歐洲四大營運商探索聯合 MSS 頻譜競標",
+      "summary": "Deutsche Telekom、Orange、Telefónica 與 Vodafone 簽署意向書；合作仍是潛在競標與服務整合規劃。",
+      "detail": "AST SpaceMobile 10/19 透過官方投資人頁所連結的新聞稿，歡迎 Deutsche Telekom、Orange、Telefónica 與 Vodafone 簽署意向書，探索潛在 MSS 頻譜聯合競標。Satellite Connect Europe 的歐洲營運地面基礎設施將銜接 BlueBird 與行動核心網路，服務就緒仍須網路整合與適用監管授權。超過 5 億是相關歐洲行動市場用戶規模，不是 AST 已付費客戶；意向書不等於競標得標或授權完成。",
+      "sources": [
+        {
+          "label": "AST 官方投資人頁連結之公司公告",
+          "url": "https://feeds.issuerdirect.com/news-release.html?newsid=5338244343722955&symbol=ASTS",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "bo-mmx-p-sampler-launch-20261019",
+      "date": "2026-10-19",
+      "company": "Blue Origin",
+      "program": "Honeybee Robotics／MMX P-Sampler",
+      "category": "發射／深空里程碑",
+      "status": "已隨 MMX 升空",
+      "tone": "positive",
+      "title": "Blue Origin P-Sampler 隨 JAXA MMX 任務升空前往火星衛星",
+      "summary": "Honeybee Robotics 製造的氣動採樣器已自種子島隨 MMX 發射；採樣與樣本返回仍是後續任務目標。",
+      "detail": "Blue Origin 10/19 確認，旗下 Honeybee Robotics 的 P-Sampler 已搭載 JAXA Martian Moons eXploration（MMX）太空船，自種子島 Yoshinobu Launch Complex 升空。採樣器以加壓氮氣揚起並收集 Phobos 表土，與 JAXA 的 C-Sampler 配合。這次紀錄是載荷升空里程碑，不代表已抵達 Phobos、完成採樣或把樣本送回地球。",
+      "sources": [
+        {
+          "label": "Blue Origin MMX P-Sampler 公告",
+          "url": "https://www.blueorigin.com/news/blue-origin-p-sampler-launches-aboard-jaxa-martian-moons-exploration-mission",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "gsat-c3-us-authorization-20261019",
+      "date": "2026-10-19",
+      "company": "Globalstar",
+      "program": "C-3 MSS／D2D",
+      "category": "監管里程碑",
+      "status": "公司公布取得美國營運授權",
+      "tone": "positive",
+      "title": "Globalstar 公布 C-3 系統取得 FCC 美國營運授權",
+      "summary": "公司公告稱 C-3 可在美國提供 MSS／手機直連服務；規劃 48 顆加 6 顆在軌備援，預計 2027 起發射。",
+      "detail": "Globalstar 10/19 公告稱，FCC 已授權第三代 C-3 MSS 系統在美國營運，涵蓋手機直連及美國多處地面站與衛星通訊。C-3 規劃在約 1,414 公里高度運作，架構為 48 顆衛星與 6 顆在軌備援，預計自 2027 年起發射。上述數字是系統規劃與未來部署，並非已部署顆數；不與 HIBLEO-4 的 8 顆替換衛星合併計算。本次依公司一手公告記錄授權消息。",
+      "sources": [
+        {
+          "label": "Globalstar C-3 授權官方公告",
+          "url": "https://investors.globalstar.com/news-releases/news-release-details/fcc-authorizes-globalstars-third-generation-c-3-system",
+          "type": "官方"
+        }
+      ]
+    },
     {
       "id": "bo-florida-high-cadence-infrastructure-20261016",
       "date": "2026-10-16",
@@ -13,22 +265,35 @@
       "summary": "佛州設施投資逾 30 億美元；3.3 億美元 Rocket Park 擴建預計 2027 年夏季完工，年產能最高 150 個 New Glenn 9×4 上級。",
       "detail": "Blue Origin 於 2026 年 10 月 16 日公布佛州高頻發射基礎設施進度。公司表示已在佛州投入超過 30 億美元、雇用超過 5,000 人並與 500 家州內供應商合作，相關設施覆蓋 20 多個據點。Rocket Park 正進行 3.3 億美元擴建，目標於 2027 年夏季完工，屆時可支援每年最多 150 個 New Glenn 9×4 上級的生產；LC-36B、垂直整合設施與兩座新增海上回收平台也在建置中。公司另表示已提交環境評估，申請把 LC-36 許可發射率由每年 12 次提高至 50 次，整套系統目標在本十年末支援每週多次飛行。這是產能與基礎設施計畫，不是已完成發射。",
       "sources": [
-        { "label": "Blue Origin 佛州高頻發射基礎設施官方更新", "url": "https://www.blueorigin.com/news/building-infrastructure-for-more-frequent-launches-in-florida", "type": "官方" }
+        {
+          "label": "Blue Origin 佛州高頻發射基礎設施官方更新",
+          "url": "https://www.blueorigin.com/news/building-infrastructure-for-more-frequent-launches-in-florida",
+          "type": "官方"
+        }
       ]
     },
     {
-      "id": "sx-bandwagon5-window-20261019",
+      "id": "sx-starlink-next-window-20261007",
       "date": "2026-10-16",
       "company": "SpaceX",
-      "program": "Falcon 9／Bandwagon-5",
-      "category": "時程／共乘發射",
-      "status": "UTC 10/19 10:30–11:30",
-      "tone": "watch",
-      "title": "Bandwagon-5 排定 10 月 19 日一小時發射窗口",
-      "summary": "共乘任務目標自 Cape Canaveral SLC-40 發射；台北窗口 10/19 18:30–19:30，備援為隔日同時段。",
-      "detail": "SpaceX 官方任務頁顯示，Bandwagon-5 共乘任務目標於 2026 年 10 月 19 日 10:30–11:30 UTC（台北 18:30–19:30）自佛州卡納維爾角 SLC-40 發射；備援機會為 10 月 20 日同一時段。第一節將執行第 19 次飛行，預計降落 A Shortfall of Gravitas 無人船。官方尚未公布完整載荷名單與顆數，因此不預增任何衛星部署總量。",
+      "program": "Falcon 9／Starlink Mission",
+      "category": "發射完成／下一次部署規劃",
+      "status": "10/12 任務已完成；27 顆任務延至台北 10/24",
+      "tone": "positive",
+      "title": "SpaceX 完成 10 月 12 日 Starlink 任務，27 顆下一班改至 10 月 24 日",
+      "summary": "官方清單仍把 10/12 Starlink 列為完成；27 顆 sl-15-15 任務最新窗口為台北 10/24 05:30–09:30。",
+      "detail": "SpaceX 官方發射清單已把 2026 年 10 月 12 日的 Starlink Mission 移入 Completed missions。採用的一手頁面未公布該班衛星顆數，因此不把它加到部署總量。原定台北 10 月 21 日的 27 顆 sl-15-15 任務仍由官方頁標為 targeting，10 月 23 日補查時已延至台北 10 月 24 日 05:30–09:30；首節規劃降落 Of Course I Still Love You 無人船。窗口更新不等於發射完成，本次不調整第三方在軌工作中總數。",
       "sources": [
-        { "label": "SpaceX Bandwagon-5 任務頁", "url": "https://www.spacex.com/launches/bandwagon5", "type": "官方" }
+        {
+          "label": "SpaceX 官方發射清單",
+          "url": "https://www.spacex.com/launches",
+          "type": "官方"
+        },
+        {
+          "label": "SpaceX 下一班 Starlink 任務頁",
+          "url": "https://www.spacex.com/launches/sl-15-15",
+          "type": "官方"
+        }
       ]
     },
     {
@@ -43,145 +308,11 @@
       "summary": "年度合約進入第三年，結合 Gen-2 高頻監測與 Gen-3 高解析影像，自動化追蹤並分析在軌物體。",
       "detail": "BlackSky 於 2026 年 10 月 15 日宣布，與 HEO 簽署七位數年度延長合約，合作進入第三年。HEO Inspect 將結合 BlackSky Gen-2 的高頻監測能力與 Gen-3 的更高解析影像，透過自動化任務指派、拍攝與分析流程，支援防務、情報及商業客戶觀察、辨識與追蹤在軌太空器。這是太空域感知影像服務合約，不是新增衛星部署，因此 Gen-3 部署總量維持不變。",
       "sources": [
-        { "label": "BlackSky HEO 合約官方公告", "url": "https://blacksky.com/press-releases/blacksky-extends-heo-space-domain-awareness-agreement-with-new-seven-figure-non-earth-imaging-contract-featuring-gen-3/", "type": "官方" }
-      ]
-    },
-    {
-      "id": "sx-ussf481-window-20261015",
-      "date": "2026-10-15",
-      "company": "SpaceX",
-      "program": "Falcon 9／USSF-481",
-      "category": "時程／國家安全發射",
-      "status": "UTC 10/15 23:44–10/16 03:44 發射窗口",
-      "tone": "watch",
-      "title": "USSF-481 進入四小時發射窗口",
-      "summary": "Falcon 9 目標自 Vandenberg SLC-4E 發射；台北窗口為 10/16 07:44–11:44，首節規劃降落太平洋無人船。",
-      "detail": "SpaceX 官方任務頁列出 USSF-481 的四小時發射窗口自 2026 年 10 月 15 日 23:44 UTC 開始，至 10 月 16 日 03:44 UTC，也就是台北時間 10 月 16 日 07:44–11:44。任務使用 Falcon 9 自 Vandenberg SLC-4E 發射；第一節為第 28 次飛行，預計降落 Of Course I Still Love You 無人船。查核時間仍在窗口內，官方尚未把任務列入 Completed missions，因此狀態保持待發射，不臆測結果。",
-      "sources": [
-        { "label": "SpaceX USSF-481 任務頁", "url": "https://www.spacex.com/launches/ussf481", "type": "官方" }
-      ]
-    },
-    {
-      "id": "sx-crew12-undock-return-20261007",
-      "date": "2026-10-08",
-      "company": "SpaceX",
-      "program": "Dragon／Crew-12",
-      "category": "人員運輸／返回",
-      "status": "已完成／安全濺落",
-      "tone": "positive",
-      "title": "Crew-12 安全濺落洛杉磯外海，237 天任務完成",
-      "summary": "Crew Dragon Freedom 於美西 10/8 08:34 在洛杉磯外海安全濺落；四名成員完成 237 天任務、超過 3,792 圈繞地飛行。",
-      "detail": "NASA 於 2026 年 10 月 8 日確認 SpaceX Crew-12 已安全返回地球。Crew Dragon Freedom 於美西夏令時間上午 8:34（台北 10 月 8 日 23:34）在洛杉磯外海太平洋濺落，Jessica Meir、Jack Hathaway、Sophie Adenot 與 Andrey Fedyaev 隨後由 SpaceX 回收船團隊接回。NASA 表示，四名成員在 237 天任務期間飛行超過 1 億英里並完成超過 3,792 圈繞地飛行；這筆事件因此由返航目標更新為已完成里程碑。",
-      "sources": [
-        { "label": "NASA Crew-12 安全濺落新聞稿", "url": "https://www.nasa.gov/news-release/nasas-spacex-crew-12-splashes-down-sets-briefing-to-discuss-mission/", "type": "政府官方" },
-        { "label": "NASA Crew-12 濺落即時公告", "url": "https://www.nasa.gov/blogs/commercialcrew/2026/10/08/nasas-spacex-crew-12-dragon-splashes-down-at-1134-a-m-edt/", "type": "政府官方" }
-      ]
-    },
-    {
-      "id": "sx-sda-tranche1-4-window-20261007",
-      "date": "2026-10-10",
-      "company": "SpaceX",
-      "program": "Falcon 9／SDA Tranche 1 第四次任務",
-      "category": "發射／國家安全任務",
-      "status": "已完成",
-      "tone": "positive",
-      "title": "SDA Tranche 1 第四次任務列入 SpaceX 已完成發射",
-      "summary": "SpaceX 已將任務移入 Completed missions；Falcon 9 自 Vandenberg SLC-4E 發射，首節回收方式為 Landing Zone。",
-      "detail": "SpaceX 官方發射清單於 2026 年 10 月 16 日查核時，已把 SDA’s Fourth Tranche 1 Mission 列入 10 月 10 日 Completed missions，證實任務完成發射階段。官方公開頁仍未列出載荷顆數或逐顆部署結果，因此只把生命週期由時程更新為已完成，不自行推算衛星部署數。",
-      "sources": [
-        { "label": "SpaceX 官方發射清單", "url": "https://www.spacex.com/launches", "type": "官方" }
-      ]
-    },
-    {
-      "id": "sx-starlink-next-window-20261007",
-      "date": "2026-10-16",
-      "company": "SpaceX",
-      "program": "Falcon 9／Starlink Mission",
-      "category": "發射完成／下一次部署規劃",
-      "status": "10/12 任務已完成；下一班 27 顆目標 10/20 UTC",
-      "tone": "positive",
-      "title": "SpaceX 完成 10 月 12 日 Starlink 任務，下一班 27 顆窗口確定",
-      "summary": "官方清單將 10/12 Starlink 列為完成；下一班 27 顆任務窗口為 UTC 10/20 22:14–10/21 02:14（台北 10/21 06:14–10:14）。",
-      "detail": "SpaceX 官方發射清單已把 2026 年 10 月 12 日的 Starlink Mission 移入 Completed missions。採用的一手頁面未公布該班衛星顆數，因此不把它加到部署總量。下一班官方任務頁則明確列出 27 顆 Starlink，窗口為 UTC 10 月 20 日 22:14 至 10 月 21 日 02:14，也就是台北時間 10 月 21 日 06:14–10:14；首節預計降落 Of Course I Still Love You 無人船。官方另列 10 月 24 日第二個 Starlink 窗口，網站排程一併保留。",
-      "sources": [
-        { "label": "SpaceX 官方發射清單", "url": "https://www.spacex.com/launches", "type": "官方" },
-        { "label": "SpaceX 下一班 Starlink 任務頁", "url": "https://www.spacex.com/launches/sl-15-15", "type": "官方" }
-      ]
-    },
-    {
-      "id": "sx-starlink-mobile-spectrum-20261008",
-      "date": "2026-10-08",
-      "company": "SpaceX",
-      "program": "Starlink Mobile",
-      "category": "合作／頻譜與監管",
-      "status": "800 MHz 收購協議／FCC 核准 15,000 顆 Gen2",
-      "tone": "positive",
-      "title": "Starlink Mobile 公布低頻頻譜協議與 Gen2 監管里程碑",
-      "summary": "SpaceX 簽署最多 14 MHz 成對 800 MHz 全國低頻頻譜收購協議；FCC 另核准可發射 15,000 顆針對全球 2 GHz 頻譜優化的 Gen2 衛星。",
-      "detail": "SpaceX 於 2026 年 10 月 8 日公布 Starlink Mobile 兩項里程碑。第一，公司已簽署協議，擬收購全美最多 14 MHz 成對 800 MHz 低頻頻譜授權組合；該交易仍需最終 FCC 核准。SpaceX 表示，這組低頻頻譜將與全球 2 GHz 中頻能力互補，支援衛星直連手機與地面網路的彈性架構。第二，FCC 已於同週核准 Starlink Mobile 的 Gen2 星系申請，授權 SpaceX 發射 15,000 顆針對全球 2 GHz 頻譜優化的衛星。這是頻譜與監管里程碑，不等於已完成部署，因此不調整目前在軌總量。",
-      "sources": [
-        { "label": "SpaceX Starlink Mobile 官方更新", "url": "https://www.spacex.com/updates/nasa-certification-11-10-2020", "type": "官方" }
-      ]
-    },
-    {
-      "id": "bo-constellation-park-20261008",
-      "date": "2026-10-08",
-      "company": "Blue Origin",
-      "program": "Constellation Park／TeraWave／Quartz",
-      "category": "製造／基礎設施",
-      "status": "130 萬平方英尺／逾 2,000 個工作機會",
-      "tone": "positive",
-      "title": "Blue Origin 公布德州 Constellation Park 衛星製造園區",
-      "summary": "Hutto 新園區將成為 TeraWave、Quartz 與衛星子系統中央生產基地；Blue Origin 計畫十年內創造超過 2,000 個工作機會。",
-      "detail": "Blue Origin 於 2026 年 10 月 8 日宣布在德州 Hutto 建立 Constellation Park。這座多棟建築組成的園區規劃總面積 130 萬平方英尺，將成為 TeraWave 衛星通訊網路、Quartz 地面天線，以及太陽能陣列、航電與通訊等衛星子系統的中央生產基地。公司表示，TeraWave 目標提供最高每秒 6 Tbps 的對稱資料能力；園區預計在十年內創造超過 2,000 個工作機會，並擴大 Blue Origin 目前約 550 名德州員工的規模。這是製造與供應鏈里程碑，不是已完成的發射或衛星部署。",
-      "sources": [
-        { "label": "Blue Origin Constellation Park 官方公告", "url": "https://www.blueorigin.com/news/blue-origin-announces-new-texas-manufacturing-campus", "type": "官方" }
-      ]
-    },
-    {
-      "id": "amzn-leo-1000-produced-20261008",
-      "date": "2026-10-08",
-      "company": "Amazon Leo",
-      "program": "Amazon Leo 衛星量產／LE-04",
-      "category": "製造／部署規劃",
-      "status": "已生產逾 1,000 顆；LE-04 NET 11/23",
-      "tone": "positive",
-      "title": "Amazon Leo 量產突破 1,000 顆，LE-04 排定 11 月 23 日 NET",
-      "summary": "Kirkland 工廠已生產超過 1,000 顆；更新後官方任務頁確認目前 14 次任務、396 顆，下一班 LE-04 將由 Ariane 64 部署 36 顆。",
-      "detail": "Amazon 於 2026 年 10 月 8 日表示，Amazon Leo 位於華盛頓州 Kirkland 的量產設施已生產超過 1,000 顆衛星，工廠具備每日 5 顆衛星的產能。Amazon 於 10 月 14 日更新官方任務頁，逐班列出 14 次已完成任務，合計 396 顆，並將下一班明確列為 LE-04：Ariane 64 目標不早於 11 月 23 日自法屬圭亞那發射 36 顆，確切窗口將於接近任務時公布。較新的任務頁提供可加總的完整清單，因此網站維持 396 顆部署總量，並以 LE-04 取代先前只有「未來數週」的模糊規劃。",
-      "sources": [
-        { "label": "Amazon Leo 衛星量產官方專題", "url": "https://www.aboutamazon.com/stories/how-amazon-leo-builds-satellites", "type": "官方" },
-        { "label": "Amazon Leo 官方任務更新", "url": "https://www.aboutamazon.com/news/innovation-at-amazon/project-kuiper-satellite-rocket-launch-progress-updates", "type": "官方" }
-      ]
-    },
-    {
-      "id": "fly-scitec-cuas-cbc2-20261008",
-      "date": "2026-10-08",
-      "company": "Firefly Aerospace",
-      "program": "SciTec／CBC2／ABMS",
-      "category": "合約／國防資料融合",
-      "status": "追加 150 萬美元／總值 3,100 萬美元",
-      "tone": "positive",
-      "title": "Firefly SciTec 擴大美空軍 CBC2 合約，加入反無人機資料",
-      "summary": "合約追加 150 萬美元、總值增至 3,100 萬美元；SciTec 將把獲核准的反無人機感測器資料源整合進 ABMS 資料融合系統。",
-      "detail": "Firefly Aerospace 旗下 SciTec 於 2026 年 10 月 8 日宣布，美國空軍擴大 Cloud-Based Command and Control（CBC2）合約，新增 150 萬美元，使合約總值達 3,100 萬美元。SciTec 將在 Advanced Battle Management System（ABMS）的資料融合系統中，加入更多經核准的反無人航空系統感測器資料源，以提升任務夥伴的態勢感知與決策能力。這是國防軟體與資料整合合約，不是衛星發射或部署，因此不影響部署總量。",
-      "sources": [
-        { "label": "Firefly SciTec CBC2 合約擴充官方公告", "url": "https://fireflyspace.com/news/fireflys-scitec-expands-contract-with-u-s-air-force-to-add-counter-uas-data-in-advanced-battle-management-system/", "type": "官方" }
-      ]
-    },
-    {
-      "id": "bksy-gen3-pilot-contract-20261008",
-      "date": "2026-10-08",
-      "company": "BlackSky",
-      "program": "Gen-3 On-Demand／Spectra",
-      "category": "合約／地球情報服務",
-      "status": "六位數試點合約",
-      "tone": "positive",
-      "title": "BlackSky 取得新國際情報客戶 Gen-3 試點合約",
-      "summary": "新客戶將透過 Spectra 使用 35 公分解析度 Gen-3 全球任務指派能力；這是一項短期、六位數的 On-Demand 試點合約。",
-      "detail": "BlackSky 於 2026 年 10 月 8 日宣布，取得一個新國際情報客戶的六位數 Gen-3 On-Demand 試點影像服務合約。該客戶可透過 BlackSky Spectra 平台在全球彈性指派任務，取得 35 公分解析度的高解析影像，並將自動化情報輸入跨領域安全工作流程。官方稱此為短履約期試點，未揭露客戶名稱或精確金額；這是影像與分析服務合約，不是新增衛星部署。",
-      "sources": [
-        { "label": "BlackSky Gen-3 試點合約官方公告", "url": "https://blacksky.com/press-releases/blacksky-wins-six-figure-gen-3-on-demand-pilot-contract-with-new-international-intelligence-customer/", "type": "官方" }
+        {
+          "label": "BlackSky HEO 合約官方公告",
+          "url": "https://blacksky.com/press-releases/blacksky-extends-heo-space-domain-awareness-agreement-with-new-seven-figure-non-earth-imaging-contract-featuring-gen-3/",
+          "type": "官方"
+        }
       ]
     },
     {
@@ -196,8 +327,197 @@
       "summary": "Falcon 9 於 10/13 06:33 EDT 發射逾 6,300 磅物資；NASA 於 10/15 確認 Dragon 已對接 ISS。",
       "detail": "NASA 確認 CRS-35 於 2026 年 10 月 13 日美東時間 06:33 自卡納維爾角 SLC-40 發射，Dragon 運送超過 6,300 磅科學研究、補給與設備，包括 ISS 最後一組 Roll-Out Solar Arrays。NASA 的太空站訪問載具紀錄顯示，Dragon 已於 10 月 15 日完成對接。貨物也包含腦部類器官、心臟組織、人工視網膜與新型玻璃等研究；太空船預計停留至 11 月中旬。",
       "sources": [
-        { "label": "NASA CRS-35 發射新聞稿", "url": "https://www.nasa.gov/news-release/nasa-science-cargo-launch-on-35th-spacex-resupply-mission-to-station/", "type": "政府官方" },
-        { "label": "NASA ISS 訪問載具紀錄", "url": "https://www.nasa.gov/international-space-station/space-station-visiting-vehicles/", "type": "政府官方" }
+        {
+          "label": "NASA CRS-35 發射新聞稿",
+          "url": "https://www.nasa.gov/news-release/nasa-science-cargo-launch-on-35th-spacex-resupply-mission-to-station/",
+          "type": "政府官方"
+        },
+        {
+          "label": "NASA ISS 訪問載具紀錄",
+          "url": "https://www.nasa.gov/international-space-station/space-station-visiting-vehicles/",
+          "type": "政府官方"
+        }
+      ]
+    },
+    {
+      "id": "sx-ussf481-window-20261015",
+      "date": "2026-10-15",
+      "company": "SpaceX",
+      "program": "Falcon 9／USSF-481",
+      "category": "時程／國家安全發射",
+      "status": "已發射／首節回收",
+      "tone": "positive",
+      "title": "SpaceX 確認 USSF-481 已發射，首節完成第 28 次飛行",
+      "summary": "官方任務頁確認 10/15 17:01 PT（台北 10/16 08:01）自 Vandenberg 發射，首節降落 Of Course I Still Love You。",
+      "detail": "本次補查 SpaceX USSF-481 任務頁已明確寫為完成式：Falcon 9 於 2026 年 10 月 15 日 17:01 美西夏令時間（10 月 16 日 00:01 UTC；台北 08:01）自 Vandenberg SLC-4E 發射。第一節完成第 28 次飛行並降落 Of Course I Still Love You 無人船。沿用原事件 ID，將先前窗口狀態更新為已發射；這是已存在任務的結果補查，不列為 10/19–21 新發射。官方未公開可供本次採用的載荷部署顆數，不調增任何星座總量。",
+      "sources": [
+        {
+          "label": "SpaceX USSF-481 任務頁",
+          "url": "https://www.spacex.com/launches/ussf481",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "rklb-neutron-2027-revision-20261014",
+      "date": "2026-10-14",
+      "company": "Rocket Lab",
+      "program": "Neutron",
+      "category": "時程／更正回補",
+      "status": "首飛預期改為 2027",
+      "tone": "watch",
+      "title": "Rocket Lab 將 Neutron 首飛預期調整至 2027 年",
+      "summary": "補收 10/14 官方更新，取代目前進度卡上的 Q4 2026；未公布確切日期。",
+      "detail": "Rocket Lab 10/14 官方公告明確把 Neutron 首次發射預期調整為 2027 年。這是本次補查發現的較早漏收資料，並非 10/19–21 新發生的延後。原 2/26 的 Q4 2026 公告保留為歷史紀錄；目前火箭進度與下一次任務改採較新的 2027 年目標，不自行推算季度或確切升空日。",
+      "sources": [
+        {
+          "label": "Rocket Lab Neutron 最新官方時程",
+          "url": "https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-provides-update-neutron-development-and-adjusts",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "sx-sda-tranche1-4-window-20261007",
+      "date": "2026-10-10",
+      "company": "SpaceX",
+      "program": "Falcon 9／SDA Tranche 1 第四次任務",
+      "category": "發射／國家安全任務",
+      "status": "已完成",
+      "tone": "positive",
+      "title": "SDA Tranche 1 第四次任務列入 SpaceX 已完成發射",
+      "summary": "SpaceX 已將任務移入 Completed missions；Falcon 9 自 Vandenberg SLC-4E 發射，首節回收方式為 Landing Zone。",
+      "detail": "SpaceX 官方發射清單於 2026 年 10 月 16 日查核時，已把 SDA’s Fourth Tranche 1 Mission 列入 10 月 10 日 Completed missions，證實任務完成發射階段。官方公開頁仍未列出載荷顆數或逐顆部署結果，因此只把生命週期由時程更新為已完成，不自行推算衛星部署數。",
+      "sources": [
+        {
+          "label": "SpaceX 官方發射清單",
+          "url": "https://www.spacex.com/launches",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "amzn-leo-1000-produced-20261008",
+      "date": "2026-10-08",
+      "company": "Amazon Leo",
+      "program": "Amazon Leo 衛星量產／LE-04",
+      "category": "製造／部署規劃",
+      "status": "已生產逾 1,000 顆；LE-04 NET 11/23",
+      "tone": "positive",
+      "title": "Amazon Leo 量產突破 1,000 顆，LE-04 排定 11 月 23 日 NET",
+      "summary": "Kirkland 工廠已生產超過 1,000 顆；更新後官方任務頁確認目前 14 次任務、396 顆，下一班 LE-04 將由 Ariane 64 部署 36 顆。",
+      "detail": "Amazon 於 2026 年 10 月 8 日表示，Amazon Leo 位於華盛頓州 Kirkland 的量產設施已生產超過 1,000 顆衛星，工廠具備每日 5 顆衛星的產能。Amazon 於 10 月 14 日更新官方任務頁，逐班列出 14 次已完成任務，合計 396 顆，並將下一班明確列為 LE-04：Ariane 64 目標不早於 11 月 23 日自法屬圭亞那發射 36 顆，確切窗口將於接近任務時公布。較新的任務頁提供可加總的完整清單，因此網站維持 396 顆部署總量，並以 LE-04 取代先前只有「未來數週」的模糊規劃。",
+      "sources": [
+        {
+          "label": "Amazon Leo 衛星量產官方專題",
+          "url": "https://www.aboutamazon.com/stories/how-amazon-leo-builds-satellites",
+          "type": "官方"
+        },
+        {
+          "label": "Amazon Leo 官方任務更新",
+          "url": "https://www.aboutamazon.com/news/innovation-at-amazon/project-kuiper-satellite-rocket-launch-progress-updates",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "bksy-gen3-pilot-contract-20261008",
+      "date": "2026-10-08",
+      "company": "BlackSky",
+      "program": "Gen-3 On-Demand／Spectra",
+      "category": "合約／地球情報服務",
+      "status": "六位數試點合約",
+      "tone": "positive",
+      "title": "BlackSky 取得新國際情報客戶 Gen-3 試點合約",
+      "summary": "新客戶將透過 Spectra 使用 35 公分解析度 Gen-3 全球任務指派能力；這是一項短期、六位數的 On-Demand 試點合約。",
+      "detail": "BlackSky 於 2026 年 10 月 8 日宣布，取得一個新國際情報客戶的六位數 Gen-3 On-Demand 試點影像服務合約。該客戶可透過 BlackSky Spectra 平台在全球彈性指派任務，取得 35 公分解析度的高解析影像，並將自動化情報輸入跨領域安全工作流程。官方稱此為短履約期試點，未揭露客戶名稱或精確金額；這是影像與分析服務合約，不是新增衛星部署。",
+      "sources": [
+        {
+          "label": "BlackSky Gen-3 試點合約官方公告",
+          "url": "https://blacksky.com/press-releases/blacksky-wins-six-figure-gen-3-on-demand-pilot-contract-with-new-international-intelligence-customer/",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "bo-constellation-park-20261008",
+      "date": "2026-10-08",
+      "company": "Blue Origin",
+      "program": "Constellation Park／TeraWave／Quartz",
+      "category": "製造／基礎設施",
+      "status": "130 萬平方英尺／逾 2,000 個工作機會",
+      "tone": "positive",
+      "title": "Blue Origin 公布德州 Constellation Park 衛星製造園區",
+      "summary": "Hutto 新園區將成為 TeraWave、Quartz 與衛星子系統中央生產基地；Blue Origin 計畫十年內創造超過 2,000 個工作機會。",
+      "detail": "Blue Origin 於 2026 年 10 月 8 日宣布在德州 Hutto 建立 Constellation Park。這座多棟建築組成的園區規劃總面積 130 萬平方英尺，將成為 TeraWave 衛星通訊網路、Quartz 地面天線，以及太陽能陣列、航電與通訊等衛星子系統的中央生產基地。公司表示，TeraWave 目標提供最高每秒 6 Tbps 的對稱資料能力；園區預計在十年內創造超過 2,000 個工作機會，並擴大 Blue Origin 目前約 550 名德州員工的規模。這是製造與供應鏈里程碑，不是已完成的發射或衛星部署。",
+      "sources": [
+        {
+          "label": "Blue Origin Constellation Park 官方公告",
+          "url": "https://www.blueorigin.com/news/blue-origin-announces-new-texas-manufacturing-campus",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "fly-scitec-cuas-cbc2-20261008",
+      "date": "2026-10-08",
+      "company": "Firefly Aerospace",
+      "program": "SciTec／CBC2／ABMS",
+      "category": "合約／國防資料融合",
+      "status": "追加 150 萬美元／總值 3,100 萬美元",
+      "tone": "positive",
+      "title": "Firefly SciTec 擴大美空軍 CBC2 合約，加入反無人機資料",
+      "summary": "合約追加 150 萬美元、總值增至 3,100 萬美元；SciTec 將把獲核准的反無人機感測器資料源整合進 ABMS 資料融合系統。",
+      "detail": "Firefly Aerospace 旗下 SciTec 於 2026 年 10 月 8 日宣布，美國空軍擴大 Cloud-Based Command and Control（CBC2）合約，新增 150 萬美元，使合約總值達 3,100 萬美元。SciTec 將在 Advanced Battle Management System（ABMS）的資料融合系統中，加入更多經核准的反無人航空系統感測器資料源，以提升任務夥伴的態勢感知與決策能力。這是國防軟體與資料整合合約，不是衛星發射或部署，因此不影響部署總量。",
+      "sources": [
+        {
+          "label": "Firefly SciTec CBC2 合約擴充官方公告",
+          "url": "https://fireflyspace.com/news/fireflys-scitec-expands-contract-with-u-s-air-force-to-add-counter-uas-data-in-advanced-battle-management-system/",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "sx-crew12-undock-return-20261007",
+      "date": "2026-10-08",
+      "company": "SpaceX",
+      "program": "Dragon／Crew-12",
+      "category": "人員運輸／返回",
+      "status": "已完成／安全濺落",
+      "tone": "positive",
+      "title": "Crew-12 安全濺落洛杉磯外海，237 天任務完成",
+      "summary": "Crew Dragon Freedom 於美西 10/8 08:34 在洛杉磯外海安全濺落；四名成員完成 237 天任務、超過 3,792 圈繞地飛行。",
+      "detail": "NASA 於 2026 年 10 月 8 日確認 SpaceX Crew-12 已安全返回地球。Crew Dragon Freedom 於美西夏令時間上午 8:34（台北 10 月 8 日 23:34）在洛杉磯外海太平洋濺落，Jessica Meir、Jack Hathaway、Sophie Adenot 與 Andrey Fedyaev 隨後由 SpaceX 回收船團隊接回。NASA 表示，四名成員在 237 天任務期間飛行超過 1 億英里並完成超過 3,792 圈繞地飛行；這筆事件因此由返航目標更新為已完成里程碑。",
+      "sources": [
+        {
+          "label": "NASA Crew-12 安全濺落新聞稿",
+          "url": "https://www.nasa.gov/news-release/nasas-spacex-crew-12-splashes-down-sets-briefing-to-discuss-mission/",
+          "type": "政府官方"
+        },
+        {
+          "label": "NASA Crew-12 濺落即時公告",
+          "url": "https://www.nasa.gov/blogs/commercialcrew/2026/10/08/nasas-spacex-crew-12-dragon-splashes-down-at-1134-a-m-edt/",
+          "type": "政府官方"
+        }
+      ]
+    },
+    {
+      "id": "sx-starlink-mobile-spectrum-20261008",
+      "date": "2026-10-08",
+      "company": "SpaceX",
+      "program": "Starlink Mobile",
+      "category": "合作／頻譜與監管",
+      "status": "800 MHz 收購協議／FCC 核准 15,000 顆 Gen2",
+      "tone": "positive",
+      "title": "Starlink Mobile 公布低頻頻譜協議與 Gen2 監管里程碑",
+      "summary": "SpaceX 簽署最多 14 MHz 成對 800 MHz 全國低頻頻譜收購協議；FCC 另核准可發射 15,000 顆針對全球 2 GHz 頻譜優化的 Gen2 衛星。",
+      "detail": "SpaceX 於 2026 年 10 月 8 日公布 Starlink Mobile 兩項里程碑。第一，公司已簽署協議，擬收購全美最多 14 MHz 成對 800 MHz 低頻頻譜授權組合；該交易仍需最終 FCC 核准。SpaceX 表示，這組低頻頻譜將與全球 2 GHz 中頻能力互補，支援衛星直連手機與地面網路的彈性架構。第二，FCC 已於同週核准 Starlink Mobile 的 Gen2 星系申請，授權 SpaceX 發射 15,000 顆針對全球 2 GHz 頻譜優化的衛星。這是頻譜與監管里程碑，不等於已完成部署，因此不調整目前在軌總量。",
+      "sources": [
+        {
+          "label": "SpaceX Starlink Mobile 官方更新",
+          "url": "https://www.spacex.com/updates/nasa-certification-11-10-2020",
+          "type": "官方"
+        }
       ]
     },
     {
@@ -212,8 +532,45 @@
       "summary": "Falcon Heavy 於台北 10/2 11:53 自 LC-39A 發射 NROL-97；SpaceX 已列為完成任務，兩枚側助推器分別降落 LZ-1、LZ-2，中央核心按計畫耗盡。",
       "detail": "SpaceX 官方發射清單已將 NROL-97 列入 2026 年 10 月 2 日完成任務。Falcon Heavy 於 03:53 UTC（台北 11:53）自佛州甘迺迪太空中心 LC-39A 升空。任務頁顯示，兩枚側助推器在分離後執行返場，約升空後 7 分 47 秒分別降落於卡納維爾角太空軍基地 LZ-1 與 LZ-2；中央核心採耗盡方式執行。NROL-97 為美國國家偵察局任務，採用的一手公開來源未揭露載荷內容或部署數量，因此本次只記錄發射與回收里程碑，不推算衛星部署總量。",
       "sources": [
-        { "label": "SpaceX NROL-97 官方任務頁", "url": "https://www.spacex.com/launches/nrol97/", "type": "官方" },
-        { "label": "SpaceX 官方發射清單", "url": "https://www.spacex.com/launches", "type": "官方" }
+        {
+          "label": "SpaceX NROL-97 官方任務頁",
+          "url": "https://www.spacex.com/launches/nrol97/",
+          "type": "官方"
+        },
+        {
+          "label": "SpaceX 官方發射清單",
+          "url": "https://www.spacex.com/launches",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "spir-boulder-first-three-20261001",
+      "date": "2026-10-01",
+      "company": "Spire Global",
+      "program": "Boulder 製造／Transporter-18",
+      "category": "發射／製造里程碑回補",
+      "status": "3 顆成功發射",
+      "tone": "positive",
+      "title": "Spire 首批美國 Boulder 製造的 3 顆衛星已發射",
+      "summary": "補收 10/2 公司公告確認的 Transporter-18 任務；與原 8/12 年累計 29 顆檢查點分列，僅得出至少 32 顆下限。",
+      "detail": "Spire 10/2 公告確認，Boulder 工廠製造的首批 3 顆衛星已搭乘 Transporter-18 發射。SpaceX 任務日為 10/1；這是本次查核發現的歷史漏收，不列為 10/19–21 的新發射。3 顆服務國家安全需求，公告未公開客戶或更完整載荷細節。原 8/12 官方結果已確認當年累計 29 顆，本次新增確認的 3 顆僅使已知年度發射下限達至少 32 顆，不宣稱這是完整全年累計，也不是即時在軌或營運衛星數。",
+      "sources": [
+        {
+          "label": "Spire Boulder 首批三顆官方公告",
+          "url": "https://ir.spire.com/news-events/press-releases/detail/314/spire-global-launches-first-three-satellites-built-at-u-s",
+          "type": "官方"
+        },
+        {
+          "label": "Spire 8/12 年度累計基準",
+          "url": "https://ir.spire.com/news-events/press-releases/detail/309/spire-global-announces-second-quarter-2026-results",
+          "type": "官方"
+        },
+        {
+          "label": "SpaceX Transporter-18 任務",
+          "url": "https://www.spacex.com/launches/transporter18/",
+          "type": "官方"
+        }
       ]
     },
     {
@@ -228,101 +585,11 @@
       "summary": "Starcloud 的 SC-1L 將搭載 Elytra，在月球軌道處理 Solux 影像並回傳；任務隨 Firefly 第三次月球任務 NET 2028，Elytra 預計留軌五年。",
       "detail": "Firefly Aerospace 於 2026 年 9 月 30 日宣布與 Starcloud 簽署商業載荷協議。Starcloud 的 SC-1L 運算載荷將搭載 Firefly Elytra 軌道載具，讀取 Solux 視覺系統資料，在月球軌道執行高效能 AI 運算後把處理結果回傳地球。任務將加入 Firefly 第三次月球任務，官方時程是不早於 2028 年；Elytra 會先擔任 Blue Ghost 月球著陸器的轉移載具與通訊中繼，任務完成後留在月球軌道五年，支援 Starcloud 示範及其他客戶載荷與成像作業。官方未公布確切發射日期、火箭或載荷重量，因此網站只採用 NET 2028 的年份級時間窗，也不把這筆合作計入已部署衛星總量。",
       "sources": [
-        { "label": "Firefly Aerospace 官方 Starcloud／Elytra 公告", "url": "https://fireflyspace.com/news/firefly-aerospace-signs-starcloud-as-commercial-customer-demonstrating-data-center-capabilities-around-the-moon/", "type": "官方" }
-      ]
-    },
-    {
-      "id": "irdm-rklb-shareholder-approval-20260924",
-      "date": "2026-09-24",
-      "company": "Iridium",
-      "program": "Rocket Lab 收購 Iridium",
-      "category": "併購／股東表決里程碑",
-      "status": "99.6% 投票贊成／待監管核准",
-      "tone": "positive",
-      "title": "Iridium 股東核准 Rocket Lab 收購案，目標 2027 年中完成",
-      "summary": "約 99.6% 的出席投票贊成，代表約 81.0% 已發行普通股；交易仍待剩餘監管核准與一般交割條件。",
-      "detail": "Iridium 與 Rocket Lab 於 2026 年 9 月 24 日宣布，Iridium 特別股東會已通過先前公布的合併協議。約 99.6% 的出席投票贊成，代表約 81.0% 的已發行普通股。依交易條款，Iridium 股東在交割時每股將取得 27 美元現金，以及依設有上下限的換股比例計算之 Rocket Lab 普通股；交易的名目價值為每股 54 美元。雙方目前預期交易於 2027 年中完成，但仍須取得剩餘監管核准並滿足一般交割條件，因此不能視為已完成收購。這是企業交易里程碑，不是衛星發射或部署，故不調整部署總量。",
-      "sources": [
-        { "label": "Iridium 官方股東表決公告", "url": "https://investor.iridium.com/2026-09-24-Iridium-Stockholders-Approve-Acquisition-by-Rocket-Lab", "type": "官方" },
-        { "label": "Rocket Lab 官方股東表決公告", "url": "https://investors.rocketlabcorp.com/news-releases/news-release-details/iridium-stockholders-approve-acquisition-rocket-lab", "type": "官方" }
-      ]
-    },
-    {
-      "id": "voyg-exobiosphere-ohts-iss-campaigns-20260924",
-      "date": "2026-09-24",
-      "company": "Voyager Technologies",
-      "program": "ISS／OHTS／Exobiosphere",
-      "category": "合作／在軌研究任務",
-      "status": "OHTS 2027-04 安裝／兩項任務已排程",
-      "tone": "positive",
-      "title": "Voyager 與 Exobiosphere 增訂兩項 ISS 微重力藥物篩選任務",
-      "summary": "OHTS 平台預定 2027 年 4 月安裝；新增研究任務分別規劃於 2027 年 6 月與 8–9 月搭乘 ISS 商業補給任務。",
-      "detail": "Voyager Technologies 與 Exobiosphere 於 2026 年 9 月 24 日宣布，新增兩項使用 Orbital High-Throughput Screening in Microgravity（OHTS）平台的研究任務。OHTS 是可自動執行藥物篩選的中甲板置物櫃級系統，預定於 2027 年 4 月安裝至國際太空站；兩項新增研究任務將分別於 2027 年 6 月，以及 2027 年 8 至 9 月的 ISS Program Commercial Resupply Services 任務運送。Voyager Europe 負責計畫管理、任務整合與物資供應，Nanoracks／Voyager Space Solutions 負責最後載荷處理、NASA 飛前準備與地面控制台作業。官方只提供月份或月份區間，未公布確切日期、補給班次或火箭，因此網站保留月份級時程；這些是 ISS 研究載荷任務，不計入衛星星系部署總量。",
-      "sources": [
-        { "label": "Voyager 官方 OHTS／ISS 任務公告", "url": "https://voyagertechnologies.com/press-releases/commercial-demand-for-microgravity-drug-discovery-accelerates-as-exobiosphere-and-voyager-add-two-missions-to-the-iss/", "type": "官方" }
-      ]
-    },
-    {
-      "id": "sx-crew13-faa-window-20260924",
-      "date": "2026-09-24",
-      "company": "SpaceX",
-      "program": "Falcon 9／Dragon／Crew-13",
-      "category": "發射／載人任務",
-      "status": "已發射並完成對接／7 小時 55 分",
-      "tone": "positive",
-      "title": "Crew-13 成功發射並與 ISS 對接",
-      "summary": "Falcon 9 於 10/1 11:10 EDT 發射 Dragon；19:05 EDT 對接 Harmony 前向端口，7 小時 55 分創美國太空船最快發射至對接紀錄。",
-      "detail": "NASA 表示，SpaceX Crew-13 於 2026 年 10 月 1 日美東時間上午 11:10，自佛州卡納維爾角太空軍基地 40 號發射台升空。Dragon 搭載 Jessica Watkins、Luke Delaney、Joshua Kutryk 與 Sergey Teteryatnikov，並於同日晚間 7:05 對接國際太空站 Harmony 模組前向端口。自發射至對接共 7 小時 55 分，NASA 稱為美國太空船前往 ISS 的最快紀錄。本事件不影響衛星部署總量。",
-      "sources": [
-        { "label": "NASA Crew-13 發射公告", "url": "https://www.nasa.gov/news-release/nasas-spacex-crew-13-launches-to-international-space-station/", "type": "政府官方" },
-        { "label": "NASA Crew-13 對接更新", "url": "https://www.nasa.gov/blogs/spacestation/2026/10/01/dragon-docks-bringing-spacex-crew-13-to-station/", "type": "政府官方" },
-        { "label": "SpaceX Crew-13 任務頁", "url": "https://www.spacex.com/launches/crew13/", "type": "官方" }
-      ]
-    },
-    {
-      "id": "sx-r3-faa-backup-revision-20260924",
-      "date": "2026-09-24",
-      "company": "SpaceX",
-      "program": "Falcon 9／R-3",
-      "category": "監管時程",
-      "status": "FAA 備援窗口延後 1 小時／非最終升空承諾",
-      "tone": "watch",
-      "title": "FAA 將 SpaceX R-3 備援窗口改為台北 9 月 27 日 20:49 起",
-      "summary": "FAA 9/24 計畫仍列主要窗口台北 9/26 19:56–23:39；備援改為 9/27 20:49–23:25，較先前紀錄延後 1 小時。R-3 仍未與具名任務配對。",
-      "detail": "FAA ATCSCC 9/24 Operations Plan Advisory 018 將 SpaceX R-3 的主要 planned launch/reentry 窗口維持在 9/26 11:56–15:39 UTC（台北 19:56–23:39），但備援改列 9/27 12:49–15:25 UTC（台北 20:49–23:25）；相較 9/17 採用的 FAA 歷史公告，備援起點延後 1 小時。R-3 是 FAA 公告代號，採用來源沒有列出火箭、載荷或可與 SpaceX 具名任務核對的資訊，因此不把它自行合併到 USSF-385 或其他任務。這是空域規劃窗口，不是最終升空承諾，也不是已完成的衛星部署。",
-      "sources": [
-        { "label": "FAA 09/24 Operations Plan Advisory 018", "url": "https://www.fly.faa.gov/adv/adv_spt?s=09/1000", "type": "政府官方" }
-      ]
-    },
-    {
-      "id": "sx-transporter18-faa-window-20260924",
-      "date": "2026-09-24",
-      "company": "SpaceX",
-      "program": "Falcon 9／Transporter-18",
-      "category": "發射／共乘任務",
-      "status": "已發射／3 項 NASA 支持小型太空器升空",
-      "tone": "positive",
-      "title": "Transporter-18 成功發射，NASA 確認 3 項小型太空器升空",
-      "summary": "Falcon 9 於 10/1 11:32 PDT 自 Vandenberg 發射；NASA 確認 ASCENT、SPRITE、SSPICY 升空，但未確認全部 130 項載荷完成部署。",
-      "detail": "NASA 表示，SpaceX Falcon 9 於 2026 年 10 月 1 日太平洋時間上午 11:32，自加州范登堡太空軍基地 4E 發射台執行 Transporter-18。NASA 確認三項受支持的小型太空器隨任務升空：ASCENT Propulsion Dual Mode CubeSat、SPRITE CubeSat，以及 SSPICY／Otter 24C。官方來源尚未逐項確認先前公布的 130 項載荷皆已完成部署，因此本次不把 130 項載荷整批計入衛星部署總量。",
-      "sources": [
-        { "label": "NASA Transporter-18 小型太空器公告", "url": "https://www.nasa.gov/blogs/smallsatellites/2026/10/01/nasa-smallsats-launch-to-advance-science-technology-orbital-operations/", "type": "政府官方" },
-        { "label": "SpaceX Transporter-18 任務頁", "url": "https://www.spacex.com/launches/transporter18/", "type": "官方" }
-      ]
-    },
-    {
-      "id": "vsat-usmc-mecs2-task-order-20260923",
-      "date": "2026-09-23",
-      "company": "Viasat",
-      "program": "MECS2／USMC 多軌 SATCOM",
-      "category": "合約／多軌衛星通訊",
-      "status": "初始 $42M 訂單／七年 IDIQ 上限 $307M",
-      "tone": "positive",
-      "title": "Viasat 取得美國海軍陸戰隊 MECS2 首筆 4,200 萬美元訂單",
-      "summary": "Inmarsat Government 獲美國太空軍 CSCO 的 MECS2 合約；首筆任務訂單 4,200 萬美元，七年 IDIQ 上限 3.07 億美元。",
-      "detail": "Viasat 於 9/23 宣布，旗下 Inmarsat Government 取得美國太空軍 Commercial Satellite Communications Office 的 Marine Enterprise Commercial Satcom Satellite Services（MECS2）合約，為美國海軍陸戰隊提供端到端、全球且受管理的衛星通訊服務。公司已取得首筆 4,200 萬美元任務訂單；3.07 億美元是七年 IDIQ 合約的最高上限，不代表已確定全額收入。服務涵蓋 L、Ku、Ka 頻段，結合 Viasat 與合作夥伴的多軌衛星，包括 ViaSat-3 網路、地面安全資料傳輸，以及全年無休的 NOC／SOC 支援。這是通訊服務合約，不是新的衛星發射或部署，因此部署總量不變。",
-      "sources": [
-        { "label": "Viasat 官方 MECS2 合約公告", "url": "https://investors.viasat.com/news-releases/news-release-details/viasat-wins-first-task-order-award-part-307-million-ceiling-us", "type": "官方" }
+        {
+          "label": "Firefly Aerospace 官方 Starcloud／Elytra 公告",
+          "url": "https://fireflyspace.com/news/firefly-aerospace-signs-starcloud-as-commercial-customer-demonstrating-data-center-capabilities-around-the-moon/",
+          "type": "官方"
+        }
       ]
     },
     {
@@ -345,6 +612,188 @@
         {
           "label": "SpaceX Starship Flight 14 任務頁",
           "url": "https://www.spacex.com/launches/starship-flight-14",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "rklb-owlright-target-20260922",
+      "date": "2026-09-26",
+      "company": "Rocket Lab",
+      "program": "Electron／Owlright, Owlright, Owlright",
+      "category": "發射／部署",
+      "status": "成功部署",
+      "tone": "positive",
+      "title": "Owlright 任務成功部署 Synspective 第 13 顆 StriX",
+      "summary": "Electron 於 9/26 00:39 UTC 自紐西蘭 LC-1 發射，將 1 顆 StriX SAR 衛星部署至 559 公里低軌。",
+      "detail": "Rocket Lab 的「Owlright, Owlright, Owlright」任務於 2026 年 9 月 26 日 00:39 UTC（台北 08:39）自紐西蘭 Launch Complex 1 發射，Electron 將 Synspective 第 13 顆 StriX 合成孔徑雷達地球觀測衛星部署至 559 公里、傾角 37 度的低地球軌道。Rocket Lab 表示，雙方自 2020 年合作以來的 13 次 StriX 專屬部署均成功，另有 14 次任務排入 2030 年前的星座建置計畫。官方投資人關係公告將本次稱為第 97 次 Electron 發射，但任務頁仍寫第 96 次 overall launch；因兩處序號互相衝突，網站不在標題或摘要採用該發射序號，只發布一致的日期、時間、載荷、軌道與部署結果。第 13 顆是累計部署序數，不等同目前仍在軌或已商轉衛星數，因此不加入既有七組星系總量。",
+      "sources": [
+        {
+          "label": "Rocket Lab 官方任務成功公告",
+          "url": "https://investors.rocketlabcorp.com/news-releases/news-release-details/mission-success-rocket-lab-launches-97th-electron-mission",
+          "type": "官方"
+        },
+        {
+          "label": "Rocket Lab 官方 Owlright 任務頁",
+          "url": "https://rocketlabcorp.com/missions/launches/owlright-owlright-owlright/",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "sx-ussf385-target-20260917",
+      "date": "2026-09-26",
+      "company": "SpaceX",
+      "program": "Falcon 9／USSF-385",
+      "category": "發射／國安任務",
+      "status": "已完成發射／載荷細節未公開",
+      "tone": "positive",
+      "title": "USSF-385 已完成 Falcon 9 發射",
+      "summary": "SpaceX 官方發射清單已把 USSF-385 列入 9/26 完成任務；Falcon 9 自 Vandenberg SLC-4E 發射，載荷數與目標軌道仍未公開。",
+      "detail": "9/28 重新查核時，SpaceX 官方發射清單已把 USSF-385 移入 Completed missions，日期列為 2026 年 9 月 26 日，載具為 Falcon 9，發射場為 Vandenberg SLC-4E，著陸場欄位列為 droneship。原任務頁的備援起點為台北 9/27 20:49，未另列備援結束時間；網站沿用原穩定事件 ID，將先前的目標窗口更新為已完成發射，並自未來任務清單移除。SpaceX 公開頁面仍未揭露載荷名稱、載荷數或目標軌道，因此不推定衛星部署數，也不把 FAA 的 R-3 代號自行合併為同一任務；R-3 的歷史監管窗口紀錄繼續獨立保留。",
+      "sources": [
+        {
+          "label": "SpaceX 官方發射清單",
+          "url": "https://www.spacex.com/launches",
+          "type": "官方"
+        },
+        {
+          "label": "SpaceX 官方 USSF-385 任務頁",
+          "url": "https://www.spacex.com/launches/ussf385",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "irdm-rklb-shareholder-approval-20260924",
+      "date": "2026-09-24",
+      "company": "Iridium",
+      "program": "Rocket Lab 收購 Iridium",
+      "category": "併購／股東表決里程碑",
+      "status": "99.6% 投票贊成／待監管核准",
+      "tone": "positive",
+      "title": "Iridium 股東核准 Rocket Lab 收購案，目標 2027 年中完成",
+      "summary": "約 99.6% 的出席投票贊成，代表約 81.0% 已發行普通股；交易仍待剩餘監管核准與一般交割條件。",
+      "detail": "Iridium 與 Rocket Lab 於 2026 年 9 月 24 日宣布，Iridium 特別股東會已通過先前公布的合併協議。約 99.6% 的出席投票贊成，代表約 81.0% 的已發行普通股。依交易條款，Iridium 股東在交割時每股將取得 27 美元現金，以及依設有上下限的換股比例計算之 Rocket Lab 普通股；交易的名目價值為每股 54 美元。雙方目前預期交易於 2027 年中完成，但仍須取得剩餘監管核准並滿足一般交割條件，因此不能視為已完成收購。這是企業交易里程碑，不是衛星發射或部署，故不調整部署總量。",
+      "sources": [
+        {
+          "label": "Iridium 官方股東表決公告",
+          "url": "https://investor.iridium.com/2026-09-24-Iridium-Stockholders-Approve-Acquisition-by-Rocket-Lab",
+          "type": "官方"
+        },
+        {
+          "label": "Rocket Lab 官方股東表決公告",
+          "url": "https://investors.rocketlabcorp.com/news-releases/news-release-details/iridium-stockholders-approve-acquisition-rocket-lab",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "sx-crew13-faa-window-20260924",
+      "date": "2026-09-24",
+      "company": "SpaceX",
+      "program": "Falcon 9／Dragon／Crew-13",
+      "category": "發射／載人任務",
+      "status": "已發射並完成對接／7 小時 55 分",
+      "tone": "positive",
+      "title": "Crew-13 成功發射並與 ISS 對接",
+      "summary": "Falcon 9 於 10/1 11:10 EDT 發射 Dragon；19:05 EDT 對接 Harmony 前向端口，7 小時 55 分創美國太空船最快發射至對接紀錄。",
+      "detail": "NASA 表示，SpaceX Crew-13 於 2026 年 10 月 1 日美東時間上午 11:10，自佛州卡納維爾角太空軍基地 40 號發射台升空。Dragon 搭載 Jessica Watkins、Luke Delaney、Joshua Kutryk 與 Sergey Teteryatnikov，並於同日晚間 7:05 對接國際太空站 Harmony 模組前向端口。自發射至對接共 7 小時 55 分，NASA 稱為美國太空船前往 ISS 的最快紀錄。本事件不影響衛星部署總量。",
+      "sources": [
+        {
+          "label": "NASA Crew-13 發射公告",
+          "url": "https://www.nasa.gov/news-release/nasas-spacex-crew-13-launches-to-international-space-station/",
+          "type": "政府官方"
+        },
+        {
+          "label": "NASA Crew-13 對接更新",
+          "url": "https://www.nasa.gov/blogs/spacestation/2026/10/01/dragon-docks-bringing-spacex-crew-13-to-station/",
+          "type": "政府官方"
+        },
+        {
+          "label": "SpaceX Crew-13 任務頁",
+          "url": "https://www.spacex.com/launches/crew13/",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "sx-r3-faa-backup-revision-20260924",
+      "date": "2026-09-24",
+      "company": "SpaceX",
+      "program": "Falcon 9／R-3",
+      "category": "監管時程",
+      "status": "FAA 備援窗口延後 1 小時／非最終升空承諾",
+      "tone": "watch",
+      "title": "FAA 將 SpaceX R-3 備援窗口改為台北 9 月 27 日 20:49 起",
+      "summary": "FAA 9/24 計畫仍列主要窗口台北 9/26 19:56–23:39；備援改為 9/27 20:49–23:25，較先前紀錄延後 1 小時。R-3 仍未與具名任務配對。",
+      "detail": "FAA ATCSCC 9/24 Operations Plan Advisory 018 將 SpaceX R-3 的主要 planned launch/reentry 窗口維持在 9/26 11:56–15:39 UTC（台北 19:56–23:39），但備援改列 9/27 12:49–15:25 UTC（台北 20:49–23:25）；相較 9/17 採用的 FAA 歷史公告，備援起點延後 1 小時。R-3 是 FAA 公告代號，採用來源沒有列出火箭、載荷或可與 SpaceX 具名任務核對的資訊，因此不把它自行合併到 USSF-385 或其他任務。這是空域規劃窗口，不是最終升空承諾，也不是已完成的衛星部署。",
+      "sources": [
+        {
+          "label": "FAA 09/24 Operations Plan Advisory 018",
+          "url": "https://www.fly.faa.gov/adv/adv_spt?s=09/1000",
+          "type": "政府官方"
+        }
+      ]
+    },
+    {
+      "id": "sx-transporter18-faa-window-20260924",
+      "date": "2026-09-24",
+      "company": "SpaceX",
+      "program": "Falcon 9／Transporter-18",
+      "category": "發射／共乘任務",
+      "status": "已發射／3 項 NASA 支持小型太空器升空",
+      "tone": "positive",
+      "title": "Transporter-18 成功發射，NASA 確認 3 項小型太空器升空",
+      "summary": "Falcon 9 於 10/1 11:32 PDT 自 Vandenberg 發射；NASA 確認 ASCENT、SPRITE、SSPICY 升空，但未確認全部 130 項載荷完成部署。",
+      "detail": "NASA 表示，SpaceX Falcon 9 於 2026 年 10 月 1 日太平洋時間上午 11:32，自加州范登堡太空軍基地 4E 發射台執行 Transporter-18。NASA 確認三項受支持的小型太空器隨任務升空：ASCENT Propulsion Dual Mode CubeSat、SPRITE CubeSat，以及 SSPICY／Otter 24C。官方來源尚未逐項確認先前公布的 130 項載荷皆已完成部署，因此本次不把 130 項載荷整批計入衛星部署總量。",
+      "sources": [
+        {
+          "label": "NASA Transporter-18 小型太空器公告",
+          "url": "https://www.nasa.gov/blogs/smallsatellites/2026/10/01/nasa-smallsats-launch-to-advance-science-technology-orbital-operations/",
+          "type": "政府官方"
+        },
+        {
+          "label": "SpaceX Transporter-18 任務頁",
+          "url": "https://www.spacex.com/launches/transporter18/",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "voyg-exobiosphere-ohts-iss-campaigns-20260924",
+      "date": "2026-09-24",
+      "company": "Voyager Technologies",
+      "program": "ISS／OHTS／Exobiosphere",
+      "category": "合作／在軌研究任務",
+      "status": "OHTS 2027-04 安裝／兩項任務已排程",
+      "tone": "positive",
+      "title": "Voyager 與 Exobiosphere 增訂兩項 ISS 微重力藥物篩選任務",
+      "summary": "OHTS 平台預定 2027 年 4 月安裝；新增研究任務分別規劃於 2027 年 6 月與 8–9 月搭乘 ISS 商業補給任務。",
+      "detail": "Voyager Technologies 與 Exobiosphere 於 2026 年 9 月 24 日宣布，新增兩項使用 Orbital High-Throughput Screening in Microgravity（OHTS）平台的研究任務。OHTS 是可自動執行藥物篩選的中甲板置物櫃級系統，預定於 2027 年 4 月安裝至國際太空站；兩項新增研究任務將分別於 2027 年 6 月，以及 2027 年 8 至 9 月的 ISS Program Commercial Resupply Services 任務運送。Voyager Europe 負責計畫管理、任務整合與物資供應，Nanoracks／Voyager Space Solutions 負責最後載荷處理、NASA 飛前準備與地面控制台作業。官方只提供月份或月份區間，未公布確切日期、補給班次或火箭，因此網站保留月份級時程；這些是 ISS 研究載荷任務，不計入衛星星系部署總量。",
+      "sources": [
+        {
+          "label": "Voyager 官方 OHTS／ISS 任務公告",
+          "url": "https://voyagertechnologies.com/press-releases/commercial-demand-for-microgravity-drug-discovery-accelerates-as-exobiosphere-and-voyager-add-two-missions-to-the-iss/",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "vsat-usmc-mecs2-task-order-20260923",
+      "date": "2026-09-23",
+      "company": "Viasat",
+      "program": "MECS2／USMC 多軌 SATCOM",
+      "category": "合約／多軌衛星通訊",
+      "status": "初始 $42M 訂單／七年 IDIQ 上限 $307M",
+      "tone": "positive",
+      "title": "Viasat 取得美國海軍陸戰隊 MECS2 首筆 4,200 萬美元訂單",
+      "summary": "Inmarsat Government 獲美國太空軍 CSCO 的 MECS2 合約；首筆任務訂單 4,200 萬美元，七年 IDIQ 上限 3.07 億美元。",
+      "detail": "Viasat 於 9/23 宣布，旗下 Inmarsat Government 取得美國太空軍 Commercial Satellite Communications Office 的 Marine Enterprise Commercial Satcom Satellite Services（MECS2）合約，為美國海軍陸戰隊提供端到端、全球且受管理的衛星通訊服務。公司已取得首筆 4,200 萬美元任務訂單；3.07 億美元是七年 IDIQ 合約的最高上限，不代表已確定全額收入。服務涵蓋 L、Ku、Ka 頻段，結合 Viasat 與合作夥伴的多軌衛星，包括 ViaSat-3 網路、地面安全資料傳輸，以及全年無休的 NOC／SOC 支援。這是通訊服務合約，不是新的衛星發射或部署，因此部署總量不變。",
+      "sources": [
+        {
+          "label": "Viasat 官方 MECS2 合約公告",
+          "url": "https://investors.viasat.com/news-releases/news-release-details/viasat-wins-first-task-order-award-part-307-million-ceiling-us",
           "type": "官方"
         }
       ]
@@ -388,25 +837,20 @@
       ]
     },
     {
-      "id": "rklb-owlright-target-20260922",
-      "date": "2026-09-26",
-      "company": "Rocket Lab",
-      "program": "Electron／Owlright, Owlright, Owlright",
-      "category": "發射／部署",
-      "status": "成功部署",
+      "id": "gsat-nemea-ground-station-expansion-20260921",
+      "date": "2026-09-21",
+      "company": "Globalstar",
+      "program": "C-3／Nemea 地面站",
+      "category": "基礎設施／里程碑",
+      "status": "擴建完工／commissioning 中",
       "tone": "positive",
-      "title": "Owlright 任務成功部署 Synspective 第 13 顆 StriX",
-      "summary": "Electron 於 9/26 00:39 UTC 自紐西蘭 LC-1 發射，將 1 顆 StriX SAR 衛星部署至 559 公里低軌。",
-      "detail": "Rocket Lab 的「Owlright, Owlright, Owlright」任務於 2026 年 9 月 26 日 00:39 UTC（台北 08:39）自紐西蘭 Launch Complex 1 發射，Electron 將 Synspective 第 13 顆 StriX 合成孔徑雷達地球觀測衛星部署至 559 公里、傾角 37 度的低地球軌道。Rocket Lab 表示，雙方自 2020 年合作以來的 13 次 StriX 專屬部署均成功，另有 14 次任務排入 2030 年前的星座建置計畫。官方投資人關係公告將本次稱為第 97 次 Electron 發射，但任務頁仍寫第 96 次 overall launch；因兩處序號互相衝突，網站不在標題或摘要採用該發射序號，只發布一致的日期、時間、載荷、軌道與部署結果。第 13 顆是累計部署序數，不等同目前仍在軌或已商轉衛星數，因此不加入既有七組星系總量。",
+      "title": "Globalstar 完成希臘 Nemea 地面站擴建，追蹤天線增至 6 座",
+      "summary": "新增 3 座 6 米追蹤天線，使 Nemea 站由 3 座增至 6 座；新設施已進入 commissioning，支援第三代 C-3 行動衛星系統。",
+      "detail": "Globalstar 於 2026 年 9 月 21 日宣布完成希臘 Nemea 地面站擴建，並進入新設施 commissioning 階段。工程自 2025 年 9 月開始，新增 3 座 6 米追蹤天線，使站內基礎設施由原本 3 座增至 6 座，支援第三代 C-3 行動衛星系統。公司表示，更廣泛的地面網路更新計畫約包含 90 座新追蹤天線，分布於約 35 個地面站、25 個國家與地區。這是地面基礎設施里程碑，不是新的衛星部署事件，因此不調整在軌或已部署衛星數。",
       "sources": [
         {
-          "label": "Rocket Lab 官方任務成功公告",
-          "url": "https://investors.rocketlabcorp.com/news-releases/news-release-details/mission-success-rocket-lab-launches-97th-electron-mission",
-          "type": "官方"
-        },
-        {
-          "label": "Rocket Lab 官方 Owlright 任務頁",
-          "url": "https://rocketlabcorp.com/missions/launches/owlright-owlright-owlright/",
+          "label": "Globalstar 官方 Nemea 擴建公告",
+          "url": "https://investors.globalstar.com/news-releases/news-release-details/globalstar-completes-expansion-greece-ground-station-marking-key",
           "type": "官方"
         }
       ]
@@ -431,20 +875,25 @@
       ]
     },
     {
-      "id": "gsat-nemea-ground-station-expansion-20260921",
-      "date": "2026-09-21",
-      "company": "Globalstar",
-      "program": "C-3／Nemea 地面站",
-      "category": "基礎設施／里程碑",
-      "status": "擴建完工／commissioning 中",
-      "tone": "positive",
-      "title": "Globalstar 完成希臘 Nemea 地面站擴建，追蹤天線增至 6 座",
-      "summary": "新增 3 座 6 米追蹤天線，使 Nemea 站由 3 座增至 6 座；新設施已進入 commissioning，支援第三代 C-3 行動衛星系統。",
-      "detail": "Globalstar 於 2026 年 9 月 21 日宣布完成希臘 Nemea 地面站擴建，並進入新設施 commissioning 階段。工程自 2025 年 9 月開始，新增 3 座 6 米追蹤天線，使站內基礎設施由原本 3 座增至 6 座，支援第三代 C-3 行動衛星系統。公司表示，更廣泛的地面網路更新計畫約包含 90 座新追蹤天線，分布於約 35 個地面站、25 個國家與地區。這是地面基礎設施里程碑，不是新的衛星部署事件，因此不調整在軌或已部署衛星數。",
+      "id": "sx-starlink-15-25-target-20260920",
+      "date": "2026-09-20",
+      "company": "SpaceX",
+      "program": "Falcon 9／Starlink 15-25",
+      "category": "時程／部署規劃",
+      "status": "原定9/30已不在官方近期排程／待新窗口",
+      "tone": "watch",
+      "title": "Starlink 15-25 原定 9/30 已撤出官方近期排程，等待新窗口",
+      "summary": "9/30 查核 SpaceX 官方近期發射清單已不再列 Starlink 15-25，專頁亦未提供新窗口；維持 27 顆未部署，不計入部署總量。",
+      "detail": "9/20 查核時，SpaceX 官方發射清單與 sl-15-25 任務頁曾列出 2026 年 9 月 30 日，計畫由 Falcon 9 自 Vandenberg SLC-4E 發射 27 顆 Starlink。9/30 再查核時，SpaceX 官方 Upcoming launches 已不再列 Starlink 15-25，原任務網址也未提供新的發射窗口。因此先前的 9/30 日期不再視為有效的目前排程，狀態改為等待官方新窗口。SpaceX 尚未在官方頁面公告新的日期或任務完成結果；本次不推定取消、延後或完成，原計畫 27 顆也不計入已部署總量。",
       "sources": [
         {
-          "label": "Globalstar 官方 Nemea 擴建公告",
-          "url": "https://investors.globalstar.com/news-releases/news-release-details/globalstar-completes-expansion-greece-ground-station-marking-key",
+          "label": "SpaceX 官方發射清單",
+          "url": "https://www.spacex.com/launches",
+          "type": "官方"
+        },
+        {
+          "label": "SpaceX 官方 Starlink 15-25 任務頁",
+          "url": "https://www.spacex.com/launches/sl-15-25",
           "type": "官方"
         }
       ]
@@ -498,25 +947,39 @@
       ]
     },
     {
-      "id": "sx-starlink-15-25-target-20260920",
-      "date": "2026-09-20",
+      "id": "sx-r3-faa-window-update-20260917",
+      "date": "2026-09-17",
       "company": "SpaceX",
-      "program": "Falcon 9／Starlink 15-25",
-      "category": "時程／部署規劃",
-      "status": "原定9/30已不在官方近期排程／待新窗口",
+      "program": "R-3（FAA 任務代號）",
+      "category": "時程",
+      "status": "FAA 規劃窗口更新／尚未發射",
       "tone": "watch",
-      "title": "Starlink 15-25 原定 9/30 已撤出官方近期排程，等待新窗口",
-      "summary": "9/30 查核 SpaceX 官方近期發射清單已不再列 Starlink 15-25，專頁亦未提供新窗口；維持 27 顆未部署，不計入部署總量。",
-      "detail": "9/20 查核時，SpaceX 官方發射清單與 sl-15-25 任務頁曾列出 2026 年 9 月 30 日，計畫由 Falcon 9 自 Vandenberg SLC-4E 發射 27 顆 Starlink。9/30 再查核時，SpaceX 官方 Upcoming launches 已不再列 Starlink 15-25，原任務網址也未提供新的發射窗口。因此先前的 9/30 日期不再視為有效的目前排程，狀態改為等待官方新窗口。SpaceX 尚未在官方頁面公告新的日期或任務完成結果；本次不推定取消、延後或完成，原計畫 27 顆也不計入已部署總量。",
+      "title": "FAA 將 SpaceX R-3 規劃窗口提前至台北 9 月 26 日",
+      "summary": "FAA 新規劃為台北 9/26 19:56–23:39，備援 9/27 19:49–23:25；保留 R-3 代號，不推定完整任務名稱或部署量。",
+      "detail": "FAA 於 2026 年 9 月 17 日 11:39 UTC 發布 ATCSCC 公告 029，列出 Vandenberg 的 SPACEX R-3 主要規劃窗口為 9/26 11:56–15:39 UTC（台北 19:56–23:39），備援 9/27 11:49–15:25 UTC（台北 19:49–23:25）。相較先前 9/27 主窗口提前一天，舊公告仍保留。公告未列完整任務名稱、載具、載荷顆數或軌道；不僅憑相近時刻將 R-3 與 USSF-385 合併。這是 FAA 空域作業規劃，不是 SpaceX 最終升空承諾或已發射證明，不計入衛星部署總量。",
       "sources": [
         {
-          "label": "SpaceX 官方發射清單",
-          "url": "https://www.spacex.com/launches",
-          "type": "官方"
-        },
+          "label": "FAA ATCSCC 09/17/2026 公告 029",
+          "url": "https://www.fly.faa.gov/adv/adv_otherdis?adv_date=09172026&advn=29",
+          "type": "政府官方"
+        }
+      ]
+    },
+    {
+      "id": "sx-ussf259-launch-20260917",
+      "date": "2026-09-17",
+      "company": "SpaceX",
+      "program": "Falcon 9／USSF-259",
+      "category": "發射／回收",
+      "status": "已發射／首節回收",
+      "tone": "positive",
+      "title": "USSF-259 已於台北 9 月 17 日發射，首節完成回收",
+      "summary": "SpaceX 確認 Falcon 9 於台北 9/17 09:07 自 Vandenberg 升空；首節第 13 次飛行後回收，未公開載荷顆數或部署確認。",
+      "detail": "SpaceX 官方任務頁確認，USSF-259 於美西 2026 年 9 月 16 日 18:07（PDT，UTC−7）自加州 Vandenberg SLC-4E 發射，換算台北 9 月 17 日 09:07。本次為該首節第 13 次飛行，先前執行 Sentinel-6B、Twilight、NROL-172、Transporter-17 與八次 Starlink 任務；分離後降落在太平洋 Of Course I Still Love You 無人船。官方未公布載荷顆數、目標軌道或確認衛星部署，因此只記錄發射與回收，不增加任何星座部署總量。先前目標日期保留為歷史，已完成任務移出未來排程；不自行與 FAA TH-1 代號配對。",
+      "sources": [
         {
-          "label": "SpaceX 官方 Starlink 15-25 任務頁",
-          "url": "https://www.spacex.com/launches/sl-15-25",
+          "label": "SpaceX 官方 USSF-259 任務頁",
+          "url": "https://www.spacex.com/launches/ussf259",
           "type": "官方"
         }
       ]
@@ -541,63 +1004,20 @@
       ]
     },
     {
-      "id": "sx-ussf259-launch-20260917",
-      "date": "2026-09-17",
+      "id": "sx-ussf259-target-update-20260916",
+      "date": "2026-09-16",
       "company": "SpaceX",
       "program": "Falcon 9／USSF-259",
-      "category": "發射／回收",
-      "status": "已發射／首節回收",
-      "tone": "positive",
-      "title": "USSF-259 已於台北 9 月 17 日發射，首節完成回收",
-      "summary": "SpaceX 確認 Falcon 9 於台北 9/17 09:07 自 Vandenberg 升空；首節第 13 次飛行後回收，未公開載荷顆數或部署確認。",
-      "detail": "SpaceX 官方任務頁確認，USSF-259 於美西 2026 年 9 月 16 日 18:07（PDT，UTC−7）自加州 Vandenberg SLC-4E 發射，換算台北 9 月 17 日 09:07。本次為該首節第 13 次飛行，先前執行 Sentinel-6B、Twilight、NROL-172、Transporter-17 與八次 Starlink 任務；分離後降落在太平洋 Of Course I Still Love You 無人船。官方未公布載荷顆數、目標軌道或確認衛星部署，因此只記錄發射與回收，不增加任何星座部署總量。先前目標日期保留為歷史，已完成任務移出未來排程；不自行與 FAA TH-1 代號配對。",
+      "category": "時程",
+      "status": "官方目標順延／尚未發射",
+      "tone": "watch",
+      "title": "USSF-259 發射目標順延至台北 9 月 17 日上午",
+      "summary": "SpaceX 將目標改為台北 9/17 09:00–13:00，備援 9/18 同時段；載荷顆數與延後原因未公布，不增加部署總量。",
+      "detail": "9/16 查核時，SpaceX 官方任務頁已把 USSF-259 改列為美西 9/16 18:00 起四小時窗口，換算台北 9/17 09:00–13:00；備援為美西 9/17 同時段，即台北 9/18。相較先前台北 9/16 目標順延一天，原紀錄保留。Falcon 9 將自 Vandenberg SLC-4E 發射，首節預計第 13 次飛行，回收目標為太平洋 Of Course I Still Love You 無人船。官方尚未說明順延原因、載荷顆數或確認部署；這是排程更新，不是已完成發射，也不將 FAA 的 TH-1 代號自行視為同一任務。頁面未標示公告時間，事件日採本次查核日。",
       "sources": [
         {
           "label": "SpaceX 官方 USSF-259 任務頁",
           "url": "https://www.spacex.com/launches/ussf259",
-          "type": "官方"
-        }
-      ]
-    },
-    {
-      "id": "sx-r3-faa-window-update-20260917",
-      "date": "2026-09-17",
-      "company": "SpaceX",
-      "program": "R-3（FAA 任務代號）",
-      "category": "時程",
-      "status": "FAA 規劃窗口更新／尚未發射",
-      "tone": "watch",
-      "title": "FAA 將 SpaceX R-3 規劃窗口提前至台北 9 月 26 日",
-      "summary": "FAA 新規劃為台北 9/26 19:56–23:39，備援 9/27 19:49–23:25；保留 R-3 代號，不推定完整任務名稱或部署量。",
-      "detail": "FAA 於 2026 年 9 月 17 日 11:39 UTC 發布 ATCSCC 公告 029，列出 Vandenberg 的 SPACEX R-3 主要規劃窗口為 9/26 11:56–15:39 UTC（台北 19:56–23:39），備援 9/27 11:49–15:25 UTC（台北 19:49–23:25）。相較先前 9/27 主窗口提前一天，舊公告仍保留。公告未列完整任務名稱、載具、載荷顆數或軌道；不僅憑相近時刻將 R-3 與 USSF-385 合併。這是 FAA 空域作業規劃，不是 SpaceX 最終升空承諾或已發射證明，不計入衛星部署總量。",
-      "sources": [
-        {
-          "label": "FAA ATCSCC 09/17/2026 公告 029",
-          "url": "https://www.fly.faa.gov/adv/adv_otherdis?adv_date=09172026&advn=29",
-          "type": "政府官方"
-        }
-      ]
-    },
-    {
-      "id": "sx-ussf385-target-20260917",
-      "date": "2026-09-26",
-      "company": "SpaceX",
-      "program": "Falcon 9／USSF-385",
-      "category": "發射／國安任務",
-      "status": "已完成發射／載荷細節未公開",
-      "tone": "positive",
-      "title": "USSF-385 已完成 Falcon 9 發射",
-      "summary": "SpaceX 官方發射清單已把 USSF-385 列入 9/26 完成任務；Falcon 9 自 Vandenberg SLC-4E 發射，載荷數與目標軌道仍未公開。",
-      "detail": "9/28 重新查核時，SpaceX 官方發射清單已把 USSF-385 移入 Completed missions，日期列為 2026 年 9 月 26 日，載具為 Falcon 9，發射場為 Vandenberg SLC-4E，著陸場欄位列為 droneship。原任務頁的備援起點為台北 9/27 20:49，未另列備援結束時間；網站沿用原穩定事件 ID，將先前的目標窗口更新為已完成發射，並自未來任務清單移除。SpaceX 公開頁面仍未揭露載荷名稱、載荷數或目標軌道，因此不推定衛星部署數，也不把 FAA 的 R-3 代號自行合併為同一任務；R-3 的歷史監管窗口紀錄繼續獨立保留。",
-      "sources": [
-        {
-          "label": "SpaceX 官方發射清單",
-          "url": "https://www.spacex.com/launches",
-          "type": "官方"
-        },
-        {
-          "label": "SpaceX 官方 USSF-385 任務頁",
-          "url": "https://www.spacex.com/launches/ussf385",
           "type": "官方"
         }
       ]
@@ -641,25 +1061,6 @@
       ]
     },
     {
-      "id": "sx-ussf259-target-update-20260916",
-      "date": "2026-09-16",
-      "company": "SpaceX",
-      "program": "Falcon 9／USSF-259",
-      "category": "時程",
-      "status": "官方目標順延／尚未發射",
-      "tone": "watch",
-      "title": "USSF-259 發射目標順延至台北 9 月 17 日上午",
-      "summary": "SpaceX 將目標改為台北 9/17 09:00–13:00，備援 9/18 同時段；載荷顆數與延後原因未公布，不增加部署總量。",
-      "detail": "9/16 查核時，SpaceX 官方任務頁已把 USSF-259 改列為美西 9/16 18:00 起四小時窗口，換算台北 9/17 09:00–13:00；備援為美西 9/17 同時段，即台北 9/18。相較先前台北 9/16 目標順延一天，原紀錄保留。Falcon 9 將自 Vandenberg SLC-4E 發射，首節預計第 13 次飛行，回收目標為太平洋 Of Course I Still Love You 無人船。官方尚未說明順延原因、載荷顆數或確認部署；這是排程更新，不是已完成發射，也不將 FAA 的 TH-1 代號自行視為同一任務。頁面未標示公告時間，事件日採本次查核日。",
-      "sources": [
-        {
-          "label": "SpaceX 官方 USSF-259 任務頁",
-          "url": "https://www.spacex.com/launches/ussf259",
-          "type": "官方"
-        }
-      ]
-    },
-    {
       "id": "sx-r3-faa-window-20260915",
       "date": "2026-09-15",
       "company": "SpaceX",
@@ -698,44 +1099,6 @@
       ]
     },
     {
-      "id": "bo-afrl-propulsion-partnership-20260914",
-      "date": "2026-09-14",
-      "company": "Blue Origin",
-      "program": "引擎技術／AFRL",
-      "category": "合作／技術里程碑",
-      "status": "CRADA 已簽署／研發推進",
-      "tone": "positive",
-      "title": "Blue Origin 擴大 AFRL 合作，取得先進推進技術研究材料",
-      "summary": "雙方簽署合作研發協議，移轉 HCB／IPD 歷史計畫的硬體與工程資料，支援商用引擎研發；BE-7 測試合作持續。",
-      "detail": "Blue Origin 9/14 公告與美國空軍研究實驗室 AFRL 的火箭暨太空推進部門擴大合作，簽署 CRADA，移轉 HCB 與 IPD 計畫的推進硬體及工程資料。兩項歷史計畫研究富氧與全流量分級燃燒技術，Blue Origin 將用於商用引擎研究。雙方亦持續在 Edwards 高空試驗設施測試 BE-7。公告沒有提供新引擎首飛日、合約金額或新衛星部署數，不推定 New Glenn 新發射日期。",
-      "sources": [
-        {
-          "label": "Blue Origin 官方 AFRL 合作公告",
-          "url": "https://www.blueorigin.com/news/blue-origin-expands-partnership-with-air-force-research-laboratory",
-          "type": "官方"
-        }
-      ]
-    },
-    {
-      "id": "voyg-avio-ifd-qd-delivery-20260914",
-      "date": "2026-09-14",
-      "company": "Voyager Technologies",
-      "program": "Avio／ESA IFD",
-      "category": "交付／技術里程碑",
-      "status": "快速分離介面交付與整合完成",
-      "tone": "positive",
-      "title": "Voyager 完成 ESA IFD 火箭快速分離介面交付與整合",
-      "summary": "Voyager 依 Avio 合約完成雙介面 QD 系統，連接火箭燃料系統與地面設施，推進液氧／甲烷示範火箭飛行準備。",
-      "detail": "Voyager 9/14 宣布已為 ESA In-Flight Demonstrator 完成快速分離介面板的交付與整合，工作由 Avio 委託，屬義大利 PNRR-STS 計畫。系統包含飛行端及地面端介面，供燃料系統接地面設施，並設計在發射作業中安全分離。IFD 為單級液氧／甲烷低溫推進示範器。本次是硬體交付與整合里程碑，不是火箭已發射；公告未列首飛日期或衛星部署。",
-      "sources": [
-        {
-          "label": "Voyager 官方 IFD 交付公告",
-          "url": "https://voyagertechnologies.com/press-releases/voyager-delivers-launch-critical-infrastructure-for-next-gen-rocket/",
-          "type": "官方"
-        }
-      ]
-    },
-    {
       "id": "bksy-gen3-fifth-firstlight-20260914",
       "date": "2026-09-14",
       "company": "BlackSky",
@@ -755,59 +1118,21 @@
       ]
     },
     {
-      "id": "rklb-happily-ever-faster-20260911",
-      "date": "2026-09-11",
-      "company": "Rocket Lab",
-      "program": "Electron／Happily Ever Faster",
-      "category": "發射／部署",
-      "status": "已完成／1 顆部署",
+      "id": "bo-afrl-propulsion-partnership-20260914",
+      "date": "2026-09-14",
+      "company": "Blue Origin",
+      "program": "引擎技術／AFRL",
+      "category": "合作／技術里程碑",
+      "status": "CRADA 已簽署／研發推進",
       "tone": "positive",
-      "title": "Electron 完成第 95 次任務，部署 1 顆地球觀測衛星",
-      "summary": "Rocket Lab 於紐西蘭 9/11 15:28 發射，將 1 顆保密客戶的地球觀測衛星部署至 500 公里圓形低軌；今年第 16 次 Electron 任務。",
-      "detail": "Happily Ever Faster 於 2026 年 9 月 11 日 15:28 NZST 自紐西蘭 Launch Complex 1 升空，換算台北同日 11:28。官方確認一顆地球觀測衛星成功部署至 500 公里圓形低軌，為 Electron 今年第 16 次、累計第 95 次任務。客戶與衛星名稱未公開，不歸入任何具名星座總數。官方下一次 Electron 目標為 9 月底前，自同一發射場服務另一商業星座業者，尚未公布確切日期。",
+      "title": "Blue Origin 擴大 AFRL 合作，取得先進推進技術研究材料",
+      "summary": "雙方簽署合作研發協議，移轉 HCB／IPD 歷史計畫的硬體與工程資料，支援商用引擎研發；BE-7 測試合作持續。",
+      "detail": "Blue Origin 9/14 公告與美國空軍研究實驗室 AFRL 的火箭暨太空推進部門擴大合作，簽署 CRADA，移轉 HCB 與 IPD 計畫的推進硬體及工程資料。兩項歷史計畫研究富氧與全流量分級燃燒技術，Blue Origin 將用於商用引擎研究。雙方亦持續在 Edwards 高空試驗設施測試 BE-7。公告沒有提供新引擎首飛日、合約金額或新衛星部署數，不推定 New Glenn 新發射日期。",
       "sources": [
         {
-          "label": "Rocket Lab 官方任務成功公告",
-          "url": "https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-successfully-launches-16th-electron-mission-year",
+          "label": "Blue Origin 官方 AFRL 合作公告",
+          "url": "https://www.blueorigin.com/news/blue-origin-expands-partnership-with-air-force-research-laboratory",
           "type": "官方"
-        }
-      ]
-    },
-    {
-      "id": "voyg-starlab-iss-cfp-20260911",
-      "date": "2026-09-11",
-      "company": "Voyager Technologies",
-      "program": "Starlab／ISS 微重力研究",
-      "category": "合作／研究里程碑",
-      "status": "徵案啟動／飛行機會目標 2028",
-      "tone": "positive",
-      "title": "Starlab 與 CSA 啟動 ISS 研究徵案，飛行機會目標 2028 年",
-      "summary": "最多四組研究團隊可獲資助前往 ISS 進行微重力實驗；第一階段提案截止 10/9，預計 12 月通知入選。",
-      "detail": "Starlab 與瑞士及列支敦士登太空航空中心 CSA 於 9 月 11 日啟動國際微重力研究徵案。最多選出四組團隊：一組全球開放，另三組限主要研究者位於瑞士蘇黎世州。資助範圍包含酬載整合、發射、在軌操作、太空人時間與樣本回收。第一階段問題截止 9/25、提案截止 10/9，預計 2026 年 12 月通知入選，飛行機會目標 2028 年。這是 ISS 研究徵案，不是已授予四份合約、衛星部署或 Starlab 太空站發射。",
-      "sources": [
-        {
-          "label": "Voyager／Starlab 官方徵案公告",
-          "url": "https://voyagertechnologies.com/press-releases/starlab-space-and-the-center-for-space-and-aviation-switzerland-and-liechtenstein-open-call-for-proposals-to-advance-microgravity-research-and-commercialization-aboard-the-international-space-station/",
-          "type": "官方"
-        }
-      ]
-    },
-    {
-      "id": "sx-starship-flight14-faa-window-20260913",
-      "date": "2026-09-13",
-      "company": "SpaceX",
-      "program": "Starship Flight 14",
-      "category": "時程",
-      "status": "FAA 規劃窗口／尚未發射",
-      "tone": "watch",
-      "title": "FAA 列出 Starship Flight 14 的 9 月 18 日規劃窗口",
-      "summary": "台北 9/18 20:15–22:14，備援 9/19 同時段；FAA 空域作業規劃不等於 SpaceX 最終升空承諾。",
-      "detail": "FAA 9 月 13 日 23:45 UTC 公告 158 列出 Starbase 的 Starship Flight 14：主要窗口 9/18 12:15–14:14 UTC（台北 20:15–22:14），備援 9/19 同時段。這是空域作業規劃，不是 SpaceX 最終升空承諾、特定飛行許可或已發射證明。未列部署顆數，不增加衛星總量；既有「9/15」未證實線索保留歷史且不發布。",
-      "sources": [
-        {
-          "label": "FAA ATCSCC 09/13/2026 公告 158",
-          "url": "https://www.fly.faa.gov/adv/adv_otherdis?adv_date=09132026&advn=158",
-          "type": "政府官方"
         }
       ]
     },
@@ -859,83 +1184,140 @@
         }
       ]
     },
-  {
-    "id": "sx-ussf153-launch-20260910",
-    "date": "2026-09-10",
-    "company": "SpaceX",
-    "program": "Falcon 9／USSF-153",
-    "category": "發射／回收",
-    "status": "已完成／官方確認入軌",
-    "tone": "positive",
-    "title": "Falcon 9 完成 USSF-153 發射，首節第 27 次飛行後回收",
-    "summary": "SpaceX 確認 USSF-153 自 Vandenberg SLC-4E 發射入軌；首節完成第 27 次飛行並降落太平洋無人船，官方未公布衛星顆數。",
-    "detail": "SpaceX 官方任務頁記載，Falcon 9 於 2026 年 9 月 10 日 08:42 太平洋時間自加州 Vandenberg Space Force Base 的 SLC-4E 發射 USSF-153；換算為 15:42 UTC、台北同日 23:42，原文只精確到分鐘。官方 X 隨後確認任務已入軌。這是該首節助推器第 27 次飛行；分離後成功降落於太平洋的 Of Course I Still Love You 無人船。本次採用的官方原文未公布載荷組成、衛星顆數或可歸屬的星座，因此只計入已完成發射，不增加 Starlink 或其他星座部署總量，也不推定為 Starshield。",
-    "sources": [
-      {
-        "label": "SpaceX 官方 USSF-153 任務頁",
-        "url": "https://www.spacex.com/launches/ussf153",
-        "type": "官方"
-      },
-      {
-        "label": "SpaceX 官方入軌確認",
-        "url": "https://x.com/SpaceX/status/2098154822868320479",
-        "type": "官方"
-      }
-    ]
-  },
-  {
-    "id": "irdm-ntn-direct-toyota-demo-20260910",
-    "date": "2026-09-10",
-    "company": "Iridium",
-    "program": "Iridium NTN Direct／Deutsche Telekom IoT／Toyota",
-    "category": "測試／合作",
-    "status": "展示成功／目標 Q4 2026 商用",
-    "tone": "positive",
-    "title": "Iridium 與德國電信、Toyota 完成衛星語音訊息展示",
-    "summary": "Toyota 車輛透過 Iridium NTN Direct 傳送 NB-IoT 語音訊息；Iridium 與德國電信 IoT 已完成技術整合及全球漫遊協議，服務目標第四季商用。",
-    "detail": "Iridium 於 2026 年 9 月 10 日宣布，與 Deutsche Telekom IoT 在 Telekom Satellite Day 2026 進行 Toyota 車載衛星語音訊息展示。車輛使用 Nordic Semiconductor nRF9151 開發板、德國電信 IoT SIM 與 Fraunhofer NESC 語音編碼，透過既有 Iridium L-band 低軌網路傳送標準式 NB-IoT 語音訊息。雙方已完成技術整合與全球漫遊協議，部分歐洲客戶已展開測試；官方目標為 Q4 2026 商用，未公布確切日期。這是語音訊息展示，不代表一般手機即時通話已全面商用，也不是新衛星部署；既有在軌總量不變。",
-    "sources": [
-      {
-        "label": "Iridium 官方 NTN Direct 展示公告",
-        "url": "https://investor.iridium.com/2026-09-10-Iridium,-Deutsche-Telekom-IoT,-and-Toyota-Demonstrate-Voice-Messaging-over-Satellite-via-Iridium-NTN-Direct",
-        "type": "官方"
-      }
-    ]
-  },
-  {
-    "id": "vsat-pcc6-satcom-demo-20260910",
-    "date": "2026-09-10",
-    "company": "Viasat",
-    "program": "PC-C6／L-TAC／HydraMax",
-    "category": "測試／技術里程碑",
-    "status": "官方公布夏季演習成果",
-    "tone": "positive",
-    "title": "Viasat 公布 PC-C6 衛星通訊與多星座天線展示成果",
-    "summary": "Viasat 回顧夏季 PC-C6 演習，展示 L-TAC 衛星延伸通訊與 HydraMax 多星座天線等能力；9 月 10 日是公告日，非演習日期。",
-    "detail": "Viasat 於 2026 年 9 月 10 日發布 PC-C6 演習回顧，演習在當年夏季於加州 Fort Irwin 與 Nevada Test and Training Range 進行，未列精確日期。公司展示 L-TAC 將既有戰術無線電延伸至衛星通訊，以及電子掃描天線在移動與固定平台上的連線能力；與 All.Space 展示的 HydraMax 可相容包括 ViaSat-3 在內的多個星座，原文指出其 TRL 6 是去年達成，並非本次新達成。這是官方演習成果披露，不是新衛星發射、部署或新合約授予；不調增部署數，也不把廠商展示描述當成獨立驗證的全面服役保證。",
-    "sources": [
-      {
-        "label": "Viasat 官方 PC-C6 演習回顧",
-        "url": "https://www.viasat.com/news/latest-news/government/2026/-inside-project-convergence-capstone-6--advancing-the-future-of-/",
-        "type": "官方"
-      }
-    ]
-  },
     {
-      "id": "fly-ssc-two-alpha-launches-20260909",
-      "date": "2026-09-09",
-      "company": "Firefly Aerospace",
-      "program": "Alpha／SSC Space／Esrange",
-      "category": "合約／發射時程",
-      "status": "兩次發射合約／NET 2028",
+      "id": "voyg-avio-ifd-qd-delivery-20260914",
+      "date": "2026-09-14",
+      "company": "Voyager Technologies",
+      "program": "Avio／ESA IFD",
+      "category": "交付／技術里程碑",
+      "status": "快速分離介面交付與整合完成",
       "tone": "positive",
-      "title": "Firefly 與 SSC Space 簽訂兩次瑞典 Alpha 發射合約",
-      "summary": "SSC Space 預訂兩次 Alpha 的完整載荷容量，服務瑞典國安及商業共乘客戶；目標不早於 2028 年自 Esrange 發射。",
-      "detail": "Firefly 於 2026 年 9 月 9 日宣布與 SSC Space 簽訂兩次 Alpha 發射合約，地點為瑞典 Esrange Space Center 的 Launch Complex 3C。SSC Space 取得兩次任務的完整載荷容量，可分配給政府與商業客戶。官方目標為不早於 2028 年，未公布個別日期、衛星名單或顆數。發射控制中心、載荷處理設施與載具整合大樓等已完成，雙方正推進最後的發射台施工；這是合約及地面設施進度，不是已完成發射或衛星部署。",
+      "title": "Voyager 完成 ESA IFD 火箭快速分離介面交付與整合",
+      "summary": "Voyager 依 Avio 合約完成雙介面 QD 系統，連接火箭燃料系統與地面設施，推進液氧／甲烷示範火箭飛行準備。",
+      "detail": "Voyager 9/14 宣布已為 ESA In-Flight Demonstrator 完成快速分離介面板的交付與整合，工作由 Avio 委託，屬義大利 PNRR-STS 計畫。系統包含飛行端及地面端介面，供燃料系統接地面設施，並設計在發射作業中安全分離。IFD 為單級液氧／甲烷低溫推進示範器。本次是硬體交付與整合里程碑，不是火箭已發射；公告未列首飛日期或衛星部署。",
       "sources": [
         {
-          "label": "Firefly 官方 SSC Space 合約公告",
-          "url": "https://fireflyspace.com/news/firefly-aerospace-signs-contract-with-ssc-space-for-two-alpha-launches-from-esrange-space-center/",
+          "label": "Voyager 官方 IFD 交付公告",
+          "url": "https://voyagertechnologies.com/press-releases/voyager-delivers-launch-critical-infrastructure-for-next-gen-rocket/",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "sx-starship-flight14-faa-window-20260913",
+      "date": "2026-09-13",
+      "company": "SpaceX",
+      "program": "Starship Flight 14",
+      "category": "時程",
+      "status": "FAA 規劃窗口／尚未發射",
+      "tone": "watch",
+      "title": "FAA 列出 Starship Flight 14 的 9 月 18 日規劃窗口",
+      "summary": "台北 9/18 20:15–22:14，備援 9/19 同時段；FAA 空域作業規劃不等於 SpaceX 最終升空承諾。",
+      "detail": "FAA 9 月 13 日 23:45 UTC 公告 158 列出 Starbase 的 Starship Flight 14：主要窗口 9/18 12:15–14:14 UTC（台北 20:15–22:14），備援 9/19 同時段。這是空域作業規劃，不是 SpaceX 最終升空承諾、特定飛行許可或已發射證明。未列部署顆數，不增加衛星總量；既有「9/15」未證實線索保留歷史且不發布。",
+      "sources": [
+        {
+          "label": "FAA ATCSCC 09/13/2026 公告 158",
+          "url": "https://www.fly.faa.gov/adv/adv_otherdis?adv_date=09132026&advn=158",
+          "type": "政府官方"
+        }
+      ]
+    },
+    {
+      "id": "rklb-happily-ever-faster-20260911",
+      "date": "2026-09-11",
+      "company": "Rocket Lab",
+      "program": "Electron／Happily Ever Faster",
+      "category": "發射／部署",
+      "status": "已完成／1 顆部署",
+      "tone": "positive",
+      "title": "Electron 完成第 95 次任務，部署 1 顆地球觀測衛星",
+      "summary": "Rocket Lab 於紐西蘭 9/11 15:28 發射，將 1 顆保密客戶的地球觀測衛星部署至 500 公里圓形低軌；今年第 16 次 Electron 任務。",
+      "detail": "Happily Ever Faster 於 2026 年 9 月 11 日 15:28 NZST 自紐西蘭 Launch Complex 1 升空，換算台北同日 11:28。官方確認一顆地球觀測衛星成功部署至 500 公里圓形低軌，為 Electron 今年第 16 次、累計第 95 次任務。客戶與衛星名稱未公開，不歸入任何具名星座總數。官方下一次 Electron 目標為 9 月底前，自同一發射場服務另一商業星座業者，尚未公布確切日期。",
+      "sources": [
+        {
+          "label": "Rocket Lab 官方任務成功公告",
+          "url": "https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-successfully-launches-16th-electron-mission-year",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "voyg-starlab-iss-cfp-20260911",
+      "date": "2026-09-11",
+      "company": "Voyager Technologies",
+      "program": "Starlab／ISS 微重力研究",
+      "category": "合作／研究里程碑",
+      "status": "徵案啟動／飛行機會目標 2028",
+      "tone": "positive",
+      "title": "Starlab 與 CSA 啟動 ISS 研究徵案，飛行機會目標 2028 年",
+      "summary": "最多四組研究團隊可獲資助前往 ISS 進行微重力實驗；第一階段提案截止 10/9，預計 12 月通知入選。",
+      "detail": "Starlab 與瑞士及列支敦士登太空航空中心 CSA 於 9 月 11 日啟動國際微重力研究徵案。最多選出四組團隊：一組全球開放，另三組限主要研究者位於瑞士蘇黎世州。資助範圍包含酬載整合、發射、在軌操作、太空人時間與樣本回收。第一階段問題截止 9/25、提案截止 10/9，預計 2026 年 12 月通知入選，飛行機會目標 2028 年。這是 ISS 研究徵案，不是已授予四份合約、衛星部署或 Starlab 太空站發射。",
+      "sources": [
+        {
+          "label": "Voyager／Starlab 官方徵案公告",
+          "url": "https://voyagertechnologies.com/press-releases/starlab-space-and-the-center-for-space-and-aviation-switzerland-and-liechtenstein-open-call-for-proposals-to-advance-microgravity-research-and-commercialization-aboard-the-international-space-station/",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "irdm-ntn-direct-toyota-demo-20260910",
+      "date": "2026-09-10",
+      "company": "Iridium",
+      "program": "Iridium NTN Direct／Deutsche Telekom IoT／Toyota",
+      "category": "測試／合作",
+      "status": "展示成功／目標 Q4 2026 商用",
+      "tone": "positive",
+      "title": "Iridium 與德國電信、Toyota 完成衛星語音訊息展示",
+      "summary": "Toyota 車輛透過 Iridium NTN Direct 傳送 NB-IoT 語音訊息；Iridium 與德國電信 IoT 已完成技術整合及全球漫遊協議，服務目標第四季商用。",
+      "detail": "Iridium 於 2026 年 9 月 10 日宣布，與 Deutsche Telekom IoT 在 Telekom Satellite Day 2026 進行 Toyota 車載衛星語音訊息展示。車輛使用 Nordic Semiconductor nRF9151 開發板、德國電信 IoT SIM 與 Fraunhofer NESC 語音編碼，透過既有 Iridium L-band 低軌網路傳送標準式 NB-IoT 語音訊息。雙方已完成技術整合與全球漫遊協議，部分歐洲客戶已展開測試；官方目標為 Q4 2026 商用，未公布確切日期。這是語音訊息展示，不代表一般手機即時通話已全面商用，也不是新衛星部署；既有在軌總量不變。",
+      "sources": [
+        {
+          "label": "Iridium 官方 NTN Direct 展示公告",
+          "url": "https://investor.iridium.com/2026-09-10-Iridium,-Deutsche-Telekom-IoT,-and-Toyota-Demonstrate-Voice-Messaging-over-Satellite-via-Iridium-NTN-Direct",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "sx-ussf153-launch-20260910",
+      "date": "2026-09-10",
+      "company": "SpaceX",
+      "program": "Falcon 9／USSF-153",
+      "category": "發射／回收",
+      "status": "已完成／官方確認入軌",
+      "tone": "positive",
+      "title": "Falcon 9 完成 USSF-153 發射，首節第 27 次飛行後回收",
+      "summary": "SpaceX 確認 USSF-153 自 Vandenberg SLC-4E 發射入軌；首節完成第 27 次飛行並降落太平洋無人船，官方未公布衛星顆數。",
+      "detail": "SpaceX 官方任務頁記載，Falcon 9 於 2026 年 9 月 10 日 08:42 太平洋時間自加州 Vandenberg Space Force Base 的 SLC-4E 發射 USSF-153；換算為 15:42 UTC、台北同日 23:42，原文只精確到分鐘。官方 X 隨後確認任務已入軌。這是該首節助推器第 27 次飛行；分離後成功降落於太平洋的 Of Course I Still Love You 無人船。本次採用的官方原文未公布載荷組成、衛星顆數或可歸屬的星座，因此只計入已完成發射，不增加 Starlink 或其他星座部署總量，也不推定為 Starshield。",
+      "sources": [
+        {
+          "label": "SpaceX 官方 USSF-153 任務頁",
+          "url": "https://www.spacex.com/launches/ussf153",
+          "type": "官方"
+        },
+        {
+          "label": "SpaceX 官方入軌確認",
+          "url": "https://x.com/SpaceX/status/2098154822868320479",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "vsat-pcc6-satcom-demo-20260910",
+      "date": "2026-09-10",
+      "company": "Viasat",
+      "program": "PC-C6／L-TAC／HydraMax",
+      "category": "測試／技術里程碑",
+      "status": "官方公布夏季演習成果",
+      "tone": "positive",
+      "title": "Viasat 公布 PC-C6 衛星通訊與多星座天線展示成果",
+      "summary": "Viasat 回顧夏季 PC-C6 演習，展示 L-TAC 衛星延伸通訊與 HydraMax 多星座天線等能力；9 月 10 日是公告日，非演習日期。",
+      "detail": "Viasat 於 2026 年 9 月 10 日發布 PC-C6 演習回顧，演習在當年夏季於加州 Fort Irwin 與 Nevada Test and Training Range 進行，未列精確日期。公司展示 L-TAC 將既有戰術無線電延伸至衛星通訊，以及電子掃描天線在移動與固定平台上的連線能力；與 All.Space 展示的 HydraMax 可相容包括 ViaSat-3 在內的多個星座，原文指出其 TRL 6 是去年達成，並非本次新達成。這是官方演習成果披露，不是新衛星發射、部署或新合約授予；不調增部署數，也不把廠商展示描述當成獨立驗證的全面服役保證。",
+      "sources": [
+        {
+          "label": "Viasat 官方 PC-C6 演習回顧",
+          "url": "https://www.viasat.com/news/latest-news/government/2026/-inside-project-convergence-capstone-6--advancing-the-future-of-/",
           "type": "官方"
         }
       ]
@@ -955,6 +1337,25 @@
         {
           "label": "BlackSky 官方國際 AI 星座公告",
           "url": "https://ir.blacksky.com/news-events/press-releases/news-details/2026/BlackSky-Named-Exclusive-Provider-of-Very-High-Resolution-Electro-Optical-Constellation-for-New-International-Initiative-to-Build-the-Worlds-Largest-Artificial-Intelligence-Infrastructure-in-Space/default.aspx",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "fly-ssc-two-alpha-launches-20260909",
+      "date": "2026-09-09",
+      "company": "Firefly Aerospace",
+      "program": "Alpha／SSC Space／Esrange",
+      "category": "合約／發射時程",
+      "status": "兩次發射合約／NET 2028",
+      "tone": "positive",
+      "title": "Firefly 與 SSC Space 簽訂兩次瑞典 Alpha 發射合約",
+      "summary": "SSC Space 預訂兩次 Alpha 的完整載荷容量，服務瑞典國安及商業共乘客戶；目標不早於 2028 年自 Esrange 發射。",
+      "detail": "Firefly 於 2026 年 9 月 9 日宣布與 SSC Space 簽訂兩次 Alpha 發射合約，地點為瑞典 Esrange Space Center 的 Launch Complex 3C。SSC Space 取得兩次任務的完整載荷容量，可分配給政府與商業客戶。官方目標為不早於 2028 年，未公布個別日期、衛星名單或顆數。發射控制中心、載荷處理設施與載具整合大樓等已完成，雙方正推進最後的發射台施工；這是合約及地面設施進度，不是已完成發射或衛星部署。",
+      "sources": [
+        {
+          "label": "Firefly 官方 SSC Space 合約公告",
+          "url": "https://fireflyspace.com/news/firefly-aerospace-signs-contract-with-ssc-space-for-two-alpha-launches-from-esrange-space-center/",
           "type": "官方"
         }
       ]
@@ -998,25 +1399,6 @@
       ]
     },
     {
-      "id": "vsat-nexuswave-bv-approval-20260908",
-      "date": "2026-09-08",
-      "company": "Viasat",
-      "program": "Inmarsat Maritime／NexusWave",
-      "category": "認證／里程碑",
-      "status": "取得 BV 資安型式認可",
-      "tone": "positive",
-      "title": "NexusWave 取得 Bureau Veritas 資安型式認可",
-      "summary": "Viasat 旗下 Inmarsat Maritime 宣布 NexusWave 通過 Bureau Veritas 對 IACS UR E27 的資安評估，涵蓋整合式船載通訊系統。",
-      "detail": "Inmarsat Maritime 於 2026 年 9 月 8 日宣布，NexusWave 已取得 Bureau Veritas Marine & Offshore 的 Cyber Security Type Approval。評估依據 IACS UR E27，涵蓋船載 ICT 架構、網路設備、協調流程與相關受管服務邊緣基礎設施，按整合系統檢視資安韌性。NexusWave 將 GEO、LEO、LTE 與 L-band 連線整合成受管服務；本次是服務架構的認證里程碑，不是新衛星發射或部署，也不是對任何網路攻擊都免疫的保證。",
-      "sources": [
-        {
-          "label": "Viasat 官方 NexusWave 認證公告",
-          "url": "https://www.viasat.com/news/latest-news/maritime/2026/nexuswave-earns-bureau-veritas-cyber-security-type-approval/",
-          "type": "官方"
-        }
-      ]
-    },
-    {
       "id": "sx-mpower-f-faa-window-20260908",
       "date": "2026-09-08",
       "company": "SpaceX",
@@ -1032,6 +1414,25 @@
           "label": "FAA ATCSCC 09/08/2026 公告 084",
           "url": "https://www.fly.faa.gov/adv/adv_otherdis?adv_date=09082026&advn=84",
           "type": "政府官方"
+        }
+      ]
+    },
+    {
+      "id": "vsat-nexuswave-bv-approval-20260908",
+      "date": "2026-09-08",
+      "company": "Viasat",
+      "program": "Inmarsat Maritime／NexusWave",
+      "category": "認證／里程碑",
+      "status": "取得 BV 資安型式認可",
+      "tone": "positive",
+      "title": "NexusWave 取得 Bureau Veritas 資安型式認可",
+      "summary": "Viasat 旗下 Inmarsat Maritime 宣布 NexusWave 通過 Bureau Veritas 對 IACS UR E27 的資安評估，涵蓋整合式船載通訊系統。",
+      "detail": "Inmarsat Maritime 於 2026 年 9 月 8 日宣布，NexusWave 已取得 Bureau Veritas Marine & Offshore 的 Cyber Security Type Approval。評估依據 IACS UR E27，涵蓋船載 ICT 架構、網路設備、協調流程與相關受管服務邊緣基礎設施，按整合系統檢視資安韌性。NexusWave 將 GEO、LEO、LTE 與 L-band 連線整合成受管服務；本次是服務架構的認證里程碑，不是新衛星發射或部署，也不是對任何網路攻擊都免疫的保證。",
+      "sources": [
+        {
+          "label": "Viasat 官方 NexusWave 認證公告",
+          "url": "https://www.viasat.com/news/latest-news/maritime/2026/nexuswave-earns-bureau-veritas-cyber-security-type-approval/",
+          "type": "官方"
         }
       ]
     },
@@ -1076,7 +1477,11 @@
       "summary": "「Owl Around The World」於紐西蘭時間 9 月 3 日 00:01 發射，將 1 顆 StriX 部署至 575 公里低軌；這是 2026 年第 15 次 Electron 發射。",
       "detail": "Rocket Lab 的「Owl Around The World」任務於 2026 年 9 月 3 日 00:01（NZST；9 月 2 日 12:01 UTC、台北時間 20:01）自紐西蘭 Mahia Launch Complex 1 發射。Electron 成功將 Synspective 最新 1 顆 StriX 合成孔徑雷達地球觀測衛星部署至 575 公里低地球軌道。這是 Electron 第 94 次任務、2026 年第 15 次發射，也是 Rocket Lab 為 Synspective 執行的第 11 次專屬任務；官方表示歷次 Synspective 任務皆成功，另有 16 次 Electron 任務已預訂、規劃於 2030 年前完成。",
       "sources": [
-        { "label": "Rocket Lab", "url": "https://investors.rocketlabcorp.com/news-releases/news-release-details/mission-success-rocket-lab-launches-94th-electron-mission", "type": "官方" }
+        {
+          "label": "Rocket Lab",
+          "url": "https://investors.rocketlabcorp.com/news-releases/news-release-details/mission-success-rocket-lab-launches-94th-electron-mission",
+          "type": "官方"
+        }
       ]
     },
     {
@@ -1091,7 +1496,11 @@
       "summary": "合約上限約 7 億美元；Blue Origin 須於 2028 年底前交付高性能火星通訊軌道器，並負責設計、發射與營運。",
       "detail": "NASA 於 2026 年 9 月 1 日授予 Blue Origin 一項固定價格合約，最高潛在價值約 7 億美元。Blue Origin 將設計、開發、整合、發射並營運一艘高性能火星通訊軌道器，須在 2028 年 12 月 31 日前交付；系統預計於 2030 年在火星投入運作，提供科學資料、影像、導航資訊與關鍵任務通訊。",
       "sources": [
-        { "label": "NASA", "url": "https://www.nasa.gov/news-release/nasa-selects-blue-origin-as-mars-telecommunications-network-provider/", "type": "政府官方" }
+        {
+          "label": "NASA",
+          "url": "https://www.nasa.gov/news-release/nasa-selects-blue-origin-as-mars-telecommunications-network-provider/",
+          "type": "政府官方"
+        }
       ]
     },
     {
@@ -1106,7 +1515,11 @@
       "summary": "SOLION-100 以 Iridium Certus 100 為基礎，整合 GMDSS、SSAS 與 LRIT；改裝市場預計 2026 年底商用，新造船版本預計 2027 年推出。",
       "detail": "Iridium 與 Furuno 於 2026 年 9 月 1 日宣布 SOLION-100 海事安全終端。產品採用 Iridium Certus 100 技術，將全球海上遇險與安全系統（GMDSS）、船舶保安警報系統（SSAS）與遠程識別和跟蹤（LRIT）整合在單一平台，並利用 Iridium 低軌衛星網路提供包含極區的全球覆蓋。官方預計改裝應用於 2026 年底商用，新造船專案則於 2027 年推出。",
       "sources": [
-        { "label": "Iridium", "url": "https://investor.iridium.com/2026-09-01-Furuno-Unveils-New-SOLION-100-Terminal-for-Iridium-GMDSS", "type": "官方" }
+        {
+          "label": "Iridium",
+          "url": "https://investor.iridium.com/2026-09-01-Furuno-Unveils-New-SOLION-100-Terminal-for-Iridium-GMDSS",
+          "type": "官方"
+        }
       ]
     },
     {
@@ -1121,7 +1534,11 @@
       "summary": "Viasat 將 Addvalue IDRS 納入 HaloNet，提供最長 99% 軌道聯絡與低於 2 秒延遲的低軌衛星即時中繼能力。",
       "detail": "Addvalue Solutions 與 Viasat 於 SmallSat 2026 宣布合作協議，Viasat 將 Addvalue 的 Inter-satellite Data Relay Service（IDRS）整合進 HaloNet，並在美國政府及其供應商市場擔任主要窗口。IDRS 終端透過 Viasat 的 GEO L-band 網路，可讓低軌衛星在最長 99% 的軌道期間保持聯絡，官方標示延遲低於 2 秒，可支援即時任務下達、關鍵資料回傳與異常處置。Viasat 將整合終端、airtime、系統整合與任務支援；Addvalue 繼續開發及供應 IDRS 終端與服務，並保留技術所有權。",
       "sources": [
-        { "label": "Viasat／Addvalue", "url": "https://www.viasat.com/news/latest-news/government/2026/addvalue-viasat-idrs-government/", "type": "官方" }
+        {
+          "label": "Viasat／Addvalue",
+          "url": "https://www.viasat.com/news/latest-news/government/2026/addvalue-viasat-idrs-government/",
+          "type": "官方"
+        }
       ]
     },
     {
@@ -1136,22 +1553,11 @@
       "summary": "Rocket Lab 以 Electron 執行「The Lightning God Defends」任務，將最新 QPS-SAR 衛星部署至 575 公里低軌；這是 2026 年第 14 次 Electron 發射。",
       "detail": "Rocket Lab 的「The Lightning God Defends」任務於 2026 年 8 月 21 日凌晨 1:04（NZST）從紐西蘭 Mahia 的 Launch Complex 1 發射，並把最新一顆 iQPS QPS-SAR 合成孔徑雷達成像衛星部署至 575 公里低地球軌道。這是 Electron 第 93 次總任務及 2026 年第 14 次發射，也是 Rocket Lab 第 9 次為 iQPS 部署 QPS-SAR 衛星，官方表示九次皆成功；iQPS 另有 9 次 Electron 專屬任務已預訂，規劃於 2030 年前持續部署星座。",
       "sources": [
-        { "label": "Rocket Lab", "url": "https://rocketlabcorp.com/updates/mission-success-rocket-lab-launches-93rd-electron-mission/", "type": "官方" }
-      ]
-    },
-    {
-      "id": "rklb-emilia-3d-gimbal-20260819",
-      "date": "2026-08-19",
-      "company": "Rocket Lab",
-      "program": "EMILIA-3D／Rocket Lab Robotics",
-      "category": "里程碑",
-      "status": "儀器雲台已開發",
-      "tone": "positive",
-      "title": "Rocket Lab Robotics 為 NASA EMILIA-3D 提供月面熱成像雲台",
-      "summary": "Rocket Lab Robotics（原 Motiv）開發單軸儀器雲台，讓 EMILIA-3D 相機掃描月表並建立三維熱模型；官方未公布任務發射日期。",
-      "detail": "Rocket Lab 於 8 月 19 日揭露，Rocket Lab Robotics（原 Motiv Space Systems）已為 NASA EMILIA-3D 月球科學酬載開發單軸儀器雲台。這套整合航電與掃描系統能驅動相機精準掃描月表，建立三維熱模型，並針對月面輻射與約 250°C 溫差環境設計。NASA 於 2026 年 1 月公布該科學酬載；Rocket Lab 於 5 月收購 Motiv。官方尚未公布 EMILIA-3D 的發射日期。",
-      "sources": [
-        { "label": "Rocket Lab", "url": "https://rocketlabcorp.com/updates/powering-the-emilia-3d-lunar-mission-with-proven-space-robotics/", "type": "官方" }
+        {
+          "label": "Rocket Lab",
+          "url": "https://rocketlabcorp.com/updates/mission-success-rocket-lab-launches-93rd-electron-mission/",
+          "type": "官方"
+        }
       ]
     },
     {
@@ -1166,7 +1572,30 @@
       "summary": "Firefly 與 Zeno Power 簽署商業酬載協議，將在一項 NET 2028 的 Blue Ghost 月球近側任務展示 5W 鋂-241 放射性同位素加熱單元。",
       "detail": "Firefly Aerospace 與 Zeno Power Systems 簽署商業酬載協議，將 Zeno 的 Survive-the-Night Package 搭載於一項重返月球近側的既有 Blue Ghost／NASA CLPS 任務，發射時間不早於 2028 年。Blue Ghost 先以太陽能操作 NASA 酬載約一個月球日（約 14 個地球日），之後 Zeno 的 5W 鋂-241 放射性同位素加熱單元將在月夜運作並回傳資料，用來驗證不依賴太陽能的持續保溫能力。",
       "sources": [
-        { "label": "Firefly Aerospace", "url": "https://fireflyspace.com/news/firefly-aerospace-onboards-zeno-power-on-blue-ghost-mission-to-demonstrate-radioisotope-technologies-to-survive-the-lunar-night/", "type": "官方" }
+        {
+          "label": "Firefly Aerospace",
+          "url": "https://fireflyspace.com/news/firefly-aerospace-onboards-zeno-power-on-blue-ghost-mission-to-demonstrate-radioisotope-technologies-to-survive-the-lunar-night/",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "rklb-emilia-3d-gimbal-20260819",
+      "date": "2026-08-19",
+      "company": "Rocket Lab",
+      "program": "EMILIA-3D／Rocket Lab Robotics",
+      "category": "里程碑",
+      "status": "儀器雲台已開發",
+      "tone": "positive",
+      "title": "Rocket Lab Robotics 為 NASA EMILIA-3D 提供月面熱成像雲台",
+      "summary": "Rocket Lab Robotics（原 Motiv）開發單軸儀器雲台，讓 EMILIA-3D 相機掃描月表並建立三維熱模型；官方未公布任務發射日期。",
+      "detail": "Rocket Lab 於 8 月 19 日揭露，Rocket Lab Robotics（原 Motiv Space Systems）已為 NASA EMILIA-3D 月球科學酬載開發單軸儀器雲台。這套整合航電與掃描系統能驅動相機精準掃描月表，建立三維熱模型，並針對月面輻射與約 250°C 溫差環境設計。NASA 於 2026 年 1 月公布該科學酬載；Rocket Lab 於 5 月收購 Motiv。官方尚未公布 EMILIA-3D 的發射日期。",
+      "sources": [
+        {
+          "label": "Rocket Lab",
+          "url": "https://rocketlabcorp.com/updates/powering-the-emilia-3d-lunar-mission-with-proven-space-robotics/",
+          "type": "官方"
+        }
       ]
     },
     {
@@ -1181,54 +1610,11 @@
       "summary": "Rocket Lab 加入美國太空軍 Space Data Network 聯盟，並取得兩筆合計 1,200 萬美元的 SDN-B 交付訂單，預計 2027 年以 Photon 執行在軌互通展示。",
       "detail": "Rocket Lab 已納入美國太空軍 Space Data Network（SDN）聯盟，並取得兩筆合計 1,200 萬美元的 SDN-B 交付訂單。工作內容涵蓋衛星與地面系統間的光學通訊及網路互通技術設計、測試與展示；公司預計以自製 Photon 衛星平台執行在軌示範，官方規劃於 2027 年進行操作展示。這是已授予的兩筆交付訂單，不是整體計畫上限。",
       "sources": [
-        { "label": "Rocket Lab", "url": "https://rocketlabcorp.com/updates/u-s-space-force-selects-rocket-lab-for-space-data-network-consortium-awarded-12m-in-contracts-to-support-global-military-communications-network/", "type": "官方" }
-      ]
-    },
-    {
-      "id": "rklb-nite-star-20260817",
-      "date": "2026-08-17",
-      "company": "Rocket Lab",
-      "program": "NITE-STAR",
-      "category": "合約",
-      "status": "取得投標資格",
-      "tone": "positive",
-      "title": "納入美國太空軍 9.81 億美元 NITE-STAR 計畫",
-      "summary": "Rocket Lab 成為 NITE-STAR IDIQ 合約供應商，可競逐太空測試與訓練基礎設施任務訂單；9.81 億美元為計畫總額上限，非已取得訂單。",
-      "detail": "Rocket Lab 已成為美國太空軍 National Space Test and Training Range Integrated Test and Training Environment、Space Test and Training Range（NITE-STAR）IDIQ 計畫的合約供應商，可競逐後續任務訂單。涵蓋範圍包括分散式測試與訓練基礎設施、太空與地面系統、數位環境及維持服務。9.81 億美元是整體合約上限；官方公告並未表示 Rocket Lab 已取得特定任務訂單。",
-      "sources": [
-        { "label": "Rocket Lab", "url": "https://rocketlabcorp.com/updates/new-blog-posrocket-lab-onboarded-to-u-s-space-forces-981m-nite-star-program-to-advance-space-test-and-training-infrastructure-program/", "type": "官方" }
-      ]
-    },
-    {
-      "id": "vsat-rklb-pts-g-20260817",
-      "date": "2026-08-17",
-      "company": "Viasat",
-      "program": "PTS-G／Lightning-GEO",
-      "category": "合約",
-      "status": "進入生產",
-      "tone": "positive",
-      "title": "Viasat 選定 Rocket Lab 打造 PTS-G mini-GEO 衛星平台",
-      "summary": "Viasat 選定 Rocket Lab 提供 GEO 衛星平台，承載其 X／Ka 雙頻有效載荷，支援美國太空軍 PTS-G Swarm 1。",
-      "detail": "Viasat 依美國太空軍 Protected Tactical SATCOM-Global（PTS-G）Swarm 1 合約，選定 Rocket Lab 建造 mini-GEO 衛星平台。Rocket Lab 將交付 Lightning GEO 平台，搭載 Viasat 的 X／Ka 雙頻通訊有效載荷；Viasat 負責整體任務，初始生產範圍涵蓋製造、整合測試、發射、在軌檢查，以及五年操作與維護。官方尚未公布發射日期。",
-      "sources": [
-        { "label": "Rocket Lab／Viasat", "url": "https://rocketlabcorp.com/updates/viasat-selects-rocket-lab-to-build-geo-satellite-for-u-s-space-forces-protected-tactical-satcom-global-program-2/", "type": "官方" }
-      ]
-    },
-    {
-      "id": "rklb-globalstar-platforms-20260816",
-      "date": "2026-08-16",
-      "company": "Globalstar",
-      "program": "HIBLEO-4 替換計畫",
-      "category": "發射／部署",
-      "status": "8 顆部署／早期運作",
-      "tone": "positive",
-      "title": "Globalstar 首批 8 顆 HIBLEO-4 替換衛星完成部署",
-      "summary": "八顆衛星均已抵達預定軌道平面、建立通訊並由 Globalstar 控制；初步健康檢查顯示運作符合預期。",
-      "detail": "任務於美東時間 8 月 15 日 21:12 從 Cape Canaveral SLC-40 由 SpaceX Falcon 9 發射。八顆 HIBLEO-4 替換衛星均已與運載火箭分離並抵達預定軌道平面，Globalstar 的衛星營運中心已與每顆衛星建立通訊並取得控制。初步健康檢查顯示運作符合預期，後續將完成系統測試與校準，再逐步納入商用星座。",
-      "sources": [
-        { "label": "Globalstar", "url": "https://investors.globalstar.com/news-releases/news-release-details/globalstar-confirms-successful-launch-all-8-hibleo-4-replacement", "type": "官方" },
-        { "label": "Rocket Lab", "url": "https://rocketlabcorp.com/updates/rocket-lab-satellite-platforms-built-for-mda-space-successfully-reach-orbit-supporting-globalstar-direct-to-device-communications-services/", "type": "官方" },
-        { "label": "SpaceX", "url": "https://www.spacex.com/launches/globalstar2-rlaunch1", "type": "官方" }
+        {
+          "label": "Rocket Lab",
+          "url": "https://rocketlabcorp.com/updates/u-s-space-force-selects-rocket-lab-for-space-data-network-consortium-awarded-12m-in-contracts-to-support-global-military-communications-network/",
+          "type": "官方"
+        }
       ]
     },
     {
@@ -1243,7 +1629,78 @@
       "summary": "Firefly 可競逐 NASA 在 Vandenberg 的任務載荷處理訂單，服務涵蓋整備、加注、整合與整流罩封裝。",
       "detail": "Firefly Aerospace 已納入 NASA Spacecraft Processing Operations Contract，可競逐在 Vandenberg Space Force Base 執行的任務訂單。可提供的服務包括載荷處理、推進劑加注、整合與整流罩封裝。其設施距 SLC-2 約半英里，配置儲存、管制作業空間、氣閘與 ISO 8 潔淨室，可支援中小型太空器及高能燃料作業；NASA Quicksounder 與 INCUS 任務也規劃使用 Alpha 發射。",
       "sources": [
-        { "label": "Firefly Aerospace", "url": "https://fireflyspace.com/news/firefly-aerospace-onboarded-to-nasa-spacecraft-processing-operations-contract/", "type": "官方" }
+        {
+          "label": "Firefly Aerospace",
+          "url": "https://fireflyspace.com/news/firefly-aerospace-onboarded-to-nasa-spacecraft-processing-operations-contract/",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "rklb-nite-star-20260817",
+      "date": "2026-08-17",
+      "company": "Rocket Lab",
+      "program": "NITE-STAR",
+      "category": "合約",
+      "status": "取得投標資格",
+      "tone": "positive",
+      "title": "納入美國太空軍 9.81 億美元 NITE-STAR 計畫",
+      "summary": "Rocket Lab 成為 NITE-STAR IDIQ 合約供應商，可競逐太空測試與訓練基礎設施任務訂單；9.81 億美元為計畫總額上限，非已取得訂單。",
+      "detail": "Rocket Lab 已成為美國太空軍 National Space Test and Training Range Integrated Test and Training Environment、Space Test and Training Range（NITE-STAR）IDIQ 計畫的合約供應商，可競逐後續任務訂單。涵蓋範圍包括分散式測試與訓練基礎設施、太空與地面系統、數位環境及維持服務。9.81 億美元是整體合約上限；官方公告並未表示 Rocket Lab 已取得特定任務訂單。",
+      "sources": [
+        {
+          "label": "Rocket Lab",
+          "url": "https://rocketlabcorp.com/updates/new-blog-posrocket-lab-onboarded-to-u-s-space-forces-981m-nite-star-program-to-advance-space-test-and-training-infrastructure-program/",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "vsat-rklb-pts-g-20260817",
+      "date": "2026-08-17",
+      "company": "Viasat",
+      "program": "PTS-G／Lightning-GEO",
+      "category": "合約",
+      "status": "進入生產",
+      "tone": "positive",
+      "title": "Viasat 選定 Rocket Lab 打造 PTS-G mini-GEO 衛星平台",
+      "summary": "Viasat 選定 Rocket Lab 提供 GEO 衛星平台，承載其 X／Ka 雙頻有效載荷，支援美國太空軍 PTS-G Swarm 1。",
+      "detail": "Viasat 依美國太空軍 Protected Tactical SATCOM-Global（PTS-G）Swarm 1 合約，選定 Rocket Lab 建造 mini-GEO 衛星平台。Rocket Lab 將交付 Lightning GEO 平台，搭載 Viasat 的 X／Ka 雙頻通訊有效載荷；Viasat 負責整體任務，初始生產範圍涵蓋製造、整合測試、發射、在軌檢查，以及五年操作與維護。官方尚未公布發射日期。",
+      "sources": [
+        {
+          "label": "Rocket Lab／Viasat",
+          "url": "https://rocketlabcorp.com/updates/viasat-selects-rocket-lab-to-build-geo-satellite-for-u-s-space-forces-protected-tactical-satcom-global-program-2/",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "rklb-globalstar-platforms-20260816",
+      "date": "2026-08-16",
+      "company": "Globalstar",
+      "program": "HIBLEO-4 替換計畫",
+      "category": "發射／部署",
+      "status": "8 顆部署／早期運作",
+      "tone": "positive",
+      "title": "Globalstar 首批 8 顆 HIBLEO-4 替換衛星完成部署",
+      "summary": "八顆衛星均已抵達預定軌道平面、建立通訊並由 Globalstar 控制；初步健康檢查顯示運作符合預期。",
+      "detail": "任務於美東時間 8 月 15 日 21:12 從 Cape Canaveral SLC-40 由 SpaceX Falcon 9 發射。八顆 HIBLEO-4 替換衛星均已與運載火箭分離並抵達預定軌道平面，Globalstar 的衛星營運中心已與每顆衛星建立通訊並取得控制。初步健康檢查顯示運作符合預期，後續將完成系統測試與校準，再逐步納入商用星座。",
+      "sources": [
+        {
+          "label": "Globalstar",
+          "url": "https://investors.globalstar.com/news-releases/news-release-details/globalstar-confirms-successful-launch-all-8-hibleo-4-replacement",
+          "type": "官方"
+        },
+        {
+          "label": "Rocket Lab",
+          "url": "https://rocketlabcorp.com/updates/rocket-lab-satellite-platforms-built-for-mda-space-successfully-reach-orbit-supporting-globalstar-direct-to-device-communications-services/",
+          "type": "官方"
+        },
+        {
+          "label": "SpaceX",
+          "url": "https://www.spacex.com/launches/globalstar2-rlaunch1",
+          "type": "官方"
+        }
       ]
     },
     {
@@ -1258,7 +1715,11 @@
       "summary": "首三座地面站已在百慕達、紐西蘭與澳洲完成安裝與測試；Blue Origin 規劃年底前擴至九個站點。",
       "detail": "Blue Origin 已在百慕達、紐西蘭與澳洲完成 Quartz 首三座地面站的安裝與測試。第一階段採 3.7 公尺天線，支援低軌任務所需的 S 與 X 頻段追蹤、訊號情報與太空態勢感知；RBC Signals 協助場址調查、天線採購、部署與站點營運。公司規劃在年底前把網路擴至九個站點，後續 9 公尺天線與 L／S／X／Ka 頻段能力仍屬部署規劃，將把服務延伸至地球同步轉移軌道、地球同步軌道、月地空間與更遠任務。",
       "sources": [
-        { "label": "Blue Origin", "url": "https://www.blueorigin.com/news/blue-origin-begins-global-rollout-quartz-ground-station-network", "type": "官方" }
+        {
+          "label": "Blue Origin",
+          "url": "https://www.blueorigin.com/news/blue-origin-begins-global-rollout-quartz-ground-station-network",
+          "type": "官方"
+        }
       ]
     },
     {
@@ -1273,7 +1734,11 @@
       "summary": "Firefly 將完成 Elytra 除役任務的初步設計審查；完成 PDR 後才有資格競逐發射與任務執行階段。",
       "detail": "Firefly Aerospace 取得國防創新單位（DIU）與太空發展局（SDA）的新合約，工作範圍是完成 Elytra 衛星除役任務的初步設計審查。任務概念包括把 Elytra 送入低軌、接近客戶物體、執行會合與鄰近操作及狀態調查，再協助物體離軌；系統設計可延伸評估低軌、中軌與地球同步軌道需求。本階段僅限 PDR，完成後 Firefly 才有資格競逐下一階段的發射、太空器操作與任務執行，尚不能視為已取得後續任務。",
       "sources": [
-        { "label": "Firefly Aerospace", "url": "https://fireflyspace.com/news/firefly-aerospace-awarded-contract-to-design-elytra-deorbit-system-for-defense-innovation-unit/", "type": "官方" }
+        {
+          "label": "Firefly Aerospace",
+          "url": "https://fireflyspace.com/news/firefly-aerospace-awarded-contract-to-design-elytra-deorbit-system-for-defense-innovation-unit/",
+          "type": "官方"
+        }
       ]
     },
     {
@@ -1288,7 +1753,11 @@
       "summary": "LC-36B 將支援 New Glenn 9x4，既有 LC-36A 繼續支援 7x2；另建垂直整合與酬載處理設施，以提高發射頻率與基礎設施韌性。",
       "detail": "Blue Origin 正把佛州 Launch Complex 36 恢復成雙發射臺配置。新建的 LC-36B 規劃支援 New Glenn 9x4 構型，LC-36A 則維持 7x2 構型；同步新增的垂直整合與酬載處理設施，可讓不同任務在較少互相占用的情況下進行整備。這是提升發射頻率與基地備援能力的基礎建設里程碑，完工與首用日期仍待公司後續公告。",
       "sources": [
-        { "label": "Blue Origin", "url": "https://www.blueorigin.com/news/returning-launch-complex-36-to-two-pads", "type": "官方" }
+        {
+          "label": "Blue Origin",
+          "url": "https://www.blueorigin.com/news/returning-launch-complex-36-to-two-pads",
+          "type": "官方"
+        }
       ]
     },
     {
@@ -1303,8 +1772,16 @@
       "summary": "依 SpaceX 官方完成任務清單逐列計數；最新 8 月 12 日 Starlink 17-49 部署 24 顆。",
       "detail": "這筆事件是對 SpaceX 官方完成任務清單的期間彙整，不是單一發射。從 3 月 20 日到 8 月 12 日共可逐筆核實 44 次 Starlink 任務，顯示 Falcon 9 持續以高頻率補充與擴張星座；期間最後一筆為 Starlink 17-49，部署 24 顆衛星。部署任務數與目前仍在軌工作的衛星數屬不同口徑，網站會分開呈現。",
       "sources": [
-        { "label": "SpaceX Launches", "url": "https://www.spacex.com/launches", "type": "官方" },
-        { "label": "Starlink 17-49", "url": "https://www.spacex.com/launches/sl-17-49", "type": "官方" }
+        {
+          "label": "SpaceX Launches",
+          "url": "https://www.spacex.com/launches",
+          "type": "官方"
+        },
+        {
+          "label": "Starlink 17-49",
+          "url": "https://www.spacex.com/launches/sl-17-49",
+          "type": "官方"
+        }
       ]
     },
     {
@@ -1319,7 +1796,11 @@
       "summary": "三顆次世代直連手機衛星自 SLC-40 發射並依序部署，使在軌追蹤組成增至 13 顆（含 BlueWalker 3）。",
       "detail": "Falcon 9 自佛州 SLC-40 將 BlueBird 11、12、13 送入低地球軌道，三顆衛星在分離階段依序完成部署。以網站目前採用的追蹤口徑計算，AST SpaceMobile 在軌組成為 BlueWalker 3、第一代 BlueBird 1–5、BlueBird 6、BlueBird 8–10 與 BlueBird 11–13，共 13 顆；任務損失的 BlueBird 7 不列入。",
       "sources": [
-        { "label": "SpaceX", "url": "https://www.spacex.com/launches/bluebird11-13", "type": "官方" }
+        {
+          "label": "SpaceX",
+          "url": "https://www.spacex.com/launches/bluebird11-13",
+          "type": "官方"
+        }
       ]
     },
     {
@@ -1334,7 +1815,11 @@
       "summary": "合作把 SKYWAVE 的網路協調能力與 Iridium 極地覆蓋的 LEO 衛星網路結合，服務重型設備 OEM。",
       "detail": "Iridium 與 ORBCOMM 旗下 SKYWAVE 的合作，目標是把 SKYWAVE 的網路協調與裝置管理能力接上 Iridium 低軌衛星網路。對礦業、營建與農業等重型設備 OEM 而言，這可把設備遙測、位置與營運資料延伸到地面行動網路難以覆蓋的區域，包括高緯度與偏遠場域。",
       "sources": [
-        { "label": "Iridium", "url": "https://investor.iridium.com/press-releases?l=25", "type": "官方" }
+        {
+          "label": "Iridium",
+          "url": "https://investor.iridium.com/press-releases?l=25",
+          "type": "官方"
+        }
       ]
     },
     {
@@ -1349,67 +1834,11 @@
       "summary": "合約涵蓋 12 次次軌道發射，並可再增加最多 6 次；首發不早於 2026 年底。",
       "detail": "Rocket Lab 透過 HASTE 次軌道載具取得美國太空軍 Rocket System Launch Program 的多次任務合約，基本範圍涵蓋 12 次發射，並保留最多 6 次選擇權。合約價值約 2.66 億美元，首項任務不早於 2026 年底執行；這項安排擴大 HASTE 在高超音速與國防測試市場的長期任務能見度。",
       "sources": [
-        { "label": "Rocket Lab", "url": "https://rocketlabcorp.com/updates/record-contract-rslp-kodiak/", "type": "官方" }
-      ]
-    },
-    {
-      "id": "spacex-starship-f13-20260724",
-      "date": "2026-07-24",
-      "company": "SpaceX",
-      "program": "Starship",
-      "category": "里程碑",
-      "status": "已執行",
-      "tone": "neutral",
-      "title": "Starship 第 13 次飛行測試自 Pad 2 執行",
-      "summary": "SpaceX 發射清單記錄第 13 次 Starship 飛行測試於 7 月 24 日自 Starbase Pad 2 執行，載具採不回收配置。",
-      "detail": "SpaceX 官方任務頁把這次飛行列為 Starship 第 13 次飛行測試，並記錄於 7 月 24 日從 Starbase Pad 2 執行。任務採不回收配置，因此網站將它視為測試計畫的已執行里程碑，而不是可重複使用回收成果；後續技術判讀仍以 SpaceX 與監管機關公開的飛行結果為準。",
-      "sources": [
-        { "label": "SpaceX Launches", "url": "https://www.spacex.com/launches/starship-flight-13", "type": "官方" }
-      ]
-    },
-    {
-      "id": "voyg-sandia-leo-20260720",
-      "date": "2026-07-20",
-      "company": "Voyager Technologies",
-      "program": "ISS mission management",
-      "category": "合約",
-      "status": "已確認",
-      "tone": "positive",
-      "title": "取得 Sandia 國家實驗室 2027 年 LEO 任務管理合約",
-      "summary": "Voyager 將為 Big Boy 展示任務提供實驗設計、酬載整合、安全審查、任務規劃與在軌操作。",
-      "detail": "Voyager Technologies 將為 Sandia National Laboratories 的 Big Boy 低軌展示任務提供端到端任務管理。工作範圍包含實驗設計、酬載整合、安全審查、發射前任務規劃與在軌操作，目標執行時間為 2027 年；這筆合約強化 Voyager 在政府研究酬載與商業太空基礎設施之間的整合角色。",
-      "sources": [
-        { "label": "Voyager Technologies", "url": "https://investors.voyagertechnologies.com/news/news-details/2026/Voyager-Wins-Contract-with-Sandia-National-Laboratories/default.aspx", "type": "官方" }
-      ]
-    },
-    {
-      "id": "vsat-bmw-ntn-demo-20260716",
-      "date": "2026-07-16",
-      "company": "Viasat",
-      "program": "L-band NTN",
-      "category": "測試",
-      "status": "已確認",
-      "tone": "positive",
-      "title": "完成首度整合 BMW 車載介面的衛星語音通話展示",
-      "summary": "Viasat 以 L-band 衛星網路和 NB-IoT 協定，完成整合 BMW iX3 車載介面的衛星語音通話展示。",
-      "detail": "Viasat 使用 L-band 衛星網路與 3GPP NB-IoT 技術，把衛星語音通話流程整合到 BMW iX3 的車載介面中。這次展示的重點不是量產服務上線，而是驗證車輛可在地面網路不足時，透過非地面網路介面維持基本語音連線，為後續車用衛星連線產品化提供技術檢查點。",
-      "sources": [
-        { "label": "Viasat", "url": "https://investors.viasat.com/news-releases/news-release-details/viasat-demonstrates-first-integrated-automotive-satellite-voice", "type": "官方" }
-      ]
-    },
-    {
-      "id": "fly-skyfall-20260707",
-      "date": "2026-07-07",
-      "company": "Firefly Aerospace",
-      "program": "SkyFall",
-      "category": "合約",
-      "status": "已確認",
-      "tone": "positive",
-      "title": "取得 NASA JPL 1,300 萬美元 SkyFall 火星任務分包",
-      "summary": "Firefly 將製造、測試並交付 SkyFall 火星任務的氣動外殼；該任務目前以 2028 年底發射為目標。",
-      "detail": "Firefly Aerospace 取得 NASA Jet Propulsion Laboratory 約 1,300 萬美元的分包，負責 SkyFall 火星任務氣動外殼的製造、測試與交付。氣動外殼會在發射與大氣進入階段保護任務硬體；目前公開目標是 2028 年底發射，實際日期仍取決於後續任務整合與審查。",
-      "sources": [
-        { "label": "Firefly Aerospace", "url": "https://investors.fireflyspace.com/news-releases/news-release-details/firefly-aerospace-receives-13-million-nasa-jpl-subcontract-build", "type": "官方" }
+        {
+          "label": "Rocket Lab",
+          "url": "https://rocketlabcorp.com/updates/record-contract-rslp-kodiak/",
+          "type": "官方"
+        }
       ]
     },
     {
@@ -1424,325 +1853,68 @@
       "summary": "新測試場可在不占用 LC-36 的情況下驗證 New Glenn 第二節，支援後續復飛與提高發射頻率。",
       "detail": "Blue Origin 與 NASA 合作，在 Stennis Space Center 建立 New Glenn 第二節的額外熱火測試能力。把部分推進系統驗證從佛州 LC-36 分流，可降低發射場被測試工作長時間占用的風險，並讓第二節驗證、發射場修復與任務整備更容易平行進行。",
       "sources": [
-        { "label": "Blue Origin", "url": "https://www.blueorigin.com/news/blue-origin-nasa-partner-to-test-new-glenn-at-stennis-space-center", "type": "官方" }
+        {
+          "label": "Blue Origin",
+          "url": "https://www.blueorigin.com/news/blue-origin-nasa-partner-to-test-new-glenn-at-stennis-space-center",
+          "type": "官方"
+        }
       ]
     },
     {
-      "id": "irdm-rklb-merger-20260629",
-      "date": "2026-06-29",
-      "company": "Iridium",
-      "program": "Rocket Lab acquisition",
-      "category": "里程碑",
-      "status": "待股東／監管核准",
-      "tone": "watch",
-      "title": "Rocket Lab 宣布以約 80 億美元企業價值收購 Iridium",
-      "summary": "雙方簽署最終協議，預計於 2027 年中完成；交易仍須取得 Iridium 股東與監管核准。",
-      "detail": "Rocket Lab 與 Iridium 已簽署最終收購協議，公告企業價值約 80 億美元，預計於 2027 年中完成。交易若通過，將把 Rocket Lab 的發射、衛星製造與太空系統能力，和 Iridium 的全球 LEO 通訊網路與服務業務結合；目前仍屬待完成交易，必須先取得 Iridium 股東與相關監管機關核准。",
-      "sources": [
-        { "label": "Rocket Lab / Iridium", "url": "https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-acquire-iridium-historic-deal-creating-fully", "type": "官方" }
-      ]
-    },
-    {
-      "id": "amazon-leo-375-20260702",
-      "date": "2026-07-02",
-      "company": "Amazon Leo",
-      "program": "Amazon Leo",
-      "category": "部署",
-      "status": "已確認",
-      "tone": "positive",
-      "title": "累計完成 14 次任務、精確部署 396 顆衛星",
-      "summary": "LA-08 於 7 月 2 日部署 29 顆，使 Amazon Leo 官方精確累計達 396 顆；已鎖定超過 100 次發射運力。",
-      "detail": "Amazon Leo 的 LA-08 任務使用 Atlas V 551 部署 29 顆衛星，完成第 14 次星座部署任務，也結束 Amazon Leo 的 Atlas V 發射階段。Amazon 官方精確累計為 396 顆；下一階段將轉向 ULA Vulcan 等載具並提高單次酬載量，但截至本次查核仍未公布下一次任務的確切日期。",
-      "sources": [
-        { "label": "Amazon", "url": "https://www.aboutamazon.com/news/innovation-at-amazon/project-kuiper-satellite-rocket-launch-progress-updates", "type": "官方" }
-      ]
-    },
-    {
-      "id": "vsat-viasat3-f3-20260429",
-      "date": "2026-04-29",
-      "company": "Viasat",
-      "program": "ViaSat-3 F3",
-      "category": "發射",
-      "status": "初始訊號取得",
-      "tone": "positive",
-      "title": "ViaSat-3 F3 成功發射並取得初始訊號",
-      "summary": "ViaSat-3 F3 搭乘 Falcon Heavy 升空並完成分離；Viasat 表示衛星健康，已進入後續在軌作業階段。",
-      "detail": "ViaSat-3 F3 搭乘 Falcon Heavy 完成發射與星箭分離，Viasat 隨後取得初始訊號並表示衛星狀態健康。取得訊號代表任務已從發射階段轉入在軌作業，後續仍需完成軌道調整、系統檢查與服務啟用；因此網站狀態標示為『初始訊號取得』，不等同全面商轉。",
-      "sources": [
-        { "label": "Viasat", "url": "https://investors.viasat.com/node/27561", "type": "官方" }
-      ]
-    },
-    {
-      "id": "bo-return-flight-plan-20260630",
-      "date": "2026-06-30",
-      "company": "Blue Origin",
-      "program": "New Glenn",
-      "category": "里程碑",
-      "status": "復原中",
-      "tone": "watch",
-      "title": "公布 New Glenn 復飛與 LC-36 重建路徑",
-      "summary": "地面清理完成，主要修復與新整合流程設計進行中；公司目標仍是 2026 年底前復飛。",
-      "detail": "Blue Origin 表示 LC-36 的事故後清理已完成，修復工程、設備替換與新的整合流程設計正同步推進。公司仍以 2026 年底前恢復 New Glenn 飛行為目標，但這是目標窗口而非保證日期；復飛仍取決於硬體修復、測試結果與監管許可。",
-      "sources": [
-        { "label": "Blue Origin", "url": "https://www.blueorigin.com/news/new-glenn-return-to-flight", "type": "官方" }
-      ]
-    },
-    {
-      "id": "asts-bb8-10-20260617",
-      "date": "2026-06-17",
-      "company": "AST SpaceMobile",
-      "program": "BlueBird",
-      "category": "部署",
-      "status": "成功",
-      "tone": "positive",
-      "title": "BlueBird 8、9、10 搭乘 Falcon 9 完成部署",
-      "summary": "三顆次世代大型直連手機衛星自佛州升空並依序部署，補上 BlueBird 7 損失後的部署缺口。",
-      "detail": "BlueBird 8、9、10 由 Falcon 9 從佛州發射，並在入軌後依序完成分離。三顆衛星屬 AST SpaceMobile 的次世代大型直連手機平台，這次成功部署在 BlueBird 7 任務損失後恢復了星座擴張節奏；後續仍需經過在軌展開、測試與通訊服務整合。",
-      "sources": [
-        { "label": "SpaceX", "url": "https://www.spacex.com/launches/bluebird8-10", "type": "官方" },
-        { "label": "AST SpaceMobile", "url": "https://ast-science.com/next-gen-bluebird/", "type": "官方" }
-      ]
-    },
-    {
-      "id": "spacex-starlink-20260608",
-      "date": "2026-06-08",
-      "company": "SpaceX",
-      "program": "Starlink",
-      "category": "部署",
-      "status": "成功",
-      "tone": "positive",
-      "title": "Falcon 9 部署 29 顆 Starlink，助推器完成第 35 次飛行",
-      "summary": "任務自 SLC-40 發射，第一節成功降落於大西洋無人船。",
-      "detail": "Falcon 9 從佛州 SLC-40 發射並部署 29 顆 Starlink 衛星，第一節則返回大西洋無人船完成著陸。該助推器完成第 35 次飛行，讓這次任務同時呈現星座補網與高重複使用週轉兩項指標；衛星部署數會計入任務累計，但在軌工作數仍須另以軌道統計更新。",
-      "sources": [
-        { "label": "SpaceX", "url": "https://www.spacex.com/launches/sl-10-35", "type": "官方" }
-      ]
-    },
-    {
-      "id": "bo-hotfire-anomaly-20260528",
-      "date": "2026-05-28",
-      "company": "Blue Origin",
-      "program": "New Glenn",
-      "category": "異常",
-      "status": "調查／修復",
-      "tone": "alert",
-      "title": "New Glenn 整合熱火測試發生重大異常",
-      "summary": "LC-36 的避雷塔、運輸豎立設備與液壓系統受損；推進劑設施、整合廠與部分關鍵設施保持良好。",
-      "detail": "New Glenn 在 LC-36 進行整合熱火測試時發生重大異常，造成避雷塔、運輸豎立設備與液壓系統受損。Blue Origin 表示推進劑設施、整合廠與部分關鍵基礎設施未受到同等程度破壞；事件因此進入調查與修復階段，並直接影響後續測試與復飛時程。",
-      "sources": [
-        { "label": "Blue Origin", "url": "https://www.blueorigin.com/news/ng-4-hotfire-updates", "type": "官方" }
-      ]
-    },
-    {
-      "id": "spacex-starship-f12-20260522",
-      "date": "2026-05-22",
+      "id": "spacex-starship-f13-20260724",
+      "date": "2026-07-24",
       "company": "SpaceX",
       "program": "Starship",
-      "category": "異常",
-      "status": "助推器返航異常",
-      "tone": "alert",
-      "title": "Flight 12 完成 V3 主要測試，但 Super Heavy 返航發生 mishap",
-      "summary": "Starship 達成既定軌跡、部署測試酬載並完成再入濺落；Super Heavy 僅完成部分 boostback 後硬濺落，FAA 將事件列為 mishap。",
-      "detail": "Starship Flight 12 完成 V3 構型的多項主要飛行目標，包括沿既定軌跡飛行、部署測試酬載與再入後濺落。Super Heavy 助推器在返航階段只完成部分 boostback，之後硬濺落；FAA 因此把事件列為 mishap。這代表飛船端取得進展，但助推器返航仍需完成調查與修正。",
-      "sources": [
-        { "label": "SpaceX", "url": "https://www.spacex.com/launches/starship-flight-12", "type": "官方" },
-        { "label": "FAA", "url": "https://www.faa.gov/newsroom/statements/general-statements", "type": "監管" }
-      ]
-    },
-    {
-      "id": "amazon-la06-20260427",
-      "date": "2026-04-27",
-      "company": "Amazon Leo",
-      "program": "LA-06",
-      "category": "部署",
-      "status": "成功",
-      "tone": "positive",
-      "title": "LA-06 使用 Atlas V 551 部署 29 顆衛星",
-      "summary": "任務自卡納維爾角 SLC-41 發射，延續 Amazon Leo 2026 年的量產部署節奏。",
-      "detail": "Amazon Leo LA-06 從卡納維爾角 SLC-41 搭乘 Atlas V 551 發射，並成功部署 29 顆量產衛星。任務延續 2026 年 Atlas V 批次的固定節奏，部署結果已納入 Amazon 官方累計；衛星之後仍需升軌與完成在軌健康檢查，才會進入營運準備。",
-      "sources": [
-        { "label": "Amazon", "url": "https://www.aboutamazon.com/news/innovation-at-amazon/project-kuiper-satellite-rocket-launch-progress-updates", "type": "官方" }
-      ]
-    },
-    {
-      "id": "spacex-gps-iii8-20260421",
-      "date": "2026-04-21",
-      "company": "SpaceX",
-      "program": "Falcon 9",
-      "category": "發射",
-      "status": "成功",
-      "tone": "positive",
-      "title": "Falcon 9 發射 GPS III-8／SV-10",
-      "summary": "SpaceX 完成最後一顆 GPS III 系列衛星的發射任務。",
-      "detail": "Falcon 9 把 GPS III-8（SV-10）送入預定轉移軌道，完成 GPS III 系列最後一顆衛星的發射任務。這是美國全球定位系統現代化計畫的重要交付節點；發射成功後，衛星仍須由營運單位完成在軌測試與編入星座。",
-      "sources": [
-        { "label": "SpaceX launches", "url": "https://www.spacex.com/launches", "type": "官方" }
-      ]
-    },
-    {
-      "id": "bo-ng3-bluebird7-20260419",
-      "date": "2026-04-19",
-      "company": "Blue Origin",
-      "program": "New Glenn",
-      "category": "異常",
-      "status": "酬載損失",
-      "tone": "alert",
-      "title": "NG-3 完成首節重複使用，但 BlueBird 7 進入錯誤軌道",
-      "summary": "助推器成功回收；第二節未將衛星送入預定軌道，BlueBird 7 隨後失去任務能力。",
-      "detail": "New Glenn NG-3 的第一節成功完成回收，證明部分重複使用能力；但第二節未把 BlueBird 7 送入預定軌道。衛星後續失去任務能力，因此不計入 AST SpaceMobile 的營運在軌總量。這筆事件同時保留『首節回收成功』與『酬載損失』兩個結果，整體狀態以重大異常處理。",
-      "sources": [
-        { "label": "Blue Origin", "url": "https://www.blueorigin.com/missions/ng-3", "type": "官方" },
-        { "label": "FAA", "url": "https://www.faa.gov/newsroom/statements/general-statements", "type": "監管" }
-      ]
-    },
-    {
-      "id": "amazon-la05-20260404",
-      "date": "2026-04-04",
-      "company": "Amazon Leo",
-      "program": "LA-05",
-      "category": "部署",
-      "status": "成功",
-      "tone": "positive",
-      "title": "LA-05 使用 Atlas V 部署 29 顆衛星",
-      "summary": "任務把 Amazon Leo 量產部署進度推進至下一個檢查點。",
-      "detail": "LA-05 使用 Atlas V 551 將 29 顆 Amazon Leo 衛星送入低地球軌道，完成該計畫第 9 次部署任務。衛星分離後由 Amazon 任務控制團隊接手，進行初始聯絡、健康檢查與後續升軌；這批衛星已納入官方部署累計。",
-      "sources": [
-        { "label": "Amazon", "url": "https://www.aboutamazon.com/news/innovation-at-amazon/project-kuiper-satellite-rocket-launch-progress-updates", "type": "官方" }
-      ]
-    },
-    {
-      "id": "rklb-ten-owl-20260627",
-      "date": "2026-06-27",
-      "company": "Rocket Lab",
-      "program": "Electron／StriX",
-      "category": "部署",
-      "status": "成功",
-      "tone": "positive",
-      "title": "Ten Owl Of Ten 完成 Synspective 第 10 次專屬任務",
-      "summary": "Electron 將單顆 StriX SAR 衛星部署至 552 km LEO，維持雙方專屬任務 100% 成功紀錄。",
-      "detail": "Rocket Lab 的 Electron 在 Ten Owl Of Ten 任務中，把單顆 Synspective StriX 合成孔徑雷達衛星部署至約 552 公里低軌。這是雙方第 10 次專屬任務，延續所有專屬發射均成功的紀錄，也支援 Synspective 持續擴張全天候地球觀測能力。",
-      "sources": [
-        { "label": "Rocket Lab", "url": "https://rocketlabcorp.com/missions/launches/tenowloften/", "type": "官方" }
-      ]
-    },
-    {
-      "id": "rklb-victus-haze-20260619",
-      "date": "2026-06-19",
-      "company": "Rocket Lab",
-      "program": "VICTUS HAZE",
       "category": "里程碑",
-      "status": "成功",
-      "tone": "positive",
-      "title": "VICTUS HAZE 以 16 小時 42 分 Notice-to-Launch 創紀錄",
-      "summary": "Rocket Lab 完成 Electron 發射、Pioneer 太空船部署與後續在軌 RPO 任務整合。",
-      "detail": "VICTUS HAZE 從收到執行通知到發射僅 16 小時 42 分，刷新 Rocket Lab 的快速響應紀錄。任務不只包含 Electron 發射，也涵蓋 Pioneer 太空船部署與後續在軌 rendezvous and proximity operations 整合，展示商業團隊支援國防快速任務的端到端能力。",
+      "status": "已執行",
+      "tone": "neutral",
+      "title": "Starship 第 13 次飛行測試自 Pad 2 執行",
+      "summary": "SpaceX 發射清單記錄第 13 次 Starship 飛行測試於 7 月 24 日自 Starbase Pad 2 執行，載具採不回收配置。",
+      "detail": "SpaceX 官方任務頁把這次飛行列為 Starship 第 13 次飛行測試，並記錄於 7 月 24 日從 Starbase Pad 2 執行。任務採不回收配置，因此網站將它視為測試計畫的已執行里程碑，而不是可重複使用回收成果；後續技術判讀仍以 SpaceX 與監管機關公開的飛行結果為準。",
       "sources": [
-        { "label": "Rocket Lab", "url": "https://rocketlabcorp.com/missions/launches/victus-haze/", "type": "官方" }
+        {
+          "label": "SpaceX Launches",
+          "url": "https://www.spacex.com/launches/starship-flight-13",
+          "type": "官方"
+        }
       ]
     },
     {
-      "id": "rklb-viva-strix-20260522",
-      "date": "2026-05-22",
-      "company": "Rocket Lab",
-      "program": "Electron／StriX",
-      "category": "部署",
-      "status": "成功",
+      "id": "voyg-sandia-leo-20260720",
+      "date": "2026-07-20",
+      "company": "Voyager Technologies",
+      "program": "ISS mission management",
+      "category": "合約",
+      "status": "已確認",
       "tone": "positive",
-      "title": "Viva La StriX 部署第 9 顆由 Rocket Lab 發射的 StriX",
-      "summary": "單顆 Synspective SAR 衛星成功部署至 572 km LEO。",
-      "detail": "Electron 在 Viva La StriX 任務中把一顆 Synspective StriX SAR 衛星部署至約 572 公里低軌。這是 Rocket Lab 為 Synspective 發射的第 9 顆 StriX，任務採專屬發射方式，讓客戶可控制軌道與部署時程並持續擴張地球觀測星座。",
+      "title": "取得 Sandia 國家實驗室 2027 年 LEO 任務管理合約",
+      "summary": "Voyager 將為 Big Boy 展示任務提供實驗設計、酬載整合、安全審查、任務規劃與在軌操作。",
+      "detail": "Voyager Technologies 將為 Sandia National Laboratories 的 Big Boy 低軌展示任務提供端到端任務管理。工作範圍包含實驗設計、酬載整合、安全審查、發射前任務規劃與在軌操作，目標執行時間為 2027 年；這筆合約強化 Voyager 在政府研究酬載與商業太空基礎設施之間的整合角色。",
       "sources": [
-        { "label": "Rocket Lab", "url": "https://rocketlabcorp.com/missions/launches/viva-la-strix-2/", "type": "官方" }
+        {
+          "label": "Voyager Technologies",
+          "url": "https://investors.voyagertechnologies.com/news/news-details/2026/Voyager-Wins-Contract-with-Sandia-National-Laboratories/default.aspx",
+          "type": "官方"
+        }
       ]
     },
     {
-      "id": "rklb-kakushin-20260423",
-      "date": "2026-04-23",
-      "company": "Rocket Lab",
-      "program": "Electron／JAXA",
-      "category": "部署",
-      "status": "成功",
+      "id": "vsat-bmw-ntn-demo-20260716",
+      "date": "2026-07-16",
+      "company": "Viasat",
+      "program": "L-band NTN",
+      "category": "測試",
+      "status": "已確認",
       "tone": "positive",
-      "title": "Kakushin Rising 為 JAXA 部署 8 顆衛星",
-      "summary": "任務涵蓋教育、海洋監測、多光譜相機與可展開天線等技術示範酬載。",
-      "detail": "Rocket Lab 的 Kakushin Rising 任務一次為 JAXA 部署 8 顆小型衛星。酬載用途涵蓋教育、海洋監測、多光譜成像與可展開天線等技術示範；多星部署使本次任務同時驗證 Electron 的批次酬載整合與日本創新衛星計畫的多元技術。",
+      "title": "完成首度整合 BMW 車載介面的衛星語音通話展示",
+      "summary": "Viasat 以 L-band 衛星網路和 NB-IoT 協定，完成整合 BMW iX3 車載介面的衛星語音通話展示。",
+      "detail": "Viasat 使用 L-band 衛星網路與 3GPP NB-IoT 技術，把衛星語音通話流程整合到 BMW iX3 的車載介面中。這次展示的重點不是量產服務上線，而是驗證車輛可在地面網路不足時，透過非地面網路介面維持基本語音連線，為後續車用衛星連線產品化提供技術檢查點。",
       "sources": [
-        { "label": "Rocket Lab", "url": "https://rocketlabcorp.com/missions/launches/kakushin-rising/", "type": "官方" }
-      ]
-    },
-    {
-      "id": "rklb-celeste-20260328",
-      "date": "2026-03-28",
-      "company": "Rocket Lab",
-      "program": "Electron／Celeste",
-      "category": "部署",
-      "status": "成功",
-      "tone": "positive",
-      "title": "Daughter Of The Stars 部署 ESA 首批兩顆 Celeste 衛星",
-      "summary": "Rocket Lab 首次執行 ESA 專屬任務，將兩顆 LEO-PNT 示範衛星送至 510 km LEO。",
-      "detail": "Daughter Of The Stars 是 Rocket Lab 首次為歐洲太空總署執行專屬 Electron 任務，將 Celeste IOD-1 與 IOD-2 部署到約 510 公里低軌。兩顆衛星用於示範低軌定位、導航與授時技術，為後續歐洲 LEO-PNT 架構提供在軌驗證資料。",
-      "sources": [
-        { "label": "Rocket Lab", "url": "https://rocketlabcorp.com/missions/launches/daughter-of-the-stars/", "type": "官方" }
-      ]
-    },
-    {
-      "id": "fly-alpha-flight7-20260311",
-      "date": "2026-03-11",
-      "company": "Firefly Aerospace",
-      "program": "Alpha Flight 7",
-      "category": "部署",
-      "status": "成功",
-      "tone": "positive",
-      "title": "Alpha Flight 7 完成返航任務並部署示範酬載",
-      "summary": "Stairway to Seven 完成入軌、Lockheed Martin 示範酬載部署與第二節再點火。",
-      "detail": "Firefly Alpha Flight 7（Stairway to Seven）完成入軌並部署 Lockheed Martin 的示範酬載，之後也執行第二節再點火。任務把 Firefly 的重點放在恢復飛行、驗證軌道插入與上面級操作；部署成功為後續客戶任務提供新的飛行資料。",
-      "sources": [
-        { "label": "Firefly Aerospace", "url": "https://fireflyspace.com/news/firefly-aerospace-successfully-launches-alpha-flight-7/", "type": "官方" }
-      ]
-    },
-    {
-      "id": "rklb-neutron-q4-20260226",
-      "date": "2026-02-26",
-      "company": "Rocket Lab",
-      "program": "Neutron",
-      "category": "時程",
-      "status": "Q4 2026",
-      "tone": "watch",
-      "title": "Neutron 首飛時程調整至 2026 年第四季",
-      "summary": "Rocket Lab 在年度申報文件中更新首飛目標，以完成剩餘系統與飛行硬體驗證。",
-      "detail": "Rocket Lab 在年度申報文件中把 Neutron 首次發射目標更新為 2026 年第四季。調整後的窗口反映公司仍需完成剩餘系統整合、地面測試與飛行硬體驗證；Q4 是公開目標區間，並非已確定的發射日，網站會持續追蹤後續測試與排程變化。",
-      "sources": [
-        { "label": "Rocket Lab 10-K", "url": "https://investors.rocketlabcorp.com/static-files/57a8d0da-27ff-499c-8d85-18907743b7a8", "type": "申報" }
-      ]
-    },
-    {
-      "id": "pl-pelican-11-launch-20260707",
-      "date": "2026-07-07",
-      "company": "Planet Labs",
-      "program": "Pelican Gen 2",
-      "category": "發射／部署",
-      "status": "入軌／commissioning",
-      "tone": "positive",
-      "title": "Planet Pelican-11 Gen 2 技術驗證衛星成功入軌",
-      "summary": "Pelican-11 隨 Transporter-17 自 Vandenberg 入軌，Planet 已建立初始聯絡並開始 commissioning。",
-      "detail": "Pelican-11 是 Planet 第二代高解析 Pelican 的技術驗證衛星 TD2，搭乘 SpaceX Transporter-17 共乘任務自 Vandenberg 發射。Planet 已與衛星建立初始聯絡並開始 commissioning。這顆工程 pathfinder 用於在太空環境驗證 Gen 2 技術；Gen 1 可提供最高 50 公分級影像，Gen 2 設計目標則達 30 公分級。Pelican-11 預期不提供商用資料。",
-      "sources": [
-        { "label": "Planet Labs", "url": "https://investors.planet.com/news/news-details/2026/Planet-Launches-Pelican-11-Satellite/default.aspx", "type": "官方" }
-      ]
-    },
-    {
-      "id": "bksy-gen3-fourth-commissioned-20260312",
-      "date": "2026-03-12",
-      "company": "BlackSky",
-      "program": "Gen-3",
-      "category": "部署／商轉",
-      "status": "第 4 顆完成 commissioning",
-      "tone": "positive",
-      "title": "BlackSky 第 4 顆 Gen-3 一週內完成 commissioning",
-      "summary": "衛星在發射後數小時取得 first light，並於不到一週內開放 35 公分級影像的商業服務。",
-      "detail": "BlackSky 第四顆 Gen-3 衛星在發射後數小時即完成在軌 first light，隨後不到一週便完成 commissioning 並向全球客戶開放一般商業服務。Gen-3 可透過 BlackSky Spectra 提供 35 公分級影像與 AI 分析；這筆紀錄以完成商轉為部署里程碑，而不是只計算離開火箭的時間。",
-      "sources": [
-        { "label": "BlackSky", "url": "https://ir.blacksky.com/news-events/press-releases/news-details/2026/BlackSky-Successfully-Commissions-Gen-3-in-Less-Than-One-Week-Opening-Gen-3-General-Availability-for-Global-Customer-Base/default.aspx", "type": "官方" }
+        {
+          "label": "Viasat",
+          "url": "https://investors.viasat.com/news-releases/news-release-details/viasat-demonstrates-first-integrated-automotive-satellite-voice",
+          "type": "官方"
+        }
       ]
     },
     {
@@ -1757,8 +1929,449 @@
       "summary": "批次包含兩顆 GHGSat、七顆 Space Services 客戶衛星，以及一顆 Spire 自有星座補充衛星。",
       "detail": "Spire 在 SpaceX Transporter-17 共乘任務中成功發射十顆由公司設計、製造與測試的衛星。其中兩顆服務 GHGSat 溫室氣體監測、七顆屬於 Spire Space Services 客戶任務，另有一顆補充 Spire 自有多用途星座。公司後續在第二季結果中表示，這批任務使 2026 年累計發射數達 29 顆。",
       "sources": [
-        { "label": "Spire Global", "url": "https://ir.spire.com/news-events/press-releases/detail/304/spire-global-successfully-launches-ten-satellites-on", "type": "官方" },
-        { "label": "Spire Q2 2026", "url": "https://ir.spire.com/news-events/press-releases/detail/309/spire-global-announces-second-quarter-2026-results", "type": "官方" }
+        {
+          "label": "Spire Global",
+          "url": "https://ir.spire.com/news-events/press-releases/detail/304/spire-global-successfully-launches-ten-satellites-on",
+          "type": "官方"
+        },
+        {
+          "label": "Spire Q2 2026",
+          "url": "https://ir.spire.com/news-events/press-releases/detail/309/spire-global-announces-second-quarter-2026-results",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "fly-skyfall-20260707",
+      "date": "2026-07-07",
+      "company": "Firefly Aerospace",
+      "program": "SkyFall",
+      "category": "合約",
+      "status": "已確認",
+      "tone": "positive",
+      "title": "取得 NASA JPL 1,300 萬美元 SkyFall 火星任務分包",
+      "summary": "Firefly 將製造、測試並交付 SkyFall 火星任務的氣動外殼；該任務目前以 2028 年底發射為目標。",
+      "detail": "Firefly Aerospace 取得 NASA Jet Propulsion Laboratory 約 1,300 萬美元的分包，負責 SkyFall 火星任務氣動外殼的製造、測試與交付。氣動外殼會在發射與大氣進入階段保護任務硬體；目前公開目標是 2028 年底發射，實際日期仍取決於後續任務整合與審查。",
+      "sources": [
+        {
+          "label": "Firefly Aerospace",
+          "url": "https://investors.fireflyspace.com/news-releases/news-release-details/firefly-aerospace-receives-13-million-nasa-jpl-subcontract-build",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "pl-pelican-11-launch-20260707",
+      "date": "2026-07-07",
+      "company": "Planet Labs",
+      "program": "Pelican Gen 2",
+      "category": "發射／部署",
+      "status": "入軌／commissioning",
+      "tone": "positive",
+      "title": "Planet Pelican-11 Gen 2 技術驗證衛星成功入軌",
+      "summary": "Pelican-11 隨 Transporter-17 自 Vandenberg 入軌，Planet 已建立初始聯絡並開始 commissioning。",
+      "detail": "Pelican-11 是 Planet 第二代高解析 Pelican 的技術驗證衛星 TD2，搭乘 SpaceX Transporter-17 共乘任務自 Vandenberg 發射。Planet 已與衛星建立初始聯絡並開始 commissioning。這顆工程 pathfinder 用於在太空環境驗證 Gen 2 技術；Gen 1 可提供最高 50 公分級影像，Gen 2 設計目標則達 30 公分級。Pelican-11 預期不提供商用資料。",
+      "sources": [
+        {
+          "label": "Planet Labs",
+          "url": "https://investors.planet.com/news/news-details/2026/Planet-Launches-Pelican-11-Satellite/default.aspx",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "amazon-leo-375-20260702",
+      "date": "2026-07-02",
+      "company": "Amazon Leo",
+      "program": "Amazon Leo",
+      "category": "部署",
+      "status": "已確認",
+      "tone": "positive",
+      "title": "累計完成 14 次任務、精確部署 396 顆衛星",
+      "summary": "LA-08 於 7 月 2 日部署 29 顆，使 Amazon Leo 官方精確累計達 396 顆；已鎖定超過 100 次發射運力。",
+      "detail": "Amazon Leo 的 LA-08 任務使用 Atlas V 551 部署 29 顆衛星，完成第 14 次星座部署任務，也結束 Amazon Leo 的 Atlas V 發射階段。Amazon 官方精確累計為 396 顆；下一階段將轉向 ULA Vulcan 等載具並提高單次酬載量，但截至本次查核仍未公布下一次任務的確切日期。",
+      "sources": [
+        {
+          "label": "Amazon",
+          "url": "https://www.aboutamazon.com/news/innovation-at-amazon/project-kuiper-satellite-rocket-launch-progress-updates",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "bo-return-flight-plan-20260630",
+      "date": "2026-06-30",
+      "company": "Blue Origin",
+      "program": "New Glenn",
+      "category": "里程碑",
+      "status": "復原中",
+      "tone": "watch",
+      "title": "公布 New Glenn 復飛與 LC-36 重建路徑",
+      "summary": "地面清理完成，主要修復與新整合流程設計進行中；公司目標仍是 2026 年底前復飛。",
+      "detail": "Blue Origin 表示 LC-36 的事故後清理已完成，修復工程、設備替換與新的整合流程設計正同步推進。公司仍以 2026 年底前恢復 New Glenn 飛行為目標，但這是目標窗口而非保證日期；復飛仍取決於硬體修復、測試結果與監管許可。",
+      "sources": [
+        {
+          "label": "Blue Origin",
+          "url": "https://www.blueorigin.com/news/new-glenn-return-to-flight",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "irdm-rklb-merger-20260629",
+      "date": "2026-06-29",
+      "company": "Iridium",
+      "program": "Rocket Lab acquisition",
+      "category": "里程碑",
+      "status": "待股東／監管核准",
+      "tone": "watch",
+      "title": "Rocket Lab 宣布以約 80 億美元企業價值收購 Iridium",
+      "summary": "雙方簽署最終協議，預計於 2027 年中完成；交易仍須取得 Iridium 股東與監管核准。",
+      "detail": "Rocket Lab 與 Iridium 已簽署最終收購協議，公告企業價值約 80 億美元，預計於 2027 年中完成。交易若通過，將把 Rocket Lab 的發射、衛星製造與太空系統能力，和 Iridium 的全球 LEO 通訊網路與服務業務結合；目前仍屬待完成交易，必須先取得 Iridium 股東與相關監管機關核准。",
+      "sources": [
+        {
+          "label": "Rocket Lab / Iridium",
+          "url": "https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-acquire-iridium-historic-deal-creating-fully",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "rklb-ten-owl-20260627",
+      "date": "2026-06-27",
+      "company": "Rocket Lab",
+      "program": "Electron／StriX",
+      "category": "部署",
+      "status": "成功",
+      "tone": "positive",
+      "title": "Ten Owl Of Ten 完成 Synspective 第 10 次專屬任務",
+      "summary": "Electron 將單顆 StriX SAR 衛星部署至 552 km LEO，維持雙方專屬任務 100% 成功紀錄。",
+      "detail": "Rocket Lab 的 Electron 在 Ten Owl Of Ten 任務中，把單顆 Synspective StriX 合成孔徑雷達衛星部署至約 552 公里低軌。這是雙方第 10 次專屬任務，延續所有專屬發射均成功的紀錄，也支援 Synspective 持續擴張全天候地球觀測能力。",
+      "sources": [
+        {
+          "label": "Rocket Lab",
+          "url": "https://rocketlabcorp.com/missions/launches/tenowloften/",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "rklb-victus-haze-20260619",
+      "date": "2026-06-19",
+      "company": "Rocket Lab",
+      "program": "VICTUS HAZE",
+      "category": "里程碑",
+      "status": "成功",
+      "tone": "positive",
+      "title": "VICTUS HAZE 以 16 小時 42 分 Notice-to-Launch 創紀錄",
+      "summary": "Rocket Lab 完成 Electron 發射、Pioneer 太空船部署與後續在軌 RPO 任務整合。",
+      "detail": "VICTUS HAZE 從收到執行通知到發射僅 16 小時 42 分，刷新 Rocket Lab 的快速響應紀錄。任務不只包含 Electron 發射，也涵蓋 Pioneer 太空船部署與後續在軌 rendezvous and proximity operations 整合，展示商業團隊支援國防快速任務的端到端能力。",
+      "sources": [
+        {
+          "label": "Rocket Lab",
+          "url": "https://rocketlabcorp.com/missions/launches/victus-haze/",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "asts-bb8-10-20260617",
+      "date": "2026-06-17",
+      "company": "AST SpaceMobile",
+      "program": "BlueBird",
+      "category": "部署",
+      "status": "成功",
+      "tone": "positive",
+      "title": "BlueBird 8、9、10 搭乘 Falcon 9 完成部署",
+      "summary": "三顆次世代大型直連手機衛星自佛州升空並依序部署，補上 BlueBird 7 損失後的部署缺口。",
+      "detail": "BlueBird 8、9、10 由 Falcon 9 從佛州發射，並在入軌後依序完成分離。三顆衛星屬 AST SpaceMobile 的次世代大型直連手機平台，這次成功部署在 BlueBird 7 任務損失後恢復了星座擴張節奏；後續仍需經過在軌展開、測試與通訊服務整合。",
+      "sources": [
+        {
+          "label": "SpaceX",
+          "url": "https://www.spacex.com/launches/bluebird8-10",
+          "type": "官方"
+        },
+        {
+          "label": "AST SpaceMobile",
+          "url": "https://ast-science.com/next-gen-bluebird/",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "spacex-starlink-20260608",
+      "date": "2026-06-08",
+      "company": "SpaceX",
+      "program": "Starlink",
+      "category": "部署",
+      "status": "成功",
+      "tone": "positive",
+      "title": "Falcon 9 部署 29 顆 Starlink，助推器完成第 35 次飛行",
+      "summary": "任務自 SLC-40 發射，第一節成功降落於大西洋無人船。",
+      "detail": "Falcon 9 從佛州 SLC-40 發射並部署 29 顆 Starlink 衛星，第一節則返回大西洋無人船完成著陸。該助推器完成第 35 次飛行，讓這次任務同時呈現星座補網與高重複使用週轉兩項指標；衛星部署數會計入任務累計，但在軌工作數仍須另以軌道統計更新。",
+      "sources": [
+        {
+          "label": "SpaceX",
+          "url": "https://www.spacex.com/launches/sl-10-35",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "bo-hotfire-anomaly-20260528",
+      "date": "2026-05-28",
+      "company": "Blue Origin",
+      "program": "New Glenn",
+      "category": "異常",
+      "status": "調查／修復",
+      "tone": "alert",
+      "title": "New Glenn 整合熱火測試發生重大異常",
+      "summary": "LC-36 的避雷塔、運輸豎立設備與液壓系統受損；推進劑設施、整合廠與部分關鍵設施保持良好。",
+      "detail": "New Glenn 在 LC-36 進行整合熱火測試時發生重大異常，造成避雷塔、運輸豎立設備與液壓系統受損。Blue Origin 表示推進劑設施、整合廠與部分關鍵基礎設施未受到同等程度破壞；事件因此進入調查與修復階段，並直接影響後續測試與復飛時程。",
+      "sources": [
+        {
+          "label": "Blue Origin",
+          "url": "https://www.blueorigin.com/news/ng-4-hotfire-updates",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "rklb-viva-strix-20260522",
+      "date": "2026-05-22",
+      "company": "Rocket Lab",
+      "program": "Electron／StriX",
+      "category": "部署",
+      "status": "成功",
+      "tone": "positive",
+      "title": "Viva La StriX 部署第 9 顆由 Rocket Lab 發射的 StriX",
+      "summary": "單顆 Synspective SAR 衛星成功部署至 572 km LEO。",
+      "detail": "Electron 在 Viva La StriX 任務中把一顆 Synspective StriX SAR 衛星部署至約 572 公里低軌。這是 Rocket Lab 為 Synspective 發射的第 9 顆 StriX，任務採專屬發射方式，讓客戶可控制軌道與部署時程並持續擴張地球觀測星座。",
+      "sources": [
+        {
+          "label": "Rocket Lab",
+          "url": "https://rocketlabcorp.com/missions/launches/viva-la-strix-2/",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "spacex-starship-f12-20260522",
+      "date": "2026-05-22",
+      "company": "SpaceX",
+      "program": "Starship",
+      "category": "異常",
+      "status": "助推器返航異常",
+      "tone": "alert",
+      "title": "Flight 12 完成 V3 主要測試，但 Super Heavy 返航發生 mishap",
+      "summary": "Starship 達成既定軌跡、部署測試酬載並完成再入濺落；Super Heavy 僅完成部分 boostback 後硬濺落，FAA 將事件列為 mishap。",
+      "detail": "Starship Flight 12 完成 V3 構型的多項主要飛行目標，包括沿既定軌跡飛行、部署測試酬載與再入後濺落。Super Heavy 助推器在返航階段只完成部分 boostback，之後硬濺落；FAA 因此把事件列為 mishap。這代表飛船端取得進展，但助推器返航仍需完成調查與修正。",
+      "sources": [
+        {
+          "label": "SpaceX",
+          "url": "https://www.spacex.com/launches/starship-flight-12",
+          "type": "官方"
+        },
+        {
+          "label": "FAA",
+          "url": "https://www.faa.gov/newsroom/statements/general-statements",
+          "type": "監管"
+        }
+      ]
+    },
+    {
+      "id": "vsat-viasat3-f3-20260429",
+      "date": "2026-04-29",
+      "company": "Viasat",
+      "program": "ViaSat-3 F3",
+      "category": "發射",
+      "status": "初始訊號取得",
+      "tone": "positive",
+      "title": "ViaSat-3 F3 成功發射並取得初始訊號",
+      "summary": "ViaSat-3 F3 搭乘 Falcon Heavy 升空並完成分離；Viasat 表示衛星健康，已進入後續在軌作業階段。",
+      "detail": "ViaSat-3 F3 搭乘 Falcon Heavy 完成發射與星箭分離，Viasat 隨後取得初始訊號並表示衛星狀態健康。取得訊號代表任務已從發射階段轉入在軌作業，後續仍需完成軌道調整、系統檢查與服務啟用；因此網站狀態標示為『初始訊號取得』，不等同全面商轉。",
+      "sources": [
+        {
+          "label": "Viasat",
+          "url": "https://investors.viasat.com/node/27561",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "amazon-la06-20260427",
+      "date": "2026-04-27",
+      "company": "Amazon Leo",
+      "program": "LA-06",
+      "category": "部署",
+      "status": "成功",
+      "tone": "positive",
+      "title": "LA-06 使用 Atlas V 551 部署 29 顆衛星",
+      "summary": "任務自卡納維爾角 SLC-41 發射，延續 Amazon Leo 2026 年的量產部署節奏。",
+      "detail": "Amazon Leo LA-06 從卡納維爾角 SLC-41 搭乘 Atlas V 551 發射，並成功部署 29 顆量產衛星。任務延續 2026 年 Atlas V 批次的固定節奏，部署結果已納入 Amazon 官方累計；衛星之後仍需升軌與完成在軌健康檢查，才會進入營運準備。",
+      "sources": [
+        {
+          "label": "Amazon",
+          "url": "https://www.aboutamazon.com/news/innovation-at-amazon/project-kuiper-satellite-rocket-launch-progress-updates",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "rklb-kakushin-20260423",
+      "date": "2026-04-23",
+      "company": "Rocket Lab",
+      "program": "Electron／JAXA",
+      "category": "部署",
+      "status": "成功",
+      "tone": "positive",
+      "title": "Kakushin Rising 為 JAXA 部署 8 顆衛星",
+      "summary": "任務涵蓋教育、海洋監測、多光譜相機與可展開天線等技術示範酬載。",
+      "detail": "Rocket Lab 的 Kakushin Rising 任務一次為 JAXA 部署 8 顆小型衛星。酬載用途涵蓋教育、海洋監測、多光譜成像與可展開天線等技術示範；多星部署使本次任務同時驗證 Electron 的批次酬載整合與日本創新衛星計畫的多元技術。",
+      "sources": [
+        {
+          "label": "Rocket Lab",
+          "url": "https://rocketlabcorp.com/missions/launches/kakushin-rising/",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "spacex-gps-iii8-20260421",
+      "date": "2026-04-21",
+      "company": "SpaceX",
+      "program": "Falcon 9",
+      "category": "發射",
+      "status": "成功",
+      "tone": "positive",
+      "title": "Falcon 9 發射 GPS III-8／SV-10",
+      "summary": "SpaceX 完成最後一顆 GPS III 系列衛星的發射任務。",
+      "detail": "Falcon 9 把 GPS III-8（SV-10）送入預定轉移軌道，完成 GPS III 系列最後一顆衛星的發射任務。這是美國全球定位系統現代化計畫的重要交付節點；發射成功後，衛星仍須由營運單位完成在軌測試與編入星座。",
+      "sources": [
+        {
+          "label": "SpaceX launches",
+          "url": "https://www.spacex.com/launches",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "bo-ng3-bluebird7-20260419",
+      "date": "2026-04-19",
+      "company": "Blue Origin",
+      "program": "New Glenn",
+      "category": "異常",
+      "status": "酬載損失",
+      "tone": "alert",
+      "title": "NG-3 完成首節重複使用，但 BlueBird 7 進入錯誤軌道",
+      "summary": "助推器成功回收；第二節未將衛星送入預定軌道，BlueBird 7 隨後失去任務能力。",
+      "detail": "New Glenn NG-3 的第一節成功完成回收，證明部分重複使用能力；但第二節未把 BlueBird 7 送入預定軌道。衛星後續失去任務能力，因此不計入 AST SpaceMobile 的營運在軌總量。這筆事件同時保留『首節回收成功』與『酬載損失』兩個結果，整體狀態以重大異常處理。",
+      "sources": [
+        {
+          "label": "Blue Origin",
+          "url": "https://www.blueorigin.com/missions/ng-3",
+          "type": "官方"
+        },
+        {
+          "label": "FAA",
+          "url": "https://www.faa.gov/newsroom/statements/general-statements",
+          "type": "監管"
+        }
+      ]
+    },
+    {
+      "id": "amazon-la05-20260404",
+      "date": "2026-04-04",
+      "company": "Amazon Leo",
+      "program": "LA-05",
+      "category": "部署",
+      "status": "成功",
+      "tone": "positive",
+      "title": "LA-05 使用 Atlas V 部署 29 顆衛星",
+      "summary": "任務把 Amazon Leo 量產部署進度推進至下一個檢查點。",
+      "detail": "LA-05 使用 Atlas V 551 將 29 顆 Amazon Leo 衛星送入低地球軌道，完成該計畫第 9 次部署任務。衛星分離後由 Amazon 任務控制團隊接手，進行初始聯絡、健康檢查與後續升軌；這批衛星已納入官方部署累計。",
+      "sources": [
+        {
+          "label": "Amazon",
+          "url": "https://www.aboutamazon.com/news/innovation-at-amazon/project-kuiper-satellite-rocket-launch-progress-updates",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "rklb-celeste-20260328",
+      "date": "2026-03-28",
+      "company": "Rocket Lab",
+      "program": "Electron／Celeste",
+      "category": "部署",
+      "status": "成功",
+      "tone": "positive",
+      "title": "Daughter Of The Stars 部署 ESA 首批兩顆 Celeste 衛星",
+      "summary": "Rocket Lab 首次執行 ESA 專屬任務，將兩顆 LEO-PNT 示範衛星送至 510 km LEO。",
+      "detail": "Daughter Of The Stars 是 Rocket Lab 首次為歐洲太空總署執行專屬 Electron 任務，將 Celeste IOD-1 與 IOD-2 部署到約 510 公里低軌。兩顆衛星用於示範低軌定位、導航與授時技術，為後續歐洲 LEO-PNT 架構提供在軌驗證資料。",
+      "sources": [
+        {
+          "label": "Rocket Lab",
+          "url": "https://rocketlabcorp.com/missions/launches/daughter-of-the-stars/",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "bksy-gen3-fourth-commissioned-20260312",
+      "date": "2026-03-12",
+      "company": "BlackSky",
+      "program": "Gen-3",
+      "category": "部署／商轉",
+      "status": "第 4 顆完成 commissioning",
+      "tone": "positive",
+      "title": "BlackSky 第 4 顆 Gen-3 一週內完成 commissioning",
+      "summary": "衛星在發射後數小時取得 first light，並於不到一週內開放 35 公分級影像的商業服務。",
+      "detail": "BlackSky 第四顆 Gen-3 衛星在發射後數小時即完成在軌 first light，隨後不到一週便完成 commissioning 並向全球客戶開放一般商業服務。Gen-3 可透過 BlackSky Spectra 提供 35 公分級影像與 AI 分析；這筆紀錄以完成商轉為部署里程碑，而不是只計算離開火箭的時間。",
+      "sources": [
+        {
+          "label": "BlackSky",
+          "url": "https://ir.blacksky.com/news-events/press-releases/news-details/2026/BlackSky-Successfully-Commissions-Gen-3-in-Less-Than-One-Week-Opening-Gen-3-General-Availability-for-Global-Customer-Base/default.aspx",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "fly-alpha-flight7-20260311",
+      "date": "2026-03-11",
+      "company": "Firefly Aerospace",
+      "program": "Alpha Flight 7",
+      "category": "部署",
+      "status": "成功",
+      "tone": "positive",
+      "title": "Alpha Flight 7 完成返航任務並部署示範酬載",
+      "summary": "Stairway to Seven 完成入軌、Lockheed Martin 示範酬載部署與第二節再點火。",
+      "detail": "Firefly Alpha Flight 7（Stairway to Seven）完成入軌並部署 Lockheed Martin 的示範酬載，之後也執行第二節再點火。任務把 Firefly 的重點放在恢復飛行、驗證軌道插入與上面級操作；部署成功為後續客戶任務提供新的飛行資料。",
+      "sources": [
+        {
+          "label": "Firefly Aerospace",
+          "url": "https://fireflyspace.com/news/firefly-aerospace-successfully-launches-alpha-flight-7/",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "rklb-neutron-q4-20260226",
+      "date": "2026-02-26",
+      "company": "Rocket Lab",
+      "program": "Neutron",
+      "category": "時程",
+      "status": "Q4 2026",
+      "tone": "watch",
+      "title": "Neutron 首飛時程調整至 2026 年第四季",
+      "summary": "Rocket Lab 在年度申報文件中更新首飛目標，以完成剩餘系統與飛行硬體驗證。",
+      "detail": "Rocket Lab 在年度申報文件中把 Neutron 首次發射目標更新為 2026 年第四季。調整後的窗口反映公司仍需完成剩餘系統整合、地面測試與飛行硬體驗證；Q4 是公開目標區間，並非已確定的發射日，網站會持續追蹤後續測試與排程變化。",
+      "sources": [
+        {
+          "label": "Rocket Lab 10-K",
+          "url": "https://investors.rocketlabcorp.com/static-files/57a8d0da-27ff-499c-8d85-18907743b7a8",
+          "type": "申報"
+        }
       ]
     }
   ]

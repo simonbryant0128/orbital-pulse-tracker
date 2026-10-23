@@ -1,8 +1,7 @@
 import assert from "node:assert/strict";
-import { readFile } from "node:fs/promises";
+import { readHistoricalJson as readJson } from "./helpers/verified-baseline.mjs";
 import test from "node:test";
 
-const readJson = async (name) => JSON.parse(await readFile(new URL(`../content/${name}`, import.meta.url), "utf8"));
 
 test("October 7 historical snapshot keeps three stable event IDs", async () => {
   const [batch, published] = await Promise.all([

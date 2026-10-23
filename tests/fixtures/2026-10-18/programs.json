@@ -1,0 +1,94 @@
+{
+  "items": [
+    {
+      "id": "starship",
+      "name": "Starship",
+      "company": "SpaceX",
+      "vehicle": "Starship V3",
+      "status": "已完成發射／結果待官方摘要",
+      "statusTone": "watch",
+      "headline": "Flight 14 已列為 9 月 28 日完成任務",
+      "detail": "SpaceX 已把 Flight 14 移入已完成任務清單；飛後摘要尚未公布，因此不推定 26 顆 Starlink V3 的部署與其他試飛目標全部成功。",
+      "stages": [
+        {
+          "label": "V3 地面驗證",
+          "state": "complete"
+        },
+        {
+          "label": "Flight 12",
+          "state": "complete"
+        },
+        {
+          "label": "Flight 13",
+          "state": "complete"
+        },
+        {
+          "label": "Flight 14 發射",
+          "state": "complete"
+        }
+      ],
+      "next": "等待官方飛後摘要",
+      "source": "https://www.spacex.com/launches"
+    },
+    {
+      "id": "neutron",
+      "name": "Neutron",
+      "company": "Rocket Lab",
+      "vehicle": "Neutron",
+      "status": "時程觀察",
+      "statusTone": "watch",
+      "headline": "首飛目標維持 Q4 2026",
+      "detail": "Rocket Lab 將可靠度與剩餘系統驗證列為首要工作；Q4 是公開目標區間，並非已確定的發射日。",
+      "stages": [
+        {
+          "label": "發射場與基礎設施",
+          "state": "complete"
+        },
+        {
+          "label": "整流罩／分離驗證",
+          "state": "complete"
+        },
+        {
+          "label": "系統與級段測試",
+          "state": "active"
+        },
+        {
+          "label": "首次發射",
+          "state": "upcoming"
+        }
+      ],
+      "next": "Q4 2026｜首次發射",
+      "source": "https://investors.rocketlabcorp.com/static-files/57a8d0da-27ff-499c-8d85-18907743b7a8"
+    },
+    {
+      "id": "new-glenn",
+      "name": "New Glenn",
+      "company": "Blue Origin",
+      "vehicle": "New Glenn 7×2 / 9×4",
+      "status": "設施擴建",
+      "statusTone": "watch",
+      "headline": "LC-36B 開工，雙發射臺架構成形",
+      "detail": "LC-36B 將成為 New Glenn 9×4 的營運基地，LC-36A 繼續支援 7×2；進度以已公開的設施與飛行里程碑呈現。",
+      "stages": [
+        {
+          "label": "LC-36A 建置",
+          "state": "complete"
+        },
+        {
+          "label": "7×2 飛行任務",
+          "state": "active"
+        },
+        {
+          "label": "LC-36B／VIF／PPF",
+          "state": "active"
+        },
+        {
+          "label": "9×4 高頻營運",
+          "state": "upcoming"
+        }
+      ],
+      "next": "LC-36A｜7×2；LC-36B｜9×4",
+      "source": "https://www.blueorigin.com/news/returning-launch-complex-36-to-two-pads"
+    }
+  ]
+}

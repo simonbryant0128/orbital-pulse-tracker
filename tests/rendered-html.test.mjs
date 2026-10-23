@@ -80,9 +80,10 @@ test("renders the orbital tracker product page", async () => {
   assert.doesNotMatch(html, /sx-starship-flight14-date-review-20260902/);
   assert.ok(publishedEvents.some((event) => event.title.includes("IMM Apex 太空太陽能電池量產")));
   assert.ok(publishedEvents.some((event) => event.title === "NexusWave 取得 Bureau Veritas 資安型式認可"));
-  assert.match(html, /FAA 規劃窗口／非最終升空承諾/);
+  const schedule = JSON.parse(await readFile(new URL("../content/schedule.json", import.meta.url), "utf8"));
+  for (const item of schedule.items) assert.ok(html.includes(escapeHtml(item.window)), `Missing current window: ${item.id}`);
   assert.doesNotMatch(html, /台北 9\/22 20:15–22:14/);
-  assert.match(html, /台北 10\/21 06:14–10:14/);
+  assert.doesNotMatch(html, /台北 10\/21 06:14–10:14/);
   assert.match(html, /開啟雲端主表/);
   assert.match(html, /GitHub/);
   assert.doesNotMatch(html, /codex-preview|Your site is taking shape|react-loading-skeleton/i);
@@ -180,7 +181,8 @@ test("publishes September 17 updates without inventing deployment totals or miss
     assert.ok(!items.some((item) => item.id === id), `remove expired/superseded upcoming entry ${id}`);
   }
   assert.ok(!items.some((item) => item.id === r3.id), "newer FAA R-3 schedule supersedes the September 17 card");
-  assert.match(items.find((item) => item.id === "sx-r3-faa-backup-revision-20260924").window, /9\/26 19:56–23:39/);
+  assert.ok(byId("sx-r3-faa-backup-revision-20260924"), "retain the historical R-3 plan");
+  assert.ok(!items.some((item) => item.id === "sx-r3-faa-backup-revision-20260924"), "expired R-3 plan is no longer upcoming");
   assert.ok(!items.some((item) => item.id === target.id), "completed USSF-385 is removed from upcoming missions");
   for (const id of ["sx-starlink-15-27-faa-window-20260913", "vsat-equatys-binding-agreement-review-20260914"]) {
     assert.ok(!byId(id), `pending event must not be published: ${id}`);

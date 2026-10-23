@@ -1,0 +1,394 @@
+{
+  "state": "approved-source-snapshot",
+  "scope": "2026-10-19–21 補查；另標記歷史回補與查核時排程快照",
+  "checkedDate": "2026-10-23",
+  "baseGitHubCommit": "965d95b58c4ddbf429fa45cc981897f66d8ce681",
+  "events": [
+    {
+      "id": "bo-mmx-p-sampler-launch-20261019",
+      "date": "2026-10-19",
+      "company": "Blue Origin",
+      "program": "Honeybee Robotics／MMX P-Sampler",
+      "category": "發射／深空里程碑",
+      "status": "已隨 MMX 升空",
+      "tone": "positive",
+      "title": "Blue Origin P-Sampler 隨 JAXA MMX 任務升空前往火星衛星",
+      "summary": "Honeybee Robotics 製造的氣動採樣器已自種子島隨 MMX 發射；採樣與樣本返回仍是後續任務目標。",
+      "detail": "Blue Origin 10/19 確認，旗下 Honeybee Robotics 的 P-Sampler 已搭載 JAXA Martian Moons eXploration（MMX）太空船，自種子島 Yoshinobu Launch Complex 升空。採樣器以加壓氮氣揚起並收集 Phobos 表土，與 JAXA 的 C-Sampler 配合。這次紀錄是載荷升空里程碑，不代表已抵達 Phobos、完成採樣或把樣本送回地球。",
+      "sources": [
+        {
+          "label": "Blue Origin MMX P-Sampler 公告",
+          "url": "https://www.blueorigin.com/news/blue-origin-p-sampler-launches-aboard-jaxa-martian-moons-exploration-mission",
+          "type": "官方"
+        }
+      ],
+      "reviewStatus": "自動查證",
+      "publicationStatus": "待同步",
+      "checkedDate": "2026-10-22"
+    },
+    {
+      "id": "gsat-c3-us-authorization-20261019",
+      "date": "2026-10-19",
+      "company": "Globalstar",
+      "program": "C-3 MSS／D2D",
+      "category": "監管里程碑",
+      "status": "公司公布取得美國營運授權",
+      "tone": "positive",
+      "title": "Globalstar 公布 C-3 系統取得 FCC 美國營運授權",
+      "summary": "公司公告稱 C-3 可在美國提供 MSS／手機直連服務；規劃 48 顆加 6 顆在軌備援，預計 2027 起發射。",
+      "detail": "Globalstar 10/19 公告稱，FCC 已授權第三代 C-3 MSS 系統在美國營運，涵蓋手機直連及美國多處地面站與衛星通訊。C-3 規劃在約 1,414 公里高度運作，架構為 48 顆衛星與 6 顆在軌備援，預計自 2027 年起發射。上述數字是系統規劃與未來部署，並非已部署顆數；不與 HIBLEO-4 的 8 顆替換衛星合併計算。本次依公司一手公告記錄授權消息。",
+      "sources": [
+        {
+          "label": "Globalstar C-3 授權官方公告",
+          "url": "https://investors.globalstar.com/news-releases/news-release-details/fcc-authorizes-globalstars-third-generation-c-3-system",
+          "type": "官方"
+        }
+      ],
+      "reviewStatus": "自動查證",
+      "publicationStatus": "待同步",
+      "checkedDate": "2026-10-22"
+    },
+    {
+      "id": "asts-europe-mno-spectrum-loi-20261019",
+      "date": "2026-10-19",
+      "company": "AST SpaceMobile",
+      "program": "Satellite Connect Europe／MSS",
+      "category": "合作／頻譜規劃",
+      "status": "營運商意向書／待適用授權",
+      "tone": "positive",
+      "title": "AST 歡迎歐洲四大營運商探索聯合 MSS 頻譜競標",
+      "summary": "Deutsche Telekom、Orange、Telefónica 與 Vodafone 簽署意向書；合作仍是潛在競標與服務整合規劃。",
+      "detail": "AST SpaceMobile 10/19 透過官方投資人頁所連結的新聞稿，歡迎 Deutsche Telekom、Orange、Telefónica 與 Vodafone 簽署意向書，探索潛在 MSS 頻譜聯合競標。Satellite Connect Europe 的歐洲營運地面基礎設施將銜接 BlueBird 與行動核心網路，服務就緒仍須網路整合與適用監管授權。超過 5 億是相關歐洲行動市場用戶規模，不是 AST 已付費客戶；意向書不等於競標得標或授權完成。",
+      "sources": [
+        {
+          "label": "AST 官方投資人頁連結之公司公告",
+          "url": "https://feeds.issuerdirect.com/news-release.html?newsid=5338244343722955&symbol=ASTS",
+          "type": "官方"
+        }
+      ],
+      "reviewStatus": "自動查證",
+      "publicationStatus": "待同步",
+      "checkedDate": "2026-10-22"
+    },
+    {
+      "id": "asts-service-readiness-20261020",
+      "date": "2026-10-20",
+      "company": "AST SpaceMobile",
+      "program": "BlueBird／地面網路／初期服務",
+      "category": "服務整備／時程",
+      "status": "2026 年底前初期間歇覆蓋目標",
+      "tone": "watch",
+      "title": "AST 推進五大市場初期間歇服務，公布地面網路整備進度",
+      "summary": "初期覆蓋目標涵蓋美國、加拿大、日本、英國與沙烏地阿拉伯；60 多座閘道包含已部署、安裝中與規劃中。",
+      "detail": "AST SpaceMobile 10/20 公布服務整備更新，目標在 2026 年底前於美國、加拿大、日本、英國及沙烏地阿拉伯提供初期間歇覆蓋。全球 60 多座閘道合計包含已部署、安裝中與規劃中，不能解讀為全部啟用；美國已啟用逾 3,000 個覆蓋 cells，目標年底前涵蓋約 5,600 個。BlueBird 生產推進至 50 號，不代表已有 50 顆在軌。服務仍受衛星容量、地面整合及適用授權影響；本次不調增在軌總量，也不把年底目標視為連續商轉已達成。",
+      "sources": [
+        {
+          "label": "AST 官方投資人頁連結之公司公告",
+          "url": "https://feeds.issuerdirect.com/news-release.html?newsid=6945446155364589&symbol=ASTS",
+          "type": "官方"
+        }
+      ],
+      "reviewStatus": "自動查證",
+      "publicationStatus": "待同步",
+      "checkedDate": "2026-10-22"
+    },
+    {
+      "id": "pl-pelican12-launch-20261020",
+      "date": "2026-10-20",
+      "company": "Planet Labs",
+      "program": "Pelican Gen 2／Bandwagon-5",
+      "category": "發射／部署",
+      "status": "已入軌／初始聯絡／commissioning",
+      "tone": "positive",
+      "title": "Planet Pelican-12 成功入軌並建立初始聯絡",
+      "summary": "Gen 2 技術驗證衛星隨 Bandwagon-5 發射，Planet 已開始 commissioning 與降軌；不等於已全面商轉。",
+      "detail": "Planet 10/20 確認 Pelican-12 隨 SpaceX Bandwagon-5 自 Cape Canaveral 入軌，已建立初始聯絡，並開始 commissioning 與降低軌道高度。這是 2026 年第 5 顆 Pelican，也是 Planet 當年第 25 顆送入軌道的衛星；兩個數字口徑不同。衛星將驗證更新的 Gen 2 酬載、通訊與 NVIDIA Jetson 邊緣運算技術，亦搭載透過 SES O3b mPOWER 中繼影像的原型通訊套件。沿用原 10 顆 Pelican 已入軌檢查點，本次僅增加這 1 顆至 11；其中包含工程驗證衛星，不代表均已商轉。後續 Pelican 發射規劃為 2027 年，未公布單班日期。",
+      "sources": [
+        {
+          "label": "Planet Pelican-12 官方公告",
+          "url": "https://investors.planet.com/news/news-details/2026/Planet-Launches-Pelican-12-Satellite/default.aspx",
+          "type": "官方"
+        }
+      ],
+      "reviewStatus": "自動查證",
+      "publicationStatus": "待同步",
+      "checkedDate": "2026-10-22"
+    },
+    {
+      "id": "irdm-emss-extension-disclosed-20261020",
+      "date": "2026-10-20",
+      "company": "Iridium",
+      "program": "EMSS 美國政府衛星服務",
+      "category": "合約／展延",
+      "status": "延長至 2027 年 3 月",
+      "tone": "positive",
+      "title": "Iridium 在第三季公告揭露 EMSS 合約展延至 2027 年 3 月",
+      "summary": "美國太空軍於 9/11 行使展延選擇權，費率維持原約；本筆以 10/20 的公司揭露日記錄。",
+      "detail": "Iridium 在 10/20 第三季結果的業務重點中確認，美國太空軍已於 2026 年 9 月 11 日行使 Enhanced Mobile Satellite Services（EMSS）合約展延選擇權，使服務延續至 2027 年 3 月，費率維持原合約。本筆依 10/20 公司公開揭露日期建檔，實際選擇權行使日在 9/11。公司預期 2027 年續約仍是前瞻展望，不能視為新的多年合約已簽署；此事件不涉及新增衛星部署。",
+      "sources": [
+        {
+          "label": "Iridium Q3 2026 官方結果／Business Highlights",
+          "url": "https://investor.iridium.com/2026-10-20-Iridium-Announces-Third-Quarter-2026-Results",
+          "type": "官方"
+        }
+      ],
+      "reviewStatus": "自動查證",
+      "publicationStatus": "待同步",
+      "checkedDate": "2026-10-22"
+    },
+    {
+      "id": "vsat-maxwell-csp-launch-20261020",
+      "date": "2026-10-20",
+      "company": "Viasat",
+      "program": "Maxwell／NASA CSP／HaloNet",
+      "category": "發射／通訊技術示範",
+      "status": "已發射／在軌測試待執行",
+      "tone": "positive",
+      "title": "Viasat Maxwell 隨 Bandwagon-5 升空，推進 NASA 通訊示範",
+      "summary": "10/21 公司公告確認 10/20 07:04 ET 發射；Ka 與 L 頻段、多軌中繼示範預計持續至 2027 年 3 月。",
+      "detail": "Viasat 10/21 公告確認 Maxwell 已於 10/20 07:04 美東夏令時間（台北 10/20 19:04）隨 SpaceX Bandwagon-5 自 Cape Canaveral 發射。太空船承載 Ka 與 L 頻段中繼能力示範，支援 NASA Communications Services Project；兩項 CSP 合約合計 8,100 萬美元是既有計畫合約總額，不是本次新增訂單。公司接下來將執行在軌測試與示範，預計持續至 2027 年 3 月；成功發射不等於已完成五個月示範或正式提供全時服務。",
+      "sources": [
+        {
+          "label": "Viasat Maxwell／NASA CSP 官方公告",
+          "url": "https://www.viasat.com/news/latest-news/government/2026/viasat-advances-nasa-communications-services-project-demonstrati/",
+          "type": "官方"
+        }
+      ],
+      "reviewStatus": "自動查證",
+      "publicationStatus": "待同步",
+      "checkedDate": "2026-10-22"
+    },
+    {
+      "id": "pl-nasa-csda-tanager-evaluation-20261021",
+      "date": "2026-10-21",
+      "company": "Planet Labs",
+      "program": "Tanager／NASA CSDA",
+      "category": "合約／資料評估",
+      "status": "取得評估 task order",
+      "tone": "positive",
+      "title": "Planet 取得 NASA Tanager 高光譜資料評估任務訂單",
+      "summary": "NASA 將評估逾 25 萬平方公里資料的品質、可靠性與地球科學用途；未公開合約金額。",
+      "detail": "Planet 10/21 宣布，Planet Labs Federal 取得 NASA Commercial Satellite Data Acquisition（CSDA）計畫的 Tanager 高光譜資料評估 task order。NASA 將取得逾 250,000 平方公里的既有與新指派資料，評估 Level 1C 與 Level 2A 產品的品質、可靠性及科研效益。這是評估訂單，後續報告才會支援更廣泛採用決策；公告未公開金額，不能視為全機關大規模採購或新增衛星部署。",
+      "sources": [
+        {
+          "label": "Planet NASA CSDA 官方公告",
+          "url": "https://investors.planet.com/news/news-details/2026/Planet-Awarded-NASA-Commercial-Satellite-Data-Acquisition-CSDA-Evaluation-Task-Order-for-Tanager-Hyperspectral-Data/default.aspx",
+          "type": "官方"
+        }
+      ],
+      "reviewStatus": "自動查證",
+      "publicationStatus": "待同步",
+      "checkedDate": "2026-10-22"
+    },
+    {
+      "id": "fly-moonfall-pdr-20261021",
+      "date": "2026-10-21",
+      "company": "Firefly Aerospace",
+      "program": "Elytra／NASA JPL MoonFall",
+      "category": "設計審查／月球任務里程碑",
+      "status": "PDR 完成／下一步 CDR",
+      "tone": "positive",
+      "title": "Firefly 完成 MoonFall Elytra 初步設計審查",
+      "summary": "NASA／JPL 參與審查；太空船下一步是 CDR，目標 2028 年底前具備發射準備，尚非確定升空日。",
+      "detail": "Firefly 10/21 宣布完成 MoonFall 任務 Elytra 太空船的 Preliminary Design Review。NASA 與 JPL 參與對結構、熱控、推進、航電、導航、通訊及測試計畫的審查，確認設計符合任務需求；接下來將朝 Critical Design Review 推進，再進入硬體生產組裝。任務目標於 2028 年底前準備好發射，由 NASA 安排載具，Elytra 預計在月球南極上方部署 JPL 無人機。這是設計與整備里程碑，不是任務已發射或確定的發射日期。",
+      "sources": [
+        {
+          "label": "Firefly MoonFall PDR 官方公告",
+          "url": "https://fireflyspace.com/news/firefly-aerospace-completes-preliminary-design-review-for-nasa-moonfall-mission/",
+          "type": "官方"
+        }
+      ],
+      "reviewStatus": "自動查證",
+      "publicationStatus": "待同步",
+      "checkedDate": "2026-10-22"
+    },
+    {
+      "id": "rklb-neutron-2027-revision-20261014",
+      "date": "2026-10-14",
+      "company": "Rocket Lab",
+      "program": "Neutron",
+      "category": "時程／更正回補",
+      "status": "首飛預期改為 2027",
+      "tone": "watch",
+      "title": "Rocket Lab 將 Neutron 首飛預期調整至 2027 年",
+      "summary": "補收 10/14 官方更新，取代目前進度卡上的 Q4 2026；未公布確切日期。",
+      "detail": "Rocket Lab 10/14 官方公告明確把 Neutron 首次發射預期調整為 2027 年。這是本次補查發現的較早漏收資料，並非 10/19–21 新發生的延後。原 2/26 的 Q4 2026 公告保留為歷史紀錄；目前火箭進度與下一次任務改採較新的 2027 年目標，不自行推算季度或確切升空日。",
+      "sources": [
+        {
+          "label": "Rocket Lab Neutron 最新官方時程",
+          "url": "https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-provides-update-neutron-development-and-adjusts",
+          "type": "官方"
+        }
+      ],
+      "reviewStatus": "自動查證",
+      "publicationStatus": "待同步",
+      "checkedDate": "2026-10-22"
+    },
+    {
+      "id": "spir-boulder-first-three-20261001",
+      "date": "2026-10-01",
+      "company": "Spire Global",
+      "program": "Boulder 製造／Transporter-18",
+      "category": "發射／製造里程碑回補",
+      "status": "3 顆成功發射",
+      "tone": "positive",
+      "title": "Spire 首批美國 Boulder 製造的 3 顆衛星已發射",
+      "summary": "補收 10/2 公司公告確認的 Transporter-18 任務；與原 8/12 年累計 29 顆檢查點分列，僅得出至少 32 顆下限。",
+      "detail": "Spire 10/2 公告確認，Boulder 工廠製造的首批 3 顆衛星已搭乘 Transporter-18 發射。SpaceX 任務日為 10/1；這是本次查核發現的歷史漏收，不列為 10/19–21 的新發射。3 顆服務國家安全需求，公告未公開客戶或更完整載荷細節。原 8/12 官方結果已確認當年累計 29 顆，本次新增確認的 3 顆僅使已知年度發射下限達至少 32 顆，不宣稱這是完整全年累計，也不是即時在軌或營運衛星數。",
+      "sources": [
+        {
+          "label": "Spire Boulder 首批三顆官方公告",
+          "url": "https://ir.spire.com/news-events/press-releases/detail/314/spire-global-launches-first-three-satellites-built-at-u-s",
+          "type": "官方"
+        },
+        {
+          "label": "Spire 8/12 年度累計基準",
+          "url": "https://ir.spire.com/news-events/press-releases/detail/309/spire-global-announces-second-quarter-2026-results",
+          "type": "官方"
+        },
+        {
+          "label": "SpaceX Transporter-18 任務",
+          "url": "https://www.spacex.com/launches/transporter18/",
+          "type": "官方"
+        }
+      ],
+      "reviewStatus": "自動查證",
+      "publicationStatus": "待同步",
+      "checkedDate": "2026-10-22"
+    },
+    {
+      "id": "sx-upcoming-starlink-audit-20261021",
+      "date": "2026-10-22",
+      "company": "SpaceX",
+      "program": "Falcon 9／Starlink",
+      "category": "時程／查核快照",
+      "status": "另列 10/26、10/29 與 11/5 任務",
+      "tone": "watch",
+      "title": "SpaceX 官方清單更新 10 月下旬與 11 月初 Starlink 排程",
+      "summary": "10/23 台北補查快照：除 27 顆任務外，另列台北 10/26、10/29 與只列日期的 11/5 任務；未公布顆數不預增部署。",
+      "detail": "本次補查 SpaceX 官方發射清單時，27 顆 sl-15-15 任務已更新為台北 10 月 24 日 05:30–09:30；清單另列台北 10 月 26 日 13:00–17:00、10 月 29 日 12:17–16:17，以及只列 11 月 5 日日期的 Starlink 任務。後三班未提供可供本次採用的批次代號或衛星顆數，也未公開 11 月 5 日的精確時刻。本筆以 10/23 補查結果更新未發布快照；排程仍可能變動，不視為已完成發射。",
+      "sources": [
+        {
+          "label": "SpaceX 官方發射清單",
+          "url": "https://www.spacex.com/launches",
+          "type": "官方"
+        }
+      ],
+      "reviewStatus": "自動查證",
+      "publicationStatus": "待同步",
+      "checkedDate": "2026-10-22"
+    },
+    {
+      "id": "rklb-iqps-november-schedule-audit-20261021",
+      "date": "2026-10-22",
+      "company": "Rocket Lab",
+      "program": "Electron／iQPS",
+      "category": "時程／查核快照",
+      "status": "NET 11/4 與 NET 11/10",
+      "tone": "watch",
+      "title": "Rocket Lab 官方任務表列出兩次 11 月 iQPS 發射",
+      "summary": "The Sea God Surveys 為 NET 11/4，The Mountain God Rises 為 NET 11/10；本次未採用任何未公布的精確時刻。",
+      "detail": "Rocket Lab 官方 Launches 任務表在本次補查時列出，Electron 的 The Sea God Surveys 目標不早於 2026 年 11 月 4 日，The Mountain God Rises 目標不早於 11 月 10 日，客戶均為 iQPS，自 Launch Complex 1 執行。本筆是查核時的官方清單快照，並非聲稱該排程首次於 10/21 公布；列表沒有提供可供本次採用的精確時刻，因此不換算台北升空時間，也不預先累加部署數。",
+      "sources": [
+        {
+          "label": "Rocket Lab 官方任務清單",
+          "url": "https://rocketlabcorp.com/missions/launches/",
+          "type": "官方"
+        }
+      ],
+      "reviewStatus": "自動查證",
+      "publicationStatus": "待同步",
+      "checkedDate": "2026-10-22"
+    },
+    {
+      "id": "sx-bandwagon5-window-20261019",
+      "date": "2026-10-20",
+      "company": "SpaceX",
+      "program": "Falcon 9／Bandwagon-5",
+      "category": "發射／共乘任務",
+      "status": "已發射／首節回收",
+      "tone": "positive",
+      "title": "Bandwagon-5 載 32 項酬載升空，首節完成第 19 次飛行",
+      "summary": "Falcon 9 於 10/20 07:04 ET（台北 19:04）自 SLC-40 發射，首節降落 A Shortfall of Gravitas。",
+      "detail": "SpaceX 官方任務頁已改為完成式，確認 Bandwagon-5 於 2026 年 10 月 20 日 07:04 美東夏令時間（11:04 UTC；台北 19:04）自 Cape Canaveral SLC-40 升空，搭載 32 項 cubesat、microsat 與返回載具等酬載。第一節完成第 19 次飛行並降落 A Shortfall of Gravitas 無人船。本筆沿用原排程事件 ID，保留 10/19 原窗口於審核快照與更正紀錄，避免另建一次發射。32 項是共乘酬載數，不是任何一組追蹤星座的淨新增；僅另依 Planet 與 Viasat 自身確認維護具名衛星事件。",
+      "sources": [
+        {
+          "label": "SpaceX Bandwagon-5 任務頁",
+          "url": "https://www.spacex.com/launches/bandwagon5",
+          "type": "官方"
+        }
+      ],
+      "reviewStatus": "自動查證",
+      "publicationStatus": "待同步",
+      "checkedDate": "2026-10-22"
+    },
+    {
+      "id": "sx-ussf481-window-20261015",
+      "date": "2026-10-15",
+      "company": "SpaceX",
+      "program": "Falcon 9／USSF-481",
+      "category": "時程／國家安全發射",
+      "status": "已發射／首節回收",
+      "tone": "positive",
+      "title": "SpaceX 確認 USSF-481 已發射，首節完成第 28 次飛行",
+      "summary": "官方任務頁確認 10/15 17:01 PT（台北 10/16 08:01）自 Vandenberg 發射，首節降落 Of Course I Still Love You。",
+      "detail": "本次補查 SpaceX USSF-481 任務頁已明確寫為完成式：Falcon 9 於 2026 年 10 月 15 日 17:01 美西夏令時間（10 月 16 日 00:01 UTC；台北 08:01）自 Vandenberg SLC-4E 發射。第一節完成第 28 次飛行並降落 Of Course I Still Love You 無人船。沿用原事件 ID，將先前窗口狀態更新為已發射；這是已存在任務的結果補查，不列為 10/19–21 新發射。官方未公開可供本次採用的載荷部署顆數，不調增任何星座總量。",
+      "sources": [
+        {
+          "label": "SpaceX USSF-481 任務頁",
+          "url": "https://www.spacex.com/launches/ussf481",
+          "type": "官方"
+        }
+      ],
+      "reviewStatus": "自動查證",
+      "publicationStatus": "待同步",
+      "checkedDate": "2026-10-22"
+    }
+  ],
+  "previousStates": [
+    {
+      "id": "sx-bandwagon5-window-20261019",
+      "date": "2026-10-16",
+      "company": "SpaceX",
+      "program": "Falcon 9／Bandwagon-5",
+      "category": "時程／共乘發射",
+      "status": "UTC 10/19 10:30–11:30",
+      "tone": "watch",
+      "title": "Bandwagon-5 排定 10 月 19 日一小時發射窗口",
+      "summary": "共乘任務目標自 Cape Canaveral SLC-40 發射；台北窗口 10/19 18:30–19:30，備援為隔日同時段。",
+      "detail": "SpaceX 官方任務頁顯示，Bandwagon-5 共乘任務目標於 2026 年 10 月 19 日 10:30–11:30 UTC（台北 18:30–19:30）自佛州卡納維爾角 SLC-40 發射；備援機會為 10 月 20 日同一時段。第一節將執行第 19 次飛行，預計降落 A Shortfall of Gravitas 無人船。官方尚未公布完整載荷名單與顆數，因此不預增任何衛星部署總量。",
+      "sources": [
+        {
+          "label": "SpaceX Bandwagon-5 任務頁",
+          "url": "https://www.spacex.com/launches/bandwagon5",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "sx-ussf481-window-20261015",
+      "date": "2026-10-15",
+      "company": "SpaceX",
+      "program": "Falcon 9／USSF-481",
+      "category": "時程／國家安全發射",
+      "status": "UTC 10/15 23:44–10/16 03:44 發射窗口",
+      "tone": "watch",
+      "title": "USSF-481 進入四小時發射窗口",
+      "summary": "Falcon 9 目標自 Vandenberg SLC-4E 發射；台北窗口為 10/16 07:44–11:44，首節規劃降落太平洋無人船。",
+      "detail": "SpaceX 官方任務頁列出 USSF-481 的四小時發射窗口自 2026 年 10 月 15 日 23:44 UTC 開始，至 10 月 16 日 03:44 UTC，也就是台北時間 10 月 16 日 07:44–11:44。任務使用 Falcon 9 自 Vandenberg SLC-4E 發射；第一節為第 28 次飛行，預計降落 Of Course I Still Love You 無人船。查核時間仍在窗口內，官方尚未把任務列入 Completed missions，因此狀態保持待發射，不臆測結果。",
+      "sources": [
+        {
+          "label": "SpaceX USSF-481 任務頁",
+          "url": "https://www.spacex.com/launches/ussf481",
+          "type": "官方"
+        }
+      ]
+    }
+  ],
+  "retiredUpcomingIds": [
+    "sx-ussf481-window-20261015",
+    "sx-bandwagon5-window-20261019",
+    "sx-starlink-27-window-20261020",
+    "sx-r3-faa-backup-revision-20260924"
+  ]
+}

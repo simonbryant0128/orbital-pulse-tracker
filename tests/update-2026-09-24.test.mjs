@@ -1,8 +1,7 @@
 import assert from "node:assert/strict";
-import { readFile } from "node:fs/promises";
+import { readHistoricalJson as readJson } from "./helpers/verified-baseline.mjs";
 import test from "node:test";
 
-const readJson = async (name) => JSON.parse(await readFile(new URL(`../content/${name}`, import.meta.url), "utf8"));
 const batch = await readJson("pending/2026-09-24-approved.json");
 
 test("September 24 approved events are integrated exactly once", async () => {

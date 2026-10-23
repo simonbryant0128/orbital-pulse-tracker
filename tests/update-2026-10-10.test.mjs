@@ -1,8 +1,7 @@
 import assert from "node:assert/strict";
-import { readFile } from "node:fs/promises";
+import { readHistoricalJson as readJson } from "./helpers/verified-baseline.mjs";
 import test from "node:test";
 
-const readJson = async (name) => JSON.parse(await readFile(new URL(`../content/${name}`, import.meta.url), "utf8"));
 
 test("October 10 publishes six new events and three verified lifecycle updates", async () => {
   const [batch, published, manual] = await Promise.all([
