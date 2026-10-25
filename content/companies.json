@@ -1,12 +1,12 @@
 {
-  "lastVerified": "2026-10-23",
+  "lastVerified": "2026-10-25",
   "items": [
     {
       "id": "spacex",
       "name": "SpaceX",
       "ticker": "私人",
       "focus": "發射服務 · Starlink · Starship",
-      "status": "Bandwagon-5 與 USSF-481 已發射；27 顆 Starlink 延至台北 10/24 窗口",
+      "status": "Starlink 15-15 已發射 27 顆；下一班 27 顆目標台北 10/27",
       "statusTone": "positive",
       "source": "https://www.spacex.com/launches"
     },
@@ -15,9 +15,9 @@
       "name": "Rocket Lab",
       "ticker": "RKLB",
       "focus": "Electron · HASTE · Neutron · 太空系統",
-      "status": "HawkEye 360 三星任務 NET 台北 10/23 15:00；Neutron 首飛預期改為 2027",
+      "status": "第 98 次 Electron 任務成功部署 3 顆 HAWK；Neutron 首飛預期改為 2027",
       "statusTone": "positive",
-      "source": "https://rocketlabcorp.com/launch/launch-safety/"
+      "source": "https://investors.rocketlabcorp.com/news-releases/news-release-details/mission-success-rocket-lab-launches-98th-electron-mission"
     },
     {
       "id": "blue-origin",
