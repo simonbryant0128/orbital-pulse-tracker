@@ -1,21 +1,21 @@
 {
-  "lastVerified": "2026-10-23",
+  "lastVerified": "2026-10-25",
   "events": [
     {
       "id": "rklb-hawkeye-window-20261023",
       "date": "2026-10-23",
       "company": "Rocket Lab",
       "program": "Electron／HawkEye 360 HAWK",
-      "category": "時程／衛星部署",
-      "status": "NET UTC 07:00／台北 15:00",
-      "tone": "watch",
-      "title": "Rocket Lab 鎖定 10 月 23 日發射三顆 HawkEye 360 衛星",
-      "summary": "We're Not Hawking Around 任務目標台北 15:00 自紐西蘭升空；備援日為紐西蘭 10/24 至 11/3。",
-      "detail": "Rocket Lab 的 launch-safety 官方頁已把 We're Not Hawking Around 任務更新為不早於紐西蘭時間 2026 年 10 月 23 日 20:00（UTC 07:00；台北 15:00）發射，並列出紐西蘭 10 月 24 日至 11 月 3 日為備援日。Electron 將自 Launch Complex 1 執行任務，把三顆 HawkEye 360 HAWK 衛星部署到約 520 公里、97 度傾角的低地球軌道。這是發射目標與部署規劃，並非已完成發射或已部署三顆。",
+      "category": "發射完成／衛星部署",
+      "status": "已成功部署 3 顆 HAWK 衛星",
+      "tone": "positive",
+      "title": "Rocket Lab 第 98 次 Electron 任務成功部署三顆 HawkEye 360 衛星",
+      "summary": "We're Not Hawking Around 任務於紐西蘭時間 10/23 20:11 升空，三顆 HAWK 已部署至 520 公里 LEO。",
+      "detail": "Rocket Lab 官方公告確認，We're Not Hawking Around 任務於紐西蘭時間 2026 年 10 月 23 日 20:11 自 Launch Complex 1 升空，Electron 已把三顆 HawkEye 360 HAWK 衛星部署至約 520 公里、97 度傾角的低地球軌道。這是第 98 次 Electron 發射，也是 Rocket Lab 2026 年第 19 次成功任務，並是第三次專門替 HawkEye 360 部署 RF 訊號偵測衛星的 Electron 任務。",
       "sources": [
         {
-          "label": "Rocket Lab 官方 launch-safety 頁",
-          "url": "https://rocketlabcorp.com/launch/launch-safety/",
+          "label": "Rocket Lab 第 98 次 Electron 任務成功公告",
+          "url": "https://investors.rocketlabcorp.com/news-releases/news-release-details/mission-success-rocket-lab-launches-98th-electron-mission",
           "type": "官方"
         },
         {
@@ -50,15 +50,20 @@
       "company": "SpaceX",
       "program": "Falcon 9／Starlink",
       "category": "時程／查核快照",
-      "status": "另列 10/26、10/29 與 11/5 任務",
+      "status": "下一班 27 顆目標台北 10/27；另列 10/30 與 11/5",
       "tone": "watch",
       "title": "SpaceX 官方清單更新 10 月下旬與 11 月初 Starlink 排程",
-      "summary": "10/23 台北補查快照：除 27 顆任務外，另列台北 10/26、10/29 與只列日期的 11/5 任務；未公布顆數不預增部署。",
-      "detail": "本次補查 SpaceX 官方發射清單時，27 顆 sl-15-15 任務已更新為台北 10 月 24 日 05:30–09:30；清單另列台北 10 月 26 日 13:00–17:00、10 月 29 日 12:17–16:17，以及只列 11 月 5 日日期的 Starlink 任務。後三班未提供可供本次採用的批次代號或衛星顆數，也未公開 11 月 5 日的精確時刻。本筆以 10/23 補查結果更新未發布快照；排程仍可能變動，不視為已完成發射。",
+      "summary": "10/24 官方快照：下一班 sl-15-16 明列 27 顆，窗口為台北 10/27 12:45–16:45；另列 10/30 與 11/5 任務。",
+      "detail": "SpaceX 官方發射清單在 10 月 24 日補查時，把下一班 Starlink 排在台北 10 月 27 日 12:45–16:45；任務頁代號為 sl-15-16，明列將發射 27 顆 Starlink，首節規劃降落 Of Course I Still Love You 無人船。官方清單另列台北 10 月 30 日 12:02–16:02，以及只列 11 月 5 日日期的 Starlink 任務；這兩班未提供可供本次採用的批次代號或衛星顆數，11 月 5 日也沒有精確時刻。排程仍可能變動，不視為已完成發射。",
       "sources": [
         {
           "label": "SpaceX 官方發射清單",
           "url": "https://www.spacex.com/launches",
+          "type": "官方"
+        },
+        {
+          "label": "SpaceX Starlink 15-16 任務頁",
+          "url": "https://www.spacex.com/launches/sl-15-16",
           "type": "官方"
         }
       ]
@@ -255,7 +260,7 @@
     },
     {
       "id": "bo-florida-high-cadence-infrastructure-20261016",
-      "date": "2026-10-16",
+      "date": "2026-10-24",
       "company": "Blue Origin",
       "program": "New Glenn／Florida launch infrastructure",
       "category": "製造／發射基礎設施",
@@ -274,15 +279,15 @@
     },
     {
       "id": "sx-starlink-next-window-20261007",
-      "date": "2026-10-16",
+      "date": "2026-10-24",
       "company": "SpaceX",
       "program": "Falcon 9／Starlink Mission",
-      "category": "發射完成／下一次部署規劃",
-      "status": "10/12 任務已完成；27 顆任務延至台北 10/24",
+      "category": "發射完成／衛星部署",
+      "status": "10/23 PT 已發射 27 顆；首節成功著陸",
       "tone": "positive",
-      "title": "SpaceX 完成 10 月 12 日 Starlink 任務，27 顆下一班改至 10 月 24 日",
-      "summary": "官方清單仍把 10/12 Starlink 列為完成；27 顆 sl-15-15 任務最新窗口為台北 10/24 05:30–09:30。",
-      "detail": "SpaceX 官方發射清單已把 2026 年 10 月 12 日的 Starlink Mission 移入 Completed missions。採用的一手頁面未公布該班衛星顆數，因此不把它加到部署總量。原定台北 10 月 21 日的 27 顆 sl-15-15 任務仍由官方頁標為 targeting，10 月 23 日補查時已延至台北 10 月 24 日 05:30–09:30；首節規劃降落 Of Course I Still Love You 無人船。窗口更新不等於發射完成，本次不調整第三方在軌工作中總數。",
+      "title": "SpaceX 完成 Starlink 15-15，27 顆衛星發射至低軌",
+      "summary": "Falcon 9 於美西 10/23 15:48 發射 27 顆 Starlink 至 LEO，首節成功降落 Of Course I Still Love You。",
+      "detail": "SpaceX 官方任務頁確認，Falcon 9 於美西時間 2026 年 10 月 23 日 15:48（台北時間 10 月 24 日 06:48）自 Vandenberg SLC-4E 發射 27 顆 Starlink 衛星至低地球軌道；第 36 次飛行的一節隨後成功降落在 Of Course I Still Love You 無人船。網站將這班任務改列為完成，但 Starlink 總量仍沿用既有第三方『在軌工作中』統計口徑，不把它加到部署總量，也不以單次發射顆數直接改寫現役總量。下一班 sl-15-16 同樣明列 27 顆，目標窗口為台北 10 月 27 日 12:45–16:45。",
       "sources": [
         {
           "label": "SpaceX 官方發射清單",
@@ -290,8 +295,13 @@
           "type": "官方"
         },
         {
-          "label": "SpaceX 下一班 Starlink 任務頁",
+          "label": "SpaceX Starlink 15-15 任務頁",
           "url": "https://www.spacex.com/launches/sl-15-15",
+          "type": "官方"
+        },
+        {
+          "label": "SpaceX 下一班 Starlink 15-16 任務頁",
+          "url": "https://www.spacex.com/launches/sl-15-16",
           "type": "官方"
         }
       ]

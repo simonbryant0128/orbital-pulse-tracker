@@ -1,35 +1,25 @@
 {
-  "lastVerified": "2026-10-23",
+  "lastVerified": "2026-10-25",
   "items": [
     {
-      "id": "rklb-hawkeye-window-20261023",
-      "company": "Rocket Lab",
-      "mission": "We're Not Hawking Around／3x HAWK",
-      "window": "NET 台北 10/23 15:00（UTC 07:00；NZDT 20:00）",
-      "bucket": "30d",
-      "confidence": "Rocket Lab launch-safety 官方目標；備援 10/24–11/3 NZT",
-      "vehicle": "Electron",
-      "source": "https://rocketlabcorp.com/launch/launch-safety/"
-    },
-    {
-      "id": "sx-starlink-window-20261029",
+      "id": "sx-starlink-window-20261030",
       "company": "SpaceX",
       "mission": "Starlink Mission（批次與顆數未公布）",
-      "window": "台北 10/29 12:17–16:17",
+      "window": "台北 10/30 12:02–16:02",
       "bucket": "30d",
       "confidence": "SpaceX 官方四小時窗口",
       "vehicle": "Falcon 9",
       "source": "https://www.spacex.com/launches"
     },
     {
-      "id": "sx-starlink-window-20261026",
+      "id": "sx-starlink-15-16-20261027",
       "company": "SpaceX",
-      "mission": "Starlink Mission（批次與顆數未公布）",
-      "window": "台北 10/26 13:00–17:00",
+      "mission": "Starlink 15-16（27 顆）",
+      "window": "台北 10/27 12:45–16:45",
       "bucket": "30d",
-      "confidence": "SpaceX 官方四小時窗口",
+      "confidence": "SpaceX 官方任務頁／27 顆／targeting",
       "vehicle": "Falcon 9",
-      "source": "https://www.spacex.com/launches"
+      "source": "https://www.spacex.com/launches/sl-15-16"
     },
     {
       "id": "sx-starlink-date-20261105",
@@ -70,16 +60,6 @@
       "confidence": "官方整備目標／NASA 待選載具",
       "vehicle": "待 NASA 安排",
       "source": "https://fireflyspace.com/news/firefly-aerospace-completes-preliminary-design-review-for-nasa-moonfall-mission/"
-    },
-    {
-      "id": "sx-starlink-window-20261024",
-      "company": "SpaceX",
-      "mission": "Starlink Mission（批次代號與顆數未公布）",
-      "window": "台北 10/24 05:30–09:30",
-      "bucket": "30d",
-      "confidence": "SpaceX 官方四小時窗口／27 顆／仍為 targeting",
-      "vehicle": "Falcon 9",
-      "source": "https://www.spacex.com/launches"
     },
     {
       "id": "fly-ssc-two-alpha-launches-20260909",
