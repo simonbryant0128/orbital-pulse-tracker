@@ -1,12 +1,12 @@
 {
-  "lastVerified": "2026-10-25",
+  "lastVerified": "2026-10-28",
   "items": [
     {
       "id": "spacex",
       "name": "SpaceX",
       "ticker": "私人",
       "focus": "發射服務 · Starlink · Starship",
-      "status": "Starlink 15-15 已發射 27 顆；下一班 27 顆目標台北 10/27",
+      "status": "Starlink 15-16 已發射並部署 27 顆；下一班 Starlink 15-18 目標台北 10/30",
       "statusTone": "positive",
       "source": "https://www.spacex.com/launches"
     },

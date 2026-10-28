@@ -1,0 +1,39 @@
+{
+  "state": "approved-source-snapshot",
+  "scope": "2026-10-28 官方來源每日查核與任務生命週期更新",
+  "checkedDate": "2026-10-28",
+  "events": [
+    {
+      "id": "sx-starlink-15-16-deployed-20261027",
+      "date": "2026-10-27",
+      "company": "SpaceX",
+      "program": "Falcon 9／Starlink 15-16",
+      "category": "發射完成／衛星部署",
+      "status": "27 顆已部署／首節成功著陸",
+      "tone": "positive",
+      "title": "SpaceX 完成 Starlink 15-16，27 顆衛星部署至低軌",
+      "summary": "Falcon 9 於美西 10/27 00:25 自 Vandenberg 發射 27 顆 Starlink；第 26 次飛行首節成功降落 OCISLY。",
+      "reviewStatus": "自動查證",
+      "publicationStatus": "待同步",
+      "checkedDate": "2026-10-28",
+      "sources": [
+        "https://www.spacex.com/launches/sl-15-16",
+        "https://www.spacex.com/launches",
+        "https://www.spacex.com/launches/sl-15-18"
+      ]
+    }
+  ],
+  "previousStates": [
+    {
+      "id": "sx-starlink-15-16-20261027",
+      "status": "台北 10/27 12:45–16:45",
+      "replacement": "sx-starlink-15-16-deployed-20261027"
+    },
+    {
+      "id": "sx-starlink-window-20261030",
+      "mission": "Starlink Mission（批次與顆數未公布）",
+      "replacementMission": "Starlink 15-18（27 顆）"
+    }
+  ],
+  "manualReviewCount": 3
+}

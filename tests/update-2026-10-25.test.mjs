@@ -15,17 +15,17 @@ test("October 25 refreshes the official-source audit without inventing new event
     readJson("meta.json"),
   ]);
 
-  assert.equal(meta.lastVerified, "2026-10-25");
+  assert.equal(meta.lastVerified, "2026-10-28");
   assert.equal(events.lastVerified, meta.lastVerified);
-  assert.equal(events.events.length, 117);
+  assert.equal(events.events.length, 118);
   assert.equal(schedule.lastVerified, meta.lastVerified);
   assert.equal(constellations.lastVerified, meta.lastVerified);
   assert.equal(companies.lastVerified, meta.lastVerified);
   assert.ok(constellations.items.every((item) => item.lastChecked === meta.lastVerified));
 
-  const next = schedule.items.find((item) => item.id === "sx-starlink-15-16-20261027");
+  const next = schedule.items.find((item) => item.id === "sx-starlink-window-20261030");
   assert.match(next.mission, /27 顆/);
-  assert.match(next.window, /10\/27 12:45–16:45/);
+  assert.match(next.window, /10\/30 12:02–16:02/);
 
   const starlink = events.events.find((event) => event.id === "sx-starlink-next-window-20261007");
   const hawkeye = events.events.find((event) => event.id === "rklb-hawkeye-window-20261023");
