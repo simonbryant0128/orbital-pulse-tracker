@@ -16,9 +16,9 @@ test("October 24 publishes Starlink and HawkEye outcomes with refreshed next lau
     readJson("meta.json"),
   ]);
 
-  assert.equal(meta.lastVerified, "2026-10-25");
+  assert.equal(meta.lastVerified, "2026-10-28");
   assert.equal(events.lastVerified, meta.lastVerified);
-  assert.equal(events.events.length, 117);
+  assert.equal(events.events.length, 118);
   assert.equal(batch.events.length, 3);
   for (const approved of batch.events) {
     assert.equal(approved.reviewStatus, "自動查證");
@@ -40,17 +40,17 @@ test("October 24 publishes Starlink and HawkEye outcomes with refreshed next lau
   assert.equal(schedule.lastVerified, meta.lastVerified);
   assert.equal(schedule.items.some((item) => item.id === "rklb-hawkeye-window-20261023"), false);
   assert.equal(schedule.items.some((item) => item.id === "sx-starlink-window-20261024"), false);
-  const next = schedule.items.find((item) => item.id === "sx-starlink-15-16-20261027");
+  const next = schedule.items.find((item) => item.id === "sx-starlink-window-20261030");
   assert.match(next.mission, /27 顆/);
-  assert.match(next.window, /10\/27 12:45–16:45/);
+  assert.match(next.window, /10\/30 12:02–16:02/);
 
   assert.equal(constellations.lastVerified, meta.lastVerified);
   assert.ok(constellations.items.every((item) => item.lastChecked === meta.lastVerified));
   const starlinkDeployment = constellations.items.find((item) => item.id === "starlink").deployment;
-  assert.equal(starlinkDeployment.nextLaunchDate, "2026-10-27");
-  assert.equal(starlinkDeployment.nextSource, "https://www.spacex.com/launches/sl-15-16");
+  assert.equal(starlinkDeployment.nextLaunchDate, "2026-10-30");
+  assert.equal(starlinkDeployment.nextSource, "https://www.spacex.com/launches/sl-15-18");
 
   assert.equal(companies.lastVerified, meta.lastVerified);
-  assert.match(companies.items.find((item) => item.id === "spacex").status, /Starlink 15-15 已發射 27 顆/);
+  assert.match(companies.items.find((item) => item.id === "spacex").status, /Starlink 15-16 已發射並部署 27 顆/);
   assert.match(companies.items.find((item) => item.id === "rocket-lab").status, /第 98 次 Electron/);
 });

@@ -7,7 +7,7 @@ const [published, approved, latest, today, manual, constellations, schedule, pro
 );
 
 test("recovery integrates 14 new IDs and three lifecycle updates exactly once", () => {
-  assert.equal(published.events.length, 117);
+  assert.equal(published.events.length, 118);
   assert.equal(approved.events.length, 15);
   assert.equal(new Set(published.events.map(e => e.id)).size, published.events.length);
   for (const event of approved.events) {
@@ -50,7 +50,7 @@ test("deployment accounting separates verified additions, lower bounds and plans
   const byId = id => constellations.items.find(e => e.id === id);
   assert.equal(byId("starlink").current, 10971);
   assert.equal(byId("starlink").currentAsOf, "2026-08-12");
-  assert.equal(byId("starlink").deployment.nextLaunchDate, "2026-10-27");
+  assert.equal(byId("starlink").deployment.nextLaunchDate, "2026-10-30");
   assert.equal(byId("planet-pelican").current, 11);
   assert.equal(byId("planet-pelican").breakdown.reduce((a,r) => a+r.value,0), 11);
   assert.equal(byId("spire-2026").current, 32);
@@ -65,12 +65,12 @@ test("deployment accounting separates verified additions, lower bounds and plans
 });
 
 test("current views use one verification date and preserve official timing precision", () => {
-  assert.equal(meta.lastVerified, "2026-10-25");
+  assert.equal(meta.lastVerified, "2026-10-28");
   for (const data of [published, constellations, schedule, companies]) assert.equal(data.lastVerified, meta.lastVerified);
   assert.ok(constellations.items.every(e => e.lastChecked === meta.lastVerified));
   assert.equal(companies.items.length, 13);
-  assert.equal(schedule.items.length, 17);
-  assert.match(schedule.items.find(e => e.id === "sx-starlink-15-16-20261027").window, /12:45–16:45/);
+  assert.equal(schedule.items.length, 16);
+  assert.match(schedule.items.find(e => e.id === "sx-starlink-window-20261030").window, /12:02–16:02/);
   assert.match(schedule.items.find(e => e.id === "neutron-first-flight-q4").window, /2027/);
   assert.match(schedule.items.find(e => e.id === "fly-moonfall-launch-readiness-2028").window, /非確定發射日/);
   assert.match(published.events.find(e => e.id === "asts-europe-mno-spectrum-loi-20261019").detail, /不等於競標得標/);
