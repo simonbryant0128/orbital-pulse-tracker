@@ -1,23 +1,23 @@
 {
-  "lastVerified": "2026-10-28",
+  "lastVerified": "2026-11-03",
   "items": [
     {
-      "id": "sx-starlink-window-20261030",
+      "id": "sx-ussf432-window-20261103",
       "company": "SpaceX",
-      "mission": "Starlink 15-18（27 顆）",
-      "window": "台北 10/30 12:02–16:02",
+      "mission": "USSF-432 Mission",
+      "window": "台北 11/3 09:42–13:42",
       "bucket": "30d",
-      "confidence": "SpaceX 官方任務頁／27 顆／targeting",
+      "confidence": "SpaceX 官方四小時窗口",
       "vehicle": "Falcon 9",
-      "source": "https://www.spacex.com/launches/sl-15-18"
+      "source": "https://www.spacex.com/launches"
     },
     {
-      "id": "sx-starlink-date-20261105",
+      "id": "sx-starlink-window-20261106",
       "company": "SpaceX",
       "mission": "Starlink Mission（批次與顆數未公布）",
-      "window": "2026-11-05（精確時刻待公布）",
+      "window": "台北 11/6 10:21–14:21",
       "bucket": "30d",
-      "confidence": "SpaceX 官方日期／未定時",
+      "confidence": "SpaceX 官方四小時窗口／批次與顆數未公布",
       "vehicle": "Falcon 9",
       "source": "https://www.spacex.com/launches"
     },

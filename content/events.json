@@ -1,6 +1,30 @@
 {
-  "lastVerified": "2026-10-28",
+  "lastVerified": "2026-11-03",
   "events": [
+    {
+      "id": "sx-starlink-15-18-deployed-20261030",
+      "date": "2026-10-30",
+      "company": "SpaceX",
+      "program": "Falcon 9／Starlink 15-18",
+      "category": "發射完成／衛星部署",
+      "status": "27 顆已部署／首節成功著陸",
+      "tone": "positive",
+      "title": "SpaceX 完成 Starlink 15-18，27 顆衛星部署至低軌",
+      "summary": "Falcon 9 於美西 10/30 21:04 自 Vandenberg 發射 27 顆 Starlink；第 18 次飛行首節成功降落 OCISLY。",
+      "detail": "SpaceX 官方任務頁確認，Falcon 9 於美西時間 2026 年 10 月 30 日 21:04（台北時間 10 月 31 日 12:04）自 Vandenberg SLC-4E 發射 27 顆 Starlink 衛星至低地球軌道，衛星部署列在升空後約 1 小時 2 分。這是該首節第 18 次飛行；一節在分離後成功降落 Of Course I Still Love You 無人船。SpaceX 官方發射清單目前把下一班 Starlink 任務排在台北時間 11 月 6 日 10:21–14:21，但尚未公布可供本次採用的批次代號與衛星顆數。網站不把本次 27 顆直接加到「在軌工作中」總量，該總量仍沿用既有第三方統計口徑。",
+      "sources": [
+        {
+          "label": "SpaceX Starlink 15-18 任務頁",
+          "url": "https://www.spacex.com/launches/sl-15-18",
+          "type": "官方"
+        },
+        {
+          "label": "SpaceX 官方發射清單",
+          "url": "https://www.spacex.com/launches",
+          "type": "官方"
+        }
+      ]
+    },
     {
       "id": "sx-starlink-15-16-deployed-20261027",
       "date": "2026-10-27",

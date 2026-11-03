@@ -16,11 +16,11 @@ test("October 28 publishes Starlink 15-16 and advances the next official mission
     readJson("meta.json"),
   ]);
 
-  assert.equal(meta.lastVerified, "2026-10-28");
+  assert.equal(meta.lastVerified, "2026-11-03");
   for (const data of [events, schedule, constellations, companies]) {
     assert.equal(data.lastVerified, meta.lastVerified);
   }
-  assert.equal(events.events.length, 118);
+  assert.equal(events.events.length, 119);
   assert.equal(batch.events.length, 1);
   assert.equal(batch.manualReviewCount, 3);
   assert.equal(batch.events[0].reviewStatus, "自動查證");
@@ -33,16 +33,17 @@ test("October 28 publishes Starlink 15-16 and advances the next official mission
   assert.ok(completed.sources.every((source) => source.type === "官方"));
 
   assert.equal(schedule.items.some((item) => item.id === "sx-starlink-15-16-20261027"), false);
-  const next = schedule.items.find((item) => item.id === "sx-starlink-window-20261030");
-  assert.equal(next.mission, "Starlink 15-18（27 顆）");
-  assert.match(next.window, /10\/30 12:02–16:02/);
-  assert.equal(next.source, "https://www.spacex.com/launches/sl-15-18");
+  assert.equal(schedule.items.some((item) => item.id === "sx-starlink-window-20261030"), false);
+  const next = schedule.items.find((item) => item.id === "sx-starlink-window-20261106");
+  assert.equal(next.mission, "Starlink Mission（批次與顆數未公布）");
+  assert.match(next.window, /11\/6 10:21–14:21/);
+  assert.equal(next.source, "https://www.spacex.com/launches");
 
   const starlink = constellations.items.find((item) => item.id === "starlink");
   assert.equal(starlink.current, 10971);
   assert.equal(starlink.currentAsOf, "2026-08-12");
-  assert.equal(starlink.deployment.nextLaunchDate, "2026-10-30");
-  assert.equal(starlink.deployment.nextSource, "https://www.spacex.com/launches/sl-15-18");
+  assert.equal(starlink.deployment.nextLaunchDate, "2026-11-06");
+  assert.equal(starlink.deployment.nextSource, "https://www.spacex.com/launches");
   assert.ok(constellations.items.every((item) => item.lastChecked === meta.lastVerified));
-  assert.match(companies.items.find((item) => item.id === "spacex").status, /Starlink 15-16 已發射並部署 27 顆/);
+  assert.match(companies.items.find((item) => item.id === "spacex").status, /Starlink 15-18 已發射並部署 27 顆/);
 });
