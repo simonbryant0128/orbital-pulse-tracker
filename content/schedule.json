@@ -1,16 +1,6 @@
 {
-  "lastVerified": "2026-11-03",
+  "lastVerified": "2026-11-04",
   "items": [
-    {
-      "id": "sx-ussf432-window-20261103",
-      "company": "SpaceX",
-      "mission": "USSF-432 Mission",
-      "window": "台北 11/3 09:42–13:42",
-      "bucket": "30d",
-      "confidence": "SpaceX 官方四小時窗口",
-      "vehicle": "Falcon 9",
-      "source": "https://www.spacex.com/launches"
-    },
     {
       "id": "sx-starlink-window-20261106",
       "company": "SpaceX",
@@ -22,24 +12,14 @@
       "source": "https://www.spacex.com/launches"
     },
     {
-      "id": "rklb-sea-god-surveys-20261104",
-      "company": "Rocket Lab",
-      "mission": "The Sea God Surveys／iQPS",
-      "window": "NET 2026-11-04（時刻未採用）",
-      "bucket": "30d",
-      "confidence": "官方任務清單 NET 日期",
-      "vehicle": "Electron",
-      "source": "https://rocketlabcorp.com/missions/launches/"
-    },
-    {
-      "id": "rklb-mountain-god-rises-20261110",
+      "id": "rklb-mountain-god-rises-20261114",
       "company": "Rocket Lab",
       "mission": "The Mountain God Rises／iQPS",
-      "window": "NET 2026-11-10（時刻未採用）",
+      "window": "NET 2026-11-14（時刻未公布）",
       "bucket": "30d",
-      "confidence": "官方任務清單 NET 日期",
+      "confidence": "官方任務頁 NET 日期／時刻 TBD",
       "vehicle": "Electron",
-      "source": "https://rocketlabcorp.com/missions/launches/"
+      "source": "https://rocketlabcorp.com/missions/launches/iqps-the-mountain-god-rises/"
     },
     {
       "id": "fly-moonfall-launch-readiness-2028",

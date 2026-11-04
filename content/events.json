@@ -1,6 +1,35 @@
 {
-  "lastVerified": "2026-11-03",
+  "lastVerified": "2026-11-04",
   "events": [
+    {
+      "id": "rklb-sea-god-surveys-success-20261103",
+      "date": "2026-11-03",
+      "company": "Rocket Lab",
+      "program": "Electron／iQPS WADATSUMI-II",
+      "category": "發射完成／衛星部署",
+      "status": "1 顆成功部署至 575 公里 LEO",
+      "tone": "positive",
+      "title": "Rocket Lab 第 99 次 Electron 任務成功部署 iQPS WADATSUMI-II",
+      "summary": "The Sea God Surveys 於紐西蘭時間 11/3 05:41 升空，WADATSUMI-II 已部署至 575 公里、42 度傾角低軌。",
+      "detail": "Rocket Lab 官方公告確認，The Sea God Surveys 任務於紐西蘭時間 2026 年 11 月 3 日 05:41（台北時間 11 月 3 日 00:41）自 Launch Complex 1 升空，Electron 已把 iQPS 的 WADATSUMI-II（QPS-SAR）衛星部署至 575 公里、42 度傾角的低地球軌道。這是第 99 次 Electron 任務、Rocket Lab 2026 年第 20 次任務，也是連續第 10 次替 iQPS 執行的專屬任務；官方表示這 10 次任務皆成功。下一次 iQPS 任務 The Mountain God Rises 為第 100 次 Electron 任務，官方目前列 NET 2026 年 11 月 14 日，確切發射時刻仍為待定。",
+      "sources": [
+        {
+          "label": "Rocket Lab 第 99 次 Electron 任務成功公告",
+          "url": "https://investors.rocketlabcorp.com/news-releases/news-release-details/mission-success-rocket-lab-launches-99th-electron-mission",
+          "type": "官方"
+        },
+        {
+          "label": "Rocket Lab The Sea God Surveys 任務頁",
+          "url": "https://rocketlabcorp.com/missions/launches/iqps-the-sea-god-surveys/",
+          "type": "官方"
+        },
+        {
+          "label": "Rocket Lab 官方任務清單",
+          "url": "https://rocketlabcorp.com/missions/launches/",
+          "type": "官方"
+        }
+      ]
+    },
     {
       "id": "sx-starlink-15-18-deployed-20261030",
       "date": "2026-10-30",
