@@ -1,0 +1,44 @@
+{
+  "state": "approved-source-snapshot",
+  "scope": "2026-11-04 官方來源每日查核與 Rocket Lab 任務補收",
+  "checkedDate": "2026-11-04",
+  "events": [
+    {
+      "id": "rklb-sea-god-surveys-success-20261103",
+      "date": "2026-11-03",
+      "company": "Rocket Lab",
+      "program": "Electron／iQPS WADATSUMI-II",
+      "category": "發射完成／衛星部署",
+      "status": "1 顆成功部署至 575 公里 LEO",
+      "tone": "positive",
+      "title": "Rocket Lab 第 99 次 Electron 任務成功部署 iQPS WADATSUMI-II",
+      "summary": "The Sea God Surveys 於紐西蘭時間 11/3 05:41 升空，WADATSUMI-II 已部署至 575 公里、42 度傾角低軌。",
+      "reviewStatus": "自動查證",
+      "publicationStatus": "待同步",
+      "checkedDate": "2026-11-04",
+      "sources": [
+        "https://investors.rocketlabcorp.com/news-releases/news-release-details/mission-success-rocket-lab-launches-99th-electron-mission",
+        "https://rocketlabcorp.com/missions/launches/iqps-the-sea-god-surveys/",
+        "https://rocketlabcorp.com/missions/launches/"
+      ]
+    }
+  ],
+  "previousStates": [
+    {
+      "id": "rklb-sea-god-surveys-20261104",
+      "status": "已完成",
+      "replacement": "rklb-sea-god-surveys-success-20261103"
+    },
+    {
+      "id": "rklb-mountain-god-rises-20261110",
+      "status": "日期已由官方任務頁更新",
+      "replacement": "rklb-mountain-god-rises-20261114"
+    },
+    {
+      "id": "sx-ussf432-window-20261103",
+      "status": "既有官方窗口已過，不保留為未來任務",
+      "replacement": null
+    }
+  ],
+  "manualReviewCount": 3
+}

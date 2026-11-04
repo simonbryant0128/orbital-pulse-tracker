@@ -1,5 +1,5 @@
 {
-  "lastVerified": "2026-11-03",
+  "lastVerified": "2026-11-04",
   "items": [
     {
       "id": "spacex",
@@ -15,9 +15,9 @@
       "name": "Rocket Lab",
       "ticker": "RKLB",
       "focus": "Electron · HASTE · Neutron · 太空系統",
-      "status": "第 98 次 Electron 任務成功部署 3 顆 HAWK；Neutron 首飛預期改為 2027",
+      "status": "第 99 次 Electron 任務成功部署 WADATSUMI-II；第 100 次任務 NET 11/14",
       "statusTone": "positive",
-      "source": "https://investors.rocketlabcorp.com/news-releases/news-release-details/mission-success-rocket-lab-launches-98th-electron-mission"
+      "source": "https://investors.rocketlabcorp.com/news-releases/news-release-details/mission-success-rocket-lab-launches-99th-electron-mission"
     },
     {
       "id": "blue-origin",
