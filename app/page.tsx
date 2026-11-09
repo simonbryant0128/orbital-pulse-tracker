@@ -160,20 +160,20 @@ export default function Home() {
         <aside className="signal-card" aria-label="本期警戒">
           <div className="signal-topline">
             <span className="signal-label">SIGNAL / 本期警戒</span>
-            <span className="signal-code">SS · 14</span>
+            <span className="signal-code">SS · 15</span>
           </div>
           <div className="signal-orbit" aria-hidden="true">
             <span className="signal-core" />
             <span className="signal-dot" />
           </div>
           <p className="signal-kicker">SPACEX · STARSHIP</p>
-          <h2>Flight 14 已列為 9 月 28 日完成任務</h2>
-          <p>SpaceX 已把任務移入 Completed missions；飛後摘要尚未確認首次繞地軌道、26 顆 Starlink V3 部署與其他試飛目標結果。</p>
+          <h2>Flight 15 目標台北 11 月 14 日 06:45</h2>
+          <p>75 分鐘窗口仍待監管核准；任務規劃首次同時回收兩級，並部署 26 顆 Starlink V3。</p>
           <div className="signal-footer">
             <span className="tone-dot watch" />
-            <strong>狀態：已完成發射／結果待摘要</strong>
+            <strong>狀態：待監管核准／尚未執行</strong>
             <a
-              href="https://www.spacex.com/launches"
+              href="https://www.spacex.com/launches/starship-flight-15"
               target="_blank"
               rel="noreferrer"
             >

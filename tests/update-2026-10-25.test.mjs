@@ -23,9 +23,9 @@ test("October 25 refreshes the official-source audit without inventing new event
   assert.equal(companies.lastVerified, meta.lastVerified);
   assert.ok(constellations.items.every((item) => item.lastChecked === meta.lastVerified));
 
-  const next = schedule.items.find((item) => item.id === "sx-starlink-window-20261106");
-  assert.match(next.mission, /批次與顆數未公布/);
-  assert.match(next.window, /11\/6 10:21–14:21/);
+  const next = schedule.items.find((item) => item.id === "sx-starship-flight15-20261114");
+  assert.match(next.mission, /Flight 15/);
+  assert.match(next.window, /11-14 06:45–08:00/);
 
   const starlink = events.events.find((event) => event.id === "sx-starlink-next-window-20261007");
   const hawkeye = events.events.find((event) => event.id === "rklb-hawkeye-window-20261023");

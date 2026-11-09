@@ -1,6 +1,173 @@
 {
-  "lastVerified": "2026-11-04",
+  "lastVerified": "2026-11-09",
   "events": [
+    {
+      "id": "sx-starship-flight15-window-20261114",
+      "date": "2026-11-09",
+      "company": "SpaceX",
+      "program": "Starship Flight 15／Starlink V3",
+      "category": "時程／試飛／衛星部署規劃",
+      "status": "台北 11/14 06:45–08:00／26 顆 V3",
+      "tone": "watch",
+      "title": "Starship Flight 15 目標台北 11/14，規劃部署 26 顆 Starlink V3",
+      "summary": "SpaceX 目標美中 11/13 16:45 起飛，台北為 11/14 06:45；75 分鐘窗口，待監管核准，並規劃首度同時回收兩級及部署 26 顆 V3。",
+      "detail": "SpaceX 的 Flight 15 任務頁列出：最早美中時間 11 月 13 日 16:45、75 分鐘窗口，換算台北時間為 11 月 14 日 06:45–08:00，且仍待監管核准。任務從 Starbase Pad 2 起飛，規劃首次讓 Starship 與 Super Heavy 都返回發射場並由 Mechazilla 回收。飛行規劃約 275 公里軌道、約 14 圈、超過 22 小時；上面級還計畫部署 26 顆 Starlink V3，其中三顆帶相機檢查熱盾。這些衛星在實際部署前不計入目前總量。",
+      "sources": [
+        {
+          "label": "SpaceX Starship Flight 15 任務頁",
+          "url": "https://www.spacex.com/launches/starship-flight-15",
+          "type": "官方"
+        },
+        {
+          "label": "SpaceX 官方發射清單",
+          "url": "https://www.spacex.com/launches",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "amzn-leo-lv01-schedule-20261113",
+      "date": "2026-11-09",
+      "company": "Amazon Leo",
+      "program": "LV-01／Amazon Leo",
+      "category": "時程／衛星部署規劃",
+      "status": "40 顆／台北 11/14 01:54",
+      "tone": "watch",
+      "title": "Amazon Leo 首次 Vulcan 任務 LV-01 排定部署 40 顆衛星",
+      "summary": "Amazon 排定 LV-01 於美東 11/13 12:54 發射，換算台北 11/14 01:54，待 range approval；40 顆是 Leo 迄今單次最大酬載。",
+      "detail": "Amazon 官方任務頁列出 Leo Vulcan 1（LV-01）最早美東時間 11 月 13 日 12:54 發射，換算台北時間為 11 月 14 日 01:54，仍待 range approval。任務將由 ULA Vulcan VC6L 自卡納維爾角 SLC-41 部署 40 顆 Amazon Leo 衛星，是該計畫迄今單次最大酬載，也是 38 次 Vulcan 合約中的首次任務。官方累計已部署數仍為 396；規劃中的 40 顆在任務完成前不加入總量。後續 LE-04 仍列為 NET 11 月 23 日、36 顆。",
+      "sources": [
+        {
+          "label": "Amazon Leo 官方任務更新",
+          "url": "https://www.aboutamazon.com/news/innovation-at-amazon/project-kuiper-satellite-rocket-launch-progress-updates",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "nasa-clps2-tracked-providers-20261107",
+      "date": "2026-11-07",
+      "company": "Voyager Technologies",
+      "program": "NASA CLPS 2",
+      "category": "政府合約／月球運輸",
+      "status": "4 家追蹤公司入選／$10B 共同上限",
+      "tone": "positive",
+      "title": "NASA CLPS 2 入選名單涵蓋四家追蹤公司",
+      "summary": "NASA 選出八家可競標 CLPS 2 任務的供應商，其中包括 Blue Origin、Firefly、SpaceX 與 Voyager；十年 IDIQ 的共同上限為 100 億美元。",
+      "detail": "NASA 選出八家可在 Commercial Lunar Payload Services 2（CLPS 2）下競標任務的公司，其中包括本表追蹤的 Blue Origin、Firefly Aerospace、SpaceX 與 Voyager Technologies。這是一份十年、多家得標的 IDIQ 合約，全部供應商合計上限 100 億美元；入選代表取得競標資格，不保證個別公司一定取得特定金額或任務。NASA 同一公告另指出，SpaceX 已在既有月球物流合約下獲選執行 2028 年繞月通訊部署示範，確切日期尚未公布。",
+      "sources": [
+        {
+          "label": "NASA CLPS 2 得標公告",
+          "url": "https://www.nasa.gov/news-release/nasa-awards-moon-base-transportation-technology-science-projects/",
+          "type": "官方"
+        },
+        {
+          "label": "Voyager CLPS 2 公告",
+          "url": "https://investors.voyagertechnologies.com/news/news-details/2026/Voyager-Awarded-NASA-CLPS-2-Contract/default.aspx",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "fly-asts-engine-deal-20261106",
+      "date": "2026-11-06",
+      "company": "Firefly Aerospace",
+      "program": "Miranda／Vira／AST 新重型火箭",
+      "category": "合約／推進系統／新火箭",
+      "status": ">$1.3B／36 具引擎／首 3 枚火箭",
+      "tone": "positive",
+      "title": "Firefly 與 AST SpaceMobile 簽署逾 13 億美元火箭引擎協議",
+      "summary": "三年協議涵蓋 27 具 Miranda 與 9 具真空版 Vira，引擎用於 AST 規劃中的前三枚新重型火箭，並包含授權與工程支援。",
+      "detail": "Firefly Aerospace 與 AST SpaceMobile 簽署一項三年、價值逾 13 億美元的火箭引擎協議。內容包括 27 具 Miranda 與 9 具真空版 Vira，共 36 具引擎，供 AST 規劃中的前三枚新重型火箭使用；也包括引擎智慧財產授權與工程支援。Firefly 保留完整智慧財產權，AST 可依授權製造。這是已簽署的推進系統合約，不代表 AST 新火箭已完成或取得發射日期。",
+      "sources": [
+        {
+          "label": "Firefly 與 AST SpaceMobile 引擎協議",
+          "url": "https://fireflyspace.com/news/firefly-aerospace-signs-rocket-engine-deal-valued-at-more-than-1-3-billion-with-ast-spacemobile/",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "vsat-viasat3-f2-f3-service-20261105",
+      "date": "2026-11-05",
+      "company": "Viasat",
+      "program": "ViaSat-3 F2／F3",
+      "category": "商轉／衛星營運里程碑",
+      "status": "兩星均已進入服務",
+      "tone": "positive",
+      "title": "Viasat 確認 ViaSat-3 F2 與 F3 均已進入服務",
+      "summary": "Viasat 在 FY2027 第二季股東信中確認，ViaSat-3 Flight 2 與 Flight 3 均已投入服務並按預期表現，部署計畫完成。",
+      "detail": "Viasat 的 FY2027 第二季股東信確認，ViaSat-3 Flight 2 與 Flight 3 都已進入服務且表現符合預期；F2 服務美洲、F3 服務亞太。兩星各自設計容量超過 1 Tbps。公司據此將 ViaSat-3 部署計畫描述為完成。此事件代表商轉與營運里程碑，不等於新增 LEO 星座衛星。",
+      "sources": [
+        {
+          "label": "Viasat Q2 FY2027 股東信公告",
+          "url": "https://investors.viasat.com/news-releases/news-release-details/viasat-shareholder-letter-q2-fiscal-year-2027-financial-results",
+          "type": "官方"
+        },
+        {
+          "label": "Viasat Q2 FY2027 股東信 PDF",
+          "url": "https://investors.viasat.com/static-files/79dbf84c-b4a6-4c0d-823b-7dc712bf744f",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "blue-new-glenn-gs3-20261105",
+      "date": "2026-11-05",
+      "company": "Blue Origin",
+      "program": "New Glenn／GS3",
+      "category": "新載具／測試／合約",
+      "status": "2028 繞月任務已簽約",
+      "tone": "positive",
+      "title": "Blue Origin 公布 New Glenn GS3 第三級，首個政府繞月任務排定 2028",
+      "summary": "GS3 是 New Glenn 的高能量第三級，採 BE-7；官方表示已簽約支援 2028 年繞月政府任務，複材液氫箱也完成壓力測試。",
+      "detail": "Blue Origin 公布 New Glenn 的 GS3 高能量第三級，採用 BE-7 引擎，官方列出的比衝超過 460 秒。9×4 構型可把最高 14 公噸送往 GEO、20 公噸送往月球轉移軌道；7×2 構型分別為 8 與 10 公噸。公司已簽約以 GS3 支援一項 2028 年繞月政府任務。其複材液氫箱已完成 100% 最大預期操作壓力 2.5 小時及 150% 壓力 10 分鐘測試；這是開發與合約里程碑，尚不是飛行完成。",
+      "sources": [
+        {
+          "label": "Blue Origin New Glenn GS3 公告",
+          "url": "https://www.blueorigin.com/pt-BR/news/new-glenn-expands-reach-with-gs3",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "voyg-nasa-hunch-35m-20261104",
+      "date": "2026-11-04",
+      "company": "Voyager Technologies",
+      "program": "NASA HUNCH",
+      "category": "合約／人力與任務支援",
+      "status": "$35M／5 年",
+      "tone": "positive",
+      "title": "Voyager 取得 NASA HUNCH 五年 3,500 萬美元合約",
+      "summary": "Voyager 將在新的五年、3,500 萬美元合約下持續管理 NASA HUNCH 計畫，延續自 2021 年起的角色。",
+      "detail": "Voyager Technologies 獲 NASA 一紙五年、3,500 萬美元合約，持續管理 High School Students United with NASA to Create Hardware（HUNCH）計畫。官方表示，該計畫已觸及逾 24,000 名學生、1,700 所學校與 46 州，並有約 3,000 件學生製作物品飛往國際太空站。這是教育與任務支援合約，不是發射或衛星部署。",
+      "sources": [
+        {
+          "label": "Voyager NASA HUNCH 合約公告",
+          "url": "https://voyagertechnologies.com/press-releases/voyager-awarded-35m-contract-to-manage-nasa-hunch/",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "pl-pelican12-first-light-20261104",
+      "date": "2026-11-04",
+      "company": "Planet Labs",
+      "program": "Pelican-12 Gen 2",
+      "category": "測試／首光／在軌驗證",
+      "status": "健康／首光完成／commissioning",
+      "tone": "positive",
+      "title": "Pelican-12 完成首光，Planet 確認衛星健康且表現良好",
+      "summary": "Planet 公布 Pelican-12 在約 589 公里軌道拍攝的首光影像；這是首顆具 30 公分級能力的 Pelican，現階段先提供 50 公分影像並進入 commissioning。",
+      "detail": "Planet 表示 Pelican-12 於 10 月 30 日在約 589 公里高度拍攝安哥拉羅安達首光，衛星健康且表現良好。它是首顆具 30 公分級成像能力的 Pelican；初期將提供 50 公分影像，待降低軌道後再使用 30 公分能力。衛星亦搭載 NVIDIA Jetson 邊緣運算。官方同時指出，這是 Planet 2026 年四次發射中送入太空的第 25 顆衛星。",
+      "sources": [
+        {
+          "label": "Planet Pelican-12 First Light",
+          "url": "https://investors.planet.com/news/news-details/2026/Planet-Releases-First-Light-from-Pelican-12/default.aspx",
+          "type": "官方"
+        }
+      ]
+    },
     {
       "id": "rklb-sea-god-surveys-success-20261103",
       "date": "2026-11-03",

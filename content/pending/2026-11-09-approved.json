@@ -1,0 +1,75 @@
+{
+  "state": "approved-source-snapshot",
+  "scope": "2026-11-05 至 2026-11-09 官方來源補查與當日查核",
+  "checkedDate": "2026-11-09",
+  "events": [
+    {
+      "id": "sx-starship-flight15-window-20261114",
+      "reviewStatus": "自動查證",
+      "publicationStatus": "待同步",
+      "sources": [
+        "https://www.spacex.com/launches/starship-flight-15",
+        "https://www.spacex.com/launches"
+      ]
+    },
+    {
+      "id": "amzn-leo-lv01-schedule-20261113",
+      "reviewStatus": "自動查證",
+      "publicationStatus": "待同步",
+      "sources": [
+        "https://www.aboutamazon.com/news/innovation-at-amazon/project-kuiper-satellite-rocket-launch-progress-updates"
+      ]
+    },
+    {
+      "id": "nasa-clps2-tracked-providers-20261107",
+      "reviewStatus": "自動查證",
+      "publicationStatus": "待同步",
+      "sources": [
+        "https://www.nasa.gov/news-release/nasa-awards-moon-base-transportation-technology-science-projects/",
+        "https://investors.voyagertechnologies.com/news/news-details/2026/Voyager-Awarded-NASA-CLPS-2-Contract/default.aspx"
+      ]
+    },
+    {
+      "id": "fly-asts-engine-deal-20261106",
+      "reviewStatus": "自動查證",
+      "publicationStatus": "待同步",
+      "sources": [
+        "https://fireflyspace.com/news/firefly-aerospace-signs-rocket-engine-deal-valued-at-more-than-1-3-billion-with-ast-spacemobile/"
+      ]
+    },
+    {
+      "id": "vsat-viasat3-f2-f3-service-20261105",
+      "reviewStatus": "自動查證",
+      "publicationStatus": "待同步",
+      "sources": [
+        "https://investors.viasat.com/news-releases/news-release-details/viasat-shareholder-letter-q2-fiscal-year-2027-financial-results",
+        "https://investors.viasat.com/static-files/79dbf84c-b4a6-4c0d-823b-7dc712bf744f"
+      ]
+    },
+    {
+      "id": "blue-new-glenn-gs3-20261105",
+      "reviewStatus": "自動查證",
+      "publicationStatus": "待同步",
+      "sources": [
+        "https://www.blueorigin.com/pt-BR/news/new-glenn-expands-reach-with-gs3"
+      ]
+    },
+    {
+      "id": "voyg-nasa-hunch-35m-20261104",
+      "reviewStatus": "自動查證",
+      "publicationStatus": "待同步",
+      "sources": [
+        "https://voyagertechnologies.com/press-releases/voyager-awarded-35m-contract-to-manage-nasa-hunch/"
+      ]
+    },
+    {
+      "id": "pl-pelican12-first-light-20261104",
+      "reviewStatus": "自動查證",
+      "publicationStatus": "待同步",
+      "sources": [
+        "https://investors.planet.com/news/news-details/2026/Planet-Releases-First-Light-from-Pelican-12/default.aspx"
+      ]
+    }
+  ],
+  "manualReviewCount": 3
+}

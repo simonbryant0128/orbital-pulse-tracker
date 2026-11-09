@@ -34,16 +34,16 @@ test("October 28 publishes Starlink 15-16 and advances the next official mission
 
   assert.equal(schedule.items.some((item) => item.id === "sx-starlink-15-16-20261027"), false);
   assert.equal(schedule.items.some((item) => item.id === "sx-starlink-window-20261030"), false);
-  const next = schedule.items.find((item) => item.id === "sx-starlink-window-20261106");
-  assert.equal(next.mission, "Starlink Mission（批次與顆數未公布）");
-  assert.match(next.window, /11\/6 10:21–14:21/);
-  assert.equal(next.source, "https://www.spacex.com/launches");
+  const next = schedule.items.find((item) => item.id === "sx-starship-flight15-20261114");
+  assert.match(next.mission, /Flight 15/);
+  assert.match(next.window, /11-14 06:45–08:00/);
+  assert.equal(next.source, "https://www.spacex.com/launches/starship-flight-15");
 
   const starlink = constellations.items.find((item) => item.id === "starlink");
   assert.equal(starlink.current, 10971);
   assert.equal(starlink.currentAsOf, "2026-08-12");
-  assert.equal(starlink.deployment.nextLaunchDate, "2026-11-06");
-  assert.equal(starlink.deployment.nextSource, "https://www.spacex.com/launches");
+  assert.equal(starlink.deployment.nextLaunchDate, "2026-11-14");
+  assert.equal(starlink.deployment.nextSource, "https://www.spacex.com/launches/starship-flight-15");
   assert.ok(constellations.items.every((item) => item.lastChecked === meta.lastVerified));
-  assert.match(companies.items.find((item) => item.id === "spacex").status, /Starlink 15-18 已發射並部署 27 顆/);
+  assert.match(companies.items.find((item) => item.id === "spacex").status, /Flight 15/);
 });
