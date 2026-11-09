@@ -29,8 +29,8 @@ test("Flight 14 leaves the future schedule and advances the Starship program", a
   assert.ok(schedule.items.length >= 13);
   assert.equal(schedule.items.some((item) => item.id === "sx-starship-flight14-spacex-window-review-20260916"), false);
   const program = programs.items.find((item) => item.id === "starship");
-  assert.match(program.stages.at(-1).state, /complete/);
-  assert.match(program.detail, /不推定 26 顆 Starlink V3/);
+  assert.equal(program.stages.find((stage) => stage.label === "Flight 14 發射").state, "complete");
+  assert.match(program.detail, /26 顆 Starlink V3/);
   const spacex = companies.items.find((item) => item.id === "spacex");
   assert.ok(spacex.status);
   assert.match(spacex.source, /^https:\/\//);

@@ -58,9 +58,9 @@ test("renders the orbital tracker product page", async () => {
     assert.ok(html.includes(escapeHtml(event.summary)), `Missing initial summary: ${event.id}`);
     assert.ok(html.includes(escapeHtml(event.detail)), `Missing detail preview: ${event.id}`);
   }
-  assert.match(html, /Flight 14 已列為 9 月 28 日完成任務/);
-  assert.match(html, /狀態：已完成發射／結果待摘要/);
-  assert.doesNotMatch(html, /這仍是未來目標，尚未完成試飛/);
+  assert.match(html, /Flight 15 目標台北 11 月 14 日 06:45/);
+  assert.match(html, /狀態：待監管核准／尚未執行/);
+  assert.match(html, /26 顆 Starlink V3/);
   assert.match(html, /Viasat/);
   assert.match(html, /Firefly Aerospace/);
   assert.match(html, /Voyager Technologies/);

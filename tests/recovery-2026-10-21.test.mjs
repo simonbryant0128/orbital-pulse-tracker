@@ -50,7 +50,7 @@ test("deployment accounting separates verified additions, lower bounds and plans
   const byId = id => constellations.items.find(e => e.id === id);
   assert.equal(byId("starlink").current, 10971);
   assert.equal(byId("starlink").currentAsOf, "2026-08-12");
-  assert.equal(byId("starlink").deployment.nextLaunchDate, "2026-11-06");
+  assert.equal(byId("starlink").deployment.nextLaunchDate, "2026-11-14");
   assert.equal(byId("planet-pelican").current, 11);
   assert.equal(byId("planet-pelican").breakdown.reduce((a,r) => a+r.value,0), 11);
   assert.equal(byId("spire-2026").current, 32);
@@ -70,7 +70,7 @@ test("current views use one verification date and preserve official timing preci
   assert.ok(constellations.items.every(e => e.lastChecked === meta.lastVerified));
   assert.equal(companies.items.length, 13);
   assert.ok(schedule.items.length >= 14);
-  assert.match(schedule.items.find(e => e.id === "sx-starlink-window-20261106").window, /10:21–14:21/);
+  assert.match(schedule.items.find(e => e.id === "sx-starship-flight15-20261114").window, /11-14 06:45–08:00/);
   assert.match(schedule.items.find(e => e.id === "neutron-first-flight-q4").window, /2027/);
   assert.match(schedule.items.find(e => e.id === "fly-moonfall-launch-readiness-2028").window, /非確定發射日/);
   assert.match(published.events.find(e => e.id === "asts-europe-mno-spectrum-loi-20261019").detail, /不等於競標得標/);

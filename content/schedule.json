@@ -1,15 +1,25 @@
 {
-  "lastVerified": "2026-11-04",
+  "lastVerified": "2026-11-09",
   "items": [
     {
-      "id": "sx-starlink-window-20261106",
-      "company": "SpaceX",
-      "mission": "Starlink Mission（批次與顆數未公布）",
-      "window": "台北 11/6 10:21–14:21",
+      "id": "amazon-leo-lv01-20261114",
+      "company": "Amazon Leo",
+      "mission": "LV-01／Leo Vulcan 1（40 顆）",
+      "window": "台北 2026-11-14 01:54",
       "bucket": "30d",
-      "confidence": "SpaceX 官方四小時窗口／批次與顆數未公布",
-      "vehicle": "Falcon 9",
-      "source": "https://www.spacex.com/launches"
+      "confidence": "Amazon 官方時間／待 range approval",
+      "vehicle": "ULA Vulcan VC6L",
+      "source": "https://www.aboutamazon.com/news/innovation-at-amazon/project-kuiper-satellite-rocket-launch-progress-updates"
+    },
+    {
+      "id": "sx-starship-flight15-20261114",
+      "company": "SpaceX",
+      "mission": "Starship Flight 15／26 顆 Starlink V3",
+      "window": "台北 2026-11-14 06:45–08:00",
+      "bucket": "30d",
+      "confidence": "SpaceX 官方 75 分鐘窗口／待監管核准",
+      "vehicle": "Starship",
+      "source": "https://www.spacex.com/launches/starship-flight-15"
     },
     {
       "id": "rklb-mountain-god-rises-20261114",
@@ -20,6 +30,16 @@
       "confidence": "官方任務頁 NET 日期／時刻 TBD",
       "vehicle": "Electron",
       "source": "https://rocketlabcorp.com/missions/launches/iqps-the-mountain-god-rises/"
+    },
+    {
+      "id": "bo-gs3-cislunar-2028",
+      "company": "Blue Origin",
+      "mission": "New Glenn GS3 繞月政府任務",
+      "window": "2028（未定日）",
+      "bucket": "90plus",
+      "confidence": "官方已簽約年份／確切日期未公布",
+      "vehicle": "New Glenn／GS3",
+      "source": "https://www.blueorigin.com/pt-BR/news/new-glenn-expands-reach-with-gs3"
     },
     {
       "id": "fly-moonfall-launch-readiness-2028",

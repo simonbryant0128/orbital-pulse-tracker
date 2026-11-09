@@ -1,14 +1,14 @@
 {
-  "lastVerified": "2026-11-04",
+  "lastVerified": "2026-11-09",
   "items": [
     {
       "id": "spacex",
       "name": "SpaceX",
       "ticker": "私人",
       "focus": "發射服務 · Starlink · Starship",
-      "status": "Starlink 15-18 已發射並部署 27 顆；下一班 Starlink 目標台北 11/6",
-      "statusTone": "positive",
-      "source": "https://www.spacex.com/launches"
+      "status": "Flight 15 目標台北 11/14 06:45；規劃雙級回收與部署 26 顆 V3",
+      "statusTone": "watch",
+      "source": "https://www.spacex.com/launches/starship-flight-15"
     },
     {
       "id": "rocket-lab",
@@ -24,17 +24,17 @@
       "name": "Blue Origin",
       "ticker": "私人",
       "focus": "New Glenn · 月球系統 · Quartz 地面網路",
-      "status": "P-Sampler 隨 JAXA MMX 升空；佛州高頻發射設施持續擴建",
+      "status": "公布 GS3 高能量第三級；2028 繞月政府任務已簽約並入選 CLPS 2",
       "statusTone": "positive",
-      "source": "https://www.blueorigin.com/news/blue-origin-p-sampler-launches-aboard-jaxa-martian-moons-exploration-mission"
+      "source": "https://www.blueorigin.com/pt-BR/news/new-glenn-expands-reach-with-gs3"
     },
     {
       "id": "amazon-leo",
       "name": "Amazon Leo",
       "ticker": "AMZN",
       "focus": "低軌寬頻星系",
-      "status": "衛星產量突破 1,000 顆；LE-04 36 顆 NET 11/23",
-      "statusTone": "positive",
+      "status": "LV-01 目標台北 11/14 01:54，規劃由 Vulcan 部署 40 顆",
+      "statusTone": "watch",
       "source": "https://www.aboutamazon.com/news/innovation-at-amazon/project-kuiper-satellite-rocket-launch-progress-updates"
     },
     {
@@ -42,36 +42,36 @@
       "name": "AST SpaceMobile",
       "ticker": "ASTS",
       "focus": "直連手機低軌星系",
-      "status": "五大市場年底前初期間歇服務目標；歐洲營運商探索頻譜合作",
+      "status": "與 Firefly 簽署逾 13 億美元、36 具引擎協議，供前三枚新重型火箭",
       "statusTone": "positive",
-      "source": "https://feeds.issuerdirect.com/news-release.html?newsid=6945446155364589&symbol=ASTS"
+      "source": "https://fireflyspace.com/news/firefly-aerospace-signs-rocket-engine-deal-valued-at-more-than-1-3-billion-with-ast-spacemobile/"
     },
     {
       "id": "viasat",
       "name": "Viasat",
       "ticker": "VSAT",
       "focus": "GEO／多軌衛星通訊 · NTN",
-      "status": "Maxwell 已隨 Bandwagon-5 發射；NASA CSP 在軌示範待執行",
+      "status": "ViaSat-3 F2 與 F3 均已進入服務並按預期表現",
       "statusTone": "positive",
-      "source": "https://www.viasat.com/news/latest-news/government/2026/viasat-advances-nasa-communications-services-project-demonstrati/"
+      "source": "https://investors.viasat.com/news-releases/news-release-details/viasat-shareholder-letter-q2-fiscal-year-2027-financial-results"
     },
     {
       "id": "firefly-aerospace",
       "name": "Firefly Aerospace",
       "ticker": "FLY",
       "focus": "Alpha · Elytra · Blue Ghost",
-      "status": "MoonFall Elytra 完成 PDR；目標 2028 年底前具備發射準備",
+      "status": "與 AST 簽署逾 13 億美元引擎協議；同時入選 NASA CLPS 2",
       "statusTone": "positive",
-      "source": "https://fireflyspace.com/news/firefly-aerospace-completes-preliminary-design-review-for-nasa-moonfall-mission/"
+      "source": "https://fireflyspace.com/news/firefly-aerospace-signs-rocket-engine-deal-valued-at-more-than-1-3-billion-with-ast-spacemobile/"
     },
     {
       "id": "voyager-technologies",
       "name": "Voyager Technologies",
       "ticker": "VOYG",
       "focus": "LEO 任務 · Starlab · 月球系統",
-      "status": "OHTS 2027 年新增兩項 ISS 藥物篩選任務",
+      "status": "入選 NASA CLPS 2；另取得五年 3,500 萬美元 HUNCH 管理合約",
       "statusTone": "positive",
-      "source": "https://voyagertechnologies.com/press-releases/commercial-demand-for-microgravity-drug-discovery-accelerates-as-exobiosphere-and-voyager-add-two-missions-to-the-iss/"
+      "source": "https://investors.voyagertechnologies.com/news/news-details/2026/Voyager-Awarded-NASA-CLPS-2-Contract/default.aspx"
     },
     {
       "id": "iridium",
@@ -87,9 +87,9 @@
       "name": "Planet Labs",
       "ticker": "PL",
       "focus": "Pelican · PlanetScope · Tanager · 地球觀測",
-      "status": "Pelican-12 已入軌；取得 NASA Tanager 資料評估訂單",
+      "status": "Pelican-12 完成首光；官方確認衛星健康且表現良好",
       "statusTone": "positive",
-      "source": "https://investors.planet.com/news/news-details/2026/Planet-Awarded-NASA-Commercial-Satellite-Data-Acquisition-CSDA-Evaluation-Task-Order-for-Tanager-Hyperspectral-Data/default.aspx"
+      "source": "https://investors.planet.com/news/news-details/2026/Planet-Releases-First-Light-from-Pelican-12/default.aspx"
     },
     {
       "id": "blacksky",

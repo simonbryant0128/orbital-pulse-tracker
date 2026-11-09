@@ -5,30 +5,30 @@
       "name": "Starship",
       "company": "SpaceX",
       "vehicle": "Starship V3",
-      "status": "已完成發射／結果待官方摘要",
+      "status": "下一次試飛已排程",
       "statusTone": "watch",
-      "headline": "Flight 14 已列為 9 月 28 日完成任務",
-      "detail": "SpaceX 已把 Flight 14 移入已完成任務清單；飛後摘要尚未公布，因此不推定 26 顆 Starlink V3 的部署與其他試飛目標全部成功。",
+      "headline": "Flight 15 目標台北 11 月 14 日 06:45",
+      "detail": "SpaceX 列出 75 分鐘發射窗口，仍待監管核准；任務規劃首次讓兩級都返回發射場並部署 26 顆 Starlink V3，未執行前不把衛星加入總量。",
       "stages": [
         {
           "label": "V3 地面驗證",
           "state": "complete"
         },
         {
-          "label": "Flight 12",
-          "state": "complete"
-        },
-        {
-          "label": "Flight 13",
-          "state": "complete"
-        },
-        {
           "label": "Flight 14 發射",
           "state": "complete"
+        },
+        {
+          "label": "Flight 15 發射",
+          "state": "upcoming"
+        },
+        {
+          "label": "26 顆 V3 部署",
+          "state": "upcoming"
         }
       ],
-      "next": "等待官方飛後摘要",
-      "source": "https://www.spacex.com/launches"
+      "next": "台北 2026-11-14 06:45–08:00｜Flight 15（待監管核准）",
+      "source": "https://www.spacex.com/launches/starship-flight-15"
     },
     {
       "id": "neutron",
@@ -65,30 +65,34 @@
       "name": "New Glenn",
       "company": "Blue Origin",
       "vehicle": "New Glenn 7×2 / 9×4",
-      "status": "設施擴建",
-      "statusTone": "watch",
-      "headline": "LC-36B 開工，雙發射臺架構成形",
-      "detail": "LC-36B 將成為 New Glenn 9×4 的營運基地，LC-36A 繼續支援 7×2；進度以已公開的設施與飛行里程碑呈現。",
+      "status": "高能量第三級開發",
+      "statusTone": "positive",
+      "headline": "GS3 已取得 2028 繞月政府任務",
+      "detail": "Blue Origin 公布採 BE-7 的 GS3 第三級；複材液氫箱已完成壓力測試，首個已簽約任務為 2028 年繞月政府任務，確切日期尚未公布。",
       "stages": [
         {
           "label": "LC-36A 建置",
           "state": "complete"
         },
         {
-          "label": "7×2 飛行任務",
+          "label": "GS3 液氫箱壓測",
+          "state": "complete"
+        },
+        {
+          "label": "7×2／9×4 飛行任務",
           "state": "active"
         },
         {
-          "label": "LC-36B／VIF／PPF",
+          "label": "GS3 飛行整合",
           "state": "active"
         },
         {
-          "label": "9×4 高頻營運",
+          "label": "2028 繞月政府任務",
           "state": "upcoming"
         }
       ],
-      "next": "LC-36A｜7×2；LC-36B｜9×4",
-      "source": "https://www.blueorigin.com/news/returning-launch-complex-36-to-two-pads"
+      "next": "2028｜GS3 繞月政府任務（未定日）",
+      "source": "https://www.blueorigin.com/pt-BR/news/new-glenn-expands-reach-with-gs3"
     }
   ]
 }
