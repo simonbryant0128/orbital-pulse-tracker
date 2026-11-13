@@ -1,0 +1,20 @@
+{
+  "state": "approved-source-snapshot",
+  "scope": "2026-11-09 最後成功發布後至 2026-11-13 的官方來源補查與當日查核",
+  "checkedDate": "2026-11-13",
+  "events": [
+    {"id": "rklb-electron-100-window-20261114", "reviewStatus": "自動查證", "publicationStatus": "待同步", "sources": ["https://rocketlabcorp.gcs-web.com/news-releases/news-release-details/rocket-lab-launch-milestone-100th-electron-rocket-week", "https://rocketlabcorp.com/missions/launches/iqps-the-mountain-god-rises/"]},
+    {"id": "asts-blacklift-unveiling-20261112", "reviewStatus": "自動查證", "publicationStatus": "待同步", "sources": ["https://ast-science.com/blacklift/", "https://investors.ast-science.com/"]},
+    {"id": "blue-gs13-valve-qualification-20261110", "reviewStatus": "自動查證", "publicationStatus": "待同步", "sources": ["https://www.blueorigin.com/news/gs1-3-hotfire-updates"]},
+    {"id": "rklb-escapade-tmi-burns-20261110", "reviewStatus": "自動查證", "publicationStatus": "待同步", "sources": ["https://investors.rocketlabcorp.com/news-releases/news-release-details/twin-satellites-built-rocket-lab-nasas-escapade-mission-complete"]},
+    {"id": "fly-synspective-alpha-deal-20261110", "reviewStatus": "自動查證", "publicationStatus": "待同步", "sources": ["https://fireflyspace.com/news/firefly-aerospace-signs-multi-launch-agreement-with-synspective-for-up-to-10-alpha-missions-through-2030/"]},
+    {"id": "vsat-sdnb-idiq-20261110", "reviewStatus": "自動查證", "publicationStatus": "待同步", "sources": ["https://investors.viasat.com/news-releases/news-release-details/viasat-selected-us-space-force-partnership-golden-dome-america"]},
+    {"id": "bksy-mod-assured-contract-20261110", "reviewStatus": "自動查證", "publicationStatus": "待同步", "sources": ["https://blacksky.com/press-releases/blacksky-wins-seven-figure-contract-with-new-major-international-ministry-of-defense-to-deliver-assured-real-time-intelligence/"]},
+    {"id": "rklb-neutron-constellation-deals-20261109", "reviewStatus": "自動查證", "publicationStatus": "待同步", "sources": ["https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-lands-over-515m-neutron-launch-deals-constellation"]},
+    {"id": "gsat-france-c3-authorization-20261109", "reviewStatus": "自動查證", "publicationStatus": "待同步", "sources": ["https://investors.globalstar.com/news-releases/news-release-details/france-authorizes-globalstars-third-generation-c-3-system"]},
+    {"id": "pl-stoke-nova-multilaunch-20261109", "reviewStatus": "自動查證", "publicationStatus": "待同步", "sources": ["https://investors.planet.com/news/news-details/2026/Planet-and-Stoke-Space-Sign-Multi-Launch-Agreement-for-Nova-Launch-Capabilities/default.aspx"]},
+    {"id": "vsat-nasa-nexus-phase1-20261109", "reviewStatus": "自動查證", "publicationStatus": "待同步", "sources": ["https://investors.viasat.com/news-releases/news-release-details/viasat-awarded-phase-1-contract-under-nasa-nexus-initiative"]}
+  ],
+  "manualReviewCount": 4,
+  "manualReviewIds": ["sx-starlink-15-27-window", "vsat-equatys-announcement-date", "globalstar-hibleo4-future-year", "sx-ussf317-window-conflict-20261113"]
+}

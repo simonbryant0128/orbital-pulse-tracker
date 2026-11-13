@@ -36,9 +36,9 @@
       "company": "Rocket Lab",
       "vehicle": "Neutron",
       "status": "首飛時程更新",
-      "statusTone": "watch",
-      "headline": "首飛預期調整為 2027 年",
-      "detail": "Rocket Lab 10/14 最新官方公告將首次發射預期改為 2027；原 Q4 2026 公告保留於事件歷史，不再用作目前首飛窗口。公司未公布確切季度或日期。",
+      "statusTone": "positive",
+      "headline": "首飛 NET 2027；積壓增至 16 次任務",
+      "detail": "Rocket Lab 最新官方資料維持首次發射 NET 2027；Q3 又簽下 5 家星座業者的 8 次任務、總值逾 5.15 億美元，使 Neutron 積壓增至 16 次，部分任務基本價格為 7,000 萬美元。",
       "stages": [
         {
           "label": "發射場與基礎設施",
@@ -58,20 +58,24 @@
         }
       ],
       "next": "2027｜首次發射（未定日）",
-      "source": "https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-provides-update-neutron-development-and-adjusts"
+      "source": "https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-lands-over-515m-neutron-launch-deals-constellation"
     },
     {
       "id": "new-glenn",
       "name": "New Glenn",
       "company": "Blue Origin",
       "vehicle": "New Glenn 7×2 / 9×4",
-      "status": "高能量第三級開發",
-      "statusTone": "positive",
-      "headline": "GS3 已取得 2028 繞月政府任務",
-      "detail": "Blue Origin 公布採 BE-7 的 GS3 第三級；複材液氫箱已完成壓力測試，首個已簽約任務為 2028 年繞月政府任務，確切日期尚未公布。",
+      "status": "異常調查與復飛準備",
+      "statusTone": "watch",
+      "headline": "GS1-3 改良 BE-4 主氧閥通過資格測試",
+      "detail": "Blue Origin 已完成改良主氧閥資格測試，並把設計導入即將執行任務的 BE-4 引擎；GS1-3 熱試異常調查預計 2026 年 11 月稍晚完成。GS3 2028 繞月任務仍保留。",
       "stages": [
         {
           "label": "LC-36A 建置",
+          "state": "complete"
+        },
+        {
+          "label": "GS1-3 主氧閥資格測試",
           "state": "complete"
         },
         {
@@ -91,8 +95,8 @@
           "state": "upcoming"
         }
       ],
-      "next": "2028｜GS3 繞月政府任務（未定日）",
-      "source": "https://www.blueorigin.com/pt-BR/news/new-glenn-expands-reach-with-gs3"
+      "next": "2026-11 稍晚｜GS1-3 異常調查預計完成（未定日）",
+      "source": "https://www.blueorigin.com/news/gs1-3-hotfire-updates"
     }
   ]
 }
