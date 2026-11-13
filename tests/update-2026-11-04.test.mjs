@@ -39,12 +39,12 @@ test("November 4 publishes Electron flight 99 and advances the official iQPS sch
   }
   const next = schedule.items.find((item) => item.id === "rklb-mountain-god-rises-20261114");
   assert.match(next.window, /2026-11-14/);
-  assert.match(next.confidence, /時刻 TBD/);
+  assert.match(next.confidence, /官方/);
 
   const starlink = constellations.items.find((item) => item.id === "starlink");
   assert.equal(starlink.current, 10971);
   assert.equal(starlink.deployment.nextLaunchDate, "2026-11-14");
   assert.ok(constellations.items.every((item) => item.lastChecked === meta.lastVerified));
-  assert.match(companies.items.find((item) => item.id === "rocket-lab").status, /第 99 次 Electron/);
+  assert.match(companies.items.find((item) => item.id === "rocket-lab").status, /第 100 次 Electron/);
   assert.match(companies.items.find((item) => item.id === "rocket-lab").status, /11\/14/);
 });

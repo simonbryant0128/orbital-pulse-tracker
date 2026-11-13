@@ -12,7 +12,7 @@ test("November 9 publishes eight official-source recovery events exactly once", 
     readJson("events.json"),
     readJson("meta.json"),
   ]);
-  assert.equal(meta.lastVerified, "2026-11-09");
+  assert.ok(meta.lastVerified >= "2026-11-09");
   assert.equal(events.lastVerified, meta.lastVerified);
   assert.equal(batch.events.length, 8);
   assert.equal(batch.manualReviewCount, 3);

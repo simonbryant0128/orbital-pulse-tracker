@@ -1,5 +1,5 @@
 {
-  "lastVerified": "2026-11-09",
+  "lastVerified": "2026-11-13",
   "items": [
     {
       "id": "amazon-leo-lv01-20261114",
@@ -25,11 +25,51 @@
       "id": "rklb-mountain-god-rises-20261114",
       "company": "Rocket Lab",
       "mission": "The Mountain God Rises／iQPS",
-      "window": "NET 2026-11-14（時刻未公布）",
+      "window": "台北 2026-11-14 13:30",
       "bucket": "30d",
-      "confidence": "官方任務頁 NET 日期／時刻 TBD",
+      "confidence": "Rocket Lab 官方確切時間",
       "vehicle": "Electron",
       "source": "https://rocketlabcorp.com/missions/launches/iqps-the-mountain-god-rises/"
+    },
+    {
+      "id": "asts-blacklift-late-2028",
+      "company": "AST SpaceMobile",
+      "mission": "Blacklift 首次 BlueBird 部署",
+      "window": "2028 年底起（未定日）",
+      "bucket": "90plus",
+      "confidence": "官方目標窗口／尚在開發",
+      "vehicle": "Blacklift",
+      "source": "https://ast-science.com/blacklift/"
+    },
+    {
+      "id": "fly-synspective-alpha-through-2030",
+      "company": "Firefly Aerospace",
+      "mission": "Synspective StriX／最多 10 次 Alpha",
+      "window": "至 2030 年（首班未定）",
+      "bucket": "90plus",
+      "confidence": "官方合約期間／確切日期未公布",
+      "vehicle": "Alpha",
+      "source": "https://fireflyspace.com/news/firefly-aerospace-signs-multi-launch-agreement-with-synspective-for-up-to-10-alpha-missions-through-2030/"
+    },
+    {
+      "id": "pl-stoke-nova-multilaunch-2027plus",
+      "company": "Planet Labs",
+      "mission": "Planet／Stoke Nova 多次發射",
+      "window": "配合 2027 起 Nova 軌道示範（首班未定）",
+      "bucket": "90plus",
+      "confidence": "官方開發路線／未公布首班日期",
+      "vehicle": "Stoke Nova",
+      "source": "https://investors.planet.com/news/news-details/2026/Planet-and-Stoke-Space-Sign-Multi-Launch-Agreement-for-Nova-Launch-Capabilities/default.aspx"
+    },
+    {
+      "id": "globalstar-c3-launches-2027",
+      "company": "Globalstar",
+      "mission": "C-3 第三代系統首批發射",
+      "window": "2027（未定日）",
+      "bucket": "90plus",
+      "confidence": "官方年份窗口／載具與數量未公布",
+      "vehicle": "待官方公告",
+      "source": "https://investors.globalstar.com/news-releases/news-release-details/france-authorizes-globalstars-third-generation-c-3-system"
     },
     {
       "id": "bo-gs3-cislunar-2028",
