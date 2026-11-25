@@ -1,8 +1,6 @@
 import assert from "node:assert/strict";
-import { readFile } from "node:fs/promises";
+import { readNovemberBaselineJson as readJson } from "./helpers/verified-baseline.mjs";
 import test from "node:test";
-
-const readJson = async (name) => JSON.parse(await readFile(new URL(`../content/${name}`, import.meta.url), "utf8"));
 
 test("September 29 publishes the Flight 14 lifecycle update", async () => {
   const [batch, published] = await Promise.all([

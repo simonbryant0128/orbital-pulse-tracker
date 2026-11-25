@@ -5,10 +5,10 @@
       "name": "Starship",
       "company": "SpaceX",
       "vehicle": "Starship V3",
-      "status": "下一次試飛已排程",
+      "status": "下一次試飛待公告",
       "statusTone": "watch",
-      "headline": "Flight 15 目標台北 11 月 14 日 06:45",
-      "detail": "SpaceX 列出 75 分鐘發射窗口，仍待監管核准；任務規劃首次讓兩級都返回發射場並部署 26 顆 Starlink V3，未執行前不把衛星加入總量。",
+      "headline": "下一次試飛尚無已核對時間",
+      "detail": "先前 Flight 15 的排程已過。舊窗口僅保留於歷史，不作為下一次試飛日期，也不以計畫酬載推算已運作衛星。",
       "stages": [
         {
           "label": "V3 地面驗證",
@@ -17,18 +17,10 @@
         {
           "label": "Flight 14 發射",
           "state": "complete"
-        },
-        {
-          "label": "Flight 15 發射",
-          "state": "upcoming"
-        },
-        {
-          "label": "26 顆 V3 部署",
-          "state": "upcoming"
         }
       ],
-      "next": "台北 2026-11-14 06:45–08:00｜Flight 15（待監管核准）",
-      "source": "https://www.spacex.com/launches/starship-flight-15"
+      "next": "下一次試飛｜待官方公告",
+      "source": "https://www.spacex.com/launches"
     },
     {
       "id": "neutron",

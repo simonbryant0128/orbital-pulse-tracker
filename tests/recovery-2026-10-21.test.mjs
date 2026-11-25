@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
-import { readFile } from "node:fs/promises";
+import { readNovemberBaselineJson } from "./helpers/verified-baseline.mjs";
 import test from "node:test";
-const json = async (name) => JSON.parse(await readFile(new URL(`../content/${name}.json`, import.meta.url), "utf8"));
+const json = (name) => readNovemberBaselineJson(`${name}.json`);
 const [published, approved, latest, today, manual, constellations, schedule, programs, companies, meta] = await Promise.all(
   ["events", "pending/2026-10-21-recovery-approved", "pending/2026-10-23-approved", "pending/2026-10-24-approved", "pending/2026-10-21-recovery-manual-review", "constellations", "schedule", "programs", "companies", "meta"].map(json),
 );

@@ -8,3 +8,12 @@ export async function readHistoricalJson(name) {
   const path = mutable.has(name) ? `../fixtures/2026-10-18/${name}` : `../../content/${name}`;
   return JSON.parse(await readFile(new URL(path, import.meta.url), "utf8"));
 }
+
+// Assertions about completed publication batches use the dashboard that existed
+// when those assertions were written, while checking event IDs in live history.
+export async function readNovemberBaselineJson(name) {
+  const baseline = JSON.parse(await readFile(new URL("../fixtures/2026-11-13-dashboard.json", import.meta.url), "utf8"));
+  if (Object.hasOwn(baseline, name)) return baseline[name];
+  const current = JSON.parse(await readFile(new URL(`../../content/${name}`, import.meta.url), "utf8"));
+  return name === "events.json" ? { ...current, lastVerified: baseline["meta.json"].lastVerified } : current;
+}

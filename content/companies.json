@@ -1,23 +1,23 @@
 {
-  "lastVerified": "2026-11-13",
+  "lastVerified": "2026-11-25",
   "items": [
     {
       "id": "spacex",
       "name": "SpaceX",
       "ticker": "私人",
       "focus": "發射服務 · Starlink · Starship",
-      "status": "Flight 15 目標台北 11/14 06:45；規劃雙級回收與部署 26 顆 V3",
+      "status": "Falcon 9 將執行 NG-25 太空站補給；NASA 目標台北 11/29 23:47",
       "statusTone": "watch",
-      "source": "https://www.spacex.com/launches/starship-flight-15"
+      "source": "https://www.nasa.gov/blogs/spacestation/2026/11/24/crew-awaits-thanksgiving-day-delivery-as-another-cargo-craft-nears-launch/"
     },
     {
       "id": "rocket-lab",
       "name": "Rocket Lab",
       "ticker": "RKLB",
       "focus": "Electron · HASTE · Neutron · 太空系統",
-      "status": "第 100 次 Electron 任務排定台北 11/14 13:30；Neutron 積壓增至 16 次",
+      "status": "第 100 次 Electron 成功部署 YAMATSUMI-II；Neutron 積壓 16 次",
       "statusTone": "positive",
-      "source": "https://rocketlabcorp.gcs-web.com/news-releases/news-release-details/rocket-lab-launch-milestone-100th-electron-rocket-week"
+      "source": "https://investors.rocketlabcorp.com/node/13556/pdf"
     },
     {
       "id": "blue-origin",
@@ -33,8 +33,8 @@
       "name": "Amazon Leo",
       "ticker": "AMZN",
       "focus": "低軌寬頻星系",
-      "status": "LV-01 目標台北 11/14 01:54，規劃由 Vulcan 部署 40 顆",
-      "statusTone": "watch",
+      "status": "LE-04 完成 36 顆部署；LV-01 未入軌，下一班待公告",
+      "statusTone": "positive",
       "source": "https://www.aboutamazon.com/news/innovation-at-amazon/project-kuiper-satellite-rocket-launch-progress-updates"
     },
     {
@@ -96,9 +96,9 @@
       "name": "BlackSky",
       "ticker": "BKSY",
       "focus": "Gen-3 · Spectra · 即時地球情報",
-      "status": "取得新國際國防部一年期七位數 Gen-3 Assured 合約，已進入營運",
+      "status": "宣布收購 EpochGeo，擴展地理空間資料分析；Gen-3 部署數不變",
       "statusTone": "positive",
-      "source": "https://blacksky.com/press-releases/blacksky-wins-seven-figure-contract-with-new-major-international-ministry-of-defense-to-deliver-assured-real-time-intelligence/"
+      "source": "https://blacksky.com/press-releases/blacksky-acquires-epochgeo-to-expand-real-time-intelligence-capabilities-with-ai-enabled-rf-signals-and-multi-source-analytics/"
     },
     {
       "id": "spire-global",

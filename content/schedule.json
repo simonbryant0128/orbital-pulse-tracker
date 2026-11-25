@@ -1,35 +1,15 @@
 {
-  "lastVerified": "2026-11-13",
+  "lastVerified": "2026-11-25",
   "items": [
     {
-      "id": "amazon-leo-lv01-20261114",
-      "company": "Amazon Leo",
-      "mission": "LV-01／Leo Vulcan 1（40 顆）",
-      "window": "台北 2026-11-14 01:54",
-      "bucket": "30d",
-      "confidence": "Amazon 官方時間／待 range approval",
-      "vehicle": "ULA Vulcan VC6L",
-      "source": "https://www.aboutamazon.com/news/innovation-at-amazon/project-kuiper-satellite-rocket-launch-progress-updates"
-    },
-    {
-      "id": "sx-starship-flight15-20261114",
+      "id": "sx-nasa-ng25-net-20261129",
       "company": "SpaceX",
-      "mission": "Starship Flight 15／26 顆 Starlink V3",
-      "window": "台北 2026-11-14 06:45–08:00",
+      "mission": "NG-25／Cygnus XL",
+      "window": "NET 台北 2026-11-29 23:47",
       "bucket": "30d",
-      "confidence": "SpaceX 官方 75 分鐘窗口／待監管核准",
-      "vehicle": "Starship",
-      "source": "https://www.spacex.com/launches/starship-flight-15"
-    },
-    {
-      "id": "rklb-mountain-god-rises-20261114",
-      "company": "Rocket Lab",
-      "mission": "The Mountain God Rises／iQPS",
-      "window": "台北 2026-11-14 13:30",
-      "bucket": "30d",
-      "confidence": "Rocket Lab 官方確切時間",
-      "vehicle": "Electron",
-      "source": "https://rocketlabcorp.com/missions/launches/iqps-the-mountain-god-rises/"
+      "confidence": "NASA 官方最早發射目標／非起飛確認",
+      "vehicle": "Falcon 9",
+      "source": "https://www.nasa.gov/blogs/spacestation/2026/11/24/crew-awaits-thanksgiving-day-delivery-as-another-cargo-craft-nears-launch/"
     },
     {
       "id": "asts-blacklift-late-2028",
@@ -170,16 +150,6 @@
       "confidence": "10/20 官方年份窗口",
       "vehicle": "待官方公告",
       "source": "https://investors.planet.com/news/news-details/2026/Planet-Launches-Pelican-12-Satellite/default.aspx"
-    },
-    {
-      "id": "amazon-leo-le04-net-20261123",
-      "company": "Amazon Leo",
-      "mission": "LE-04（36 顆）",
-      "window": "NET 2026-11-23（確切窗口待公布）",
-      "bucket": "90d",
-      "confidence": "Amazon 官方 NET 日期／精確窗口未公布",
-      "vehicle": "Ariane 64",
-      "source": "https://www.aboutamazon.com/news/innovation-at-amazon/project-kuiper-satellite-rocket-launch-progress-updates"
     },
     {
       "id": "ast-next-bluebird",
