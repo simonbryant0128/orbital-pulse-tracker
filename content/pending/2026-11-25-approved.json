@@ -1,0 +1,36 @@
+{
+  "state": "approved-source-snapshot",
+  "checkedDate": "2026-11-25",
+  "events": [
+    {
+      "id": "amzn-leo-le04-deployed-20261124",
+      "reviewStatus": "自動查證",
+      "publicationStatus": "待同步",
+      "checkedDate": "2026-11-25"
+    },
+    {
+      "id": "bksy-epochgeo-acquisition-20261124",
+      "reviewStatus": "自動查證",
+      "publicationStatus": "待同步",
+      "checkedDate": "2026-11-25"
+    },
+    {
+      "id": "sx-nasa-ng25-status-20261124",
+      "reviewStatus": "自動查證",
+      "publicationStatus": "待同步",
+      "checkedDate": "2026-11-25"
+    },
+    {
+      "id": "amzn-leo-lv01-anomaly-20261115",
+      "reviewStatus": "自動查證",
+      "publicationStatus": "待同步",
+      "checkedDate": "2026-11-25"
+    },
+    {
+      "id": "rklb-electron-100-success-20261114",
+      "reviewStatus": "自動查證",
+      "publicationStatus": "待同步",
+      "checkedDate": "2026-11-25"
+    }
+  ]
+}

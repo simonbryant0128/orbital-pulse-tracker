@@ -160,20 +160,20 @@ export default function Home() {
         <aside className="signal-card" aria-label="本期警戒">
           <div className="signal-topline">
             <span className="signal-label">SIGNAL / 本期警戒</span>
-            <span className="signal-code">SS · 15</span>
+            <span className="signal-code">LE · 04</span>
           </div>
           <div className="signal-orbit" aria-hidden="true">
             <span className="signal-core" />
             <span className="signal-dot" />
           </div>
-          <p className="signal-kicker">SPACEX · STARSHIP</p>
-          <h2>Flight 15 目標台北 11 月 14 日 06:45</h2>
-          <p>75 分鐘窗口仍待監管核准；任務規劃首次同時回收兩級，並部署 26 顆 Starlink V3。</p>
+          <p className="signal-kicker">AMAZON LEO · ARIANE 64</p>
+          <h2>LE-04 成功部署 36 顆 Amazon Leo 衛星</h2>
+          <p>11 月 24 日升空並完成衛星分離。先前 LV-01 的 40 顆未入軌，不列入已部署總數。</p>
           <div className="signal-footer">
-            <span className="tone-dot watch" />
-            <strong>狀態：待監管核准／尚未執行</strong>
+            <span className="tone-dot positive" />
+            <strong>狀態：部署完成</strong>
             <a
-              href="https://www.spacex.com/launches/starship-flight-15"
+              href="https://www.aboutamazon.com/news/innovation-at-amazon/project-kuiper-satellite-rocket-launch-progress-updates"
               target="_blank"
               rel="noreferrer"
             >

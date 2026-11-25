@@ -1,5 +1,5 @@
 {
-  "lastVerified": "2026-11-13",
+  "lastVerified": "2026-11-25",
   "methodology": "Amazon Leo、AST SpaceMobile、Planet、BlackSky、Spire 與 Globalstar 採公司官方任務、投資人關係或監管申報資料；Starlink 採 Jonathan McDowell 的第三方 Total Working 軌道統計。下一次任務只採官方窗口，未公布確切日期時不以第三方預測補值。不同計畫的總量、來源日與統計口徑不同，不應直接互相比較。",
   "items": [
     {
@@ -15,17 +15,17 @@
       "accent": "cyan",
       "source": "https://planet4589.org/space/con/star/stats.html",
       "sourceClass": "第三方軌道統計",
-      "lastChecked": "2026-11-13",
+      "lastChecked": "2026-11-25",
       "deployment": {
         "totalLabel": "目前在軌工作中",
-        "nextMission": "Starship Flight 15（26 顆 Starlink V3）",
-        "nextLaunchDate": "2026-11-14",
-        "nextLaunchDisplay": "台北 2026-11-14 06:45–08:00",
-        "nextStatus": "待監管核准；規劃首次讓兩級返回發射場並部署 26 顆 V3，實際部署前不加入總量",
-        "nextVehicle": "Starship",
-        "nextSourceLabel": "SpaceX Starship Flight 15",
-        "nextSource": "https://www.spacex.com/launches/starship-flight-15",
-        "scheduleConfidence": "官方 75 分鐘窗口／待監管核准"
+        "nextMission": "下一批 Starlink 衛星",
+        "nextLaunchDate": null,
+        "nextLaunchDisplay": "待官方公告",
+        "nextStatus": "已過期的 Flight 15 規劃窗口保留在事件歷史；此處不把預定酬載加入在軌工作數。",
+        "nextVehicle": "待官方公告",
+        "nextSourceLabel": "SpaceX 發射清單",
+        "nextSource": "https://www.spacex.com/launches",
+        "scheduleConfidence": "未採用已過期的發射窗口"
       },
       "breakdownLabel": "2026-08-12 Total Working 版本快照",
       "breakdown": [
@@ -63,28 +63,28 @@
       "id": "amazon-leo",
       "name": "Amazon Leo",
       "company": "Amazon",
-      "current": 396,
-      "displayValue": "396",
-      "metric": "官方累計已部署衛星",
-      "currentAsOf": "2026-10-14",
+      "current": 432,
+      "displayValue": "432",
+      "metric": "累計已部署（依官方任務數加總）",
+      "currentAsOf": "2026-11-24",
       "baseline": 180,
       "baselineAsOf": "2025-12-16",
       "accent": "violet",
       "source": "https://www.aboutamazon.com/news/innovation-at-amazon/project-kuiper-satellite-rocket-launch-progress-updates",
-      "sourceClass": "公司官方任務頁",
-      "lastChecked": "2026-11-13",
+      "sourceClass": "官方任務公告加總",
+      "lastChecked": "2026-11-25",
       "deployment": {
-        "totalLabel": "官方累計已部署",
-        "nextMission": "LV-01／Leo Vulcan 1（40 顆）",
-        "nextLaunchDate": "2026-11-14",
-        "nextLaunchDisplay": "台北 2026-11-14 01:54",
-        "nextStatus": "待 range approval；40 顆是計畫單次最大酬載，後續 LE-04 為 NET 11/23、36 顆",
-        "nextVehicle": "ULA Vulcan VC6L",
+        "totalLabel": "累計已部署（任務加總）",
+        "nextMission": "下一批 Amazon Leo 衛星",
+        "nextLaunchDate": null,
+        "nextLaunchDisplay": "待官方公告",
+        "nextStatus": "LE-04 已部署 36 顆；LV-01 未入軌，不納入累計。先前 LV-02 的相對時程以 LV-01 正常完成為前提，未當作現行排程。",
+        "nextVehicle": "待官方公告",
         "nextSourceLabel": "Amazon Leo 官方任務更新",
         "nextSource": "https://www.aboutamazon.com/news/innovation-at-amazon/project-kuiper-satellite-rocket-launch-progress-updates",
-        "scheduleConfidence": "官方時間／待 range approval"
+        "scheduleConfidence": "未公布下一班或確切日期"
       },
-      "breakdownLabel": "截至 2026-10-14 官方部署組成",
+      "breakdownLabel": "截至 2026-11-24 已部署組成（不含 LV-01）",
       "breakdown": [
         {
           "label": "2025 已部署",
@@ -117,6 +117,10 @@
         {
           "label": "LA08",
           "value": 29
+        },
+        {
+          "label": "LE04",
+          "value": 36
         }
       ]
     },
@@ -133,7 +137,7 @@
       "accent": "lime",
       "source": "https://ast-science.com/next-gen-bluebird/",
       "sourceClass": "公司官方任務頁",
-      "lastChecked": "2026-11-13",
+      "lastChecked": "2026-11-25",
       "deployment": {
         "totalLabel": "在軌追蹤（排除 BlueBird 7）",
         "nextMission": "BlueBird 14–16／SpaceX",
@@ -182,7 +186,7 @@
       "accent": "blue",
       "source": "https://investors.planet.com/news/news-details/2026/Planet-Launches-Pelican-12-Satellite/default.aspx",
       "sourceClass": "公司官方公告＋公開數量推導",
-      "lastChecked": "2026-11-13",
+      "lastChecked": "2026-11-25",
       "deployment": {
         "totalLabel": "Pelican 已入軌（含 TD2）",
         "nextMission": "追加 Pelican 太空器",
@@ -227,7 +231,7 @@
       "accent": "amber",
       "source": "https://ir.blacksky.com/news-events/press-releases/news-details/2026/BlackSkys-Fifth-Gen-3-Attains-First-Light-in-Hours-Expanding-Constellation-Capacity-and-Decision-Making-Speed-for-Customers/default.aspx",
       "sourceClass": "公司官方公告",
-      "lastChecked": "2026-11-13",
+      "lastChecked": "2026-11-25",
       "deployment": {
         "totalLabel": "已入軌／含第五顆首光",
         "nextMission": "追加 Gen-3 衛星",
@@ -264,7 +268,7 @@
       "accent": "rose",
       "source": "https://ir.spire.com/news-events/press-releases/detail/314/spire-global-launches-first-three-satellites-built-at-u-s",
       "sourceClass": "公司官方 29 顆基準＋後續 3 顆；僅為已知下限",
-      "lastChecked": "2026-11-13",
+      "lastChecked": "2026-11-25",
       "deployment": {
         "totalLabel": "2026 已確認發射下限",
         "nextMission": "下一批 Spire／Space Services 任務",
@@ -302,7 +306,7 @@
       "accent": "orange",
       "source": "https://investors.globalstar.com/news-releases/news-release-details/globalstar-confirms-successful-launch-all-8-hibleo-4-replacement",
       "sourceClass": "公司官方公告與 SEC 申報",
-      "lastChecked": "2026-11-13",
+      "lastChecked": "2026-11-25",
       "deployment": {
         "totalLabel": "HIBLEO-4 替換衛星已部署",
         "nextMission": "第二批 9 顆替換衛星",

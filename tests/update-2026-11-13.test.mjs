@@ -1,10 +1,6 @@
 import assert from "node:assert/strict";
-import { readFile } from "node:fs/promises";
+import { readNovemberBaselineJson as readJson } from "./helpers/verified-baseline.mjs";
 import test from "node:test";
-
-async function readJson(name) {
-  return JSON.parse(await readFile(new URL(`../content/${name}`, import.meta.url), "utf8"));
-}
 
 test("November 13 backfill publishes eleven official-source events exactly once", async () => {
   const [batch, events, meta] = await Promise.all([

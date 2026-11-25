@@ -1,6 +1,116 @@
 {
-  "lastVerified": "2026-11-13",
+  "lastVerified": "2026-11-25",
   "events": [
+    {
+      "id": "amzn-leo-le04-deployed-20261124",
+      "date": "2026-11-24",
+      "company": "Amazon Leo",
+      "program": "LE-04／VA271",
+      "category": "發射／衛星部署",
+      "status": "36 顆已部署",
+      "tone": "positive",
+      "title": "Amazon Leo LE-04 成功部署 36 顆衛星",
+      "summary": "Ariane 64 於台北 11/24 19:14 升空，完成 36 顆低軌部署。",
+      "detail": "任務前一日因地面支援系統技術事件中止發射程序，修正排程後於 11/24 11:14 UTC 升空。約兩小時四分鐘後，末批衛星分離完成。Arianespace 累計替 Amazon 部署 136 顆；星系總數 432 顆為既有 396 加本批 36 的推算，非目前工作中衛星數。",
+      "sources": [
+        {
+          "label": "Amazon Leo 任務進度",
+          "url": "https://www.aboutamazon.com/news/innovation-at-amazon/project-kuiper-satellite-rocket-launch-progress-updates",
+          "type": "官方"
+        },
+        {
+          "label": "Arianespace 任務結果",
+          "url": "https://newsroom.arianespace.com/arianespace-successfully-launches-another-36-amazon-leo-satellites-on-ariane-6s-10th-flight/",
+          "type": "官方"
+        },
+        {
+          "label": "Arianespace 發射程序更新",
+          "url": "https://newsroom.arianespace.com/mission-va271le-04-launch-update/?lang=eng",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "bksy-epochgeo-acquisition-20261124",
+      "date": "2026-11-24",
+      "company": "BlackSky",
+      "program": "EpochGeo",
+      "category": "收購／地理空間資料",
+      "status": "已宣布收購",
+      "tone": "positive",
+      "title": "BlackSky 宣布收購地理空間資料公司 EpochGeo",
+      "summary": "BlackSky 將藉收購擴展多來源資料分析服務；本案不改變 Gen-3 部署數。",
+      "detail": "BlackSky 於 11 月 24 日宣布收購 EpochGeo。EpochGeo 從事地理空間資料科學與多來源分析。公告未揭露交易金額，亦未公布任何新增 Gen-3 衛星發射或部署。",
+      "sources": [
+        {
+          "label": "BlackSky 收購公告",
+          "url": "https://blacksky.com/press-releases/blacksky-acquires-epochgeo-to-expand-real-time-intelligence-capabilities-with-ai-enabled-rf-signals-and-multi-source-analytics/",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "sx-nasa-ng25-status-20261124",
+      "date": "2026-11-24",
+      "company": "SpaceX",
+      "program": "NG-25／Cygnus XL",
+      "category": "發射時程／太空站補給",
+      "status": "NET 台北 11/29 23:47",
+      "tone": "watch",
+      "title": "NASA 重申 NG-25 補給任務發射目標",
+      "summary": "NASA 11/24 更新：Falcon 9 最早於台北 11/29 23:47 發射 Cygnus XL。",
+      "detail": "NASA 的日期為 11 月 29 日 10:47 EST（15:47 UTC），是最早發射目標，不是起飛確認。Cygnus XL 將為國際太空站運送約 11,000 磅科學與補給貨物，不列入商業星系部署數。",
+      "sources": [
+        {
+          "label": "NASA 太空站任務更新",
+          "url": "https://www.nasa.gov/blogs/spacestation/2026/11/24/crew-awaits-thanksgiving-day-delivery-as-another-cargo-craft-nears-launch/",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "amzn-leo-lv01-anomaly-20261115",
+      "date": "2026-11-15",
+      "company": "Amazon Leo",
+      "program": "LV-01／Leo Vulcan 1",
+      "category": "發射異常／未部署",
+      "status": "40 顆未入軌",
+      "tone": "watch",
+      "title": "Amazon Leo LV-01 發射異常，40 顆衛星未入軌",
+      "summary": "Amazon 於 11/24 的最新任務頁確認先前 LV-01 酬載損失；40 顆不計入已部署。",
+      "detail": "LV-01 於美東 11/15 12:40（台北 11/16 01:40）起飛。ULA 確認火箭在飛行期間發生異常，未能入軌；調查由 ULA 主導並受 FAA 監督。11/18 更新提供的是初步研判，不是已核定的最終原因。原排程保留在歷史。",
+      "sources": [
+        {
+          "label": "Amazon Leo 任務紀錄",
+          "url": "https://www.aboutamazon.com/news/innovation-at-amazon/project-kuiper-satellite-rocket-launch-progress-updates",
+          "type": "官方"
+        },
+        {
+          "label": "ULA 異常調查更新",
+          "url": "https://blog.ulalaunch.com/blog/vulcan-leo-1-updates",
+          "type": "官方"
+        }
+      ]
+    },
+    {
+      "id": "rklb-electron-100-success-20261114",
+      "date": "2026-11-14",
+      "company": "Rocket Lab",
+      "program": "Electron／The Mountain God Rises",
+      "category": "發射／衛星部署",
+      "status": "1 顆成功部署",
+      "tone": "positive",
+      "title": "Rocket Lab 第 100 次 Electron 成功部署 YAMATSUMI-II",
+      "summary": "Electron 於台北 11/14 13:30 升空，將 iQPS 的一顆衛星送入低軌。",
+      "detail": "Rocket Lab 確認第 100 次 Electron 任務成功，由紐西蘭 Launch Complex 1 發射，將 YAMATSUMI-II 送至低軌。這是對先前已刊排程的任務結果補登，不是本次 24 小時內的新發射。",
+      "sources": [
+        {
+          "label": "Rocket Lab 任務成功公告",
+          "url": "https://investors.rocketlabcorp.com/node/13556/pdf",
+          "type": "官方"
+        }
+      ]
+    },
     {
       "id": "rklb-electron-100-window-20261114",
       "date": "2026-11-12",
