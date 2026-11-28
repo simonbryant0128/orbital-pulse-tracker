@@ -1,5 +1,5 @@
 {
-  "lastVerified": "2026-11-25",
+  "lastVerified": "2026-11-26",
   "items": [
     {
       "id": "sx-nasa-ng25-net-20261129",
@@ -10,6 +10,16 @@
       "confidence": "NASA 官方最早發射目標／非起飛確認",
       "vehicle": "Falcon 9",
       "source": "https://www.nasa.gov/blogs/spacestation/2026/11/24/crew-awaits-thanksgiving-day-delivery-as-another-cargo-craft-nears-launch/"
+    },
+    {
+      "id": "bo-endurosat-new-glenn-first-2029",
+      "company": "Blue Origin",
+      "mission": "New Glenn／EnduroSat 首次專屬發射",
+      "window": "2029 年（未定日）",
+      "bucket": "90plus",
+      "confidence": "官方合約年份／首班確切日期與第二班年份未公布",
+      "vehicle": "New Glenn 7×2",
+      "source": "https://www.blueorigin.com/news/endurosat-signs-multi-launch-agreement"
     },
     {
       "id": "asts-blacklift-late-2028",

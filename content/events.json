@@ -1,6 +1,30 @@
 {
-  "lastVerified": "2026-11-25",
+  "lastVerified": "2026-11-26",
   "events": [
+    {
+      "id": "bo-endurosat-new-glenn-deal-20261125",
+      "date": "2026-11-25",
+      "company": "Blue Origin",
+      "program": "New Glenn／EnduroSat",
+      "category": "商業發射合約",
+      "status": "已簽約；首班 2029 年",
+      "tone": "positive",
+      "title": "Blue Origin 與 EnduroSat 簽署兩次 New Glenn 專屬發射合約",
+      "summary": "兩班都將從佛州卡納維爾角發射，首班預定 2029 年；確切日期未公布。",
+      "detail": "Blue Origin 與 EnduroSat 於 11 月 25 日公布協議。兩班 New Glenn 7×2 專屬任務將運送 EnduroSat 為客戶製造的衛星。雙方只公布首班的目標年份，未公布第二班年份、各班確切日期或酬載衛星數，合約不計為已發射或已部署。",
+      "sources": [
+        {
+          "label": "Blue Origin 合約公告",
+          "url": "https://www.blueorigin.com/news/endurosat-signs-multi-launch-agreement",
+          "type": "官方"
+        },
+        {
+          "label": "EnduroSat 合約公告",
+          "url": "https://www.endurosat.com/news/endurosat-secures-dedicated-blue-origin-new-glenn-launches-for-its-customers/",
+          "type": "官方"
+        }
+      ]
+    },
     {
       "id": "amzn-leo-le04-deployed-20261124",
       "date": "2026-11-24",

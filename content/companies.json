@@ -1,5 +1,5 @@
 {
-  "lastVerified": "2026-11-25",
+  "lastVerified": "2026-11-26",
   "items": [
     {
       "id": "spacex",
@@ -24,9 +24,9 @@
       "name": "Blue Origin",
       "ticker": "私人",
       "focus": "New Glenn · 月球系統 · Quartz 地面網路",
-      "status": "GS1-3 改良 BE-4 主氧閥已通過資格測試；調查預計 11 月稍晚完成",
-      "statusTone": "watch",
-      "source": "https://www.blueorigin.com/news/gs1-3-hotfire-updates"
+      "status": "與 EnduroSat 簽署兩次 New Glenn 專屬發射合約；首班 2029 年",
+      "statusTone": "positive",
+      "source": "https://www.blueorigin.com/news/endurosat-signs-multi-launch-agreement"
     },
     {
       "id": "amazon-leo",
